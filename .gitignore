@@ -1,8 +1,11 @@
 .DS_Store
+.svn
 log/*.log
 temp/**/*
 config/database.yml
 db/*.sqlite3
 public/.htaccess
+public/dispatch.*
 public/index.*
-
+Thumbs.db
+public/images/rails.png
