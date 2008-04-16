@@ -9,6 +9,14 @@ normal:
   apelido: norm
   duracao: 3
   lotacao: 3
+  
+normal2:
+  id: 4
+  type: DisciplinaNormal
+  nome: Normal
+  apelido: norm
+  duracao: 3
+  lotacao: 3
 
 fixa:
   id: 3
