@@ -1,4 +1,9 @@
 class Horario < ActiveRecord::Base
+	has_many :disponibilidades
+	has_many :professores, :through => :disponibilidades
+
+	# TODO disponibilidades.(fixas|normais)
+	# TODO has_many :disciplinas_fixas, :through => :disponibilidades_fixas
 	# TODO como fazer a classe ser readonly
 	# TODO como definir eu mesmo qual sera o id ?
 =begin

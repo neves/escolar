@@ -1,3 +1,4 @@
 class Disciplina < ActiveRecord::Base
-	has_many :reservas, :as => :agendavel
+	has_many :habilitacoes
+	has_many :professores, :through => :habilitacoes
 end

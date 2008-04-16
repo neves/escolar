@@ -1,3 +1,3 @@
 class DisciplinaFixa < Disciplina
-	has_many :reservas, :as => :agendavel
+	has_many :disponibilidade_fixas
 end

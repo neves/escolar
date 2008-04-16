@@ -1,3 +1,3 @@
 class DisponibilidadeFixa < Disponibilidade
-	belongs_to :habilitacao
+	belongs_to :disciplina
 end

@@ -37,7 +37,8 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
     tabela = create_table2 :disciplinas do |t|
-      t.string :type, :nome, :apelido, :null => false, :default => 'Disciplina'
+			t.inheritable
+      t.string :nome, :apelido, :null => false, :default => 'Disciplina'
       t.belongs_to :curso, :material
       t.integer :duracao, :lotacao, :null => false, :default => 1
     end
@@ -51,12 +52,11 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
 		tabela = create_table2 :disponibilidades do |t|
-			t.belongs_to :agendavel, :polymorphic => true
 			t.inheritable
-			t.belongs_to :habilitacao
-			t.belongs_to :horario
+			t.belongs_to :professor, :horario, :disciplina
+
 		end
-		add_indexes tabela, :agendavel_id, :agendavel_type, :type, [:habilitacao_id, :agendavel_id], [:horario_id, :agendavel_id, :agendavel_type]
+		add_indexes tabela, :type, :disciplina_id, :horario_id, [:professor_id, :horario_id]
 
 	end
 

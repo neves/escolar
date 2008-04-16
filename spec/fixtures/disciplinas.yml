@@ -1,5 +1,6 @@
 abstrata:
   id: 1
+  type: Disciplina
 
 normal:
   id: 2

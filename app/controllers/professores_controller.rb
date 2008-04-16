@@ -1,5 +1,9 @@
-class ProfessoresController < ApplicationController
-	def index
-		debugger
+class ProfessoresController < ResourceControllerController
+	def habilitacoes
+
+	end
+
+	def habilitar
+
 	end
 end

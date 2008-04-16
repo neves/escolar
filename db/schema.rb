@@ -12,7 +12,7 @@
 ActiveRecord::Schema.define(:version => 0) do
 
   create_table "disciplinas", :force => true do |t|
-    t.string  "type",        :default => "Disciplina", :null => false
+    t.string  "type",                                  :null => false
     t.string  "nome",        :default => "Disciplina", :null => false
     t.string  "apelido",     :default => "Disciplina", :null => false
     t.integer "curso_id"
@@ -28,18 +28,16 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "disciplinas", ["type"], :name => "index_disciplinas_on_type"
 
   create_table "disponibilidades", :force => true do |t|
-    t.integer "agendavel_id"
-    t.string  "agendavel_type"
-    t.string  "type",           :default => "@base.table_name.capitalize", :null => false
-    t.integer "habilitacao_id"
+    t.string  "type",          :null => false
+    t.integer "professor_id"
     t.integer "horario_id"
+    t.integer "disciplina_id"
   end
 
-  add_index "disponibilidades", ["horario_id", "agendavel_id", "agendavel_type"], :name => "index_disponibilidades_on_horario_id_and_agendavel_id_and_agendavel_type", :unique => true
-  add_index "disponibilidades", ["habilitacao_id", "agendavel_id"], :name => "index_disponibilidades_on_habilitacao_id_and_agendavel_id", :unique => true
+  add_index "disponibilidades", ["professor_id", "horario_id"], :name => "index_disponibilidades_on_professor_id_and_horario_id", :unique => true
+  add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
+  add_index "disponibilidades", ["disciplina_id"], :name => "index_disponibilidades_on_disciplina_id"
   add_index "disponibilidades", ["type"], :name => "index_disponibilidades_on_type"
-  add_index "disponibilidades", ["agendavel_type"], :name => "index_disponibilidades_on_agendavel_type"
-  add_index "disponibilidades", ["agendavel_id"], :name => "index_disponibilidades_on_agendavel_id"
 
   create_table "feiras", :force => true do |t|
     t.string "feira", :null => false

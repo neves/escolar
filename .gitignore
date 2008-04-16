@@ -9,3 +9,4 @@ public/dispatch.*
 public/index.*
 Thumbs.db
 public/images/rails.png
+.*.swp

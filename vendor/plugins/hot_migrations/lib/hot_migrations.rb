@@ -1,7 +1,7 @@
 module HotMigrations
   module Table
     def inheritable
-      string :type, :null => false, :default => "@base.table_name.capitalize" # TODO passar para o default, o nome da tabela
+      string :type, :null => false #, :default => "@base.table_name.capitalize" # TODO passar para o default, o nome da tabela
     end
     alias :inheritable! :inheritable
 
