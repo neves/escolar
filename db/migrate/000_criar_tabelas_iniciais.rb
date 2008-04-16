@@ -32,13 +32,13 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
     create_table :professores do |t|
-      t.string :nome, :null => false, :default => 'Nome do Professor'
+      t.string :nome, :null => false
     end
 
 
     tabela = create_table2 :disciplinas do |t|
-			t.inheritable
-      t.string :nome, :apelido, :null => false, :default => 'Disciplina'
+			t.inheritable :default => 'DisciplinaNormal'
+      t.string :nome, :apelido, :null => false
       t.belongs_to :curso, :material
       t.integer :duracao, :lotacao, :null => false, :default => 1
     end
@@ -52,7 +52,7 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
 		tabela = create_table2 :disponibilidades do |t|
-			t.inheritable
+			t.inheritable :default => 'DisponibilidadeNormal'
 			t.belongs_to :professor, :horario, :disciplina
 
 		end

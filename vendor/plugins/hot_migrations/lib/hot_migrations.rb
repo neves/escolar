@@ -1,7 +1,8 @@
 module HotMigrations
   module Table
-    def inheritable
-      string :type, :null => false #, :default => "@base.table_name.capitalize" # TODO passar para o default, o nome da tabela
+    def inheritable(options = {})
+			options.reverse_merge! :null => false
+      string :type, options #, :default => "@base.table_name.capitalize" # TODO passar para o default, o nome da tabela
     end
     alias :inheritable! :inheritable
 

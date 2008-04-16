@@ -1,0 +1,14 @@
+<h3>Professor: (<%=h @professor.id %>) <%=h @professor.nome %></h3>
+
+<%= flashes %>
+
+<% form_for @professor, :url => disponibilizar_professor_path(@professor) do |f| %>
+
+	<% GridTable.new(self, @horas, @feiras).render do |hora, feira| %>
+		<%- horario = hora + feira * 100 -%>
+		<%= check_box_tag "professor[horario_ids][]", horario, @horarios_disponiveis.include?(horario) %>
+	<% end %>
+
+	<%= f.submit "Salvar" %>
+
+<% end %>

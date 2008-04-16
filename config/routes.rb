@@ -1,5 +1,12 @@
 ActionController::Routing::Routes.draw do |map|
-	map.resources :professores, :member => {:habilitacoes => :get, :habilitar => :put}
+	map.resources :professores, 
+								:member => {
+									:habilitacoes => :get, 
+									:habilitar => :put,
+
+									:disponibilidades => :get,
+									:disponibilizar => :put
+								}
 
   # The priority is based upon order of creation: first created -> highest priority.
 

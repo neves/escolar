@@ -12,13 +12,13 @@
 ActiveRecord::Schema.define(:version => 0) do
 
   create_table "disciplinas", :force => true do |t|
-    t.string  "type",                                  :null => false
-    t.string  "nome",        :default => "Disciplina", :null => false
-    t.string  "apelido",     :default => "Disciplina", :null => false
+    t.string  "type",        :default => "DisciplinaNormal", :null => false
+    t.string  "nome",                                        :null => false
+    t.string  "apelido",                                     :null => false
     t.integer "curso_id"
     t.integer "material_id"
-    t.integer "duracao",     :default => 1,            :null => false
-    t.integer "lotacao",     :default => 1,            :null => false
+    t.integer "duracao",     :default => 1,                  :null => false
+    t.integer "lotacao",     :default => 1,                  :null => false
   end
 
   add_index "disciplinas", ["lotacao"], :name => "index_disciplinas_on_lotacao"
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "disciplinas", ["type"], :name => "index_disciplinas_on_type"
 
   create_table "disponibilidades", :force => true do |t|
-    t.string  "type",          :null => false
+    t.string  "type",          :default => "DisponibilidadeNormal", :null => false
     t.integer "professor_id"
     t.integer "horario_id"
     t.integer "disciplina_id"
@@ -66,7 +66,7 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "horas", ["hora"], :name => "index_horas_on_hora", :unique => true
 
   create_table "professores", :force => true do |t|
-    t.string "nome", :default => "Nome do Professor", :null => false
+    t.string "nome", :null => false
   end
 
 end
