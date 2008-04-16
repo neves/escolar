@@ -1,0 +1,11 @@
+neves_normal:
+  professor: neves
+  disciplina: normal
+
+neves_fixa:
+  professor: neves
+  disciplina: fixa
+
+ana_fixa:
+  professor: ana
+  disciplina: fixa

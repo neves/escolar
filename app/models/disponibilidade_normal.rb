@@ -1,0 +1,2 @@
+class DisponibilidadeNormal < Disponibilidade
+end

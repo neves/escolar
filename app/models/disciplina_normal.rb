@@ -1,0 +1,2 @@
+class DisciplinaNormal < Disciplina
+end
