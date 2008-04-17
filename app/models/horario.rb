@@ -2,8 +2,17 @@ class Horario < ActiveRecord::Base
 	has_many :disponibilidades
 	has_many :professores, :through => :disponibilidades
 
-	# TODO disponibilidades.(fixas|normais)
-	# TODO has_many :disciplinas_fixas, :through => :disponibilidades_fixas
+	has_many :disponibilidade_fixas,
+					 :class_name => 'Disponibilidade',
+					 :conditions => {'disponibilidades.type' => 'DisponibilidadeFixa'}
+=begin
+	TODO nao consegui fazer funcionar
+	has_many :disciplina_fixas,
+					 :class_name => 'DisponibilidadeFixa',
+					 :conditions => {'disponibilidades.type' => 'DisponibilidadeFixa'},
+					 :include => {:disponibilidades => :disciplinas}
+=end
+
 	# TODO como fazer a classe ser readonly
 	# TODO como definir eu mesmo qual sera o id ?
 =begin

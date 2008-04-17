@@ -1,3 +1,0 @@
-class HabilitacoesController < ResourceController
-
-end	

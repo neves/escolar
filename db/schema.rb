@@ -28,15 +28,15 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "disciplinas", ["type"], :name => "index_disciplinas_on_type"
 
   create_table "disponibilidades", :force => true do |t|
-    t.string  "type",          :default => "DisponibilidadeNormal", :null => false
+    t.string  "type",               :default => "DisponibilidadeNormal", :null => false
     t.integer "professor_id"
     t.integer "horario_id"
-    t.integer "disciplina_id"
+    t.integer "disciplina_fixa_id"
   end
 
   add_index "disponibilidades", ["professor_id", "horario_id"], :name => "index_disponibilidades_on_professor_id_and_horario_id", :unique => true
   add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
-  add_index "disponibilidades", ["disciplina_id"], :name => "index_disponibilidades_on_disciplina_id"
+  add_index "disponibilidades", ["disciplina_fixa_id"], :name => "index_disponibilidades_on_disciplina_fixa_id"
   add_index "disponibilidades", ["type"], :name => "index_disponibilidades_on_type"
 
   create_table "feiras", :force => true do |t|

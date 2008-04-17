@@ -53,10 +53,10 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 		tabela = create_table2 :disponibilidades do |t|
 			t.inheritable :default => 'DisponibilidadeNormal'
-			t.belongs_to :professor, :horario, :disciplina
+			t.belongs_to :professor, :horario, :disciplina_fixa
 
 		end
-		add_indexes tabela, :type, :disciplina_id, :horario_id, [:professor_id, :horario_id]
+		add_indexes tabela, :type, :disciplina_fixa_id, :horario_id, [:professor_id, :horario_id]
 
 	end
 

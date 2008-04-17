@@ -1,0 +1,14 @@
+neves2:
+  id: 12
+  professor_id: 1
+  disciplina_id: 2
+
+neves3:
+  id: 13
+  professor_id: 1
+  disciplina_id: 3
+
+neves4:
+  id: 14
+  professor_id: 1
+  disciplina_id: 4

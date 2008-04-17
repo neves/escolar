@@ -1,0 +1,36 @@
+<style>
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 990px;
+}
+	
+td, th {
+	border: 1px solid silver;
+}
+</style>
+
+<h3>Disciplina: (<%=h @disciplina.id %>) <%=h @disciplina.nome %>: <%=h pluralize(@disciplina.duracao, 'hora') %></h3>
+
+<%= flashes %>
+
+<% form_for @disciplina, :url => disponibilizar_disciplina_path(@disciplina) do |f| %>
+
+  <% GridTable.new(self, @horas, @feiras).render do |hora, feira| %>
+    <%- horario = hora + feira * 100 -%>
+		<b><% @fixos[horario].professores.collect(&:nome) *  "<br />" rescue "" %></b>
+    <% @normais[horario].professores.collect(&:nome) * "<br />" rescue "" %>
+		<%= @combo[horario].professores.collect(&:nome) * "<br />" rescue "" %>
+		<% if @combo[horario] && !@combo[horario].professores.empty? %>
+		<select name="matrix[<%= horario %>]"><option></option>
+        <%= options_from_collection_for_select(
+              (@combo[horario].professores rescue []),
+              :id, :nome, (@fixos[horario].professores.first.id rescue nil)) %>
+    </select>
+		<% end %>
+  <% end %>
+
+  <%= f.submit "Salvar" %>
+
+<% end %>
+

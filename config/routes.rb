@@ -8,6 +8,12 @@ ActionController::Routing::Routes.draw do |map|
 									:disponibilizar => :put
 								}
 
+	map.resources :disciplinas,
+								:member => {
+									:disponibilidades => :get,
+	                :disponibilizar => :put
+								}
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

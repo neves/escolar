@@ -15,8 +15,8 @@ class GridTable
 			rows << "\t\t<th>#{h x}</th>\n"
 		end
 		rows << "\t\t<td></td></tr>\n"
-		p content_tag :thead, rows
-		p content_tag :tfoot, rows
+		p content_tag(:thead, rows)
+		p content_tag(:tfoot, rows)
 
 		p "<tbody>"
 
