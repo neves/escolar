@@ -1,2 +1,0 @@
-class DisciplinaNormal < Disciplina
-end

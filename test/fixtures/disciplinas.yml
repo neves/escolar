@@ -1,0 +1,22 @@
+--- 
+disciplinas_001: 
+  nome: Normal
+  id: "1"
+  lotacao: "3"
+  fixa: f
+  apelido: norm
+  duracao: "3"
+disciplinas_002: 
+  nome: Fixa
+  id: "2"
+  lotacao: "2"
+  fixa: t
+  apelido: fix
+  duracao: "2"
+disciplinas_003: 
+  nome: Fixa 2
+  id: "3"
+  lotacao: "1"
+  fixa: t
+  apelido: f2
+  duracao: "1"

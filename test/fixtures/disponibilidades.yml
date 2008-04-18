@@ -1,0 +1,36 @@
+--- 
+disponibilidades_003: 
+  professor_id: "1"
+  horario_id: "614"
+  disciplina_id: "3"
+  id: "3"
+disponibilidades_004: 
+  professor_id: "2"
+  horario_id: "108"
+  disciplina_id: "2"
+  id: "10"
+disponibilidades_005: 
+  professor_id: "2"
+  horario_id: "308"
+  disciplina_id: "3"
+  id: "11"
+disponibilidades_006: 
+  professor_id: "2"
+  horario_id: "508"
+  disciplina_id: "2"
+  id: "12"
+disponibilidades_007: 
+  professor_id: "2"
+  horario_id: "614"
+  disciplina_id: "2"
+  id: "13"
+disponibilidades_001: 
+  professor_id: "1"
+  horario_id: "208"
+  disciplina_id: "2"
+  id: "1"
+disponibilidades_002: 
+  professor_id: "1"
+  horario_id: "408"
+  disciplina_id: "2"
+  id: "2"

@@ -1,0 +1,21 @@
+--- 
+habilitacoes_001: 
+  professor_id: "1"
+  disciplina_id: "1"
+  id: "1"
+habilitacoes_002: 
+  professor_id: "1"
+  disciplina_id: "2"
+  id: "2"
+habilitacoes_003: 
+  professor_id: "2"
+  disciplina_id: "2"
+  id: "3"
+habilitacoes_004: 
+  professor_id: "2"
+  disciplina_id: "3"
+  id: "4"
+habilitacoes_005: 
+  professor_id: "1"
+  disciplina_id: "3"
+  id: "5"
