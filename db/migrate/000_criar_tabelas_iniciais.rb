@@ -37,13 +37,14 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
     tabela = create_table2 :disciplinas do |t|
-			t.inheritable :default => 'DisciplinaNormal'
+			#t.inheritable :default => 'DisciplinaNormal'
       t.string :nome, :apelido, :null => false
-      t.belongs_to :curso, :material
+      #t.belongs_to :curso, :material, :null => false TODO o material nao é obrigatorio, null quer dizer, sem material
       t.integer :duracao, :lotacao, :null => false, :default => 1
+			t.boolean :fixa, :default => false
     end
-    add_indexes tabela, :type, :curso_id, :material_id, :duracao, :lotacao
-
+    #add_indexes tabela, :type, :curso_id, :material_id, :duracao, :lotacao
+		add_indexes tabela, :duracao, :lotacao, :fixa
 
     tabela = create_table2 :habilitacoes do |t|
       t.belongs_to :disciplina, :professor
@@ -52,12 +53,12 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
 		tabela = create_table2 :disponibilidades do |t|
-			t.inheritable :default => 'DisponibilidadeNormal'
-			t.belongs_to :professor, :horario, :disciplina_fixa
+			#t.inheritable :default => 'DisponibilidadeNormal'
+			t.belongs_to :professor, :horario, :disciplina
 
 		end
-		add_indexes tabela, :type, :disciplina_fixa_id, :horario_id, [:professor_id, :horario_id]
-
+		#add_indexes tabela, :type, :disciplina_fixa_id, :horario_id, [:professor_id, :horario_id]
+		add_indexes tabela, :disciplina_id, :horario_id, [:professor_id, :horario_id]
 	end
 
   def self.down

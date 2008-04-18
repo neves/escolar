@@ -1,49 +1,111 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 
 describe Disciplina do
-	 fixtures :disciplinas, :habilitacoes, :professores, :horarios
+		before(:each) do
+			@disciplina = Disciplina.create :fixa => true, :nome => 'Laboratório', :apelido => 'lab'
+			@professor = Professor.create :nome => 'Neves'
+			h = Horario.new
+			h.id = 108
+			h.save
+			h = Horario.new
+			h.id = 614
+			h.save
+			@professor.horario_ids = [108, 614]
+			@professor.disciplinas << @disciplina
+		end
 
-	 it "deve ser instância da classe correta" do
-		 disciplinas(:abstrata).should be_an_instance_of(Disciplina)
-		 disciplinas(:normal).should be_an_instance_of(DisciplinaNormal)
-		 disciplinas(:fixa).should be_an_instance_of(DisciplinaFixa)
+	 # INICIO DOS TESTES QUE VOU REUTILIZAR ABAIXO
+	 it "deve ter professores habilitados" do
+			@disciplina.professores(true).should_not be_empty
 	 end
 
-	 it "deve ser abstrata a classe Disciplina, posso salvar apenas as filhas concretas" do
-
+	 it "não deve ter nenhuma reserva" do
+		 @disciplina.disponibilidades.count.should == 0
 	 end
 
-	 it "agendar 1 horario fixo com um professor habilitado" do
-		fixa = disciplinas(:fixa)
-		neves = fixa.professores.first
+	 it "não deve ter reservas agrupada por horario" do
+		 @disciplina.reservas_agrupadas_por_horario.should be_empty
+	 end
 
-		describe "Professor Habilitado" do
-			it "nome deve ser Neves" do
-				neves.nome.should == "Neves"
+	 it "deve existir professores disponiveis" do
+		@professor.disponibilidades(true).count.should == 2
+	 end
+
+	 it "deve existir professor sem horarios reservados" do
+		 @professor.disponibilidades.reservadas.count.should == 0
+	 end
+
+	 it "deve exisitr professor com todos horarios livres" do
+     @professor.disponibilidades.livres.count.should == 2
+   end
+	 # FIM
+
+	  describe "ao agendar" do
+			before(:each) do
+				@disciplina.disponibilidades << @professor.disponibilidades.first
 			end
 
-			it "deve ter 3 habilitacoes" do
-				neves.habilitacoes.count.should == 3
+			it "deve ter disponibilidades" do
+				@disciplina.disponibilidades(true).count.should == @professor.disponibilidades.count - 1
+				@professor.disponibilidades(true).count.should == 2
+				@disciplina.disponibilidades.first.should == @professor.disponibilidades.first
 			end
 
-			it "deve estar disponivel segunda às 08 e sábado às 14 horas" do
-				neves.horario_ids = [108, 614]
-				neves.disponibilidades.collect(&:horario_id).should == [108, 614]
-				neves.disponibilidade_ids.should == [1, 2]
-			  #fixa.disponibilidade_fixa_ids = neves.disponibilidade_ids
-			  fixa.disponibilidades = neves.disponibilidades
-
-				#fixa = disciplinas(:fixa)
-				neves = fixa.professores.first
-				fixa.disponibilidades.should == neves.disponibilidades
-				#neves.disponibilidades.first.class.should == DisponibilidadeNormal
-				#fixa.disponibilidades.first.class.should == DisponibilidadeNormal
-				neves.disponibilidades.first.disciplina_fixa_id.should == 3
+			it "a disponibilidade do professor deve ter disciplina_id" do
+				@professor.disponibilidades(true).first.disciplina = @disciplina
 			end
 
-			it "deve manter os dados" do
-				fixa.disponibilidades.length.should == 3
+      it "a disponibilidade do professor deve continuar 2" do
+        @professor.disponibilidades(true).count.should == 2
+      end
+
+			it "a disponibilidade fixa do professor, deve ser 1" do
+				@professor.disponibilidades(true).reservadas.count.should == 1
+			end
+
+      it "a disponibilidade normal do professor, deve ser 1" do
+        @professor.disponibilidades(true).livres.count.should == 1
+      end
+
+			it "deve ter as reservas agrupada por horario" do
+				hash = @disciplina.reservas_agrupadas_por_horario
+				hash.should have(1).item
+				hash.should have_key(108)
+				hash.should_not have_key(614)
+				hash[108].should be_an_instance_of(Disponibilidade)
+			end
+
+			describe "ao des-agendar" do
+      	before(:each) do
+		        @disciplina.disponibilidades = []
+				end
+
+	 # INICIO PARTE REPETIDA
+   it "deve ter professores habilitados" do
+      @disciplina.professores(true).should_not be_empty
+   end
+
+   it "não deve ter nenhuma reserva" do
+     @disciplina.disponibilidades.count.should == 0
+   end
+
+   it "não deve ter reservas agrupada por horario" do
+     @disciplina.reservas_agrupadas_por_horario.should be_empty
+   end
+
+   it "deve existir professores disponiveis" do
+    @professor.disponibilidades(true).count.should == 2
+   end
+
+   it "deve existir professor sem horarios reservados" do
+     @professor.disponibilidades.reservadas.count.should == 0
+   end
+
+   it "deve exisitr professor com todos horarios livres" do
+     @professor.disponibilidades.livres.count.should == 2
+   end
+	 # FIM PARTE REPETIDA
+
 			end
 		end
-	end
 end

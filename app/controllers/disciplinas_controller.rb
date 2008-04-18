@@ -5,9 +5,10 @@ class DisciplinasController < ApplicationController
 		somente_disciplina_fixa!
 		@feiras 	= Feira.all
 		@horas 		= Hora.all
-		@normais 	= @disciplina.professores_normais_por_horario
-		@fixos 		= @disciplina.professores_fixos_por_horario
-		@combo 		= @disciplina.professores_combo_por_horario
+		#@normais 	= @disciplina.professores_normais_por_horario
+		#@fixos 		= @disciplina.professores_fixos_por_horario
+		#@combo 		= @disciplina.professores_combo_por_horario
+		render :text => 'teste'
 	end
 
 	def disponibilizar
@@ -21,6 +22,6 @@ class DisciplinasController < ApplicationController
 	end
 
 	def somente_disciplina_fixa!
-		raise Exception.new("Apenas disciplinas fixas possuem horario fixo!") unless @disciplina.is_a? DisciplinaFixa
+		raise Exception.new("Apenas disciplinas fixas possuem horario fixo!") unless @disciplina.fixa?
 	end
 end

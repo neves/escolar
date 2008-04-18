@@ -12,32 +12,26 @@
 ActiveRecord::Schema.define(:version => 0) do
 
   create_table "disciplinas", :force => true do |t|
-    t.string  "type",        :default => "DisciplinaNormal", :null => false
-    t.string  "nome",                                        :null => false
-    t.string  "apelido",                                     :null => false
-    t.integer "curso_id"
-    t.integer "material_id"
-    t.integer "duracao",     :default => 1,                  :null => false
-    t.integer "lotacao",     :default => 1,                  :null => false
+    t.string  "nome",                       :null => false
+    t.string  "apelido",                    :null => false
+    t.integer "duracao", :default => 1,     :null => false
+    t.integer "lotacao", :default => 1,     :null => false
+    t.boolean "fixa",    :default => false
   end
 
+  add_index "disciplinas", ["fixa"], :name => "index_disciplinas_on_fixa"
   add_index "disciplinas", ["lotacao"], :name => "index_disciplinas_on_lotacao"
   add_index "disciplinas", ["duracao"], :name => "index_disciplinas_on_duracao"
-  add_index "disciplinas", ["material_id"], :name => "index_disciplinas_on_material_id"
-  add_index "disciplinas", ["curso_id"], :name => "index_disciplinas_on_curso_id"
-  add_index "disciplinas", ["type"], :name => "index_disciplinas_on_type"
 
   create_table "disponibilidades", :force => true do |t|
-    t.string  "type",               :default => "DisponibilidadeNormal", :null => false
     t.integer "professor_id"
     t.integer "horario_id"
-    t.integer "disciplina_fixa_id"
+    t.integer "disciplina_id"
   end
 
   add_index "disponibilidades", ["professor_id", "horario_id"], :name => "index_disponibilidades_on_professor_id_and_horario_id", :unique => true
   add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
-  add_index "disponibilidades", ["disciplina_fixa_id"], :name => "index_disponibilidades_on_disciplina_fixa_id"
-  add_index "disponibilidades", ["type"], :name => "index_disponibilidades_on_type"
+  add_index "disponibilidades", ["disciplina_id"], :name => "index_disponibilidades_on_disciplina_id"
 
   create_table "feiras", :force => true do |t|
     t.string "feira", :null => false

@@ -3,7 +3,7 @@ class ProfessoresController < ApplicationController
 
 	def habilitacoes
 		@disciplinas = Disciplina.all
-		@habilitadas = @professor.disciplinas.collect(&:id)
+		@habilitadas = @professor.disciplina_ids
 	end
 
 	def habilitar
@@ -16,12 +16,12 @@ class ProfessoresController < ApplicationController
 	def disponibilidades
 		@feiras = Feira.all
     @horas = Hora.all
-		@horarios_disponiveis = @professor.horarios.collect(&:id)
+		@horarios_disponiveis = @professor.horario_ids
 	end
 
 	def disponibilizar
-		horarios_ids = params[:professor] || {:horarios_ids => []}
-    @professor.update_attributes(horarios_ids)
+		horario_ids = params[:professor] || {:horario_ids => []}
+    @professor.update_attributes(horario_ids)
     flash[:notice] = "Horários Salvas!"
     redirect_to :back
 	end
