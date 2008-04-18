@@ -5,14 +5,18 @@ class DisciplinasController < ApplicationController
 		somente_disciplina_fixa!
 		@feiras 	= Feira.all
 		@horas 		= Hora.all
-		#@normais 	= @disciplina.professores_normais_por_horario
-		#@fixos 		= @disciplina.professores_fixos_por_horario
-		#@combo 		= @disciplina.professores_combo_por_horario
-		render :text => 'teste'
+		@vagas = Disponibilidade.agrupadas_por_horario_para_a_disciplina(@disciplina)
+		@reservados = @disciplina.reservas_agrupadas_por_horario
 	end
 
 	def disponibilizar
 		somente_disciplina_fixa!
+		disponibilidade_ids = params[:disciplina][:disponibilidade_ids]
+		disponibilidade_ids.reject!{|id| id.empty?}
+    @disciplina.update_attributes(:disponibilidade_ids => disponibilidade_ids)
+    flash[:notice] = "Horários Salvas!"
+    redirect_to :back
+
 	end
 
 	private

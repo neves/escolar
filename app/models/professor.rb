@@ -22,6 +22,10 @@ class Professor < ActiveRecord::Base
 
 	end
 
+	def to_s
+		nome
+	end
+
 	# TODO nao consegui fazer o relacionamento abaixo que nao funciona com Disponibilidade Abstrata
 	#has_many :disponibilidade_normais, :class_name => 'DisponibilidadeNormal'
 	#has_many :horarios_normais, :through => :disponibilidade_normais, :source => :horario

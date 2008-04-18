@@ -5,14 +5,11 @@ class Disponibilidade < ActiveRecord::Base
 
 	named_scope :livres, :conditions => {:disciplina_id => nil}
 	named_scope :reservadas, :conditions => "disciplina_id IS NOT NULL"
-	
-	def self.agrupadas_por_horario
-		with_scope :find do
-			find(:all).index_by(&:horario_id)
-		end
-	end
 
-# def initialize
-#    raise Exception.new "Disponibilidade é uma classe abstrata. Utilize DisponibilidadeNormal ou DisponibilidadeFixa"
-# end
+	def self.agrupadas_por_horario_para_a_disciplina(disciplina)
+		free = livres.find(:all, :include => {:professor => :habilitacoes}, :conditions => {'habilitacoes.disciplina_id' => disciplina.id})
+		lock = reservadas.find(:all, :include => :professor, :conditions => {:disciplina_id => disciplina.id})
+		uniao = free + lock
+		uniao.group_by(&:horario_id)
+	end
 end
