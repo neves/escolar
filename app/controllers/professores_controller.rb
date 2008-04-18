@@ -7,8 +7,7 @@ class ProfessoresController < ApplicationController
 	end
 
 	def habilitar
-		disciplina_ids = params[:professor] || {:disciplina_ids => []}
-		@professor.update_attributes(disciplina_ids)
+		@professor.disciplina_ids = (params[:professor][:disciplina_ids] rescue [])
 		flash[:notice] = "Habilitações Salvas!"
 		redirect_to :back
 	end
@@ -20,8 +19,7 @@ class ProfessoresController < ApplicationController
 	end
 
 	def disponibilizar
-		horario_ids = params[:professor] || {:horario_ids => []}
-    @professor.update_attributes(horario_ids)
+		@professor.horario_ids = (params[:professor][:horario_ids] rescue [])
     flash[:notice] = "Horários Salvas!"
     redirect_to :back
 	end

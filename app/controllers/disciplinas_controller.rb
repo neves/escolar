@@ -11,12 +11,9 @@ class DisciplinasController < ApplicationController
 
 	def disponibilizar
 		somente_disciplina_fixa!
-		disponibilidade_ids = params[:disciplina][:disponibilidade_ids]
-		disponibilidade_ids.reject!{|id| id.empty?}
-    @disciplina.update_attributes(:disponibilidade_ids => disponibilidade_ids)
+    @disciplina.disponibilidade_ids = params[:disciplina][:disponibilidade_ids].reject(&:empty?)
     flash[:notice] = "Horários Salvas!"
     redirect_to :back
-
 	end
 
 	private
