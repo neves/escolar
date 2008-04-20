@@ -1,7 +1,7 @@
 .DS_Store
 .svn
 log/*.log
-temp/**/*
+tmp/**/*
 config/database.yml
 db/*.sqlite3
 public/.htaccess

@@ -7,6 +7,6 @@ class Disciplina < ActiveRecord::Base
 	named_scope :normais, :conditions => {:fixa => false}
 
 	def reservas_agrupadas_por_horario
-		disponibilidades.find(:all, :include => :professor).index_by(&:horario_id)
+		self.disponibilidades.find(:all, :include => :professor).index_by(&:horario_id)
 	end
 end

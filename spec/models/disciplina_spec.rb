@@ -20,7 +20,7 @@ Existe um cenário abaixo que possui a seguinte característica:
 Eu percebi que existem factorys de scenarios que gostaria de reaproveitar em outros testes,
 por exemplo: factory.criar_1_professor_e_2_alunos
 então sempre que quiser fazer um teste em um ambiente que eu tenha 1 professor e 2 alunos,
-eu chamo este factory, mas em cada cenario, eu quero poder chamar este factory e alterar algo 
+eu chamo este factory, mas em cada cenario, eu quero poder chamar este factory e alterar algo
 para customizar.
 
 Veja que utilizei bastante describe dentro de describe. Seria melhor ter utilizado stories?
@@ -48,15 +48,15 @@ em um objeto, é o mesmo que está relacionado ao Post, como organizo testes des
 
 Todos meus testes estão passando. como rodar um relatório das espectativas,
 como se fosse uma documentação do comportamento do código.
-Acredito que esta prática deve ser muito utilizada, 
+Acredito que esta prática deve ser muito utilizada,
 até mesmo para mostrar ao cliente, pois estará na língua dele (regras de negócio)
 
-Os dois únicos controllers desta aplicação, estão sem testes. 
+Os dois únicos controllers desta aplicação, estão sem testes.
 Vc pode me dar um exemplo de o que devo testar num controller? Uma dificuldade que acho que todos
 tem quando estão começando com testes, é saber o que testar.
 
 em app/helpers/grid_table.rb tem um helper que fiz para me auxiliar à gerar um tipo de tabela muito
-utilizada neste meu projeto. Como faço teste de coisas que geram html 
+utilizada neste meu projeto. Como faço teste de coisas que geram html
 e que precisam ter acesso a engine de template, etc? Não acho certo comparar string retornada,
 pois se eu modificar um simples \n ou \t, já tenho que modificar o teste.
 
@@ -64,21 +64,7 @@ Falando nisso, como é o workflow diário de modificar código que exijam mudan�
 desde uma simples alteração de o nome de um metodo, até a alteração de uma expectativa do cliente?
 =end
 
-describe Disciplina do
-  before(:each) do
-    @disciplina = Disciplina.create :fixa => true, :nome => 'Laboratório', :apelido => 'lab'
-    @professor = Professor.create :nome => 'Neves'
-    h = Horario.new
-    h.id = 108
-    h.save
-    h = Horario.new
-    h.id = 614
-    h.save
-    @professor.horario_ids = [108, 614]
-    @professor.disciplinas << @disciplina
-  end
-
-  # INICIO DOS TESTES QUE VOU REUTILIZAR ABAIXO
+def zerado
   it "deve ter professores habilitados" do
     @disciplina.professores(true).should_not be_empty
   end
@@ -102,7 +88,24 @@ describe Disciplina do
   it "deve exisitr professor com todos horarios livres" do
     @professor.disponibilidades.livres.count.should == 2
   end
-  # FIM
+end
+
+describe Disciplina do
+  before(:each) do
+    # cria um professor e habilita para a disciplina criada.
+    @disciplina = Disciplina.create :fixa => true, :nome => 'Laboratório', :apelido => 'lab'
+    @professor = Professor.create :nome => 'Neves'
+    h = Horario.new
+    h.id = 108
+    h.save
+    h = Horario.new
+    h.id = 614
+    h.save
+    @professor.horario_ids = [108, 614]
+    @professor.disciplinas << @disciplina
+  end
+
+  zerado
 
   #-----------------------------------------------------------------------------
 
@@ -194,31 +197,8 @@ describe Disciplina do
         @disciplina.disponibilidades = []
       end
 
-      # INICIO PARTE REPETIDA
-      it "deve ter professores habilitados" do
-        @disciplina.professores(true).should_not be_empty
-      end
+      zerado
 
-      it "não deve ter nenhuma reserva" do
-        @disciplina.disponibilidades.count.should == 0
-      end
-
-      it "não deve ter reservas agrupada por horario" do
-        @disciplina.reservas_agrupadas_por_horario.should be_empty
-      end
-
-      it "deve existir professores disponiveis" do
-        @professor.disponibilidades(true).count.should == 2
-      end
-
-      it "deve existir professor sem horarios reservados" do
-        @professor.disponibilidades.reservadas.count.should == 0
-      end
-
-      it "deve exisitr professor com todos horarios livres" do
-        @professor.disponibilidades.livres.count.should == 2
-      end
-      # FIM PARTE REPETIDA
     end
   end
 end
