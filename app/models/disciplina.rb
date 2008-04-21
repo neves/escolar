@@ -1,7 +1,6 @@
 class Disciplina < ActiveRecord::Base
   belongs_to :material
-	has_many :habilitacoes
-	has_many :professores, :through => :habilitacoes
+	has_and_belongs_to_many :professores, :join_table => 'habilitacoes'
 	has_many :disponibilidades
 
 	named_scope :fixas, :conditions => {:fixa => true}

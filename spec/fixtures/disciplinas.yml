@@ -1,3 +1,10 @@
+INIT:
+  nome: INITIAL CLASS
+  apelido: INIT
+  lotacao: 15
+  duracao: 1
+  fixa: true
+
 LAB:
   nome: LAB CLASS
   apelido: LAB
@@ -6,7 +13,7 @@ LAB:
   fixa: true
 
 1A:
-  material: kit1
+  material_id: 1
   nome: UNIT 01A
   apelido: 1A
   lotacao: 6
@@ -14,9 +21,371 @@ LAB:
   fixa: false
 
 1B:
-  material: kit1
+  material_id: 1
   nome: UNIT 01B
   apelido: 1B
   lotacao: 6
   duracao: 1
   fixa: false
+
+2A:
+  material_id: 1
+  nome: UNIT 02A
+  apelido: 2A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+2B:
+  material_id: 1
+  nome: UNIT 02B
+  apelido: 2B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+3A:
+  material_id: 1
+  nome: UNIT 03A
+  apelido: 3A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+3B:
+  material_id: 1
+  nome: UNIT 03B
+  apelido: 3B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+4:
+  material_id: 1
+  nome: UNIT 04
+  apelido: 4
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+5:
+  material_id: 1
+  nome: UNIT 05
+  apelido: 5
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+6A:
+  material_id: 1
+  nome: UNIT 06A
+  apelido: 6A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+6B:
+  material_id: 1
+  nome: UNIT 06B
+  apelido: 6B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+7:
+  material_id: 1
+  nome: UNIT 07
+  apelido: 7
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+8A:
+  material_id: 1
+  nome: UNIT 08A
+  apelido: 8A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+8B:
+  material_id: 1
+  nome: UNIT 08B
+  apelido: 8B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+9:
+  material_id: 1
+  nome: UNIT 09
+  apelido: 9
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+10A:
+  material_id: 1
+  nome: UNIT 10A
+  apelido: 10A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+10B:
+  material_id: 1
+  nome: UNIT 10B
+  apelido: 10B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+ORAL:
+  nome: ORAL TEST
+  apelido: ORAL
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+CLICK:
+  nome: CLICK CONVERSATION
+  apelido: CLICK
+  lotacao: 15
+  duracao: 1
+  fixa: true
+
+MUSIC:
+  nome: MUSIC CLASS
+  apelido: MUSIC
+  lotacao: 15
+  duracao: 1
+  fixa: true
+
+DRAMA:
+  nome: DRAMA CLASS
+  apelido: DRAMA
+  lotacao: 15
+  duracao: 1
+  fixa: true
+
+11:
+  material_id: 2
+  nome: UNIT 11
+  apelido: 11
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+12A:
+  material_id: 2
+  nome: UNIT 12A
+  apelido: 12
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+12B:
+  material_id: 2
+  nome: UNIT 12B
+  apelido: 12B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+13:
+  material_id: 2
+  nome: UNIT 13
+  apelido: 13
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+14:
+  material_id: 2
+  nome: UNIT 14
+  apelido: 14
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+15:
+  material_id: 2
+  nome: UNIT 15
+  apelido: 15
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+SNAP:
+  nome: SNAP CONVERSATION
+  apelido: SNAP
+  lotacao: 15
+  duracao: 2
+  fixa: true
+
+FLASH:
+  nome: FLASH CONVERSATION
+  apelido: FLASH
+  lotacao: 15
+  duracao: 2
+  fixa: true
+
+16:
+  material_id: 2
+  nome: UNIT 16
+  apelido: 16
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+17A:
+  material_id: 2
+  nome: UNIT 17A
+  apelido: 17A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+17B:
+  material_id: 2
+  nome: UNIT 17B
+  apelido: 17B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+18A:
+  material_id: 2
+  nome: UNIT 18A
+  apelido: 18A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+18B:
+  material_id: 2
+  nome: UNIT 18B
+  apelido: 18B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+19A:
+  material_id: 2
+  nome: UNIT 19A
+  apelido: 19A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+19B:
+  material_id: 2
+  nome: UNIT 19B
+  apelido: 19B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+20:
+  material_id: 2
+  nome: UNIT 20
+  apelido: 20
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+21:
+  material_id: 3
+  nome: UNIT 21
+  apelido: 21
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+22:
+  material_id: 3
+  nome: UNIT 22
+  apelido: 22
+  lotacao: 15
+  duracao: 1
+  fixa: false
+
+23:
+  material_id: 3
+  nome: UNIT 23
+  apelido: 23
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+24:
+  material_id: 3
+  nome: UNIT 24
+  apelido: 24
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+25:
+  material_id: 3
+  nome: UNIT 25
+  apelido: 25
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+26:
+  material_id: 3
+  nome: UNIT 26
+  apelido: 26
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+27A:
+  material_id: 3
+  nome: UNIT 27A
+  apelido: 27A
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+27B:
+  material_id: 3
+  nome: UNIT 27B
+  apelido: 27B
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+28:
+  material_id: 3
+  nome: UNIT 28
+  apelido: 28
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+29:
+  material_id: 3
+  nome: UNIT 29
+  apelido: 29
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+30:
+  material_id: 3
+  nome: UNIT 30
+  apelido: 30
+  lotacao: 6
+  duracao: 1
+  fixa: false
+
+UPPER:
+  nome: UPPER
+  apelido: UPPER
+  lotacao: 15
+  duracao: 2
+  fixa: true
+ 

@@ -52,9 +52,9 @@ ActiveRecord::Schema.define(:version => 0) do
     t.datetime "updated_at"
   end
 
-  create_table "habilitacoes", :force => true do |t|
-    t.integer  "disciplina_id"
-    t.integer  "professor_id"
+  create_table "habilitacoes", :id => false, :force => true do |t|
+    t.integer  "disciplina_id", :null => false
+    t.integer  "professor_id",  :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -81,14 +81,16 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "horas", ["hora"], :name => "index_horas_on_hora", :unique => true
 
   create_table "materiais", :force => true do |t|
-    t.string  "nome"
-    t.integer "preco", :limit => 2, :precision => 2, :scale => 0, :default => 0, :null => false
+    t.string   "nome"
+    t.integer  "preco",      :limit => 2, :precision => 2, :scale => 0, :default => 0, :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "professores", :force => true do |t|
     t.integer  "empresa_id"
     t.string   "nome"
-    t.string   "apelido",    :null => false
+    t.string   "apelido"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

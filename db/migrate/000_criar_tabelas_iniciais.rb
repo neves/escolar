@@ -1,20 +1,21 @@
 class CriarTabelasIniciais < ActiveRecord::Migration
   def self.up
 
-    create_table :empresas do |t|
+
+    create_table2 :empresas do |t|
       t.string :nome, :null => false
-      t.timestamps
     end
+
 
     tabela = create_table2 :professores do |t|
       t.belongs_to :empresa
       t.string :nome
-      t.string :apelido, :null => false
+      t.string :apelido
     end
     add_indexes tabela, :empresa_id, [:apelido, :empresa_id]
 
 
-    create_table :materiais do |t|
+    create_table2 :materiais do |t|
       t.string :nome
       t.decimal :preco, :precision => 2, :null => false, :default => 0
     end
@@ -29,8 +30,8 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 		add_indexes tabela, :duracao, :lotacao, :fixa, [:apelido], [:nome]
 
 
-    tabela = create_table2 :habilitacoes do |t|
-      t.belongs_to :disciplina, :professor
+    tabela = create_table2 :habilitacoes, :id => false do |t|
+      t.belongs_to :disciplina, :professor, :null => false
     end
     add_indexes tabela, :disciplina_id, [:professor_id, :disciplina_id]
 

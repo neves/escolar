@@ -2,8 +2,7 @@ class Professor < ActiveRecord::Base
 	has_many :disponibilidades
 	has_many :horarios, :through => :disponibilidades
 
-	has_many :habilitacoes
-	has_many :disciplinas, :through => :habilitacoes
+	has_and_belongs_to_many :disciplinas, :join_table => 'habilitacoes'
 
   named_scope :disciplinas, :include => :disciplinas
 
