@@ -158,7 +158,7 @@ module ActiveRecord
               message_color, dump_color = "4;36;1", "0;1"
             else
               @@row_even = true
-              message_color, dump_color = "4;35;1", "0"
+              message_color, dump_color = "4;35;1", "1;33"
             end
 
             log_entry = "  \e[#{message_color}m#{message}\e[0m   "

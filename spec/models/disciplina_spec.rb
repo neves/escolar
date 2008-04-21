@@ -94,7 +94,7 @@ describe Disciplina do
   before(:each) do
     # cria um professor e habilita para a disciplina criada.
     @disciplina = Disciplina.create :fixa => true, :nome => 'Laboratório', :apelido => 'lab'
-    @professor = Professor.create :nome => 'Neves'
+    @professor = Professor.create :apelido => 'Neves'
     h = Horario.new
     h.id = 108
     h.save
@@ -111,8 +111,8 @@ describe Disciplina do
 
   describe "[ao agendar]" do
     before(:each) do
-      @professor_nao_habilitado = Professor.create :nome => 'Estagiário'
-      @professor_habilitado_mas_ocupado = Professor.create :nome => 'Habilitado mas Ocupado'
+      @professor_nao_habilitado = Professor.create :apelido => 'Estagiário'
+      @professor_habilitado_mas_ocupado = Professor.create :apelido => 'Habilitado mas Ocupado'
       @professor_habilitado_mas_ocupado.disciplinas << @disciplina
       @professor_habilitado_mas_ocupado.horario_ids = [108, 614]
       @outra_disciplina = Disciplina.create :fixa => true, :nome => 'Outra', :apelido => 'other'

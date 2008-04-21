@@ -14,7 +14,16 @@ class Professor < ActiveRecord::Base
 							:conditions => {'disponibilidades.disciplina_id' => nil},
               :include => :disponibilidades
 
-	def to_s
+  before_save :set_default
+
+  def to_s
 		nome
 	end
+
+  private
+
+  def set_default
+    apelido = nome if apelido.nil?
+    nome = apelido if nome.nil?
+  end
 end

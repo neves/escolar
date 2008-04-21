@@ -60,8 +60,11 @@ module HotMigrations
 
 	module Schema
 		# TODO como substituir o metodo create_table por create_table2 ?
-		def create_table2(name, options = {}, &block)
-			create_table(name, options = {}, &block)
+		def create_table2(name, options = {:skip_timestamps => false}, &block)
+			create_table(name, options) do |t|
+        block.call(t)
+        t.timestamps unless options[:skip_timestamps]
+      end
 			name
 		end
 

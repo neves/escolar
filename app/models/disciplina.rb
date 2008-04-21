@@ -1,4 +1,5 @@
 class Disciplina < ActiveRecord::Base
+  belongs_to :material
 	has_many :habilitacoes
 	has_many :professores, :through => :habilitacoes
 	has_many :disponibilidades

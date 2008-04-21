@@ -1,5 +1,46 @@
 class CriarTabelasIniciais < ActiveRecord::Migration
   def self.up
+
+    create_table :empresas do |t|
+      t.string :nome, :null => false
+      t.timestamps
+    end
+
+    tabela = create_table2 :professores do |t|
+      t.belongs_to :empresa
+      t.string :nome
+      t.string :apelido, :null => false
+    end
+    add_indexes tabela, :empresa_id, [:apelido, :empresa_id]
+
+
+    create_table :materiais do |t|
+      t.string :nome
+      t.decimal :preco, :precision => 2, :null => false, :default => 0
+    end
+
+
+    tabela = create_table2 :disciplinas do |t|
+      t.belongs_to :material
+      t.string :nome, :apelido
+      t.integer :duracao, :lotacao, :null => false, :default => 1
+			t.boolean :fixa, :default => false
+    end
+		add_indexes tabela, :duracao, :lotacao, :fixa, [:apelido], [:nome]
+
+
+    tabela = create_table2 :habilitacoes do |t|
+      t.belongs_to :disciplina, :professor
+    end
+    add_indexes tabela, :disciplina_id, [:professor_id, :disciplina_id]
+
+
+		tabela = create_table2 :disponibilidades do |t|
+			t.belongs_to :professor, :horario, :disciplina
+		end
+		add_indexes tabela, :disciplina_id, :horario_id, [:professor_id, :horario_id]
+
+
     tabela = create_table2 :horas, :id => false do |t|
       t.integer :hora, :null => false
     end
@@ -29,39 +70,9 @@ class CriarTabelasIniciais < ActiveRecord::Migration
         insert_into :horarios, :id => id, :semana => semana, :hora => hora
       end
     end
-
-
-    create_table :professores do |t|
-      t.string :nome, :null => false
-    end
-
-
-    tabela = create_table2 :disciplinas do |t|
-			#t.inheritable :default => 'DisciplinaNormal'
-      t.string :nome, :apelido, :null => false
-      #t.belongs_to :curso, :material, :null => false TODO o material nao é obrigatorio, null quer dizer, sem material
-      t.integer :duracao, :lotacao, :null => false, :default => 1
-			t.boolean :fixa, :default => false
-    end
-    #add_indexes tabela, :type, :curso_id, :material_id, :duracao, :lotacao
-		add_indexes tabela, :duracao, :lotacao, :fixa
-
-    tabela = create_table2 :habilitacoes do |t|
-      t.belongs_to :disciplina, :professor
-    end
-    add_indexes tabela, :disciplina_id, [:professor_id, :disciplina_id]
-
-
-		tabela = create_table2 :disponibilidades do |t|
-			#t.inheritable :default => 'DisponibilidadeNormal'
-			t.belongs_to :professor, :horario, :disciplina
-
-		end
-		#add_indexes tabela, :type, :disciplina_fixa_id, :horario_id, [:professor_id, :horario_id]
-		add_indexes tabela, :disciplina_id, :horario_id, [:professor_id, :horario_id]
 	end
 
   def self.down
-		drop_tables :horas, :feiras, :horarios, :professores, :disciplinas, :habilitacoes, :disponibilidades
+		drop_tables :horas, :feiras, :horarios, :professores, :disciplinas, :habilitacoes, :disponibilidades, :empresas
   end
 end

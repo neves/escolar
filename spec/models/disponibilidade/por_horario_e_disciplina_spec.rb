@@ -1,6 +1,6 @@
 describe "Disponibilidade.por_horario_e_disciplina" do
 
-  @professor = Professor.create(:nome => 'Neves')
+  @professor = Professor.create(:apelido =>  'Neves')
   @disciplina = Disciplina.create(:nome => 'Lab', :fixa => false)
 
 

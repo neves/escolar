@@ -1,7 +1,35 @@
-neves:
-  id: 1
-  nome: Neves
+rneto:
+  empresa_id: 1
+  nome: Raphael Neto
+  apelido: rneto
+  disciplinas: LAB, 1A, 1B 
 
-ana:
-  id: 2
-  nome: Ana
+rmarq:
+  empresa_id: 1
+  nome: Rafael Marques
+  apelido: rmarq
+
+adam:
+  empresa_id: 1
+  nome: Adam Amazonas
+  apelido: adam
+
+gama:
+  empresa_id: 1
+  nome: Nill Gama
+  apelido: gama
+
+karol:
+  empresa_id: 1
+  nome: Heloise Karoline
+  apelido: karol
+
+rojas:
+  empresa_id: 1
+  nome: Silvia Rojas
+  apelido: rojas
+
+tarcio:
+  empresa_id: 1
+  nome: Tarcio Silva
+  apelido: tarcio

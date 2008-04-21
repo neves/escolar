@@ -1,29 +1,22 @@
-abstrata:
-  id: 1
-  type: Disciplina
-  nome: Abstrata
-  apelido: abs
+LAB:
+  nome: LAB CLASS
+  apelido: LAB
+  lotacao: 14
+  duracao: 1
+  fixa: true
 
-normal:
-  id: 2
-  type: DisciplinaNormal
-  nome: Normal
-  apelido: norm
-  duracao: 3
-  lotacao: 3
-  
-normal2:
-  id: 4
-  type: DisciplinaNormal
-  nome: Normal
-  apelido: norm
-  duracao: 3
-  lotacao: 3
+1A:
+  material: kit1
+  nome: UNIT 01A
+  apelido: 1A
+  lotacao: 6
+  duracao: 1
+  fixa: false
 
-fixa:
-  id: 3
-  type: DisciplinaFixa
-  nome: Fixa
-  apelido: fix
-  duracao: 2
-  lotacao: 2
+1B:
+  material: kit1
+  nome: UNIT 01B
+  apelido: 1B
+  lotacao: 6
+  duracao: 1
+  fixa: false
