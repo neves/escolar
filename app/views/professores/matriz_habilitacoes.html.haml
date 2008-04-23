@@ -1,0 +1,12 @@
+= stylesheet_link_tag 'professores/matriz_habilitacoes'
+= flashes
+
+#matriz_habilitacoes
+
+  - form_for @professores, :url => matriz_habilitacoes_professores_path do |f|
+  
+    - GridTable.new(self, @professores, @disciplinas).render do |prof, disc|
+      = check_box_tag "professores[#{prof.id}][]", disc.id, prof.disciplina_ids.include?(disc.id)
+  
+    = f.submit "Salvar"
+

@@ -1,0 +1,12 @@
+#matriz_habilitacoes table {
+  empty-cells: show;
+  border-collapse: collapse;
+  width: 980px;
+  table-layout: fixed;
+}
+
+  #matriz_habilitacoes td, #matriz_habilitacoes th {
+    border: 1px dotted #DDD;
+    padding: 2px;
+    text-align: center;
+  }

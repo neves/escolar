@@ -1,0 +1,9 @@
+#planilha table {
+  empty-cells: show;
+  border-collapse: collapse;
+}
+
+  #planilha td, #planilha th {
+    border: 1px dotted #DDD;
+    padding: 2px;
+  }
