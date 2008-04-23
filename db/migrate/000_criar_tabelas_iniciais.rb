@@ -7,6 +7,14 @@ class CriarTabelasIniciais < ActiveRecord::Migration
     end
 
 
+    tabela = create_table2 :alunos do |t|
+      t.belongs_to :empresa, :null => false
+      t.string :nome, :null => false
+      t.integer :subscricao, :null => false
+    end
+    add_indexes tabela, :subscricao, [:empresa, :subscricao]
+
+
     tabela = create_table2 :professores do |t|
       t.belongs_to :empresa
       t.string :nome

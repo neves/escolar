@@ -1,7 +1,8 @@
 class Professor < ActiveRecord::Base
 	has_many :disponibilidades
 	has_many :horarios, :through => :disponibilidades
-
+  has_many :habilitacoes
+  # porque eu troquei has_many through por habtm?
 	has_and_belongs_to_many :disciplinas, :join_table => 'habilitacoes'
 
   named_scope :disciplinas, :include => :disciplinas
@@ -13,10 +14,20 @@ class Professor < ActiveRecord::Base
 							:conditions => {'disponibilidades.disciplina_id' => nil},
               :include => :disponibilidades
 
+  def self.disponiveis_para_disciplina(disciplina)
+    if disciplina.fixa?
+      reservados
+      #reservados.find(:all, :conditions => {'disponibilidades.disciplina_id' => disciplina.id})
+    else
+      #livres.find(:all, :conditions => {'habilitacoes.disciplina_id' => disciplina.id}, :include => :habilitacoes)
+    end
+  end
+
+
   before_save :set_default
 
   def to_s
-		nome
+		apelido
 	end
 
   private

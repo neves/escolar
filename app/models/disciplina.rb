@@ -6,6 +6,10 @@ class Disciplina < ActiveRecord::Base
 	named_scope :fixas, :conditions => {:fixa => true}
 	named_scope :normais, :conditions => {:fixa => false}
 
+  def to_s
+    apelido
+  end
+
 	def reservas_agrupadas_por_horario
 		self.disponibilidades.find(:all, :include => :professor).index_by(&:horario_id)
 	end

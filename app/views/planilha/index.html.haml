@@ -1,23 +1,26 @@
-%table
-  %thead
-    %tr
-      %td
-      -@horas.each do |hora|
-        %td= "%02d:00" % hora
-      %td
-  
-  %tfoot
-    %tr
-      %td
-      -@horas.each do |hora|
-        %td= "%02d:00" % hora
-      %td
+=stylesheet_link_tag 'planilha'
 
-  %tbody
-    -@dias.each do |dia|
+#planilha
+  %table
+    %thead
       %tr
-        %td= dia.strftime "%a/%d/%b"
+        %td
         -@horas.each do |hora|
-          %td= hora
-        %td= dia.strftime "%a/%d/%m"
-
+          %td= "%02d:00" % hora
+        %td
+    
+    %tfoot
+      %tr
+        %td
+        -@horas.each do |hora|
+          %td= "%02d:00" % hora
+        %td
+  
+    %tbody
+      -@dias.each do |dia|
+        %tr
+          %td= dia.strftime "%a/%d/%b"
+          -@horas.each do |hora|
+            %td= celula dia, hora
+          %td= dia.strftime "%a/%d/%m"
+  

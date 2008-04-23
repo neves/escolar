@@ -2,13 +2,11 @@ class PlanilhaController < ApplicationController
 	def index
 		@horas = Hora.all.collect(&:id)
 		hoje = Date.today
-		data_final = hoje + 15.days
+		data_final = hoje + 1.days
 		@dias = hoje..data_final
-#		(hoje..data_final).step(1.day) do |d|
-#			def d.to_s
-#				"#{day}/#{wday}"
-#			end
-#		 	@dias << d
-#		end
+    @disciplina = Disciplina.find_by_apelido('INIT')
+    @horarios = Disponibilidade.find(:all, 
+                                     :include => {:professor => :habilitacoes}
+                                    ).group_by(&:horario_id)
 	end
 end
