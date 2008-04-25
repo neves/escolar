@@ -1,4 +1,4 @@
-development:
+sqlite3:
   adapter: sqlite3
   database: db/development.sqlite3
   timeout: 1000
@@ -9,6 +9,13 @@ test:
   verbosity: quiet
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  timeout: 1000
+  adapter: mysql
+  database: debian
+  username: root
+  host: 192.168.1.2
+
+mysql:
+  adapter: mysql
+  database: debian
+  username: root
+  host: 192.168.1.2

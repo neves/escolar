@@ -1,10 +1,14 @@
 class DisciplinasController < ApplicationController
-	before_filter :find_disciplina
+	before_filter :find_disciplina, :except => :index
+
+  def index
+    @disciplinas = Disciplina.find(:all, :order => "material_id, nome")
+  end
 
 	def disponibilidades
 		somente_disciplina_fixa!
 		@feiras 	= Feira.all
-		@horas 		= Hora.all
+		@horas 		= Hora.para_disciplina(@disciplina)
 		@vagas = Disponibilidade.agrupadas_por_horario_para_a_disciplina(@disciplina)
 		@reservados = @disciplina.reservas_agrupadas_por_horario
 	end

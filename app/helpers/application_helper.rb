@@ -9,4 +9,10 @@ module ApplicationHelper
 		htm << '</div>'
 		return htm
 	end
+
+  def check_box_for_collection(model, property, value, extras = {})
+    input_name = model.class.name.downcase
+    field_name = property.to_s.singularize + "_ids"
+    check_box_tag "#{input_name}[#{field_name}][]", value, model.send(field_name).include?(value)
+  end
 end

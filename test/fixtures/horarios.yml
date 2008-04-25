@@ -1,0 +1,505 @@
+--- 
+horarios_002: 
+  hora: "9"
+  updated_at: 
+  id: "109"
+  semana: "1"
+  created_at: 
+horarios_023: 
+  hora: "16"
+  updated_at: 
+  id: "216"
+  semana: "2"
+  created_at: 
+horarios_044: 
+  hora: "9"
+  updated_at: 
+  id: "409"
+  semana: "4"
+  created_at: 
+horarios_065: 
+  hora: "16"
+  updated_at: 
+  id: "516"
+  semana: "5"
+  created_at: 
+horarios_003: 
+  hora: "10"
+  updated_at: 
+  id: "110"
+  semana: "1"
+  created_at: 
+horarios_024: 
+  hora: "17"
+  updated_at: 
+  id: "217"
+  semana: "2"
+  created_at: 
+horarios_045: 
+  hora: "10"
+  updated_at: 
+  id: "410"
+  semana: "4"
+  created_at: 
+horarios_066: 
+  hora: "17"
+  updated_at: 
+  id: "517"
+  semana: "5"
+  created_at: 
+horarios_067: 
+  hora: "18"
+  updated_at: 
+  id: "518"
+  semana: "5"
+  created_at: 
+horarios_004: 
+  hora: "11"
+  updated_at: 
+  id: "111"
+  semana: "1"
+  created_at: 
+horarios_025: 
+  hora: "18"
+  updated_at: 
+  id: "218"
+  semana: "2"
+  created_at: 
+horarios_046: 
+  hora: "11"
+  updated_at: 
+  id: "411"
+  semana: "4"
+  created_at: 
+horarios_070: 
+  hora: "21"
+  updated_at: 
+  id: "521"
+  semana: "5"
+  created_at: 
+horarios_068: 
+  hora: "19"
+  updated_at: 
+  id: "519"
+  semana: "5"
+  created_at: 
+horarios_026: 
+  hora: "19"
+  updated_at: 
+  id: "219"
+  semana: "2"
+  created_at: 
+horarios_047: 
+  hora: "12"
+  updated_at: 
+  id: "412"
+  semana: "4"
+  created_at: 
+horarios_005: 
+  hora: "12"
+  updated_at: 
+  id: "112"
+  semana: "1"
+  created_at: 
+horarios_071: 
+  hora: "8"
+  updated_at: 
+  id: "608"
+  semana: "6"
+  created_at: 
+horarios_069: 
+  hora: "20"
+  updated_at: 
+  id: "520"
+  semana: "5"
+  created_at: 
+horarios_048: 
+  hora: "13"
+  updated_at: 
+  id: "413"
+  semana: "4"
+  created_at: 
+horarios_006: 
+  hora: "13"
+  updated_at: 
+  id: "113"
+  semana: "1"
+  created_at: 
+horarios_027: 
+  hora: "20"
+  updated_at: 
+  id: "220"
+  semana: "2"
+  created_at: 
+horarios_050: 
+  hora: "15"
+  updated_at: 
+  id: "415"
+  semana: "4"
+  created_at: 
+horarios_072: 
+  hora: "9"
+  updated_at: 
+  id: "609"
+  semana: "6"
+  created_at: 
+horarios_007: 
+  hora: "14"
+  updated_at: 
+  id: "114"
+  semana: "1"
+  created_at: 
+horarios_030: 
+  hora: "9"
+  updated_at: 
+  id: "309"
+  semana: "3"
+  created_at: 
+horarios_028: 
+  hora: "21"
+  updated_at: 
+  id: "221"
+  semana: "2"
+  created_at: 
+horarios_051: 
+  hora: "16"
+  updated_at: 
+  id: "416"
+  semana: "4"
+  created_at: 
+horarios_049: 
+  hora: "14"
+  updated_at: 
+  id: "414"
+  semana: "4"
+  created_at: 
+horarios_073: 
+  hora: "10"
+  updated_at: 
+  id: "610"
+  semana: "6"
+  created_at: 
+horarios_008: 
+  hora: "15"
+  updated_at: 
+  id: "115"
+  semana: "1"
+  created_at: 
+horarios_029: 
+  hora: "8"
+  updated_at: 
+  id: "308"
+  semana: "3"
+  created_at: 
+horarios_052: 
+  hora: "17"
+  updated_at: 
+  id: "417"
+  semana: "4"
+  created_at: 
+horarios_074: 
+  hora: "11"
+  updated_at: 
+  id: "611"
+  semana: "6"
+  created_at: 
+horarios_010: 
+  hora: "17"
+  updated_at: 
+  id: "117"
+  semana: "1"
+  created_at: 
+horarios_009: 
+  hora: "16"
+  updated_at: 
+  id: "116"
+  semana: "1"
+  created_at: 
+horarios_031: 
+  hora: "10"
+  updated_at: 
+  id: "310"
+  semana: "3"
+  created_at: 
+horarios_011: 
+  hora: "18"
+  updated_at: 
+  id: "118"
+  semana: "1"
+  created_at: 
+horarios_032: 
+  hora: "11"
+  updated_at: 
+  id: "311"
+  semana: "3"
+  created_at: 
+horarios_053: 
+  hora: "18"
+  updated_at: 
+  id: "418"
+  semana: "4"
+  created_at: 
+horarios_075: 
+  hora: "12"
+  updated_at: 
+  id: "612"
+  semana: "6"
+  created_at: 
+horarios_012: 
+  hora: "19"
+  updated_at: 
+  id: "119"
+  semana: "1"
+  created_at: 
+horarios_033: 
+  hora: "12"
+  updated_at: 
+  id: "312"
+  semana: "3"
+  created_at: 
+horarios_054: 
+  hora: "19"
+  updated_at: 
+  id: "419"
+  semana: "4"
+  created_at: 
+horarios_076: 
+  hora: "13"
+  updated_at: 
+  id: "613"
+  semana: "6"
+  created_at: 
+horarios_013: 
+  hora: "20"
+  updated_at: 
+  id: "120"
+  semana: "1"
+  created_at: 
+horarios_034: 
+  hora: "13"
+  updated_at: 
+  id: "313"
+  semana: "3"
+  created_at: 
+horarios_055: 
+  hora: "20"
+  updated_at: 
+  id: "420"
+  semana: "4"
+  created_at: 
+horarios_077: 
+  hora: "14"
+  updated_at: 
+  id: "614"
+  semana: "6"
+  created_at: 
+horarios_014: 
+  hora: "21"
+  updated_at: 
+  id: "121"
+  semana: "1"
+  created_at: 
+horarios_035: 
+  hora: "14"
+  updated_at: 
+  id: "314"
+  semana: "3"
+  created_at: 
+horarios_056: 
+  hora: "21"
+  updated_at: 
+  id: "421"
+  semana: "4"
+  created_at: 
+horarios_080: 
+  hora: "17"
+  updated_at: 
+  id: "617"
+  semana: "6"
+  created_at: 
+horarios_078: 
+  hora: "15"
+  updated_at: 
+  id: "615"
+  semana: "6"
+  created_at: 
+horarios_015: 
+  hora: "8"
+  updated_at: 
+  id: "208"
+  semana: "2"
+  created_at: 
+horarios_036: 
+  hora: "15"
+  updated_at: 
+  id: "315"
+  semana: "3"
+  created_at: 
+horarios_057: 
+  hora: "8"
+  updated_at: 
+  id: "508"
+  semana: "5"
+  created_at: 
+horarios_081: 
+  hora: "18"
+  updated_at: 
+  id: "618"
+  semana: "6"
+  created_at: 
+horarios_079: 
+  hora: "16"
+  updated_at: 
+  id: "616"
+  semana: "6"
+  created_at: 
+horarios_037: 
+  hora: "16"
+  updated_at: 
+  id: "316"
+  semana: "3"
+  created_at: 
+horarios_060: 
+  hora: "11"
+  updated_at: 
+  id: "511"
+  semana: "5"
+  created_at: 
+horarios_058: 
+  hora: "9"
+  updated_at: 
+  id: "509"
+  semana: "5"
+  created_at: 
+horarios_016: 
+  hora: "9"
+  updated_at: 
+  id: "209"
+  semana: "2"
+  created_at: 
+horarios_082: 
+  hora: "19"
+  updated_at: 
+  id: "619"
+  semana: "6"
+  created_at: 
+horarios_059: 
+  hora: "10"
+  updated_at: 
+  id: "510"
+  semana: "5"
+  created_at: 
+horarios_017: 
+  hora: "10"
+  updated_at: 
+  id: "210"
+  semana: "2"
+  created_at: 
+horarios_040: 
+  hora: "19"
+  updated_at: 
+  id: "319"
+  semana: "3"
+  created_at: 
+horarios_038: 
+  hora: "17"
+  updated_at: 
+  id: "317"
+  semana: "3"
+  created_at: 
+horarios_061: 
+  hora: "12"
+  updated_at: 
+  id: "512"
+  semana: "5"
+  created_at: 
+horarios_083: 
+  hora: "20"
+  updated_at: 
+  id: "620"
+  semana: "6"
+  created_at: 
+horarios_018: 
+  hora: "11"
+  updated_at: 
+  id: "211"
+  semana: "2"
+  created_at: 
+horarios_041: 
+  hora: "20"
+  updated_at: 
+  id: "320"
+  semana: "3"
+  created_at: 
+horarios_039: 
+  hora: "18"
+  updated_at: 
+  id: "318"
+  semana: "3"
+  created_at: 
+horarios_062: 
+  hora: "13"
+  updated_at: 
+  id: "513"
+  semana: "5"
+  created_at: 
+horarios_084: 
+  hora: "21"
+  updated_at: 
+  id: "621"
+  semana: "6"
+  created_at: 
+horarios_020: 
+  hora: "13"
+  updated_at: 
+  id: "213"
+  semana: "2"
+  created_at: 
+horarios_019: 
+  hora: "12"
+  updated_at: 
+  id: "212"
+  semana: "2"
+  created_at: 
+horarios_063: 
+  hora: "14"
+  updated_at: 
+  id: "514"
+  semana: "5"
+  created_at: 
+horarios_021: 
+  hora: "14"
+  updated_at: 
+  id: "214"
+  semana: "2"
+  created_at: 
+horarios_042: 
+  hora: "21"
+  updated_at: 
+  id: "321"
+  semana: "3"
+  created_at: 
+horarios_001: 
+  hora: "8"
+  updated_at: 
+  id: "108"
+  semana: "1"
+  created_at: 
+horarios_022: 
+  hora: "15"
+  updated_at: 
+  id: "215"
+  semana: "2"
+  created_at: 
+horarios_043: 
+  hora: "8"
+  updated_at: 
+  id: "408"
+  semana: "4"
+  created_at: 
+horarios_064: 
+  hora: "15"
+  updated_at: 
+  id: "515"
+  semana: "5"
+  created_at: 

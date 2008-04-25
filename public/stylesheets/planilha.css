@@ -1,9 +1,14 @@
 #planilha table {
   empty-cells: show;
   border-collapse: collapse;
+  margin: auto;
 }
 
   #planilha td, #planilha th {
     border: 1px dotted #DDD;
-    padding: 2px;
+    padding: 5px;
+  }
+
+  #planilha td {
+    vertical-align: top;
   }

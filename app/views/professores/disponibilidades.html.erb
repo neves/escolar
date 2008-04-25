@@ -8,6 +8,16 @@ table {
 td, th {
   border: 1px solid silver;
 }
+
+abbr {
+  display: block;
+  text-align: center;
+  border: none;
+}
+
+abbr[title] {
+  background-color: yellow;
+}
 </style>
 
 
@@ -18,8 +28,10 @@ td, th {
 <% form_for @professor, :url => disponibilizar_professor_path(@professor) do |f| %>
 
 	<% GridTable.new(self, @horas, @feiras).render do |hora, feira| %>
-		<%- horario = hora + feira * 100 -%>
-		<%= check_box_tag "professor[horario_ids][]", horario, @horarios_disponiveis.include?(horario) %>
+    <%- horario = hora + feira * 100 -%>
+    <abbr <%= abbr_title @disponibilidades[horario] %>>
+      <%= check_box_for_collection @professor, :horarios, horario %>
+    </abbr>
 	<% end %>
 
 	<%= f.submit "Salvar" %>

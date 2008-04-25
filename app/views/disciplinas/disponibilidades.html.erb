@@ -13,13 +13,17 @@ select, option {
 td, th {
 	border: 1px solid silver;
 }
+
+tbody th, thead td, tfoot td {
+  width: 30px;
+}
 </style>
 <h3>Disciplina: (<%=h @disciplina.id %>) <%=h @disciplina.nome %>: <%=h pluralize(@disciplina.duracao, 'hora') %></h3>
 <%= flashes %>
 
 <% form_for @disciplina, :url => disponibilizar_disciplina_path(@disciplina) do |f| %>
 
-  <% GridTable.new(self, @feiras, @horas).render do |feira, hora| %>
+  <% GridTable.new(self, @horas, @feiras).render do |hora, feira| %>
     <%- horario = hora + feira * 100 -%>
 		<% combo = @vagas[horario].to_a
 			 reserva = @reservados[horario].id if @reservados[horario]

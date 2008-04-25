@@ -1,0 +1,9 @@
+%ul
+  - @disciplinas.group_by(&:material).each do |material, disciplinas|
+    %li
+      %h4= material ? material.nome : 'Sem Material'
+      %ul
+        - disciplinas.each do |disc|
+          %li
+            = disc.nome
+            = link_to 'agenda', disponibilidades_disciplina_path(disc) if disc.fixa?

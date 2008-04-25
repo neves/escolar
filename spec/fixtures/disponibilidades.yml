@@ -1,0 +1,463 @@
+--- 
+disponibilidades_058: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "520"
+  disciplina_id: 
+  id: "73"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_047: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "221"
+  disciplina_id: 
+  id: "62"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_036: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "613"
+  disciplina_id: 
+  id: "51"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_025: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "420"
+  disciplina_id: 
+  id: "40"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_014: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "221"
+  disciplina_id: 
+  id: "29"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_003: 
+  professor_id: "309896059"
+  updated_at: 2008-04-24 10:25:17
+  horario_id: "116"
+  disciplina_id: "1853648032"
+  id: "18"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_059: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "521"
+  disciplina_id: 
+  id: "74"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_048: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "318"
+  disciplina_id: 
+  id: "63"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_037: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "614"
+  disciplina_id: 
+  id: "52"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_026: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "421"
+  disciplina_id: 
+  id: "41"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_015: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "316"
+  disciplina_id: 
+  id: "30"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_004: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "117"
+  disciplina_id: 
+  id: "19"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_060: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "609"
+  disciplina_id: 
+  id: "75"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_049: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "319"
+  disciplina_id: 
+  id: "64"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_038: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "615"
+  disciplina_id: 
+  id: "53"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_027: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "516"
+  disciplina_id: 
+  id: "42"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_016: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "317"
+  disciplina_id: 
+  id: "31"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_005: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "118"
+  disciplina_id: 
+  id: "20"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_061: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "610"
+  disciplina_id: 
+  id: "76"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_050: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "320"
+  disciplina_id: 
+  id: "65"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_062: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "611"
+  disciplina_id: 
+  id: "77"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_051: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "321"
+  disciplina_id: 
+  id: "66"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_040: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "118"
+  disciplina_id: 
+  id: "55"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_039: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "616"
+  disciplina_id: 
+  id: "54"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_028: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "517"
+  disciplina_id: 
+  id: "43"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_017: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "318"
+  disciplina_id: 
+  id: "32"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_006: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "119"
+  disciplina_id: 
+  id: "21"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_063: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "612"
+  disciplina_id: 
+  id: "78"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_052: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "418"
+  disciplina_id: 
+  id: "67"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_041: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "119"
+  disciplina_id: 
+  id: "56"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_030: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "519"
+  disciplina_id: 
+  id: "45"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_029: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "518"
+  disciplina_id: 
+  id: "44"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_018: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "319"
+  disciplina_id: 
+  id: "33"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_007: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "120"
+  disciplina_id: 
+  id: "22"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_064: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "614"
+  disciplina_id: 
+  id: "79"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_053: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "419"
+  disciplina_id: 
+  id: "68"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_042: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "120"
+  disciplina_id: 
+  id: "57"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_031: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "520"
+  disciplina_id: 
+  id: "46"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_020: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "321"
+  disciplina_id: 
+  id: "35"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_019: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "320"
+  disciplina_id: 
+  id: "34"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_008: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "121"
+  disciplina_id: 
+  id: "23"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_065: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "615"
+  disciplina_id: 
+  id: "80"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_054: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "420"
+  disciplina_id: 
+  id: "69"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_043: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "121"
+  disciplina_id: 
+  id: "58"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_032: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "521"
+  disciplina_id: 
+  id: "47"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_021: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "416"
+  disciplina_id: 
+  id: "36"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_010: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "217"
+  disciplina_id: 
+  id: "25"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_009: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "216"
+  disciplina_id: 
+  id: "24"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_066: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "616"
+  disciplina_id: 
+  id: "81"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_055: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "421"
+  disciplina_id: 
+  id: "70"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_044: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "218"
+  disciplina_id: 
+  id: "59"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_033: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "609"
+  disciplina_id: 
+  id: "48"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_022: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "417"
+  disciplina_id: 
+  id: "37"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_011: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "218"
+  disciplina_id: 
+  id: "26"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_056: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "518"
+  disciplina_id: 
+  id: "71"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_045: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "219"
+  disciplina_id: 
+  id: "60"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_034: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "610"
+  disciplina_id: 
+  id: "49"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_023: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "418"
+  disciplina_id: 
+  id: "38"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_012: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "219"
+  disciplina_id: 
+  id: "27"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_001: 
+  professor_id: "407736403"
+  updated_at: 2008-04-24 10:25:17
+  horario_id: "108"
+  disciplina_id: "1853648032"
+  id: "4"
+  created_at: 2008-04-21 11:42:32
+disponibilidades_057: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "519"
+  disciplina_id: 
+  id: "72"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_046: 
+  professor_id: "2128924319"
+  updated_at: 2008-04-23 16:27:08
+  horario_id: "220"
+  disciplina_id: 
+  id: "61"
+  created_at: 2008-04-23 16:27:08
+disponibilidades_035: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "611"
+  disciplina_id: 
+  id: "50"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_024: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "419"
+  disciplina_id: 
+  id: "39"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_013: 
+  professor_id: "309896059"
+  updated_at: 2008-04-23 16:25:59
+  horario_id: "220"
+  disciplina_id: 
+  id: "28"
+  created_at: 2008-04-23 16:25:59
+disponibilidades_002: 
+  professor_id: "407736403"
+  updated_at: 2008-04-21 11:42:32
+  horario_id: "508"
+  disciplina_id: 
+  id: "5"
+  created_at: 2008-04-21 11:42:32

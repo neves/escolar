@@ -19,7 +19,7 @@ class ProfessoresController < ApplicationController
 	def disponibilidades
 		@feiras = Feira.all
     @horas = Hora.all
-		@horarios_disponiveis = @professor.horario_ids
+    @disponibilidades = @professor.disponibilidades.index_by(&:horario_id)
 	end
 
 	def disponibilizar
@@ -32,7 +32,7 @@ class ProfessoresController < ApplicationController
     @professores = Professor.find(:all, :include => :disciplinas)
 
     if request.get?
-      @disciplinas = Disciplina.find(:all, :order => :apelido)
+      @disciplinas = Disciplina.find(:all, :order => :nome)
     end
 
     if request.put?

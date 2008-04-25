@@ -12,7 +12,7 @@ class CriarTabelasIniciais < ActiveRecord::Migration
       t.string :nome, :null => false
       t.integer :subscricao, :null => false
     end
-    add_indexes tabela, :subscricao, [:empresa, :subscricao]
+    add_indexes tabela, :subscricao, [:empresa_id, :subscricao]
 
 
     tabela = create_table2 :professores do |t|
@@ -46,8 +46,9 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 		tabela = create_table2 :disponibilidades do |t|
 			t.belongs_to :professor, :horario, :disciplina
+      t.boolean :ocupada, :null => false, :default => false
 		end
-		add_indexes tabela, :disciplina_id, :horario_id, [:professor_id, :horario_id]
+		add_indexes tabela, :disciplina_id, :horario_id, :ocupada, [:professor_id, :horario_id]
 
 
     tabela = create_table2 :horas, :id => false do |t|
