@@ -46,7 +46,7 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
     create_table2 :materiais do |t|
       t.string :nome
-      t.decimal :preco, :precision => 2, :null => false, :default => 0
+      t.decimal :preco, :precision => 7, :scale => 2, :null => false, :default => 0
     end
 
 
