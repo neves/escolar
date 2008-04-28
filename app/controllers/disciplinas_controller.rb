@@ -8,7 +8,7 @@ class DisciplinasController < ApplicationController
 	def disponibilidades
 		somente_disciplina_fixa!
 		@feiras 	= Feira.all
-		@horas 		= Hora.para_disciplina(@disciplina)
+		@horas 		= @disciplina.horas
 		@vagas = Disponibilidade.agrupadas_por_horario_para_a_disciplina(@disciplina)
 		@reservados = @disciplina.reservas_agrupadas_por_horario
 	end

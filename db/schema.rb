@@ -22,6 +22,17 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "alunos", ["empresa_id", "subscricao"], :name => "index_alunos_on_empresa_id_and_subscricao", :unique => true
   add_index "alunos", ["subscricao"], :name => "index_alunos_on_subscricao"
 
+  create_table "aulas", :force => true do |t|
+    t.integer  "turma_id",   :null => false
+    t.integer  "aluno_id",   :null => false
+    t.string   "status"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "aulas", ["turma_id", "aluno_id"], :name => "index_aulas_on_turma_id_and_aluno_id", :unique => true
+  add_index "aulas", ["status"], :name => "index_aulas_on_status"
+
   create_table "disciplinas", :force => true do |t|
     t.integer  "material_id"
     t.string   "nome"
@@ -109,5 +120,21 @@ ActiveRecord::Schema.define(:version => 0) do
 
   add_index "professores", ["apelido", "empresa_id"], :name => "index_professores_on_apelido_and_empresa_id", :unique => true
   add_index "professores", ["empresa_id"], :name => "index_professores_on_empresa_id"
+
+  create_table "turmas", :force => true do |t|
+    t.integer  "professor_id",  :null => false
+    t.integer  "disciplina_id", :null => false
+    t.datetime "quando",        :null => false
+    t.date     "data",          :null => false
+    t.time     "time",          :null => false
+    t.integer  "hora",          :null => false
+    t.integer  "semana",        :null => false
+    t.integer  "horario_id",    :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "turmas", ["professor_id", "quando"], :name => "index_turmas_on_professor_id_and_quando", :unique => true
+  add_index "turmas", ["disciplina_id"], :name => "index_turmas_on_disciplina_id"
 
 end

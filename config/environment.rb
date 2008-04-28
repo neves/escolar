@@ -2,7 +2,7 @@
 
 # Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
-ENV['RAILS_ENV'] ||= 'mysql'
+#ENV['RAILS_ENV'] ||= 'mysql'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '2.0.2' unless defined? RAILS_GEM_VERSION

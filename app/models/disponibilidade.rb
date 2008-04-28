@@ -4,11 +4,9 @@ class Disponibilidade < ActiveRecord::Base
 	belongs_to :disciplina
 
 	named_scope :livres, :conditions => {:disciplina_id => nil}
-	named_scope :reservadas, :conditions => ["disponibilidades.disciplina_id IS NOT ? AND ocupada = ?", nil, false]
-  named_scope :ocupadas, :conditions => {:ocupada => true}
-  named_scope :nao_ocupadas, :conditions => {:ocupada => false}
-  named_scope :no_dia_da_semana, lambda {|semana| {:conditions => {'horarios.semana' => semana}, :include => :horario}}
-  named_scope :entre_os_horarios, lambda {|range| {:conditions => {'horarios.hora' => range}, :include => :horario}}
+	named_scope :reservadas, :conditions => "disponibilidades.disciplina_id IS NOT NULL"
+  #named_scope :no_dia_da_semana, lambda {|semana| {:conditions => {'horarios.semana' => semana}, :include => :horario}}
+  #named_scope :entre_os_horarios, lambda {|range| {:conditions => {'horarios.hora' => range}, :include => :horario}}
 
 #  def self.ocupadas
 #   find(:all, :conditions => {:ocupada => true})
@@ -17,12 +15,11 @@ class Disponibilidade < ActiveRecord::Base
 	def self.agrupadas_por_horario_para_a_disciplina(disciplina)
 		free = livres.find(:all, :include => {:professor => :disciplinas}, :conditions => {'habilitacoes.disciplina_id' => disciplina.id})
 		lock = reservadas.find(:all, :include => :professor, :conditions => {:disciplina_id => disciplina.id})
-    travadas = ocupadas.all
-		uniao = free + lock - travadas
+		uniao = free + lock
 		uniao.group_by(&:horario_id)
 	end
 
-=begin não é executado after_save, quando desmarco a disciplina desta disponibilidade
+=begin nao eh executado after_save, quando desmarco a disciplina desta disponibilidade
   #after_save :ocupar_ou_desocupar_horarios_seguintes
 
   private

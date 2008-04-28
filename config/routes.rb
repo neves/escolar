@@ -17,7 +17,10 @@ ActionController::Routing::Routes.draw do |map|
 	                :disponibilizar => :put
 								}
 
-  map.resources :planilha
+  map.resource :planilha,
+               :member => {
+                 :agendar => :get
+               }
 
   #map.connect ':controller/:action/:id'
   #map.connect ':controller/:action/:id.:format'

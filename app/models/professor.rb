@@ -2,6 +2,7 @@ class Professor < ActiveRecord::Base
 	has_many :disponibilidades
 	has_many :horarios, :through => :disponibilidades
   has_many :habilitacoes
+  has_many :turmas
   # porque eu troquei has_many through por habtm?
 	has_and_belongs_to_many :disciplinas, :join_table => 'habilitacoes'
 

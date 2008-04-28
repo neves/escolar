@@ -1,7 +1,9 @@
 =stylesheet_link_tag 'planilha'
 
-= @disciplina.apelido + (" - fixa" if @disciplina.fixa?).to_s
-
+%form{:align => 'center'}
+  %select{:name => 'apelido'}
+    = options_from_collection_for_select(@disciplinas, "apelido", "nome", @disciplina.apelido)
+  = submit_tag "Buscar"
 
 #planilha
   %table
@@ -22,7 +24,7 @@
     %tbody
       -@dias.each do |dia|
         %tr
-          %th= dia.strftime "%a/%d/%b"
+          %th= (y = dia.strftime %w(%a %d %b).join("<br />"))
           -@horas.each do |hora|
             %td= celula dia, hora
-          %th= dia.strftime "%a/%d/%m"
+          %th= y

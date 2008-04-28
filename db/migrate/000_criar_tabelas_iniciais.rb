@@ -15,6 +15,27 @@ class CriarTabelasIniciais < ActiveRecord::Migration
     add_indexes tabela, :subscricao, [:empresa_id, :subscricao]
 
 
+    tabela = create_table2 :turmas do |t|
+      t.belongs_to :professor, :null => false
+      t.belongs_to :disciplina, :null => false
+      t.datetime :quando, :null => false
+      t.date :data, :null => false
+      t.time :time, :null => false
+      t.integer :hora, :null => false
+      t.integer :semana, :null => false
+      t.belongs_to :horario, :null => false
+    end
+    add_indexes tabela, [:professor_id, :quando], :disciplina_id
+
+
+    tabela = create_table2 :aulas do |t|
+      t.belongs_to :turma, :null => false
+      t.belongs_to :aluno, :null => false
+      t.string :status
+    end
+    add_indexes tabela, [:turma_id, :aluno_id], :status
+
+
     tabela = create_table2 :professores do |t|
       t.belongs_to :empresa
       t.string :nome
@@ -83,6 +104,6 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 	end
 
   def self.down
-		drop_tables :horas, :feiras, :horarios, :professores, :disciplinas, :habilitacoes, :disponibilidades, :empresas
+		drop_tables :horas, :feiras, :horarios, :professores, :disciplinas, :habilitacoes, :disponibilidades, :empresas, :turmas, :aulas, :alunos
   end
 end
