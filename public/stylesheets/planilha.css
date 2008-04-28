@@ -1,14 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 #planilha table {
   empty-cells: show;
   border-collapse: collapse;
   margin: auto;
+  font: 9px Verdana;
+  width: 1000px;
+  table-layout: fixed;
 }
 
   #planilha td, #planilha th {
-    border: 1px dotted #DDD;
+    border: 1px dotted #CCC;
     padding: 5px;
   }
 
   #planilha td {
     vertical-align: top;
+    text-align: center;
   }
+
+hr {
+  border: 0 solid silver;
+  height: 1px;
+  background: black;
+}
+
+#planilha a {
+  text-decoration: none;
+  display: block;
+}
+
+#planilha a:hover {
+  text-decoration: underline;
+}

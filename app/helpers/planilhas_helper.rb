@@ -10,7 +10,7 @@ module PlanilhasHelper
                 "&disciplina_id=" + 
                 @disciplina.to_param  + 
                 "&quando=" + (dia + hora.hours).to_s 
-      end * "<br />"
+      end
       output << "<hr />"
     end
     turmas = @turmas[dia + hora.hours]
