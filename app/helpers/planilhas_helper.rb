@@ -10,9 +10,9 @@ module PlanilhasHelper
                 "&disciplina_id=" + 
                 @disciplina.to_param  + 
                 "&quando=" + (dia + hora.hours).to_s 
-      end
+      end * " "
       output << "<hr />"
-    end * " "
+    end
     turmas = @turmas[dia + hora.hours]
     output << turmas.collect{|d| "#{d.disciplina.apelido}<br />#{d.professor.apelido}" } * "<br />" if turmas
     return output
