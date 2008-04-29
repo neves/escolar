@@ -12,9 +12,9 @@
 ActiveRecord::Schema.define(:version => 0) do
 
   create_table "alunos", :force => true do |t|
-    t.integer  "empresa_id",                 :null => false
-    t.string   "nome",       :default => "", :null => false
-    t.integer  "subscricao",                 :null => false
+    t.integer  "empresa_id", :null => false
+    t.string   "nome",       :null => false
+    t.integer  "subscricao", :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -30,8 +30,8 @@ ActiveRecord::Schema.define(:version => 0) do
     t.datetime "updated_at"
   end
 
-  add_index "aulas", ["turma_id", "aluno_id"], :name => "index_aulas_on_turma_id_and_aluno_id", :unique => true
   add_index "aulas", ["status"], :name => "index_aulas_on_status"
+  add_index "aulas", ["turma_id", "aluno_id"], :name => "index_aulas_on_turma_id_and_aluno_id", :unique => true
 
   create_table "disciplinas", :force => true do |t|
     t.integer  "material_id"
@@ -44,11 +44,11 @@ ActiveRecord::Schema.define(:version => 0) do
     t.datetime "updated_at"
   end
 
-  add_index "disciplinas", ["apelido"], :name => "index_disciplinas_on_apelido", :unique => true
   add_index "disciplinas", ["nome"], :name => "index_disciplinas_on_nome", :unique => true
-  add_index "disciplinas", ["duracao"], :name => "index_disciplinas_on_duracao"
-  add_index "disciplinas", ["lotacao"], :name => "index_disciplinas_on_lotacao"
+  add_index "disciplinas", ["apelido"], :name => "index_disciplinas_on_apelido", :unique => true
   add_index "disciplinas", ["fixa"], :name => "index_disciplinas_on_fixa"
+  add_index "disciplinas", ["lotacao"], :name => "index_disciplinas_on_lotacao"
+  add_index "disciplinas", ["duracao"], :name => "index_disciplinas_on_duracao"
 
   create_table "disponibilidades", :force => true do |t|
     t.integer  "professor_id"
@@ -60,18 +60,18 @@ ActiveRecord::Schema.define(:version => 0) do
   end
 
   add_index "disponibilidades", ["professor_id", "horario_id"], :name => "index_disponibilidades_on_professor_id_and_horario_id", :unique => true
-  add_index "disponibilidades", ["disciplina_id"], :name => "index_disponibilidades_on_disciplina_id"
-  add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
   add_index "disponibilidades", ["ocupada"], :name => "index_disponibilidades_on_ocupada"
+  add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
+  add_index "disponibilidades", ["disciplina_id"], :name => "index_disponibilidades_on_disciplina_id"
 
   create_table "empresas", :force => true do |t|
-    t.string   "nome",       :default => "", :null => false
+    t.string   "nome",       :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "feiras", :force => true do |t|
-    t.string   "feira",      :default => "", :null => false
+    t.string   "feira",      :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -96,7 +96,8 @@ ActiveRecord::Schema.define(:version => 0) do
   add_index "horarios", ["semana", "hora"], :name => "index_horarios_on_semana_and_hora", :unique => true
   add_index "horarios", ["hora"], :name => "index_horarios_on_hora"
 
-  create_table "horas", :primary_key => "hora", :force => true do |t|
+  create_table "horas", :id => false, :force => true do |t|
+    t.integer  "hora",       :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -105,7 +106,7 @@ ActiveRecord::Schema.define(:version => 0) do
 
   create_table "materiais", :force => true do |t|
     t.string   "nome"
-    t.integer  "preco",      :limit => 2, :precision => 2, :scale => 0, :default => 0, :null => false
+    t.decimal  "preco",      :precision => 7, :scale => 2, :default => 0.0, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -134,7 +135,7 @@ ActiveRecord::Schema.define(:version => 0) do
     t.datetime "updated_at"
   end
 
-  add_index "turmas", ["professor_id", "quando"], :name => "index_turmas_on_professor_id_and_quando", :unique => true
   add_index "turmas", ["disciplina_id"], :name => "index_turmas_on_disciplina_id"
+  add_index "turmas", ["professor_id", "quando"], :name => "index_turmas_on_professor_id_and_quando", :unique => true
 
 end

@@ -1,10 +1,15 @@
 class Turma < ActiveRecord::Base
   belongs_to :professor
   belongs_to :disciplina
-  has_many :aulas
+  has_many :aulas, :dependent => :delete_all
   has_many :alunos, :through => :aulas
 
-  named_scope :turmas_no_periodo, lambda {|periodo| {:conditions => {:data => periodo}} }
+  named_scope :no_periodo, lambda {|periodo| {:conditions => {:data => periodo}} }
+
+  def lotada?
+    return false unless disciplina
+    aulas.size >= disciplina.lotacao
+  end
 
   def quando=(datetime)
     datetime = Time.parse(datetime)

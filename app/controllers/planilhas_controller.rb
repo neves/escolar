@@ -1,14 +1,13 @@
 class PlanilhasController < ApplicationController
 	def show
-    @disciplina = Disciplina.find_by_apelido(params[:apelido] || '1A')
+    planilha = Planilha.new(params[:apelido] || '1A', 1)
+    @disciplina = planilha.disciplina
     @disciplinas = Disciplina.find(:all, :order => :nome)
-		@horas = @disciplina.horas.collect(&:hora)
-		hoje = Date.today.at_beginning_of_week
-		data_final = hoje + 5.days
-    periodo = hoje..data_final
-		@dias = hoje..data_final
-    @horarios = @disciplina.disponibilidade_dos_professores_agrupadas_por_horario
-    @turmas = Turma.turmas_no_periodo(periodo).group_by(&:quando)
+		@horas = planilha.horas
+		@dias = planilha.dias 
+    @horarios = planilha.horarios
+    @turmas = planilha.turmas
+    @aluno = planilha.aluno
 	end
 
   def agendar

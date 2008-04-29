@@ -1,8 +1,11 @@
 =stylesheet_link_tag 'planilha'
 
-%form{:align => 'center'}
+%form
   %select{:name => 'apelido'}
     = options_from_collection_for_select(@disciplinas, "apelido", "nome", @disciplina.apelido)
+  %span 
+    Aluno:
+    = @aluno.nome
   = submit_tag "Buscar"
 
 #planilha
@@ -26,5 +29,5 @@
         %tr
           %th= (y = dia.strftime %w(%a %d %b).join("<br />"))
           -@horas.each do |hora|
-            %td= celula dia, hora
+            %td= render :partial => 'celula', :locals => {:dia => dia, :hora => hora}
           %th= y

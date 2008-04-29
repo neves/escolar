@@ -1,0 +1,29 @@
+%table
+  %tr
+    %td Excluir Turma:
+    %td= link_to "X", planilha_turma_path(@turma), :confirm => "Excluir a Turma?", :method => :delete
+  %tr
+    %td Código:
+    %td= @turma.id
+  %tr
+    %td Alunos/Lotação:
+    %td= "#{@turma.alunos.size}/#{@turma.disciplina.lotacao}"
+  %tr
+    %td Professor:
+    %td= @turma.professor.nome
+  %tr
+    %td Disciplina:
+    %td= @turma.disciplina.nome
+  %tr
+    %td Data/Hora:
+    %td= @turma.quando.to_s_br
+
+- unless @turma.alunos.empty?
+
+  %h4 Alunos
+
+  %table
+  - @turma.alunos.each do |aluno|
+    %tr
+      %td= link_to "X", planilha_turma_aluno_path(@turma, aluno), :confirm => "Desmarcar Aluno?", :method => :delete
+      %td= aluno.nome

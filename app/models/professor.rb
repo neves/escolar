@@ -24,6 +24,10 @@ class Professor < ActiveRecord::Base
     end
   end
 
+  def ocupados_com_turmas_no_periodo(periodo)
+
+  end
+
 
   before_save :set_default
 

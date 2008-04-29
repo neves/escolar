@@ -23,6 +23,12 @@ body, html {
     text-align: center;
   }
 
+    #planilha tbody th, 
+    #planilha thead td,
+    #planilha tfoot td {
+      width: 25px;
+    }
+
 hr {
   border: 0 solid silver;
   height: 1px;
@@ -36,4 +42,13 @@ hr {
 
 #planilha a:hover {
   text-decoration: underline;
+}
+
+.turma {
+  color: red;
+}
+
+form {
+  text-align: center;
+  margin: 15px;
 }
