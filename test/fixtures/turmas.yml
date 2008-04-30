@@ -1,0 +1,49 @@
+--- 
+turmas_001: 
+  hora: "9"
+  professor_id: "407736403"
+  updated_at: 2008-04-26 11:58:19
+  horario_id: "109"
+  time: "09:00:00"
+  disciplina_id: "2132074283"
+  id: "1"
+  semana: "1"
+  created_at: 2008-04-26 11:56:05
+  data: "2008-04-21"
+  quando: 2008-04-21 09:00:00
+turmas_002: 
+  hora: "11"
+  professor_id: "1926970687"
+  updated_at: 2008-04-26 12:41:55
+  horario_id: "111"
+  time: "00:00:11"
+  disciplina_id: "2132074283"
+  id: "2"
+  semana: "1"
+  created_at: 2008-04-26 12:41:55
+  data: "2008-04-21"
+  quando: 2008-04-21 11:00:00
+turmas_003: 
+  hora: "13"
+  professor_id: "309896059"
+  updated_at: 2008-04-26 12:52:24
+  horario_id: "613"
+  time: "00:00:13"
+  disciplina_id: "1044542278"
+  id: "3"
+  semana: "6"
+  created_at: 2008-04-26 12:52:24
+  data: "2008-04-26"
+  quando: 2008-04-26 13:00:00
+turmas_004: 
+  hora: "15"
+  professor_id: "783687417"
+  updated_at: 2008-04-26 12:55:01
+  horario_id: "215"
+  time: "00:00:15"
+  disciplina_id: "3314866"
+  id: "4"
+  semana: "2"
+  created_at: 2008-04-26 12:55:01
+  data: "2008-04-22"
+  quando: 2008-04-22 15:00:00

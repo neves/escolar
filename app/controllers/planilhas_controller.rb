@@ -1,6 +1,9 @@
 class PlanilhasController < ApplicationController
+  auto_complete_for :aluno, :nome_ou_subscricao
+
 	def show
-    planilha = Planilha.new(params[:apelido] || '1A', 1)
+    busca_aluno = params[:aluno] && params[:aluno][:nome_ou_subscricao]
+    planilha = Planilha.new(params[:apelido] || '1A', busca_aluno)
     @disciplina = planilha.disciplina
     @disciplinas = Disciplina.find(:all, :order => :nome)
 		@horas = planilha.horas
@@ -8,6 +11,8 @@ class PlanilhasController < ApplicationController
     @horarios = planilha.horarios
     @turmas = planilha.turmas
     @aluno = planilha.aluno
+    @aluno_turmas = planilha.aluno_turmas
+    @professores_ocupados = planilha.professores
 	end
 
   def agendar

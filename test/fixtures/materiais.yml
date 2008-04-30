@@ -1,19 +1,19 @@
 --- 
 materiais_001: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   nome: Kit Mat.Did.I
   id: "1"
   preco: "99"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
 materiais_002: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   nome: Kit Mat.Did.II
   id: "2"
   preco: "99"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
 materiais_003: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   nome: Kit Mat.Did.III
   id: "3"
   preco: "99"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36

@@ -1,27 +1,29 @@
 <%
 disp = @horarios[Horario.convert(dia, hora)]
-if disp
+data_hora = dia + hora.hours
+if @aluno_turmas[data_hora]
+%>
+<%= render :partial => 'celula_turma', :locals => {:turma =>  @aluno_turmas[data_hora]} %>
+<%
+elsif disp
   disp.each do |professor|
 %>
-<%= link_to professor.apelido, 
-            "/planilha/agendar?" + 
+<%
+    next if @professores_ocupados[data_hora] && @professores_ocupados[data_hora].include?(professor)
+%>
+<%= link_to professor.apelido,
+            "/planilha/agendar?" +
             {:professor_id => professor, :disciplina_id => @disciplina, :aluno_id => @aluno,  :quando => dia + hora.hours}.to_param %>
   <% end
-end
 turmas = @turmas[dia + hora.hours]
 if turmas
 %>
 <hr />
 <%
-  turmas.each do |turma|
-    next unless turma
-%>
-<a href="<%= planilha_turma_path(turma) unless turma.lotada? %>" class="turma">    
-    <%= turma.disciplina.apelido %>
-    <br />
-    <%= turma.professor.apelido %>
-    <br />
-    <%= "#{turma.alunos.size}/#{turma.disciplina.lotacao}" %>
-</a>
+turmas.each do |turma|
+  next unless turma
+  %>
+<%= render :partial => 'celula_turma', :locals => {:turma =>  turma} %>  
   <% end %>
+ <% end %>
 <% end %>

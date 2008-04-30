@@ -52,3 +52,7 @@ form {
   text-align: center;
   margin: 15px;
 }
+
+form li {
+  text-align: left;
+}

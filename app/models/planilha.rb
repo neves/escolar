@@ -25,4 +25,22 @@ class Planilha
   def turmas
     @turmas ||= @disciplina.turmas.no_periodo(dias).group_by(&:quando)
   end
+
+  def aluno_turmas
+    return [] unless @aluno
+    @aluno.turmas.find(:all, :include => :professor).index_by(&:quando)
+  end
+
+  def professores
+    turmas = Turma.find(:all, :conditions => {:quando => dias}, :include => [:professor, :disciplina])
+    profs = {}
+    turmas.each do |t|
+      t.disciplina.duracao.times do |d|
+        quando = t.quando + d.hours
+        profs[quando] ||= []
+        profs[quando] << t.professor
+      end
+    end
+    profs
+  end
 end

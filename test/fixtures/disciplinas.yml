@@ -1,501 +1,501 @@
 --- 
 disciplinas_042: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 27A
   fixa: "0"
   lotacao: "6"
   id: "429704611"
   apelido: 27A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_031: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: DRAMA CLASS
   fixa: "1"
   lotacao: "15"
   id: "316233034"
   apelido: DRAMA
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_020: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 29
   fixa: "0"
   lotacao: "6"
   id: "3382507"
   apelido: "29"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_019: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 28
   fixa: "0"
   lotacao: "6"
   id: "3382506"
   apelido: "28"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_008: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 15
   fixa: "0"
   lotacao: "6"
   id: "3314854"
   apelido: "15"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_043: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 27B
   fixa: "0"
   lotacao: "6"
   id: "429704612"
   apelido: 27B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_032: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 10A
   fixa: "0"
   lotacao: "6"
   id: "420711392"
   apelido: 10A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_021: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 02A
   fixa: "0"
   lotacao: "6"
   id: "3382515"
   apelido: 2A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_010: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 01A
   fixa: "0"
   lotacao: "6"
   id: "3314866"
   apelido: 1A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_009: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 16
   fixa: "0"
   lotacao: "6"
   id: "3314855"
   apelido: "16"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_044: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: LAB CLASS
   fixa: "1"
   lotacao: "14"
   id: "651892705"
   apelido: LAB
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_033: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 10B
   fixa: "0"
   lotacao: "6"
   id: "420711393"
   apelido: 10B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_022: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 02B
   fixa: "0"
   lotacao: "6"
   id: "3382516"
   apelido: 2B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_011: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 01B
   fixa: "0"
   lotacao: "6"
   id: "3314867"
   apelido: 1B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_045: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: SNAP CONVERSATION
   fixa: "1"
   lotacao: "15"
   id: "1044542278"
   apelido: SNAP
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "2"
 disciplinas_034: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 12A
   fixa: "0"
   lotacao: "6"
   id: "420846690"
   apelido: "12"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_023: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 30
   fixa: "0"
   lotacao: "6"
   id: "3450146"
   apelido: "30"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_012: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 20
   fixa: "0"
   lotacao: "6"
   id: "3382497"
   apelido: "20"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_001: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 04
   fixa: "0"
   lotacao: "6"
   id: "53"
   apelido: "4"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_046: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: UPPER
   fixa: "1"
   lotacao: "15"
   id: "1094772263"
   apelido: UPPER
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "2"
 disciplinas_035: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 12B
   fixa: "0"
   lotacao: "6"
   id: "420846691"
   apelido: 12B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_024: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 03A
   fixa: "0"
   lotacao: "6"
   id: "3450164"
   apelido: 3A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_013: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 21
   fixa: "0"
   lotacao: "6"
   id: "3382498"
   apelido: "21"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_002: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 05
   fixa: "0"
   lotacao: "6"
   id: "54"
   apelido: "5"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_047: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: CLICK CONVERSATION
   fixa: "1"
   lotacao: "15"
   id: "1192159972"
   apelido: CLICK
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_036: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 17A
   fixa: "0"
   lotacao: "6"
   id: "421184934"
   apelido: 17A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_025: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 03B
   fixa: "0"
   lotacao: "6"
   id: "3450165"
   apelido: 3B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_014: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 22
   fixa: "0"
   lotacao: "15"
   id: "3382500"
   apelido: "22"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_003: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 07
   fixa: "0"
   lotacao: "6"
   id: "56"
   apelido: "7"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_048: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: INITIAL CLASS
   fixa: "1"
   lotacao: "15"
   id: "1853648032"
   apelido: INIT
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_037: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 17B
   fixa: "0"
   lotacao: "6"
   id: "421184935"
   apelido: 17B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_026: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 06A
   fixa: "0"
   lotacao: "6"
   id: "3653111"
   apelido: 6A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_015: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 23
   fixa: "0"
   lotacao: "6"
   id: "3382501"
   apelido: "23"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_004: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 09
   fixa: "0"
   lotacao: "6"
   id: "58"
   apelido: "9"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_049: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: FLASH CONVERSATION
   fixa: "1"
   lotacao: "15"
   id: "2132074283"
   apelido: FLASH
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "2"
 disciplinas_038: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 18A
   fixa: "0"
   lotacao: "6"
   id: "421252583"
   apelido: 18A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_027: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 06B
   fixa: "0"
   lotacao: "6"
   id: "3653112"
   apelido: 6B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_016: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 24
   fixa: "0"
   lotacao: "6"
   id: "3382502"
   apelido: "24"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_005: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 11
   fixa: "0"
   lotacao: "6"
   id: "3314850"
   apelido: "11"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_050: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: ORAL TEST
   fixa: "0"
   lotacao: "6"
   id: "2141301214"
   apelido: ORAL
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_039: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 18B
   fixa: "0"
   lotacao: "6"
   id: "421252584"
   apelido: 18B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_028: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 08A
   fixa: "0"
   lotacao: "6"
   id: "3788409"
   apelido: 8A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_017: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 25
   fixa: "0"
   lotacao: "6"
   id: "3382503"
   apelido: "25"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_006: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 13
   fixa: "0"
   lotacao: "6"
   id: "3314852"
   apelido: "13"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_040: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 19A
   fixa: "0"
   lotacao: "6"
   id: "421320232"
   apelido: 19A
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_029: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "1"
   nome: UNIT 08B
   fixa: "0"
   lotacao: "6"
   id: "3788410"
   apelido: 8B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_018: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "3"
   nome: UNIT 26
   fixa: "0"
   lotacao: "6"
   id: "3382504"
   apelido: "26"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_007: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 14
   fixa: "0"
   lotacao: "6"
   id: "3314853"
   apelido: "14"
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_041: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: "2"
   nome: UNIT 19B
   fixa: "0"
   lotacao: "6"
   id: "421320233"
   apelido: 19B
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"
 disciplinas_030: 
-  updated_at: 2008-04-24 21:12:34
+  updated_at: 2008-04-29 17:48:36
   material_id: 
   nome: MUSIC CLASS
   fixa: "1"
   lotacao: "15"
   id: "173284259"
   apelido: MUSIC
-  created_at: 2008-04-24 21:12:34
+  created_at: 2008-04-29 17:48:36
   duracao: "1"

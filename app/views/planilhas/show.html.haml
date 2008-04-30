@@ -5,29 +5,29 @@
     = options_from_collection_for_select(@disciplinas, "apelido", "nome", @disciplina.apelido)
   %span 
     Aluno:
-    = @aluno.nome
+    = text_field_with_auto_complete :aluno, :nome_ou_subscricao, {}, {:url => formatted_alunos_path(:js), :method => :get}
   = submit_tag "Buscar"
-
-#planilha
-  %table
-    %thead
-      %tr
-        %td
-        -@horas.each do |hora|
-          %th= "%02d:00" % hora
-        %td
-
-    %tfoot
-      %tr
-        %td
-        -@horas.each do |hora|
-          %th= "%02d:00" % hora
-        %td
-
-    %tbody
-      -@dias.each do |dia|
+- if @aluno
+  #planilha
+    %table
+      %thead
         %tr
-          %th= (y = dia.strftime %w(%a %d %b).join("<br />"))
+          %td
           -@horas.each do |hora|
-            %td= render :partial => 'celula', :locals => {:dia => dia, :hora => hora}
-          %th= y
+            %th= "%02d:00" % hora
+          %td
+
+      %tfoot
+        %tr
+          %td
+          -@horas.each do |hora|
+            %th= "%02d:00" % hora
+          %td
+
+      %tbody
+        -@dias.each do |dia|
+          %tr
+            %th= (y = dia.strftime %w(%a %d %b).join("<br />"))
+            -@horas.each do |hora|
+              %td= render :partial => 'celula', :locals => {:dia => dia, :hora => hora}
+            %th= y

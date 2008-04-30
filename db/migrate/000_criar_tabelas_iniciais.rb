@@ -97,6 +97,7 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
     1.upto(6) do |semana|
       8.upto(21) do |hora|
+        break if semana == 6 && hora > 17
         id = semana * 100 + hora
         insert_into :horarios, :id => id, :semana => semana, :hora => hora
       end

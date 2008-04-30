@@ -1,2 +1,9514 @@
---- {}
-
+--- 
+alunos_1092: 
+  updated_at: 
+  nome: Pedro  Henrique de Lima Gomes
+  subscricao: "846"
+  id: "1094"
+  created_at: 
+  empresa_id: "1"
+alunos_320: 
+  updated_at: 
+  nome: Marcos Neves Mlmllklk
+  subscricao: "1"
+  id: "322"
+  created_at: 
+  empresa_id: "1"
+alunos_452: 
+  updated_at: 
+  nome: Aldemar  da Silva Pessoa
+  subscricao: "140"
+  id: "454"
+  created_at: 
+  empresa_id: "1"
+alunos_584: 
+  updated_at: 
+  nome: "Eliandro Guimar\xE3es Feij\xF3"
+  subscricao: "288"
+  id: "586"
+  created_at: 
+  empresa_id: "1"
+alunos_1093: 
+  updated_at: 
+  nome: "Loemi  Gon\xE7alves Garcia"
+  subscricao: "849"
+  id: "1095"
+  created_at: 
+  empresa_id: "1"
+alunos_321: 
+  updated_at: 
+  nome: Francisca Gracilene Pereira dos Santos
+  subscricao: "2"
+  id: "323"
+  created_at: 
+  empresa_id: "1"
+alunos_453: 
+  updated_at: 
+  nome: Lussandro Costa Pessoa
+  subscricao: "141"
+  id: "455"
+  created_at: 
+  empresa_id: "1"
+alunos_585: 
+  updated_at: 2008-03-19 17:48:33
+  nome: Sara Kodato dos Santos
+  subscricao: "289"
+  id: "587"
+  created_at: 
+  empresa_id: "1"
+alunos_1094: 
+  updated_at: 
+  nome: Weber  Silva Santana
+  subscricao: "850"
+  id: "1096"
+  created_at: 
+  empresa_id: "1"
+alunos_322: 
+  updated_at: 
+  nome: Jacobete Amaral Coelho
+  subscricao: "3"
+  id: "324"
+  created_at: 
+  empresa_id: "1"
+alunos_454: 
+  updated_at: 
+  nome: Alessandra Campelo Silva
+  subscricao: "142"
+  id: "456"
+  created_at: 
+  empresa_id: "1"
+alunos_586: 
+  updated_at: 
+  nome: "Leandro Guimar\xE3es Ribeiro"
+  subscricao: "290"
+  id: "588"
+  created_at: 
+  empresa_id: "1"
+alunos_1095: 
+  updated_at: 
+  nome: "Tatiana  Meirelles de Fran\xE7a"
+  subscricao: "851"
+  id: "1097"
+  created_at: 
+  empresa_id: "1"
+alunos_323: 
+  updated_at: 
+  nome: Ulisses Benevides de Souza Monteiro
+  subscricao: "4"
+  id: "325"
+  created_at: 
+  empresa_id: "1"
+alunos_455: 
+  updated_at: 
+  nome: Nathane Alves Rodrigues Santos
+  subscricao: "143"
+  id: "457"
+  created_at: 
+  empresa_id: "1"
+alunos_587: 
+  updated_at: 
+  nome: Andrea Martins Januzzi
+  subscricao: "291"
+  id: "589"
+  created_at: 
+  empresa_id: "1"
+alunos_1096: 
+  updated_at: 
+  nome: "Priscila  Rebou\xE7as do Nascimento"
+  subscricao: "852"
+  id: "1098"
+  created_at: 
+  empresa_id: "1"
+alunos_324: 
+  updated_at: 
+  nome: Felipe dos Santos Mesquita
+  subscricao: "5"
+  id: "326"
+  created_at: 
+  empresa_id: "1"
+alunos_456: 
+  updated_at: 
+  nome: Angela Maria Martine Pastre
+  subscricao: "144"
+  id: "458"
+  created_at: 
+  empresa_id: "1"
+alunos_588: 
+  updated_at: 
+  nome: "Ion\xE1  Maria Farias Pinheiro"
+  subscricao: "292"
+  id: "590"
+  created_at: 
+  empresa_id: "1"
+alunos_1097: 
+  updated_at: 
+  nome: Dargley  Joaquim Oliveira da Rocha
+  subscricao: "853"
+  id: "1099"
+  created_at: 
+  empresa_id: "1"
+alunos_325: 
+  updated_at: 
+  nome: Hilton de Oliveira Lima
+  subscricao: "6"
+  id: "327"
+  created_at: 
+  empresa_id: "1"
+alunos_457: 
+  updated_at: 
+  nome: Deny Atila Nunes de Araujo
+  subscricao: "145"
+  id: "459"
+  created_at: 
+  empresa_id: "1"
+alunos_589: 
+  updated_at: 
+  nome: Allen Bittencourt de Lima
+  subscricao: "293"
+  id: "591"
+  created_at: 
+  empresa_id: "1"
+alunos_1098: 
+  updated_at: 
+  nome: Ederson  Joaquim Oliveira da Rocha
+  subscricao: "854"
+  id: "1100"
+  created_at: 
+  empresa_id: "1"
+alunos_1099: 
+  updated_at: 
+  nome: Aparecida Gualberto dos Reis
+  subscricao: "859"
+  id: "1101"
+  created_at: 
+  empresa_id: "1"
+alunos_326: 
+  updated_at: 
+  nome: "Francisco Salles Lima da Costa J\xFAnior"
+  subscricao: "8"
+  id: "328"
+  created_at: 
+  empresa_id: "1"
+alunos_458: 
+  updated_at: 
+  nome: Emerson Ricardo de Queiroz Rebello
+  subscricao: "146"
+  id: "460"
+  created_at: 
+  empresa_id: "1"
+alunos_590: 
+  updated_at: 
+  nome: Karina  Daniela Garcia Pereira
+  subscricao: "294"
+  id: "592"
+  created_at: 
+  empresa_id: "1"
+alunos_327: 
+  updated_at: 
+  nome: Ana Leticia Freitas de Assis
+  subscricao: "9"
+  id: "329"
+  created_at: 
+  empresa_id: "1"
+alunos_459: 
+  updated_at: 
+  nome: Roberto Trindade Levinthal
+  subscricao: "147"
+  id: "461"
+  created_at: 
+  empresa_id: "1"
+alunos_591: 
+  updated_at: 
+  nome: Alessandra Souza de Castro
+  subscricao: "295"
+  id: "593"
+  created_at: 
+  empresa_id: "1"
+alunos_328: 
+  updated_at: 
+  nome: Renata Andrade Lacerda
+  subscricao: "10"
+  id: "330"
+  created_at: 
+  empresa_id: "1"
+alunos_460: 
+  updated_at: 
+  nome: "V\xEDvian  Karla Recury Silva"
+  subscricao: "148"
+  id: "462"
+  created_at: 
+  empresa_id: "1"
+alunos_592: 
+  updated_at: 
+  nome: Sueanne Oliveira Evangelista
+  subscricao: "296"
+  id: "594"
+  created_at: 
+  empresa_id: "1"
+alunos_329: 
+  updated_at: 
+  nome: Priscila Silveira de Souza
+  subscricao: "11"
+  id: "331"
+  created_at: 
+  empresa_id: "1"
+alunos_461: 
+  updated_at: 
+  nome: Paulo Henrique da Rocha Mariane
+  subscricao: "150"
+  id: "463"
+  created_at: 
+  empresa_id: "1"
+alunos_593: 
+  updated_at: 
+  nome: "Tha\xEDs Vasconcelos Franco de S\xE1"
+  subscricao: "297"
+  id: "595"
+  created_at: 
+  empresa_id: "1"
+alunos_330: 
+  updated_at: 
+  nome: Milene Siqueira Flor
+  subscricao: "12"
+  id: "332"
+  created_at: 
+  empresa_id: "1"
+alunos_462: 
+  updated_at: 
+  nome: Maria Silvana do Nascimento
+  subscricao: "151"
+  id: "464"
+  created_at: 
+  empresa_id: "1"
+alunos_594: 
+  updated_at: 
+  nome: Leandro Celso Xerez de Freitas
+  subscricao: "298"
+  id: "596"
+  created_at: 
+  empresa_id: "1"
+alunos_331: 
+  updated_at: 
+  nome: Wanessa dos Santos Jacques Rodrigues
+  subscricao: "13"
+  id: "333"
+  created_at: 
+  empresa_id: "1"
+alunos_463: 
+  updated_at: 
+  nome: Cleobery Vinicius Carvalho de Albuquerque
+  subscricao: "152"
+  id: "465"
+  created_at: 
+  empresa_id: "1"
+alunos_595: 
+  updated_at: 2008-03-28 22:27:37
+  nome: ISAAC OLIVEIRA DE SOUZA
+  subscricao: "299"
+  id: "597"
+  created_at: 
+  empresa_id: "1"
+alunos_200: 
+  updated_at: 
+  nome: "5% Ronaldo l\xFAcio de Lima Marques Filho"
+  subscricao: "1373"
+  id: "202"
+  created_at: 
+  empresa_id: "1"
+alunos_332: 
+  updated_at: 
+  nome: "F\xE1bio  Silva do Nascimento"
+  subscricao: "14"
+  id: "334"
+  created_at: 
+  empresa_id: "1"
+alunos_464: 
+  updated_at: 
+  nome: Saulo Albert Pereira Pinto
+  subscricao: "153"
+  id: "466"
+  created_at: 
+  empresa_id: "1"
+alunos_596: 
+  updated_at: 
+  nome: Cris da Silva Palmeira
+  subscricao: "300"
+  id: "598"
+  created_at: 
+  empresa_id: "1"
+alunos_201: 
+  updated_at: 
+  nome: 5% KAREN CRISTINA A.DE OLIVEIRA
+  subscricao: "1359"
+  id: "203"
+  created_at: 
+  empresa_id: "1"
+alunos_333: 
+  updated_at: 
+  nome: Marcelo Ricardo da Silva
+  subscricao: "15"
+  id: "335"
+  created_at: 
+  empresa_id: "1"
+alunos_465: 
+  updated_at: 
+  nome: David Claudiano da Silva
+  subscricao: "154"
+  id: "467"
+  created_at: 
+  empresa_id: "1"
+alunos_597: 
+  updated_at: 
+  nome: "Allyson Rog\xE9rio Silva Malta"
+  subscricao: "301"
+  id: "599"
+  created_at: 
+  empresa_id: "1"
+alunos_202: 
+  updated_at: 
+  nome: 5% NONATA SANTA CRUZ DE SENA DOMINGUES
+  subscricao: "1360"
+  id: "204"
+  created_at: 
+  empresa_id: "1"
+alunos_334: 
+  updated_at: 
+  nome: Bruno Luan Barbosa Azevedo
+  subscricao: "16"
+  id: "336"
+  created_at: 
+  empresa_id: "1"
+alunos_466: 
+  updated_at: 
+  nome: Galton  Lima de Lima
+  subscricao: "155"
+  id: "468"
+  created_at: 
+  empresa_id: "1"
+alunos_598: 
+  updated_at: 
+  nome: "Ana  C\xE1ssia da Silva Pinheiro"
+  subscricao: "302"
+  id: "600"
+  created_at: 
+  empresa_id: "1"
+alunos_203: 
+  updated_at: 
+  nome: 5% JAIR FLORES E SILVA JUNIOR
+  subscricao: "1361"
+  id: "205"
+  created_at: 
+  empresa_id: "1"
+alunos_335: 
+  updated_at: 
+  nome: Claudia  Maria de Moura Abrahim
+  subscricao: "17"
+  id: "337"
+  created_at: 
+  empresa_id: "1"
+alunos_467: 
+  updated_at: 
+  nome: Silvia Pereira Carneiro
+  subscricao: "156"
+  id: "469"
+  created_at: 
+  empresa_id: "1"
+alunos_599: 
+  updated_at: 
+  nome: Rodrigo Icles Rabelo
+  subscricao: "303"
+  id: "601"
+  created_at: 
+  empresa_id: "1"
+alunos_204: 
+  updated_at: 
+  nome: 5% Felipe Alencar Trindade
+  subscricao: "1374"
+  id: "206"
+  created_at: 
+  empresa_id: "1"
+alunos_336: 
+  updated_at: 
+  nome: Edileide Nascimento Ferreira
+  subscricao: "18"
+  id: "338"
+  created_at: 
+  empresa_id: "1"
+alunos_468: 
+  updated_at: 
+  nome: Alex de Moraes Regis
+  subscricao: "158"
+  id: "470"
+  created_at: 
+  empresa_id: "1"
+alunos_205: 
+  updated_at: 
+  nome: 5% EVILA DAIANA COELHO DA SILVA
+  subscricao: "1362"
+  id: "207"
+  created_at: 
+  empresa_id: "1"
+alunos_337: 
+  updated_at: 
+  nome: Michel Garcez Arakian
+  subscricao: "19"
+  id: "339"
+  created_at: 
+  empresa_id: "1"
+alunos_469: 
+  updated_at: 
+  nome: Edvaldo Teixeira de Carvalho
+  subscricao: "160"
+  id: "471"
+  created_at: 
+  empresa_id: "1"
+alunos_206: 
+  updated_at: 
+  nome: 5% Carla Daniela Fank
+  subscricao: "1375"
+  id: "208"
+  created_at: 
+  empresa_id: "1"
+alunos_338: 
+  updated_at: 
+  nome: Andrea Cristine Menezes de Oliveira
+  subscricao: "20"
+  id: "340"
+  created_at: 
+  empresa_id: "1"
+alunos_207: 
+  updated_at: 
+  nome: 5% VALQUIRIA MENDES DE SOUZA
+  subscricao: "1402"
+  id: "209"
+  created_at: 
+  empresa_id: "1"
+alunos_339: 
+  updated_at: 
+  nome: Marcio Garcez Arakian
+  subscricao: "21"
+  id: "341"
+  created_at: 
+  empresa_id: "1"
+alunos_470: 
+  updated_at: 
+  nome: Alana Wypyszynski Petroceli
+  subscricao: "161"
+  id: "472"
+  created_at: 
+  empresa_id: "1"
+alunos_208: 
+  updated_at: 
+  nome: 5% Douglas Souza de Oliveira
+  subscricao: "1376"
+  id: "210"
+  created_at: 
+  empresa_id: "1"
+alunos_471: 
+  updated_at: 
+  nome: Ana  Karina Vasconcelos de Paula
+  subscricao: "162"
+  id: "473"
+  created_at: 
+  empresa_id: "1"
+alunos_209: 
+  updated_at: 
+  nome: 5% Isis Christine Souza de Oliveira
+  subscricao: "1377"
+  id: "211"
+  created_at: 
+  empresa_id: "1"
+alunos_340: 
+  updated_at: 
+  nome: Marcel Garcez Arakian
+  subscricao: "22"
+  id: "342"
+  created_at: 
+  empresa_id: "1"
+alunos_472: 
+  updated_at: 
+  nome: Cristiane Marisa Ruwer
+  subscricao: "163"
+  id: "474"
+  created_at: 
+  empresa_id: "1"
+alunos_341: 
+  updated_at: 
+  nome: Raimundo Nonato dos Santos Lucas
+  subscricao: "23"
+  id: "343"
+  created_at: 
+  empresa_id: "1"
+alunos_473: 
+  updated_at: 
+  nome: Fernanda da Silva Alves
+  subscricao: "164"
+  id: "475"
+  created_at: 
+  empresa_id: "1"
+alunos_210: 
+  updated_at: 
+  nome: 5% Antonio Matos Neto
+  subscricao: "1378"
+  id: "212"
+  created_at: 
+  empresa_id: "1"
+alunos_342: 
+  updated_at: 
+  nome: Giseli da Silva Oliveira Santos
+  subscricao: "24"
+  id: "344"
+  created_at: 
+  empresa_id: "1"
+alunos_474: 
+  updated_at: 
+  nome: Marcio Campos dos Santos
+  subscricao: "165"
+  id: "476"
+  created_at: 
+  empresa_id: "1"
+alunos_211: 
+  updated_at: 
+  nome: 5% Walter de Lima Amorim
+  subscricao: "1379"
+  id: "213"
+  created_at: 
+  empresa_id: "1"
+alunos_343: 
+  updated_at: 
+  nome: Olivia Pires Coelho
+  subscricao: "25"
+  id: "345"
+  created_at: 
+  empresa_id: "1"
+alunos_475: 
+  updated_at: 
+  nome: "Jos\xE9  Roberto Nascimento"
+  subscricao: "167"
+  id: "477"
+  created_at: 
+  empresa_id: "1"
+alunos_212: 
+  updated_at: 
+  nome: 5% WANESSA MICHELLE DA SILVA BEZERRA
+  subscricao: "1403"
+  id: "214"
+  created_at: 
+  empresa_id: "1"
+alunos_344: 
+  updated_at: 
+  nome: Nair Otaviano Aguiar
+  subscricao: "26"
+  id: "346"
+  created_at: 
+  empresa_id: "1"
+alunos_476: 
+  updated_at: 
+  nome: Ana  Cristina Monteiro Pires
+  subscricao: "168"
+  id: "478"
+  created_at: 
+  empresa_id: "1"
+alunos_213: 
+  updated_at: 
+  nome: 5% HELENA MARIA RIBEIRO TAVARES
+  subscricao: "1363"
+  id: "215"
+  created_at: 
+  empresa_id: "1"
+alunos_345: 
+  updated_at: 
+  nome: Henderson Silveira de Souza
+  subscricao: "27"
+  id: "347"
+  created_at: 
+  empresa_id: "1"
+alunos_477: 
+  updated_at: 
+  nome: Manoel Reis Vieira Junior
+  subscricao: "169"
+  id: "479"
+  created_at: 
+  empresa_id: "1"
+alunos_214: 
+  updated_at: 
+  nome: "5% ROBERTA TEIXEIRA GON\xC7ALVES"
+  subscricao: "1404"
+  id: "216"
+  created_at: 
+  empresa_id: "1"
+alunos_346: 
+  updated_at: 
+  nome: Antonio  Vasconcelos Mesquita Junior
+  subscricao: "28"
+  id: "348"
+  created_at: 
+  empresa_id: "1"
+alunos_478: 
+  updated_at: 
+  nome: Renata Mendes dos Santos
+  subscricao: "170"
+  id: "480"
+  created_at: 
+  empresa_id: "1"
+alunos_215: 
+  updated_at: 
+  nome: "# VICTOR HUGO DOS SANTOS GONDIN"
+  subscricao: "1405"
+  id: "217"
+  created_at: 
+  empresa_id: "1"
+alunos_347: 
+  updated_at: 
+  nome: "Maria das Gra\xE7as Silveira de Souza"
+  subscricao: "29"
+  id: "349"
+  created_at: 
+  empresa_id: "1"
+alunos_479: 
+  updated_at: 
+  nome: Paula  Moreira Sena Junior
+  subscricao: "171"
+  id: "481"
+  created_at: 
+  empresa_id: "1"
+alunos_900: 
+  updated_at: 
+  nome: "Herbert  Pereira Tom\xE9"
+  subscricao: "635"
+  id: "902"
+  created_at: 
+  empresa_id: "1"
+alunos_901: 
+  updated_at: 
+  nome: Elaine Cristina C. Rodrigues
+  subscricao: "636"
+  id: "903"
+  created_at: 
+  empresa_id: "1"
+alunos_216: 
+  updated_at: 
+  nome: 5% ALFRANJA BALBINO DE OLIVEIRA
+  subscricao: "1364"
+  id: "218"
+  created_at: 
+  empresa_id: "1"
+alunos_348: 
+  updated_at: 
+  nome: Mirian  Bonfim da Silva
+  subscricao: "30"
+  id: "350"
+  created_at: 
+  empresa_id: "1"
+alunos_902: 
+  updated_at: 
+  nome: Fernando  Henrique Souza Pessoa
+  subscricao: "637"
+  id: "904"
+  created_at: 
+  empresa_id: "1"
+alunos_480: 
+  updated_at: 
+  nome: Mirlany Jaknon Gama
+  subscricao: "172"
+  id: "482"
+  created_at: 
+  empresa_id: "1"
+alunos_217: 
+  updated_at: 
+  nome: 5% ELIANE DE SOUZA ERNESTO SANTOS
+  subscricao: "1406"
+  id: "219"
+  created_at: 
+  empresa_id: "1"
+alunos_349: 
+  updated_at: 
+  nome: Marcos Antonio Montanholi
+  subscricao: "31"
+  id: "351"
+  created_at: 
+  empresa_id: "1"
+alunos_903: 
+  updated_at: 
+  nome: Waleska  de Sousa Pinheiro Coelho
+  subscricao: "638"
+  id: "905"
+  created_at: 
+  empresa_id: "1"
+alunos_481: 
+  updated_at: 
+  nome: Jisele Cristina Aguiar Mota
+  subscricao: "173"
+  id: "483"
+  created_at: 
+  empresa_id: "1"
+alunos_218: 
+  updated_at: 
+  nome: 5% DALVA RODRIGUES LIMA
+  subscricao: "1365"
+  id: "220"
+  created_at: 
+  empresa_id: "1"
+alunos_904: 
+  updated_at: 
+  nome: "F\xE1bio  Roberto Sousa Pessoa"
+  subscricao: "639"
+  id: "906"
+  created_at: 
+  empresa_id: "1"
+alunos_350: 
+  updated_at: 
+  nome: Ricardo Luiz Ludke
+  subscricao: "32"
+  id: "352"
+  created_at: 
+  empresa_id: "1"
+alunos_482: 
+  updated_at: 
+  nome: Karla Kedna Luz de Carvalho
+  subscricao: "174"
+  id: "484"
+  created_at: 
+  empresa_id: "1"
+alunos_219: 
+  updated_at: 2008-03-20 18:03:47
+  nome: "5% ALCIN\xC9IA MARIA MARTINS PRADO"
+  subscricao: "1407"
+  id: "221"
+  created_at: 
+  empresa_id: "1"
+alunos_905: 
+  updated_at: 
+  nome: Denis  Franklin da Silveira Frederico
+  subscricao: "640"
+  id: "907"
+  created_at: 
+  empresa_id: "1"
+alunos_351: 
+  updated_at: 
+  nome: Maria Bello Marinho
+  subscricao: "33"
+  id: "353"
+  created_at: 
+  empresa_id: "1"
+alunos_483: 
+  updated_at: 
+  nome: Mayumi Naianne Kans
+  subscricao: "175"
+  id: "485"
+  created_at: 
+  empresa_id: "1"
+alunos_906: 
+  updated_at: 
+  nome: Marcos  Alexandre Caldas da Silva
+  subscricao: "642"
+  id: "908"
+  created_at: 
+  empresa_id: "1"
+alunos_220: 
+  updated_at: 
+  nome: 5% ROSSINEIDE GOMES BRITO
+  subscricao: "1408"
+  id: "222"
+  created_at: 
+  empresa_id: "1"
+alunos_352: 
+  updated_at: 
+  nome: Hitamar  Teixeira Sampaio
+  subscricao: "34"
+  id: "354"
+  created_at: 
+  empresa_id: "1"
+alunos_484: 
+  updated_at: 
+  nome: Joacy  Batista da Silva Sobrinho
+  subscricao: "176"
+  id: "486"
+  created_at: 
+  empresa_id: "1"
+alunos_907: 
+  updated_at: 
+  nome: Karina  Monteiro Teixeira de Freitas
+  subscricao: "643"
+  id: "909"
+  created_at: 
+  empresa_id: "1"
+alunos_221: 
+  updated_at: 
+  nome: 5% KEYLLA LOPES FIGUEIRA
+  subscricao: "1422"
+  id: "223"
+  created_at: 
+  empresa_id: "1"
+alunos_353: 
+  updated_at: 
+  nome: Kelly  Vinente dos Santos
+  subscricao: "35"
+  id: "355"
+  created_at: 
+  empresa_id: "1"
+alunos_485: 
+  updated_at: 
+  nome: Antonio Raimundo Barros de Carvalho
+  subscricao: "177"
+  id: "487"
+  created_at: 
+  empresa_id: "1"
+alunos_908: 
+  updated_at: 
+  nome: Irailion Rodrigues da Silva
+  subscricao: "644"
+  id: "910"
+  created_at: 
+  empresa_id: "1"
+alunos_222: 
+  updated_at: 2008-03-19 13:33:09
+  nome: 5% RAYSSA ROSSI BRITO CLAUDINO
+  subscricao: "1409"
+  id: "224"
+  created_at: 
+  empresa_id: "1"
+alunos_354: 
+  updated_at: 
+  nome: "Alysson Gra\xE7a Campos"
+  subscricao: "36"
+  id: "356"
+  created_at: 
+  empresa_id: "1"
+alunos_486: 
+  updated_at: 
+  nome: "Tha\xEDs Affonso de Ver\xE7osa"
+  subscricao: "178"
+  id: "488"
+  created_at: 
+  empresa_id: "1"
+alunos_909: 
+  updated_at: 
+  nome: Viviane  Figueira da Rocha
+  subscricao: "645"
+  id: "911"
+  created_at: 
+  empresa_id: "1"
+alunos_223: 
+  updated_at: 
+  nome: 5% CARLEN MARESA DOS SANTOS
+  subscricao: "1423"
+  id: "225"
+  created_at: 
+  empresa_id: "1"
+alunos_355: 
+  updated_at: 
+  nome: Priscila dos Reis Ferreira
+  subscricao: "37"
+  id: "357"
+  created_at: 
+  empresa_id: "1"
+alunos_487: 
+  updated_at: 
+  nome: Luiza de Marilac Mileo Moreira
+  subscricao: "179"
+  id: "489"
+  created_at: 
+  empresa_id: "1"
+alunos_224: 
+  updated_at: 
+  nome: 5% MARCELO TAPAJOS ARAUJO
+  subscricao: "1410"
+  id: "226"
+  created_at: 
+  empresa_id: "1"
+alunos_356: 
+  updated_at: 
+  nome: Gilson da Silva Furtado
+  subscricao: "38"
+  id: "358"
+  created_at: 
+  empresa_id: "1"
+alunos_488: 
+  updated_at: 
+  nome: Stanley Wagner de Lima Melo
+  subscricao: "180"
+  id: "490"
+  created_at: 
+  empresa_id: "1"
+alunos_225: 
+  updated_at: 
+  nome: 5% ELIANE S. DE ALMEIDA
+  subscricao: "1424"
+  id: "227"
+  created_at: 
+  empresa_id: "1"
+alunos_357: 
+  updated_at: 
+  nome: "Jo\xE3o da Silva Paulo"
+  subscricao: "39"
+  id: "359"
+  created_at: 
+  empresa_id: "1"
+alunos_489: 
+  updated_at: 
+  nome: Jennifer  Pereira de Jesus
+  subscricao: "181"
+  id: "491"
+  created_at: 
+  empresa_id: "1"
+alunos_910: 
+  updated_at: 
+  nome: Douglas de Almeida Batista
+  subscricao: "646"
+  id: "912"
+  created_at: 
+  empresa_id: "1"
+alunos_226: 
+  updated_at: 
+  nome: 5% EDINEIDE COSTA NORONHA
+  subscricao: "1411"
+  id: "228"
+  created_at: 
+  empresa_id: "1"
+alunos_358: 
+  updated_at: 
+  nome: Paulo Henrique G.santos
+  subscricao: "40"
+  id: "360"
+  created_at: 
+  empresa_id: "1"
+alunos_911: 
+  updated_at: 
+  nome: Victor  Sasha Farache Moreira
+  subscricao: "647"
+  id: "913"
+  created_at: 
+  empresa_id: "1"
+alunos_912: 
+  updated_at: 
+  nome: "M\xF4nica  Benke"
+  subscricao: "648"
+  id: "914"
+  created_at: 
+  empresa_id: "1"
+alunos_490: 
+  updated_at: 
+  nome: Ana  Cristina da S. Amazonas
+  subscricao: "182"
+  id: "492"
+  created_at: 
+  empresa_id: "1"
+alunos_227: 
+  updated_at: 
+  nome: 5% BRUNA CRISTINA ARAUJO DE OLIVEIRA
+  subscricao: "1412"
+  id: "229"
+  created_at: 
+  empresa_id: "1"
+alunos_359: 
+  updated_at: 
+  nome: Yngleti Vasconcelos de Souza
+  subscricao: "41"
+  id: "361"
+  created_at: 
+  empresa_id: "1"
+alunos_913: 
+  updated_at: 
+  nome: "Mauro L\xFAcio Sampaio Brasil"
+  subscricao: "649"
+  id: "915"
+  created_at: 
+  empresa_id: "1"
+alunos_491: 
+  updated_at: 
+  nome: Naiara Cristini da Silva Domingues
+  subscricao: "183"
+  id: "493"
+  created_at: 
+  empresa_id: "1"
+alunos_228: 
+  updated_at: 
+  nome: 5% MARILENA MENDES RIBEIRO
+  subscricao: "1425"
+  id: "230"
+  created_at: 
+  empresa_id: "1"
+alunos_914: 
+  updated_at: 
+  nome: Nancy  Freitas da Silva
+  subscricao: "650"
+  id: "916"
+  created_at: 
+  empresa_id: "1"
+alunos_492: 
+  updated_at: 
+  nome: "M\xE1rcio Farias de Souza"
+  subscricao: "184"
+  id: "494"
+  created_at: 
+  empresa_id: "1"
+alunos_229: 
+  updated_at: 
+  nome: "5% LUIS GUSTAVO ARA\xDAJO DE OLIVEIRA"
+  subscricao: "1413"
+  id: "231"
+  created_at: 
+  empresa_id: "1"
+alunos_360: 
+  updated_at: 
+  nome: "Felipe Adolfo Lib\xF3rio Ara\xFAjo"
+  subscricao: "42"
+  id: "362"
+  created_at: 
+  empresa_id: "1"
+alunos_915: 
+  updated_at: 
+  nome: Tamara  Ozorio de Brito
+  subscricao: "651"
+  id: "917"
+  created_at: 
+  empresa_id: "1"
+alunos_493: 
+  updated_at: 
+  nome: Bruno Carvalho de Farias
+  subscricao: "185"
+  id: "495"
+  created_at: 
+  empresa_id: "1"
+alunos_361: 
+  updated_at: 
+  nome: Maylson Braga Neto
+  subscricao: "43"
+  id: "363"
+  created_at: 
+  empresa_id: "1"
+alunos_916: 
+  updated_at: 
+  nome: "J\xFAlia  Pereira Rebelo"
+  subscricao: "653"
+  id: "918"
+  created_at: 
+  empresa_id: "1"
+alunos_494: 
+  updated_at: 
+  nome: Regiane Barbosa da Silva
+  subscricao: "186"
+  id: "496"
+  created_at: 
+  empresa_id: "1"
+alunos_230: 
+  updated_at: 
+  nome: 5% SOLANGE RIBEIRO DA SILVA
+  subscricao: "1426"
+  id: "232"
+  created_at: 
+  empresa_id: "1"
+alunos_362: 
+  updated_at: 
+  nome: Alexinaldo  Granela Borja
+  subscricao: "44"
+  id: "364"
+  created_at: 
+  empresa_id: "1"
+alunos_917: 
+  updated_at: 
+  nome: Regiane  Pinheiro Cordeiro
+  subscricao: "654"
+  id: "919"
+  created_at: 
+  empresa_id: "1"
+alunos_231: 
+  updated_at: 
+  nome: 5% ANA CRISTINA GOMES DE FREITAS
+  subscricao: "1414"
+  id: "233"
+  created_at: 
+  empresa_id: "1"
+alunos_363: 
+  updated_at: 
+  nome: Samanta Morgado Maciel
+  subscricao: "45"
+  id: "365"
+  created_at: 
+  empresa_id: "1"
+alunos_495: 
+  updated_at: 
+  nome: Giselle  Oliveira da Costa
+  subscricao: "189"
+  id: "497"
+  created_at: 
+  empresa_id: "1"
+alunos_918: 
+  updated_at: 
+  nome: Alvaro  Roberto Silva Abreu
+  subscricao: "655"
+  id: "920"
+  created_at: 
+  empresa_id: "1"
+alunos_100: 
+  updated_at: 
+  nome: "# RICARDO MARQUES DE LIMA JUNIOR"
+  subscricao: "1291"
+  id: "102"
+  created_at: 
+  empresa_id: "1"
+alunos_232: 
+  updated_at: 
+  nome: 5% EIKE GOMES DE FREITAS
+  subscricao: "1415"
+  id: "234"
+  created_at: 
+  empresa_id: "1"
+alunos_364: 
+  updated_at: 
+  nome: "M\xE1rcia Andr\xE9a Paes de Freitas"
+  subscricao: "46"
+  id: "366"
+  created_at: 
+  empresa_id: "1"
+alunos_496: 
+  updated_at: 
+  nome: Victor Thiago Valerio
+  subscricao: "190"
+  id: "498"
+  created_at: 
+  empresa_id: "1"
+alunos_919: 
+  updated_at: 
+  nome: Jaime  Casanova Soeiro Junior
+  subscricao: "656"
+  id: "921"
+  created_at: 
+  empresa_id: "1"
+alunos_101: 
+  updated_at: 
+  nome: "# HEMILLY CARVALHO ALMEIDA MARQUES"
+  subscricao: "1292"
+  id: "103"
+  created_at: 
+  empresa_id: "1"
+alunos_233: 
+  updated_at: 
+  nome: 5% DANIELE DA COSTA CUNHA
+  subscricao: "1427"
+  id: "235"
+  created_at: 
+  empresa_id: "1"
+alunos_365: 
+  updated_at: 
+  nome: "Amanda Concei\xE7\xE3o Braga Ramos"
+  subscricao: "47"
+  id: "367"
+  created_at: 
+  empresa_id: "1"
+alunos_497: 
+  updated_at: 
+  nome: Carlos Augusto de Carvalho Silva
+  subscricao: "191"
+  id: "499"
+  created_at: 
+  empresa_id: "1"
+alunos_102: 
+  updated_at: 
+  nome: "# KEMILLY CARVALHO ALMEIDA MARQUES"
+  subscricao: "1293"
+  id: "104"
+  created_at: 
+  empresa_id: "1"
+alunos_234: 
+  updated_at: 
+  nome: 5% LUIZ CARLOS LOPES MARQUES JUNIOR
+  subscricao: "1416"
+  id: "236"
+  created_at: 
+  empresa_id: "1"
+alunos_366: 
+  updated_at: 
+  nome: "Jo\xE3o  Ferdinando Barreto"
+  subscricao: "48"
+  id: "368"
+  created_at: 
+  empresa_id: "1"
+alunos_498: 
+  updated_at: 
+  nome: "Maria  de F\xE1tima Pereira Costa"
+  subscricao: "192"
+  id: "500"
+  created_at: 
+  empresa_id: "1"
+alunos_103: 
+  updated_at: 
+  nome: 5% LELSON LOPES NASCIMENTO
+  subscricao: "1294"
+  id: "105"
+  created_at: 
+  empresa_id: "1"
+alunos_235: 
+  updated_at: 
+  nome: 5% WALDOMIRO DE SOUZA TRINDADE
+  subscricao: "1428"
+  id: "237"
+  created_at: 
+  empresa_id: "1"
+alunos_367: 
+  updated_at: 
+  nome: Ederjana  Maria Pinheiro Ferreira
+  subscricao: "49"
+  id: "369"
+  created_at: 
+  empresa_id: "1"
+alunos_499: 
+  updated_at: 
+  nome: Ademor Breves Bentes
+  subscricao: "193"
+  id: "501"
+  created_at: 
+  empresa_id: "1"
+alunos_920: 
+  updated_at: 
+  nome: Lucas  Limeira Santos Ferreira
+  subscricao: "657"
+  id: "922"
+  created_at: 
+  empresa_id: "1"
+alunos_104: 
+  updated_at: 
+  nome: "5% Rosaria de F\xE1tima Bernardes Rabelo"
+  subscricao: "995"
+  id: "106"
+  created_at: 
+  empresa_id: "1"
+alunos_236: 
+  updated_at: 
+  nome: 5% IZAILSON DA SILVA MENDES
+  subscricao: "1417"
+  id: "238"
+  created_at: 
+  empresa_id: "1"
+alunos_368: 
+  updated_at: 
+  nome: Juliano Augusto Sousa Nunes
+  subscricao: "50"
+  id: "370"
+  created_at: 
+  empresa_id: "1"
+alunos_921: 
+  updated_at: 
+  nome: "Andr\xE9 de Oliveira Marques"
+  subscricao: "658"
+  id: "923"
+  created_at: 
+  empresa_id: "1"
+alunos_105: 
+  updated_at: 
+  nome: 5% LISANGELA ALVES DA COSTA
+  subscricao: "1295"
+  id: "107"
+  created_at: 
+  empresa_id: "1"
+alunos_237: 
+  updated_at: 
+  nome: 5% RODRIGO MORENO DA SILVA PACHECO
+  subscricao: "1418"
+  id: "239"
+  created_at: 
+  empresa_id: "1"
+alunos_369: 
+  updated_at: 
+  nome: Claudinea Decaris
+  subscricao: "51"
+  id: "371"
+  created_at: 
+  empresa_id: "1"
+alunos_922: 
+  updated_at: 
+  nome: Camila Batista de Lima
+  subscricao: "659"
+  id: "924"
+  created_at: 
+  empresa_id: "1"
+alunos_1300: 
+  updated_at: 2008-03-19 15:25:51
+  nome: 5% FERNANDO DOS SANTOS MORGADO
+  subscricao: "1493"
+  id: "1302"
+  created_at: 2008-03-19 15:25:51
+  empresa_id: "1"
+alunos_923: 
+  updated_at: 
+  nome: "Andr\xE9  Fraz\xE3o Teixeira"
+  subscricao: "660"
+  id: "925"
+  created_at: 
+  empresa_id: "1"
+alunos_106: 
+  updated_at: 
+  nome: "S\xE9rgio Paulo Mesquita Junior"
+  subscricao: "194"
+  id: "108"
+  created_at: 
+  empresa_id: "1"
+alunos_238: 
+  updated_at: 
+  nome: "5% KARINA CASTRO GOUV\xCAA"
+  subscricao: "1429"
+  id: "240"
+  created_at: 
+  empresa_id: "1"
+alunos_1301: 
+  updated_at: 2008-03-19 15:28:50
+  nome: "5% MARILYN RICELI GUIMAR\xC3ES PEREIRA"
+  subscricao: "1494"
+  id: "1303"
+  created_at: 2008-03-19 15:28:50
+  empresa_id: "1"
+alunos_924: 
+  updated_at: 
+  nome: Luiz Vaz Siquara
+  subscricao: "661"
+  id: "926"
+  created_at: 
+  empresa_id: "1"
+alunos_370: 
+  updated_at: 
+  nome: Giselle Fonseca Cerquinho
+  subscricao: "52"
+  id: "372"
+  created_at: 
+  empresa_id: "1"
+alunos_107: 
+  updated_at: 
+  nome: "Rodrigo Gal\xFAcio Coulamy"
+  subscricao: "620"
+  id: "109"
+  created_at: 
+  empresa_id: "1"
+alunos_239: 
+  updated_at: 
+  nome: "5% ANDR\xC9A BARROSO DE SOUZA"
+  subscricao: "1419"
+  id: "241"
+  created_at: 
+  empresa_id: "1"
+alunos_1302: 
+  updated_at: 2008-03-19 15:31:32
+  nome: 5% SULIVAN GOMES BRASIL
+  subscricao: "1495"
+  id: "1304"
+  created_at: 2008-03-19 15:31:32
+  empresa_id: "1"
+alunos_925: 
+  updated_at: 
+  nome: Danielle  Abreu Pereira
+  subscricao: "662"
+  id: "927"
+  created_at: 
+  empresa_id: "1"
+alunos_371: 
+  updated_at: 
+  nome: Reginaldo Caldas Freitas
+  subscricao: "53"
+  id: "373"
+  created_at: 
+  empresa_id: "1"
+alunos_108: 
+  updated_at: 
+  nome: 5% MARCIA ANDRESSA DINIZ DA COSTA
+  subscricao: "1296"
+  id: "110"
+  created_at: 
+  empresa_id: "1"
+alunos_1303: 
+  updated_at: 2008-03-19 15:34:02
+  nome: "5% ANDRESSA CORR\xCAA DOS SANTOS BUENO"
+  subscricao: "1496"
+  id: "1305"
+  created_at: 2008-03-19 15:34:02
+  empresa_id: "1"
+alunos_926: 
+  updated_at: 
+  nome: "Kamila  de Castro Lib\xF3rio dos Santos"
+  subscricao: "663"
+  id: "928"
+  created_at: 
+  empresa_id: "1"
+alunos_240: 
+  updated_at: 
+  nome: 5% KLINGER MATOS VALENTE
+  subscricao: "1430"
+  id: "242"
+  created_at: 
+  empresa_id: "1"
+alunos_372: 
+  updated_at: 
+  nome: "Bruno S\xE9rgio Furchi"
+  subscricao: "54"
+  id: "374"
+  created_at: 
+  empresa_id: "1"
+alunos_109: 
+  updated_at: 
+  nome: 5% YURE YABU DE BARROS
+  subscricao: "1297"
+  id: "111"
+  created_at: 
+  empresa_id: "1"
+alunos_1304: 
+  updated_at: 2008-03-19 15:36:35
+  nome: "5% RAIMUNDO NONATO GON\xC7ALVES FERREIRA"
+  subscricao: "1497"
+  id: "1306"
+  created_at: 2008-03-19 15:36:35
+  empresa_id: "1"
+alunos_927: 
+  updated_at: 
+  nome: Raimundo  Nonato Alves Freire
+  subscricao: "664"
+  id: "929"
+  created_at: 
+  empresa_id: "1"
+alunos_241: 
+  updated_at: 
+  nome: 5% JESSICA KLISS MOREIRA DE OLIVEIRA
+  subscricao: "1420"
+  id: "243"
+  created_at: 
+  empresa_id: "1"
+alunos_373: 
+  updated_at: 
+  nome: Guilherme Augusto Novelleto
+  subscricao: "55"
+  id: "375"
+  created_at: 
+  empresa_id: "1"
+alunos_1305: 
+  updated_at: 2008-03-19 15:41:38
+  nome: 5% GABRIELA SOARES DE CARVALHO
+  subscricao: "1498"
+  id: "1307"
+  created_at: 2008-03-19 15:41:38
+  empresa_id: "1"
+alunos_928: 
+  updated_at: 
+  nome: Magdyell Melo Rodrigues
+  subscricao: "666"
+  id: "930"
+  created_at: 
+  empresa_id: "1"
+alunos_110: 
+  updated_at: 
+  nome: (LIGHT) REGINA MIEKO YABU DE BARROS
+  subscricao: "1298"
+  id: "112"
+  created_at: 
+  empresa_id: "1"
+alunos_242: 
+  updated_at: 
+  nome: 5% MAISA ISOLINO SAMPAIO
+  subscricao: "1431"
+  id: "244"
+  created_at: 
+  empresa_id: "1"
+alunos_374: 
+  updated_at: 
+  nome: "Andr\xE9 Freitas Pinto"
+  subscricao: "56"
+  id: "376"
+  created_at: 
+  empresa_id: "1"
+alunos_1306: 
+  updated_at: 2008-03-19 15:44:17
+  nome: 5% ELIAS TIAGO A. CERQUEIRA
+  subscricao: "1499"
+  id: "1308"
+  created_at: 2008-03-19 15:44:17
+  empresa_id: "1"
+alunos_929: 
+  updated_at: 
+  nome: Monique  Evely Santos Caldas
+  subscricao: "667"
+  id: "931"
+  created_at: 
+  empresa_id: "1"
+alunos_111: 
+  updated_at: 
+  nome: "# THAYENE PAULA VIEIRA DA SILVA"
+  subscricao: "1299"
+  id: "113"
+  created_at: 
+  empresa_id: "1"
+alunos_243: 
+  updated_at: 
+  nome: 5% KELLY LOPES FIGUEIRA
+  subscricao: "1421"
+  id: "245"
+  created_at: 
+  empresa_id: "1"
+alunos_375: 
+  updated_at: 
+  nome: Consuelo de Maria D'avila Lopes
+  subscricao: "57"
+  id: "377"
+  created_at: 
+  empresa_id: "1"
+alunos_112: 
+  updated_at: 
+  nome: 5% ELANE ANDREZA DOS SANTOS FERREIRA
+  subscricao: "1300"
+  id: "114"
+  created_at: 
+  empresa_id: "1"
+alunos_244: 
+  updated_at: 
+  nome: 5% SIGRID MARQUES EPIFANIO
+  subscricao: "1432"
+  id: "246"
+  created_at: 
+  empresa_id: "1"
+alunos_376: 
+  updated_at: 
+  nome: "Angelza Lekakis de Nazar\xE9"
+  subscricao: "58"
+  id: "378"
+  created_at: 
+  empresa_id: "1"
+alunos_1307: 
+  updated_at: 2008-03-19 15:46:15
+  nome: 5% PAULO MICHAEL NORONHA DE MENEZES
+  subscricao: "1500"
+  id: "1309"
+  created_at: 2008-03-19 15:46:15
+  empresa_id: "1"
+alunos_930: 
+  updated_at: 
+  nome: "Cristiana  Concei\xE7\xE3o Rocha Santos"
+  subscricao: "668"
+  id: "932"
+  created_at: 
+  empresa_id: "1"
+alunos_113: 
+  updated_at: 
+  nome: "# BIANCA LOPES DE ALMEIDA DE ALBUQUERQUE"
+  subscricao: "1301"
+  id: "115"
+  created_at: 
+  empresa_id: "1"
+alunos_245: 
+  updated_at: 
+  nome: 5% GEZIEL SENA COLARES
+  subscricao: "1433"
+  id: "247"
+  created_at: 
+  empresa_id: "1"
+alunos_377: 
+  updated_at: 
+  nome: "Ronisom de S\xE1 Barbosa"
+  subscricao: "59"
+  id: "379"
+  created_at: 
+  empresa_id: "1"
+alunos_1308: 
+  updated_at: 2008-03-19 15:57:34
+  nome: 5% MARCIO PAZ LORDEIRO BARBOSA
+  subscricao: "1501"
+  id: "1310"
+  created_at: 2008-03-19 15:57:34
+  empresa_id: "1"
+alunos_114: 
+  updated_at: 
+  nome: "# ANA CECILIA LOPES DE ALBUQUERQUE"
+  subscricao: "1302"
+  id: "116"
+  created_at: 
+  empresa_id: "1"
+alunos_246: 
+  updated_at: 
+  nome: 5% KEIKO FUKUMOTO
+  subscricao: "1434"
+  id: "248"
+  created_at: 
+  empresa_id: "1"
+alunos_378: 
+  updated_at: 
+  nome: "Lu\xEDs  S\xE1vio Pinheiro"
+  subscricao: "60"
+  id: "380"
+  created_at: 
+  empresa_id: "1"
+alunos_1309: 
+  updated_at: 2008-03-19 16:07:26
+  nome: 5% TELMA DO SOCORRO DA SILVA
+  subscricao: "1502"
+  id: "1311"
+  created_at: 2008-03-19 16:07:26
+  empresa_id: "1"
+alunos_931: 
+  updated_at: 
+  nome: Aldenor  Oliveira de Souza
+  subscricao: "669"
+  id: "933"
+  created_at: 
+  empresa_id: "1"
+alunos_115: 
+  updated_at: 
+  nome: 5% FABIOLA SILVA DOS SANTOS
+  subscricao: "1303"
+  id: "117"
+  created_at: 
+  empresa_id: "1"
+alunos_247: 
+  updated_at: 
+  nome: 5% ANDRE LUIZ FREIRE
+  subscricao: "1435"
+  id: "249"
+  created_at: 
+  empresa_id: "1"
+alunos_379: 
+  updated_at: 
+  nome: Erica Patricia Mota Siqueira
+  subscricao: "61"
+  id: "381"
+  created_at: 
+  empresa_id: "1"
+alunos_932: 
+  updated_at: 
+  nome: Marcelo  Marques Lobo
+  subscricao: "670"
+  id: "934"
+  created_at: 
+  empresa_id: "1"
+alunos_800: 
+  updated_at: 
+  nome: Viviane  Pimentel dos Santos
+  subscricao: "522"
+  id: "802"
+  created_at: 
+  empresa_id: "1"
+alunos_116: 
+  updated_at: 
+  nome: 5% PRISCILA DE SOUZA ROCHA
+  subscricao: "1304"
+  id: "118"
+  created_at: 
+  empresa_id: "1"
+alunos_248: 
+  updated_at: 
+  nome: 5% MILENA REANI SABBADINI
+  subscricao: "1436"
+  id: "250"
+  created_at: 
+  empresa_id: "1"
+alunos_1310: 
+  updated_at: 2008-03-19 16:09:48
+  nome: "5% F\xC1BIO DE LIMA SIMAS"
+  subscricao: "1503"
+  id: "1312"
+  created_at: 2008-03-19 16:09:48
+  empresa_id: "1"
+alunos_933: 
+  updated_at: 
+  nome: Jarlison  de Sousa Monteiro
+  subscricao: "671"
+  id: "935"
+  created_at: 
+  empresa_id: "1"
+alunos_801: 
+  updated_at: 
+  nome: Alexsandra Farias de Lima Santos
+  subscricao: "523"
+  id: "803"
+  created_at: 
+  empresa_id: "1"
+alunos_1311: 
+  updated_at: 2008-03-19 16:13:37
+  nome: 5% JULIANA RAMOS DA SILVA TORRES
+  subscricao: "1504"
+  id: "1313"
+  created_at: 2008-03-19 16:13:37
+  empresa_id: "1"
+alunos_934: 
+  updated_at: 
+  nome: Terman  Monteiro do Nascimento
+  subscricao: "672"
+  id: "936"
+  created_at: 
+  empresa_id: "1"
+alunos_802: 
+  updated_at: 
+  nome: "Heliel Francin\xE9 Amaro"
+  subscricao: "524"
+  id: "804"
+  created_at: 
+  empresa_id: "1"
+alunos_380: 
+  updated_at: 
+  nome: Andreza Oliveira Silva
+  subscricao: "62"
+  id: "382"
+  created_at: 
+  empresa_id: "1"
+alunos_117: 
+  updated_at: 
+  nome: 5% THIBERIUS VITAL PEREIRA DE SOUZA
+  subscricao: "1305"
+  id: "119"
+  created_at: 
+  empresa_id: "1"
+alunos_249: 
+  updated_at: 
+  nome: 5% CRYSTHEANNY QUEIROZ DE OTAIDE
+  subscricao: "1437"
+  id: "251"
+  created_at: 
+  empresa_id: "1"
+alunos_1312: 
+  updated_at: 2008-03-19 16:29:22
+  nome: 5% TIMOTEO GOMES DA SILVA
+  subscricao: "1505"
+  id: "1314"
+  created_at: 2008-03-19 16:29:22
+  empresa_id: "1"
+alunos_935: 
+  updated_at: 
+  nome: Edson  Silva de Souza
+  subscricao: "673"
+  id: "937"
+  created_at: 
+  empresa_id: "1"
+alunos_803: 
+  updated_at: 
+  nome: Alex  Araujo Affonso Rego
+  subscricao: "525"
+  id: "805"
+  created_at: 
+  empresa_id: "1"
+alunos_381: 
+  updated_at: 
+  nome: Elisabete Martins Pereira
+  subscricao: "63"
+  id: "383"
+  created_at: 
+  empresa_id: "1"
+alunos_118: 
+  updated_at: 
+  nome: 5% ARTHEMIS FABIOLA RODRIGUES TEIXEIRA
+  subscricao: "1306"
+  id: "120"
+  created_at: 
+  empresa_id: "1"
+alunos_1313: 
+  updated_at: 2008-03-19 16:34:06
+  nome: 5% JOICY GIL DE SOUZA
+  subscricao: "1506"
+  id: "1315"
+  created_at: 2008-03-19 16:34:06
+  empresa_id: "1"
+alunos_936: 
+  updated_at: 
+  nome: "\xC9der  Penha dos Santos"
+  subscricao: "674"
+  id: "938"
+  created_at: 
+  empresa_id: "1"
+alunos_804: 
+  updated_at: 
+  nome: Christian Borges Andretti
+  subscricao: "526"
+  id: "806"
+  created_at: 
+  empresa_id: "1"
+alunos_250: 
+  updated_at: 
+  nome: 5% CIRO LUIS PEREIRA DA SILVA
+  subscricao: "1438"
+  id: "252"
+  created_at: 
+  empresa_id: "1"
+alunos_382: 
+  updated_at: 
+  nome: Rainny Whenna Melo Lemos
+  subscricao: "64"
+  id: "384"
+  created_at: 
+  empresa_id: "1"
+alunos_119: 
+  updated_at: 
+  nome: 5% DEBORAH CRISTINA DO NASCIMENTO
+  subscricao: "1307"
+  id: "121"
+  created_at: 
+  empresa_id: "1"
+alunos_1314: 
+  updated_at: 2008-03-19 16:38:19
+  nome: (LIGHT) FRANCISCA KATIA TAVARES VASCONCELOS
+  subscricao: "1507"
+  id: "1316"
+  created_at: 2008-03-19 16:38:19
+  empresa_id: "1"
+alunos_937: 
+  updated_at: 
+  nome: Fernanda de Oliveira Lima
+  subscricao: "675"
+  id: "939"
+  created_at: 
+  empresa_id: "1"
+alunos_805: 
+  updated_at: 
+  nome: "D\xE9borah Guimar\xE3es dos Santos"
+  subscricao: "527"
+  id: "807"
+  created_at: 
+  empresa_id: "1"
+alunos_251: 
+  updated_at: 
+  nome: "5% ANTONIA ZILDONO\xC1RIA MOURA"
+  subscricao: "1439"
+  id: "253"
+  created_at: 
+  empresa_id: "1"
+alunos_383: 
+  updated_at: 
+  nome: Joana Toyoko Nohara
+  subscricao: "65"
+  id: "385"
+  created_at: 
+  empresa_id: "1"
+alunos_1315: 
+  updated_at: 2008-03-19 16:41:00
+  nome: 5% ERIDE JARDIM FIGUEIREDO
+  subscricao: "1508"
+  id: "1317"
+  created_at: 2008-03-19 16:41:00
+  empresa_id: "1"
+alunos_938: 
+  updated_at: 
+  nome: Carla  Renata Gomes da Silva
+  subscricao: "678"
+  id: "940"
+  created_at: 
+  empresa_id: "1"
+alunos_806: 
+  updated_at: 
+  nome: Jean  da Silva Almeida
+  subscricao: "528"
+  id: "808"
+  created_at: 
+  empresa_id: "1"
+alunos_252: 
+  updated_at: 
+  nome: 5% LUIZ FELIPE OLIVEIRA MORIKAWA
+  subscricao: "1440"
+  id: "254"
+  created_at: 
+  empresa_id: "1"
+alunos_384: 
+  updated_at: 
+  nome: Rodrigo Alexandre de Sousa
+  subscricao: "66"
+  id: "386"
+  created_at: 
+  empresa_id: "1"
+alunos_120: 
+  updated_at: 
+  nome: "# THAIS GOMES DA SILVA "
+  subscricao: "1308"
+  id: "122"
+  created_at: 
+  empresa_id: "1"
+alunos_1316: 
+  updated_at: 2008-03-19 16:43:12
+  nome: 5% DERCLEY SOUZA DE ARAUJO
+  subscricao: "1509"
+  id: "1318"
+  created_at: 2008-03-19 16:43:12
+  empresa_id: "1"
+alunos_939: 
+  updated_at: 
+  nome: Jucimar  Silva Moreira
+  subscricao: "679"
+  id: "941"
+  created_at: 
+  empresa_id: "1"
+alunos_807: 
+  updated_at: 
+  nome: "Lindolfo dos Santos Rodrigues J\xFAnior"
+  subscricao: "529"
+  id: "809"
+  created_at: 
+  empresa_id: "1"
+alunos_253: 
+  updated_at: 
+  nome: 5% DANIEL OLIVEIRA MORIKAWA
+  subscricao: "1441"
+  id: "255"
+  created_at: 
+  empresa_id: "1"
+alunos_385: 
+  updated_at: 
+  nome: Anderson da Silva Moura
+  subscricao: "67"
+  id: "387"
+  created_at: 
+  empresa_id: "1"
+alunos_121: 
+  updated_at: 
+  nome: 5% CLEIDE ALVES BERTOLDO
+  subscricao: "1309"
+  id: "123"
+  created_at: 
+  empresa_id: "1"
+alunos_1317: 
+  updated_at: 2008-03-19 16:45:28
+  nome: 5% FRANCISCO CARLOS CARVALHO DE CASTRO
+  subscricao: "1510"
+  id: "1319"
+  created_at: 2008-03-19 16:45:28
+  empresa_id: "1"
+alunos_808: 
+  updated_at: 
+  nome: Rita Caroline Gomes da Silva
+  subscricao: "530"
+  id: "810"
+  created_at: 
+  empresa_id: "1"
+alunos_254: 
+  updated_at: 
+  nome: 5% CLENIR VIANA GUIMARAES
+  subscricao: "1442"
+  id: "256"
+  created_at: 
+  empresa_id: "1"
+alunos_386: 
+  updated_at: 
+  nome: Ana  Paula da Silva Albuquerque
+  subscricao: "68"
+  id: "388"
+  created_at: 
+  empresa_id: "1"
+alunos_122: 
+  updated_at: 
+  nome: 5% KETLEN CAMPELO DE CASTRO
+  subscricao: "1310"
+  id: "124"
+  created_at: 
+  empresa_id: "1"
+alunos_940: 
+  updated_at: 
+  nome: David  Xavier de Souza
+  subscricao: "680"
+  id: "942"
+  created_at: 
+  empresa_id: "1"
+alunos_809: 
+  updated_at: 
+  nome: Pedro  Henrique Marinho Pereira
+  subscricao: "531"
+  id: "811"
+  created_at: 
+  empresa_id: "1"
+alunos_255: 
+  updated_at: 
+  nome: 5% CLEUDO MALVEIRA MOURA JUNIOR
+  subscricao: "1443"
+  id: "257"
+  created_at: 
+  empresa_id: "1"
+alunos_387: 
+  updated_at: 
+  nome: Odenilson Barroso Bruce
+  subscricao: "69"
+  id: "389"
+  created_at: 
+  empresa_id: "1"
+alunos_123: 
+  updated_at: 
+  nome: 5% ANDERSON CLAITON LIMA
+  subscricao: "1311"
+  id: "125"
+  created_at: 
+  empresa_id: "1"
+alunos_1318: 
+  updated_at: 2008-03-19 17:34:01
+  nome: "5% THAYNARA DA COSTA L\xCADA"
+  subscricao: "1511"
+  id: "1320"
+  created_at: 2008-03-19 17:34:01
+  empresa_id: "1"
+alunos_941: 
+  updated_at: 
+  nome: Ana  Laura Neves Nery
+  subscricao: "681"
+  id: "943"
+  created_at: 
+  empresa_id: "1"
+alunos_256: 
+  updated_at: 
+  nome: 5% GIOVANNA CAMPOS DA SILVA
+  subscricao: "1444"
+  id: "258"
+  created_at: 
+  empresa_id: "1"
+alunos_388: 
+  updated_at: 
+  nome: Fernando Soares Liberato
+  subscricao: "70"
+  id: "390"
+  created_at: 
+  empresa_id: "1"
+alunos_124: 
+  updated_at: 
+  nome: 5% MARIA DE LURDES
+  subscricao: "1312"
+  id: "126"
+  created_at: 
+  empresa_id: "1"
+alunos_1319: 
+  updated_at: 2008-03-19 17:34:05
+  nome: 5% LUANNA MENDES DE OLIVEIRA
+  subscricao: "1245"
+  id: "1321"
+  created_at: 2008-03-19 17:34:05
+  empresa_id: "1"
+alunos_257: 
+  updated_at: 
+  nome: 5% LAYLA MARYS DE ALMEIDA
+  subscricao: "1445"
+  id: "259"
+  created_at: 
+  empresa_id: "1"
+alunos_389: 
+  updated_at: 
+  nome: Adrianderson Freire Araujo da Rocha
+  subscricao: "71"
+  id: "391"
+  created_at: 
+  empresa_id: "1"
+alunos_125: 
+  updated_at: 
+  nome: 5% JESSICA SAID CARUTA DE SOUZA
+  subscricao: "1313"
+  id: "127"
+  created_at: 
+  empresa_id: "1"
+alunos_942: 
+  updated_at: 
+  nome: "Ridil  Jos\xE9 Souza de Carvalho"
+  subscricao: "682"
+  id: "944"
+  created_at: 
+  empresa_id: "1"
+alunos_810: 
+  updated_at: 
+  nome: Wellington Arouca Maia
+  subscricao: "532"
+  id: "812"
+  created_at: 
+  empresa_id: "1"
+alunos_126: 
+  updated_at: 
+  nome: "5% NAYARA SERR\xC3O DA SILVA"
+  subscricao: "1314"
+  id: "128"
+  created_at: 
+  empresa_id: "1"
+alunos_258: 
+  updated_at: 
+  nome: 5% MARCONDES VIANA PINHEIRO
+  subscricao: "1446"
+  id: "260"
+  created_at: 
+  empresa_id: "1"
+alunos_1320: 
+  updated_at: 2008-03-19 17:37:03
+  nome: 5% CAROLINA DE LIMA MARTINS
+  subscricao: "1226"
+  id: "1322"
+  created_at: 2008-03-19 17:37:03
+  empresa_id: "1"
+alunos_943: 
+  updated_at: 
+  nome: Amanda  Cajueiro de Souza
+  subscricao: "683"
+  id: "945"
+  created_at: 
+  empresa_id: "1"
+alunos_811: 
+  updated_at: 
+  nome: "Maxbel Corr\xEAa Cabral"
+  subscricao: "533"
+  id: "813"
+  created_at: 
+  empresa_id: "1"
+alunos_127: 
+  updated_at: 
+  nome: 5% ANA PRISCILA SOARES MAIA
+  subscricao: "1315"
+  id: "129"
+  created_at: 
+  empresa_id: "1"
+alunos_259: 
+  updated_at: 
+  nome: 5% ALINE AQUINO DE CASTRO
+  subscricao: "1447"
+  id: "261"
+  created_at: 
+  empresa_id: "1"
+alunos_1321: 
+  updated_at: 2008-03-20 09:08:10
+  nome: 5% IONE JAIDA DA SILVA ANGELINA BRITO
+  subscricao: "1512"
+  id: "1323"
+  created_at: 2008-03-20 09:08:10
+  empresa_id: "1"
+alunos_944: 
+  updated_at: 
+  nome: "Alex Gon\xE7alves S\xE1"
+  subscricao: "684"
+  id: "946"
+  created_at: 
+  empresa_id: "1"
+alunos_812: 
+  updated_at: 
+  nome: "Rog\xE9rio  Lima dos Santos"
+  subscricao: "534"
+  id: "814"
+  created_at: 
+  empresa_id: "1"
+alunos_390: 
+  updated_at: 
+  nome: "Vanderl\xE9ia  Paix\xE3o Calixto"
+  subscricao: "72"
+  id: "392"
+  created_at: 
+  empresa_id: "1"
+alunos_1322: 
+  updated_at: 2008-03-26 09:19:36
+  nome: "5% ANTONIO MARCUS ARA\xDAJO DA SILVA"
+  subscricao: "1178"
+  id: "1324"
+  created_at: 2008-03-26 09:19:36
+  empresa_id: "1"
+alunos_945: 
+  updated_at: 
+  nome: Erick Lima Camdiff
+  subscricao: "685"
+  id: "947"
+  created_at: 
+  empresa_id: "1"
+alunos_813: 
+  updated_at: 
+  nome: Cristiane Silva Lins
+  subscricao: "535"
+  id: "815"
+  created_at: 
+  empresa_id: "1"
+alunos_391: 
+  updated_at: 
+  nome: Hemerson Jean Calixto
+  subscricao: "73"
+  id: "393"
+  created_at: 
+  empresa_id: "1"
+alunos_128: 
+  updated_at: 
+  nome: 5% HASLLEY QUEIROZ FREITAS
+  subscricao: "1316"
+  id: "130"
+  created_at: 
+  empresa_id: "1"
+alunos_1323: 
+  updated_at: 2008-03-26 09:22:04
+  nome: 5% ELINE SOCORRO R. LAURIA
+  subscricao: "1253"
+  id: "1325"
+  created_at: 2008-03-26 09:22:04
+  empresa_id: "1"
+alunos_946: 
+  updated_at: 
+  nome: Jayne  Ferreira Trindade
+  subscricao: "686"
+  id: "948"
+  created_at: 
+  empresa_id: "1"
+alunos_814: 
+  updated_at: 
+  nome: Elina  Cristian Vieira de Oliveira
+  subscricao: "536"
+  id: "816"
+  created_at: 
+  empresa_id: "1"
+alunos_260: 
+  updated_at: 
+  nome: 5% GILCIFRAN NEMEZIO FARIAS PONTES
+  subscricao: "1448"
+  id: "262"
+  created_at: 
+  empresa_id: "1"
+alunos_392: 
+  updated_at: 
+  nome: Luciano  Pimentel do Nascimento
+  subscricao: "74"
+  id: "394"
+  created_at: 
+  empresa_id: "1"
+alunos_129: 
+  updated_at: 
+  nome: "5% RAWLYSON PEREIRA DE SENA "
+  subscricao: "1317"
+  id: "131"
+  created_at: 
+  empresa_id: "1"
+alunos_1324: 
+  updated_at: 2008-03-26 09:24:48
+  nome: 5% FABRICIA MARIA DABELA CORREA
+  subscricao: "1191"
+  id: "1326"
+  created_at: 2008-03-26 09:24:48
+  empresa_id: "1"
+alunos_947: 
+  updated_at: 
+  nome: Jayana Ferreira Trindade
+  subscricao: "687"
+  id: "949"
+  created_at: 
+  empresa_id: "1"
+alunos_815: 
+  updated_at: 
+  nome: Claudia de Albuquerque Dias
+  subscricao: "537"
+  id: "817"
+  created_at: 
+  empresa_id: "1"
+alunos_261: 
+  updated_at: 
+  nome: 5% KENIA KAUBE COSTA MATTROODT
+  subscricao: "1449"
+  id: "263"
+  created_at: 
+  empresa_id: "1"
+alunos_393: 
+  updated_at: 
+  nome: Elizomara Pereira do Nascimento
+  subscricao: "75"
+  id: "395"
+  created_at: 
+  empresa_id: "1"
+alunos_1325: 
+  updated_at: 2008-03-26 09:26:59
+  nome: 5% DENIS MARCELO BOLHOSA SILVA
+  subscricao: "1179"
+  id: "1327"
+  created_at: 2008-03-26 09:26:59
+  empresa_id: "1"
+alunos_948: 
+  updated_at: 
+  nome: Doriedson Souza Dias
+  subscricao: "688"
+  id: "950"
+  created_at: 
+  empresa_id: "1"
+alunos_816: 
+  updated_at: 
+  nome: "Jocicl\xE9ia  Delima Nobre"
+  subscricao: "538"
+  id: "818"
+  created_at: 
+  empresa_id: "1"
+alunos_130: 
+  updated_at: 
+  nome: "5% VALDA MARIA BATISTA LE\xC3O"
+  subscricao: "1318"
+  id: "132"
+  created_at: 
+  empresa_id: "1"
+alunos_262: 
+  updated_at: 
+  nome: 5% LUCIANA DE SOUZA NEVES
+  subscricao: "1450"
+  id: "264"
+  created_at: 
+  empresa_id: "1"
+alunos_394: 
+  updated_at: 
+  nome: "Jos\xE9 Geraldo Gon\xE7alves Almeida"
+  subscricao: "76"
+  id: "396"
+  created_at: 
+  empresa_id: "1"
+alunos_1326: 
+  updated_at: 2008-03-28 20:46:39
+  nome: 5% PRISCILA MALTA DE ARAUJO
+  subscricao: "1513"
+  id: "1328"
+  created_at: 2008-03-28 20:46:39
+  empresa_id: "1"
+alunos_949: 
+  updated_at: 
+  nome: Samuel Castilho Coelho da Costa
+  subscricao: "689"
+  id: "951"
+  created_at: 
+  empresa_id: "1"
+alunos_817: 
+  updated_at: 
+  nome: "Gen\xE1rio Benedito Gon\xE7alves"
+  subscricao: "539"
+  id: "819"
+  created_at: 
+  empresa_id: "1"
+alunos_131: 
+  updated_at: 
+  nome: 5% LEANDRO MAZZI
+  subscricao: "1319"
+  id: "133"
+  created_at: 
+  empresa_id: "1"
+alunos_263: 
+  updated_at: 
+  nome: 5% MATHEUS CORREA CANDIDO FERREIRA
+  subscricao: "1451"
+  id: "265"
+  created_at: 
+  empresa_id: "1"
+alunos_395: 
+  updated_at: 
+  nome: Kamila  de Castro Cavalcante
+  subscricao: "77"
+  id: "397"
+  created_at: 
+  empresa_id: "1"
+alunos_1327: 
+  updated_at: 2008-03-28 20:49:05
+  nome: 5% GISELE MORAES DE SOUZA
+  subscricao: "1225"
+  id: "1329"
+  created_at: 2008-03-28 20:49:05
+  empresa_id: "1"
+alunos_818: 
+  updated_at: 
+  nome: Iomara Alves da Silva
+  subscricao: "540"
+  id: "820"
+  created_at: 
+  empresa_id: "1"
+alunos_132: 
+  updated_at: 
+  nome: 5% RAYANNE GOMES DIAS
+  subscricao: "1320"
+  id: "134"
+  created_at: 
+  empresa_id: "1"
+alunos_264: 
+  updated_at: 
+  nome: 5% ALEXANDRE NASCIMENTO AMORIM
+  subscricao: "1452"
+  id: "266"
+  created_at: 
+  empresa_id: "1"
+alunos_396: 
+  updated_at: 
+  nome: Priscila Moreira Santana
+  subscricao: "78"
+  id: "398"
+  created_at: 
+  empresa_id: "1"
+alunos_1328: 
+  updated_at: 2008-03-28 20:51:00
+  nome: 5% THENNYLLE ANDRADE NAVARRO
+  subscricao: "1514"
+  id: "1330"
+  created_at: 2008-03-28 20:51:00
+  empresa_id: "1"
+alunos_950: 
+  updated_at: 
+  nome: Maria  Delma Moraes da Silva
+  subscricao: "690"
+  id: "952"
+  created_at: 
+  empresa_id: "1"
+alunos_819: 
+  updated_at: 
+  nome: "Josiane Tavares Guimar\xE3es Carli"
+  subscricao: "541"
+  id: "821"
+  created_at: 
+  empresa_id: "1"
+alunos_001: 
+  updated_at: 
+  nome: "5% Andr\xE9 Ara\xFAjo e Silva"
+  subscricao: "1004"
+  id: "3"
+  created_at: 
+  empresa_id: "1"
+alunos_133: 
+  updated_at: 
+  nome: 5% NIVALDO BEHCHIER VELOSO
+  subscricao: "1321"
+  id: "135"
+  created_at: 
+  empresa_id: "1"
+alunos_265: 
+  updated_at: 
+  nome: 5% WALLAVY LEAL DA SILVA
+  subscricao: "1453"
+  id: "267"
+  created_at: 
+  empresa_id: "1"
+alunos_397: 
+  updated_at: 
+  nome: Willian Martins do Nascimento
+  subscricao: "79"
+  id: "399"
+  created_at: 
+  empresa_id: "1"
+alunos_951: 
+  updated_at: 
+  nome: Rodson Nascimento de Carvalho
+  subscricao: "691"
+  id: "953"
+  created_at: 
+  empresa_id: "1"
+alunos_002: 
+  updated_at: 
+  nome: "Adelia R\xEAgo Corr\xEAa Menin\xE9a"
+  subscricao: "842"
+  id: "4"
+  created_at: 
+  empresa_id: "1"
+alunos_134: 
+  updated_at: 
+  nome: 5% NILCELENE RIBEIRO TEXEIRA SANTOS
+  subscricao: "1322"
+  id: "136"
+  created_at: 
+  empresa_id: "1"
+alunos_266: 
+  updated_at: 
+  nome: 5% CARINA MARIA NAVEGANTES DIAS
+  subscricao: "1454"
+  id: "268"
+  created_at: 
+  empresa_id: "1"
+alunos_398: 
+  updated_at: 
+  nome: "Leonardo Sim\xE3o Coelho Guimar\xE3es"
+  subscricao: "80"
+  id: "400"
+  created_at: 
+  empresa_id: "1"
+alunos_1329: 
+  updated_at: 2008-03-28 20:54:01
+  nome: 5% JANDERCLEIDE ROCHA DE SOUZA
+  subscricao: "1515"
+  id: "1331"
+  created_at: 2008-03-28 20:54:01
+  empresa_id: "1"
+alunos_952: 
+  updated_at: 
+  nome: "Geysa V\xE9ras de Oliveira"
+  subscricao: "692"
+  id: "954"
+  created_at: 
+  empresa_id: "1"
+alunos_820: 
+  updated_at: 
+  nome: Sulamita da Silva Nascimento
+  subscricao: "542"
+  id: "822"
+  created_at: 
+  empresa_id: "1"
+alunos_003: 
+  updated_at: 
+  nome: "Fabr\xEDcio  Dantas de Sousa"
+  subscricao: "787"
+  id: "5"
+  created_at: 
+  empresa_id: "1"
+alunos_135: 
+  updated_at: 
+  nome: 5% MARIA ELAINE SANTOS LINS
+  subscricao: "1323"
+  id: "137"
+  created_at: 
+  empresa_id: "1"
+alunos_267: 
+  updated_at: 
+  nome: 5% SOCRATES FELIPE F.MACHADO
+  subscricao: "1455"
+  id: "269"
+  created_at: 
+  empresa_id: "1"
+alunos_399: 
+  updated_at: 
+  nome: Rosanne Pereira Pires
+  subscricao: "81"
+  id: "401"
+  created_at: 
+  empresa_id: "1"
+alunos_004: 
+  updated_at: 
+  nome: Ildimar Colares da Silva
+  subscricao: "623"
+  id: "6"
+  created_at: 
+  empresa_id: "1"
+alunos_136: 
+  updated_at: 
+  nome: 5% BELARMINO ALBERTO DE BARROS LINS
+  subscricao: "1324"
+  id: "138"
+  created_at: 
+  empresa_id: "1"
+alunos_268: 
+  updated_at: 
+  nome: 5% KATLEN WAKIM HANNA WAKIM
+  subscricao: "1456"
+  id: "270"
+  created_at: 
+  empresa_id: "1"
+alunos_1330: 
+  updated_at: 2008-03-28 20:58:15
+  nome: (LIGHT) QUEZIA CARVALHO MOURA
+  subscricao: "1516"
+  id: "1332"
+  created_at: 2008-03-28 20:58:15
+  empresa_id: "1"
+alunos_953: 
+  updated_at: 
+  nome: "D\xE9bora  Claro Granciero"
+  subscricao: "693"
+  id: "955"
+  created_at: 
+  empresa_id: "1"
+alunos_821: 
+  updated_at: 
+  nome: Aline Esteves de Lima
+  subscricao: "543"
+  id: "823"
+  created_at: 
+  empresa_id: "1"
+alunos_005: 
+  updated_at: 
+  nome: Erika  Dixo de Pavxis
+  subscricao: "847"
+  id: "7"
+  created_at: 
+  empresa_id: "1"
+alunos_137: 
+  updated_at: 
+  nome: "# BRENNA KELEM MELLO DE FREITAS"
+  subscricao: "1325"
+  id: "139"
+  created_at: 
+  empresa_id: "1"
+alunos_269: 
+  updated_at: 
+  nome: 5% HERMINIO LELIO LOPES SILVA
+  subscricao: "1457"
+  id: "271"
+  created_at: 
+  empresa_id: "1"
+alunos_1331: 
+  updated_at: 2008-03-28 21:00:50
+  nome: 5% ADRIANA GONZAGA DE MOURA
+  subscricao: "1517"
+  id: "1333"
+  created_at: 2008-03-28 21:00:50
+  empresa_id: "1"
+alunos_954: 
+  updated_at: 2008-03-19 21:51:00
+  nome: "Ivan  Jo\xE3o da Silva"
+  subscricao: "694"
+  id: "956"
+  created_at: 
+  empresa_id: "1"
+alunos_822: 
+  updated_at: 
+  nome: Afonso Degmar Ribas
+  subscricao: "544"
+  id: "824"
+  created_at: 
+  empresa_id: "1"
+alunos_006: 
+  updated_at: 
+  nome: Edinalva  Moraes da Silva
+  subscricao: "517"
+  id: "8"
+  created_at: 
+  empresa_id: "1"
+alunos_138: 
+  updated_at: 
+  nome: 5% JOSELIA ANTONIA SILVA LIMA
+  subscricao: "1326"
+  id: "140"
+  created_at: 
+  empresa_id: "1"
+alunos_1332: 
+  updated_at: 2008-03-28 21:03:10
+  nome: 5% FLAVIO MIGUEL DA SILVA VIANA
+  subscricao: "1518"
+  id: "1334"
+  created_at: 2008-03-28 21:03:10
+  empresa_id: "1"
+alunos_1200: 
+  updated_at: 
+  nome: 5% Camila Gomes dos Santos
+  subscricao: "973"
+  id: "1202"
+  created_at: 
+  empresa_id: "1"
+alunos_955: 
+  updated_at: 
+  nome: Luciana  Siqueira de Medeiros Vieira
+  subscricao: "696"
+  id: "957"
+  created_at: 
+  empresa_id: "1"
+alunos_823: 
+  updated_at: 
+  nome: Leandro Martins de Oliveira
+  subscricao: "546"
+  id: "825"
+  created_at: 
+  empresa_id: "1"
+alunos_1333: 
+  updated_at: 2008-03-28 21:06:11
+  nome: "5% PATRICE GADELHA CUNHA "
+  subscricao: "1519"
+  id: "1335"
+  created_at: 2008-03-28 21:06:11
+  empresa_id: "1"
+alunos_1201: 
+  updated_at: 
+  nome: 5% Eudes Horacio Teotonio da Silva
+  subscricao: "974"
+  id: "1203"
+  created_at: 
+  empresa_id: "1"
+alunos_956: 
+  updated_at: 
+  nome: Anaclecia Silva de Souza
+  subscricao: "697"
+  id: "958"
+  created_at: 
+  empresa_id: "1"
+alunos_824: 
+  updated_at: 
+  nome: Eduardo Lins Mota
+  subscricao: "547"
+  id: "826"
+  created_at: 
+  empresa_id: "1"
+alunos_270: 
+  updated_at: 
+  nome: 5% FELIPE COSMO CID SALVIANO
+  subscricao: "1458"
+  id: "272"
+  created_at: 
+  empresa_id: "1"
+alunos_007: 
+  updated_at: 
+  nome: Lorena Figueiredo Mousinho
+  subscricao: "631"
+  id: "9"
+  created_at: 
+  empresa_id: "1"
+alunos_139: 
+  updated_at: 
+  nome: ROBERTA DE OLIVEIRA PINTO
+  subscricao: "1327"
+  id: "141"
+  created_at: 
+  empresa_id: "1"
+alunos_1334: 
+  updated_at: 2008-03-28 21:08:24
+  nome: 5% RAIF ARRUDA SABBAG LOW
+  subscricao: "1520"
+  id: "1336"
+  created_at: 2008-03-28 21:08:24
+  empresa_id: "1"
+alunos_1202: 
+  updated_at: 
+  nome: 5% Fellipe Thomas Gomes dos Santos
+  subscricao: "975"
+  id: "1204"
+  created_at: 
+  empresa_id: "1"
+alunos_957: 
+  updated_at: 
+  nome: Carolina  Silva de Oliveira
+  subscricao: "698"
+  id: "959"
+  created_at: 
+  empresa_id: "1"
+alunos_825: 
+  updated_at: 
+  nome: Delival Botelho
+  subscricao: "548"
+  id: "827"
+  created_at: 
+  empresa_id: "1"
+alunos_271: 
+  updated_at: 
+  nome: 5% JULLIANA LAMEIRA SANTOS FERREIRA
+  subscricao: "1459"
+  id: "273"
+  created_at: 
+  empresa_id: "1"
+alunos_008: 
+  updated_at: 
+  nome: Carina Maria Navegante Dias
+  subscricao: "166"
+  id: "10"
+  created_at: 
+  empresa_id: "1"
+alunos_1335: 
+  updated_at: 2008-03-28 21:13:10
+  nome: "5% FABRICIO JOS\xC9 SANTIAGO SILVA"
+  subscricao: "1521"
+  id: "1337"
+  created_at: 2008-03-28 21:13:10
+  empresa_id: "1"
+alunos_1203: 
+  updated_at: 
+  nome: "5% Simone de Ara\xFAjo Barroso"
+  subscricao: "976"
+  id: "1205"
+  created_at: 
+  empresa_id: "1"
+alunos_958: 
+  updated_at: 
+  nome: Ana  Carolina do Nascimento Fonseca
+  subscricao: "699"
+  id: "960"
+  created_at: 
+  empresa_id: "1"
+alunos_826: 
+  updated_at: 
+  nome: "S\xF4nia  Maria de Melo Lima"
+  subscricao: "549"
+  id: "828"
+  created_at: 
+  empresa_id: "1"
+alunos_140: 
+  updated_at: 
+  nome: 5% DENIS BOTELHO DA SILVA
+  subscricao: "1328"
+  id: "142"
+  created_at: 
+  empresa_id: "1"
+alunos_272: 
+  updated_at: 
+  nome: 5% ANDERSON SERAFIM DE OLIVEIRA
+  subscricao: "1460"
+  id: "274"
+  created_at: 
+  empresa_id: "1"
+alunos_009: 
+  updated_at: 
+  nome: "5% F\xC1BIO HEINER MORAES DE OLIVEIRA"
+  subscricao: "1255"
+  id: "11"
+  created_at: 
+  empresa_id: "1"
+alunos_1336: 
+  updated_at: 2008-03-28 21:15:34
+  nome: 5% ADLYNIZ MONIK EVANGELISTA MACIEL
+  subscricao: "1522"
+  id: "1338"
+  created_at: 2008-03-28 21:15:34
+  empresa_id: "1"
+alunos_1204: 
+  updated_at: 
+  nome: 5% Idelice de Jesus Mendes
+  subscricao: "977"
+  id: "1206"
+  created_at: 
+  empresa_id: "1"
+alunos_959: 
+  updated_at: 
+  nome: Simone  do Nascimento de Brito
+  subscricao: "700"
+  id: "961"
+  created_at: 
+  empresa_id: "1"
+alunos_827: 
+  updated_at: 
+  nome: Carlos Nilson Baima de Almeida
+  subscricao: "550"
+  id: "829"
+  created_at: 
+  empresa_id: "1"
+alunos_141: 
+  updated_at: 
+  nome: "5% NIULENE DE C\xC1SSIA GAMA PRIANTE"
+  subscricao: "1329"
+  id: "143"
+  created_at: 
+  empresa_id: "1"
+alunos_273: 
+  updated_at: 
+  nome: "5% SILVIA ARA\xDAJO AZEVEDO"
+  subscricao: "1461"
+  id: "275"
+  created_at: 
+  empresa_id: "1"
+alunos_1337: 
+  updated_at: 2008-03-28 21:18:17
+  nome: 5% ELIUDE LIMA DE ALMEIDA
+  subscricao: "1523"
+  id: "1339"
+  created_at: 2008-03-28 21:18:17
+  empresa_id: "1"
+alunos_1205: 
+  updated_at: 
+  nome: 5% Patricia Marialva da Silva
+  subscricao: "978"
+  id: "1207"
+  created_at: 
+  empresa_id: "1"
+alunos_828: 
+  updated_at: 
+  nome: Adalberto Lino da Silva Junior
+  subscricao: "551"
+  id: "830"
+  created_at: 
+  empresa_id: "1"
+alunos_010: 
+  updated_at: 
+  nome: Rudson  Adames Pantoja
+  subscricao: "566"
+  id: "12"
+  created_at: 
+  empresa_id: "1"
+alunos_142: 
+  updated_at: 
+  nome: 5% RAFAEL NASCIMENTO DE FREITAS
+  subscricao: "1330"
+  id: "144"
+  created_at: 
+  empresa_id: "1"
+alunos_274: 
+  updated_at: 
+  nome: 5% JOSIENE PINTO FERREIRA
+  subscricao: "1462"
+  id: "276"
+  created_at: 
+  empresa_id: "1"
+alunos_1338: 
+  updated_at: 2008-03-28 21:22:29
+  nome: 5% JORGE RODRIGO SILVA
+  subscricao: "1524"
+  id: "1340"
+  created_at: 2008-03-28 21:22:29
+  empresa_id: "1"
+alunos_1206: 
+  updated_at: 
+  nome: Gleusy Coelho de Queiroz
+  subscricao: "980"
+  id: "1208"
+  created_at: 
+  empresa_id: "1"
+alunos_960: 
+  updated_at: 
+  nome: Francisca  de Assis Pereira
+  subscricao: "701"
+  id: "962"
+  created_at: 
+  empresa_id: "1"
+alunos_829: 
+  updated_at: 
+  nome: Karen Aline Torres Candido
+  subscricao: "552"
+  id: "831"
+  created_at: 
+  empresa_id: "1"
+alunos_011: 
+  updated_at: 
+  nome: 5% Amanda de Sousa Trindade
+  subscricao: "1840"
+  id: "13"
+  created_at: 
+  empresa_id: "1"
+alunos_143: 
+  updated_at: 
+  nome: 5% CLAUDIA MICHELY LUCENA SOA SANTOS
+  subscricao: "1331"
+  id: "145"
+  created_at: 
+  empresa_id: "1"
+alunos_275: 
+  updated_at: 
+  nome: 5% VANESSA MACIEL DOS REIS
+  subscricao: "1463"
+  id: "277"
+  created_at: 
+  empresa_id: "1"
+alunos_1339: 
+  updated_at: 2008-03-28 21:25:48
+  nome: 5% ADRIANA LETICIA SILVA MANZOLI
+  subscricao: "1525"
+  id: "1341"
+  created_at: 2008-03-28 21:25:48
+  empresa_id: "1"
+alunos_1207: 
+  updated_at: 
+  nome: 5% Rosangela Sacramento dos Santos
+  subscricao: "981"
+  id: "1209"
+  created_at: 
+  empresa_id: "1"
+alunos_961: 
+  updated_at: 
+  nome: Guillian Thomas Freitas Ramos
+  subscricao: "702"
+  id: "963"
+  created_at: 
+  empresa_id: "1"
+alunos_012: 
+  updated_at: 
+  nome: "5% Danilo de Aguiar Corr\xEAa"
+  subscricao: "959"
+  id: "14"
+  created_at: 
+  empresa_id: "1"
+alunos_144: 
+  updated_at: 
+  nome: "5% JO\xC3O LEONARDO DOS SANTOS CRUZ"
+  subscricao: "1332"
+  id: "146"
+  created_at: 
+  empresa_id: "1"
+alunos_276: 
+  updated_at: 
+  nome: 5% PAULO EDUARDO CABRAL PICANCO
+  subscricao: "1464"
+  id: "278"
+  created_at: 
+  empresa_id: "1"
+alunos_962: 
+  updated_at: 
+  nome: Rafael Pereira de Almeida
+  subscricao: "703"
+  id: "964"
+  created_at: 
+  empresa_id: "1"
+alunos_830: 
+  updated_at: 
+  nome: Denis  da Silva Nunes
+  subscricao: "553"
+  id: "832"
+  created_at: 
+  empresa_id: "1"
+alunos_013: 
+  updated_at: 
+  nome: 5% DANIEL PAULO PEREIRA
+  subscricao: "1256"
+  id: "15"
+  created_at: 
+  empresa_id: "1"
+alunos_145: 
+  updated_at: 
+  nome: "5% CINTHYA LARISSA GON\xC7ALVES DE ALCANTARA"
+  subscricao: "1333"
+  id: "147"
+  created_at: 
+  empresa_id: "1"
+alunos_277: 
+  updated_at: 
+  nome: "5% CARLOS ANDR\xC9 SILVA LIMA"
+  subscricao: "1465"
+  id: "279"
+  created_at: 
+  empresa_id: "1"
+alunos_1208: 
+  updated_at: 
+  nome: "5% Ana  Ang\xE9lica Ugarte"
+  subscricao: "982"
+  id: "1210"
+  created_at: 
+  empresa_id: "1"
+alunos_963: 
+  updated_at: 
+  nome: Rosivaldo Ferreira da Silva
+  subscricao: "704"
+  id: "965"
+  created_at: 
+  empresa_id: "1"
+alunos_831: 
+  updated_at: 
+  nome: "Jos\xE9  Ign\xE1cio Souza Monteiro"
+  subscricao: "554"
+  id: "833"
+  created_at: 
+  empresa_id: "1"
+alunos_014: 
+  updated_at: 
+  nome: "5% Enedina Nogueira de Assun\xE7\xE3o"
+  subscricao: "928"
+  id: "16"
+  created_at: 
+  empresa_id: "1"
+alunos_146: 
+  updated_at: 
+  nome: 5% AUGUSTO RODRIGUES
+  subscricao: "1334"
+  id: "148"
+  created_at: 
+  empresa_id: "1"
+alunos_278: 
+  updated_at: 
+  nome: 5% ALINE PAULA DE SOUSA SILVA
+  subscricao: "1466"
+  id: "280"
+  created_at: 
+  empresa_id: "1"
+alunos_1340: 
+  updated_at: 2008-03-28 21:27:27
+  nome: 5% WELLITON SILVA DE OLIVEIRA
+  subscricao: "1526"
+  id: "1342"
+  created_at: 2008-03-28 21:27:27
+  empresa_id: "1"
+alunos_1209: 
+  updated_at: 
+  nome: 5% Solange de Oliveira Sena
+  subscricao: "983"
+  id: "1211"
+  created_at: 
+  empresa_id: "1"
+alunos_015: 
+  updated_at: 
+  nome: Jhozimara Santos de Souza
+  subscricao: "734"
+  id: "17"
+  created_at: 
+  empresa_id: "1"
+alunos_147: 
+  updated_at: 
+  nome: 5% MARCOS ANTONIO PEREIRA
+  subscricao: "1335"
+  id: "149"
+  created_at: 
+  empresa_id: "1"
+alunos_279: 
+  updated_at: 
+  nome: "5% MARCOS R\xD4MULO SILVA DE SOUZA"
+  subscricao: "1467"
+  id: "281"
+  created_at: 
+  empresa_id: "1"
+alunos_1341: 
+  updated_at: 2008-03-28 21:29:36
+  nome: 5% ANDREZA SILVA DE OLIVEIRA
+  subscricao: "1527"
+  id: "1343"
+  created_at: 2008-03-28 21:29:36
+  empresa_id: "1"
+alunos_964: 
+  updated_at: 
+  nome: "Ra\xEDssa  Rosi\xEA Lima Gomes"
+  subscricao: "705"
+  id: "966"
+  created_at: 
+  empresa_id: "1"
+alunos_832: 
+  updated_at: 
+  nome: Suymara  de Souza Reis
+  subscricao: "555"
+  id: "834"
+  created_at: 
+  empresa_id: "1"
+alunos_016: 
+  updated_at: 
+  nome: "Luiz  Evil\xE1sio Santos de Souza"
+  subscricao: "695"
+  id: "18"
+  created_at: 
+  empresa_id: "1"
+alunos_148: 
+  updated_at: 
+  nome: 5% JOEL ANCHIETA DA SILVA
+  subscricao: "1336"
+  id: "150"
+  created_at: 
+  empresa_id: "1"
+alunos_700: 
+  updated_at: 
+  nome: "Francisco  Auric\xE9lio da Costa Souza"
+  subscricao: "414"
+  id: "702"
+  created_at: 
+  empresa_id: "1"
+alunos_1342: 
+  updated_at: 2008-03-28 21:32:37
+  nome: 5% SIDNEY COELHO
+  subscricao: "1528"
+  id: "1344"
+  created_at: 2008-03-28 21:32:37
+  empresa_id: "1"
+alunos_1210: 
+  updated_at: 
+  nome: 5% Flaviana Costa de Souza
+  subscricao: "985"
+  id: "1212"
+  created_at: 
+  empresa_id: "1"
+alunos_965: 
+  updated_at: 
+  nome: Fagner de Souza Silva
+  subscricao: "706"
+  id: "967"
+  created_at: 
+  empresa_id: "1"
+alunos_833: 
+  updated_at: 
+  nome: "Paulo  S\xE9rgio Bandeira de Matos Junior"
+  subscricao: "557"
+  id: "835"
+  created_at: 
+  empresa_id: "1"
+alunos_017: 
+  updated_at: 
+  nome: 5% Marcus Amaral Rolim
+  subscricao: "991"
+  id: "19"
+  created_at: 
+  empresa_id: "1"
+alunos_149: 
+  updated_at: 
+  nome: FANNY TATIANE CAVALCANTE BARBOSA
+  subscricao: "1337"
+  id: "151"
+  created_at: 
+  empresa_id: "1"
+alunos_701: 
+  updated_at: 
+  nome: Martiriano Alves Moraes Filho
+  subscricao: "415"
+  id: "703"
+  created_at: 
+  empresa_id: "1"
+alunos_1343: 
+  updated_at: 2008-03-28 21:35:05
+  nome: "# MARIA EDUARDO DE MENEZES FALC\xC3O"
+  subscricao: "1529"
+  id: "1345"
+  created_at: 2008-03-28 21:35:05
+  empresa_id: "1"
+alunos_1211: 
+  updated_at: 
+  nome: 5% Dalva Silva Alves
+  subscricao: "986"
+  id: "1213"
+  created_at: 
+  empresa_id: "1"
+alunos_966: 
+  updated_at: 
+  nome: Sara  Nascimento dos Santos
+  subscricao: "707"
+  id: "968"
+  created_at: 
+  empresa_id: "1"
+alunos_834: 
+  updated_at: 
+  nome: "Maria  Tayn\xE1 de Souza Gadelha"
+  subscricao: "558"
+  id: "836"
+  created_at: 
+  empresa_id: "1"
+alunos_702: 
+  updated_at: 
+  nome: Andreza  Caroline da Fonseca
+  subscricao: "416"
+  id: "704"
+  created_at: 
+  empresa_id: "1"
+alunos_280: 
+  updated_at: 
+  nome: 5% RAQUEL ALEXANDRINO MALAFAIA
+  subscricao: "1468"
+  id: "282"
+  created_at: 
+  empresa_id: "1"
+alunos_1344: 
+  updated_at: 2008-03-28 21:37:27
+  nome: "5% FRANCISL\xC9IA NAZAR\xC9 CAXEIRA DE MENEZES FALC\xC3O"
+  subscricao: "1530"
+  id: "1346"
+  created_at: 2008-03-28 21:37:27
+  empresa_id: "1"
+alunos_1212: 
+  updated_at: 
+  nome: (light)kethleen Simone Barbosa de Carvalho
+  subscricao: "987"
+  id: "1214"
+  created_at: 
+  empresa_id: "1"
+alunos_967: 
+  updated_at: 
+  nome: Gleice de Araujo Rolim Bringel
+  subscricao: "708"
+  id: "969"
+  created_at: 
+  empresa_id: "1"
+alunos_835: 
+  updated_at: 
+  nome: Gerden Magela Pena Vieira
+  subscricao: "559"
+  id: "837"
+  created_at: 
+  empresa_id: "1"
+alunos_018: 
+  updated_at: 
+  nome: 5% ELIETE AUGUSTA DOS SANTOS
+  subscricao: "1257"
+  id: "20"
+  created_at: 
+  empresa_id: "1"
+alunos_703: 
+  updated_at: 
+  nome: Nika  Yuki Otsuka de Lima
+  subscricao: "417"
+  id: "705"
+  created_at: 
+  empresa_id: "1"
+alunos_281: 
+  updated_at: 
+  nome: 5% JANE DAY DA SILVA ANDRADE
+  subscricao: "1469"
+  id: "283"
+  created_at: 
+  empresa_id: "1"
+alunos_1345: 
+  updated_at: 2008-03-28 21:39:56
+  nome: 5% LUCIVALDO PEREIRA LEMOS JR
+  subscricao: "1531"
+  id: "1347"
+  created_at: 2008-03-28 21:39:56
+  empresa_id: "1"
+alunos_1213: 
+  updated_at: 
+  nome: 5% Allan Rafael dos Santos Tavares
+  subscricao: "988"
+  id: "1215"
+  created_at: 
+  empresa_id: "1"
+alunos_968: 
+  updated_at: 
+  nome: "S\xE9rgio Roberto Melo Bringel"
+  subscricao: "709"
+  id: "970"
+  created_at: 
+  empresa_id: "1"
+alunos_836: 
+  updated_at: 
+  nome: "J\xFAlio  C\xE9sar de Almeida Lorenzoni"
+  subscricao: "561"
+  id: "838"
+  created_at: 
+  empresa_id: "1"
+alunos_019: 
+  updated_at: 
+  nome: Marcos Paulo de Mattos Queiroz
+  subscricao: "826"
+  id: "21"
+  created_at: 
+  empresa_id: "1"
+alunos_704: 
+  updated_at: 
+  nome: Francinaldo  Souza Printes
+  subscricao: "418"
+  id: "706"
+  created_at: 
+  empresa_id: "1"
+alunos_150: 
+  updated_at: 
+  nome: ALESSANDRO DE AZEVEDO BARBOSA
+  subscricao: "1338"
+  id: "152"
+  created_at: 
+  empresa_id: "1"
+alunos_282: 
+  updated_at: 
+  nome: 5% ALICE DA SILVA PINHEIRO
+  subscricao: "1470"
+  id: "284"
+  created_at: 
+  empresa_id: "1"
+alunos_1346: 
+  updated_at: 2008-03-28 21:46:09
+  nome: 5% VILMAR FERREIRA MARTINS
+  subscricao: "1532"
+  id: "1348"
+  created_at: 2008-03-28 21:46:09
+  empresa_id: "1"
+alunos_1214: 
+  updated_at: 
+  nome: 5% Izabella Pinto Garcia
+  subscricao: "989"
+  id: "1216"
+  created_at: 
+  empresa_id: "1"
+alunos_969: 
+  updated_at: 
+  nome: Hodie  Williams Souza da Silva
+  subscricao: "710"
+  id: "971"
+  created_at: 
+  empresa_id: "1"
+alunos_837: 
+  updated_at: 
+  nome: "F\xE1bio dos Reis Bentes"
+  subscricao: "562"
+  id: "839"
+  created_at: 
+  empresa_id: "1"
+alunos_705: 
+  updated_at: 
+  nome: Stteice Marjo Froz Costa
+  subscricao: "419"
+  id: "707"
+  created_at: 
+  empresa_id: "1"
+alunos_151: 
+  updated_at: 
+  nome: 5% ELIONEIDE PERTONA CARVALHO
+  subscricao: "1380"
+  id: "153"
+  created_at: 
+  empresa_id: "1"
+alunos_283: 
+  updated_at: 
+  nome: 5% RODRIGO JESUS RIBEIRO
+  subscricao: "1471"
+  id: "285"
+  created_at: 
+  empresa_id: "1"
+alunos_1347: 
+  updated_at: 2008-03-28 21:54:36
+  nome: "# IGOR PACHECO DA SILVA"
+  subscricao: "1533"
+  id: "1349"
+  created_at: 2008-03-28 21:54:36
+  empresa_id: "1"
+alunos_1215: 
+  updated_at: 
+  nome: "5% Everton Thiago Le\xE3o C. Corr\xEAa"
+  subscricao: "990"
+  id: "1217"
+  created_at: 
+  empresa_id: "1"
+alunos_838: 
+  updated_at: 
+  nome: "Andr\xE9  Ricardo de Oliveira Martins"
+  subscricao: "564"
+  id: "840"
+  created_at: 
+  empresa_id: "1"
+alunos_706: 
+  updated_at: 
+  nome: "Patricia  Guimar\xE3es Brilhante"
+  subscricao: "421"
+  id: "708"
+  created_at: 
+  empresa_id: "1"
+alunos_020: 
+  updated_at: 
+  nome: Nara  Regina Coppetti
+  subscricao: "677"
+  id: "22"
+  created_at: 
+  empresa_id: "1"
+alunos_152: 
+  updated_at: 
+  nome: "5% PATRICIA FERNANDA DE LIMA MAC\xCADO"
+  subscricao: "1339"
+  id: "154"
+  created_at: 
+  empresa_id: "1"
+alunos_284: 
+  updated_at: 
+  nome: 5% MARLISE MARTINS RIBEIRO
+  subscricao: "1472"
+  id: "286"
+  created_at: 
+  empresa_id: "1"
+alunos_1348: 
+  updated_at: 2008-03-28 21:57:22
+  nome: "# TAINAH DA COSTA REZENDE"
+  subscricao: "1534"
+  id: "1350"
+  created_at: 2008-03-28 21:57:22
+  empresa_id: "1"
+alunos_1216: 
+  updated_at: 
+  nome: 5% Thiane Feitosa de Souza
+  subscricao: "994"
+  id: "1218"
+  created_at: 
+  empresa_id: "1"
+alunos_970: 
+  updated_at: 
+  nome: Ana  Maria de Jesus Dewnani
+  subscricao: "711"
+  id: "972"
+  created_at: 
+  empresa_id: "1"
+alunos_839: 
+  updated_at: 
+  nome: Edilson  da Silva Ribeiro
+  subscricao: "567"
+  id: "841"
+  created_at: 
+  empresa_id: "1"
+alunos_707: 
+  updated_at: 
+  nome: "Anderson  Fonseca J\xFAnior"
+  subscricao: "422"
+  id: "709"
+  created_at: 
+  empresa_id: "1"
+alunos_021: 
+  updated_at: 
+  nome: 5% Marcos Carlos de Abreu
+  subscricao: "1258"
+  id: "23"
+  created_at: 
+  empresa_id: "1"
+alunos_153: 
+  updated_at: 
+  nome: 5% NABEL MARIA NASCIMENTO MENEZES
+  subscricao: "1381"
+  id: "155"
+  created_at: 
+  empresa_id: "1"
+alunos_285: 
+  updated_at: 
+  nome: 5% PATRICIA CRISTIANE MOREIRA SANTANA
+  subscricao: "1473"
+  id: "287"
+  created_at: 
+  empresa_id: "1"
+alunos_1349: 
+  updated_at: 2008-03-28 21:59:33
+  nome: "# RICHARD GON\xC7ALVES AZEVEDO"
+  subscricao: "1535"
+  id: "1351"
+  created_at: 2008-03-28 21:59:33
+  empresa_id: "1"
+alunos_1217: 
+  updated_at: 
+  nome: 5% Lucivana da Silva Bentes
+  subscricao: "997"
+  id: "1219"
+  created_at: 
+  empresa_id: "1"
+alunos_971: 
+  updated_at: 
+  nome: "Andr\xE9  de Oliveira Ferreira"
+  subscricao: "712"
+  id: "973"
+  created_at: 
+  empresa_id: "1"
+alunos_708: 
+  updated_at: 
+  nome: Carlos Alberto Goes de Abreu
+  subscricao: "423"
+  id: "710"
+  created_at: 
+  empresa_id: "1"
+alunos_022: 
+  updated_at: 2008-04-30 11:06:17
+  nome: "Teste2 (N\xE3o me apague)"
+  subscricao: "0"
+  id: "1"
+  created_at: 
+  empresa_id: "1"
+alunos_154: 
+  updated_at: 
+  nome: 5% ENOS EDUARDO LINS DE PAULA
+  subscricao: "1340"
+  id: "156"
+  created_at: 
+  empresa_id: "1"
+alunos_286: 
+  updated_at: 
+  nome: 5% MIGUEL BATISTA FILHO
+  subscricao: "1474"
+  id: "288"
+  created_at: 
+  empresa_id: "1"
+alunos_1218: 
+  updated_at: 
+  nome: "5% Andr\xE9 Vicente Batista da Costa"
+  subscricao: "998"
+  id: "1220"
+  created_at: 
+  empresa_id: "1"
+alunos_972: 
+  updated_at: 
+  nome: "Francisco  Corr\xEAa Lima Junior"
+  subscricao: "713"
+  id: "974"
+  created_at: 
+  empresa_id: "1"
+alunos_840: 
+  updated_at: 
+  nome: Elieuda de Carvalho Silva
+  subscricao: "568"
+  id: "842"
+  created_at: 
+  empresa_id: "1"
+alunos_709: 
+  updated_at: 
+  nome: Victor Cesar Pierre de Souza
+  subscricao: "424"
+  id: "711"
+  created_at: 
+  empresa_id: "1"
+alunos_023: 
+  updated_at: 
+  nome: 5% Edemar Ribeiro Martinho
+  subscricao: "947"
+  id: "24"
+  created_at: 
+  empresa_id: "1"
+alunos_155: 
+  updated_at: 
+  nome: 5% ALVARO HENRIQUE DE MENEZES CHRISTOFOLI
+  subscricao: "1382"
+  id: "157"
+  created_at: 
+  empresa_id: "1"
+alunos_287: 
+  updated_at: 2008-03-25 16:52:51
+  nome: 5% GILBERTO HAYDEN TANORA DA SILVA(B2-2X)
+  subscricao: "1475"
+  id: "289"
+  created_at: 
+  empresa_id: "1"
+alunos_973: 
+  updated_at: 
+  nome: "Am\xF3s  de Moraes S\xE1"
+  subscricao: "714"
+  id: "975"
+  created_at: 
+  empresa_id: "1"
+alunos_841: 
+  updated_at: 
+  nome: "F\xE1bio  Bezerra Nunes"
+  subscricao: "569"
+  id: "843"
+  created_at: 
+  empresa_id: "1"
+alunos_024: 
+  updated_at: 
+  nome: Alexandre  Rodrigues de Brito
+  subscricao: "676"
+  id: "25"
+  created_at: 
+  empresa_id: "1"
+alunos_156: 
+  updated_at: 
+  nome: 5% FRANCYS RAFAEL DE SOUZA E SILVA
+  subscricao: "1341"
+  id: "158"
+  created_at: 
+  empresa_id: "1"
+alunos_288: 
+  updated_at: 
+  nome: "5% BRUNO GUIMAR\xC3ES MELNIK"
+  subscricao: "1476"
+  id: "290"
+  created_at: 
+  empresa_id: "1"
+alunos_1350: 
+  updated_at: 2008-03-28 22:01:29
+  nome: "# ANA KAROLINE BRASIL SOARES"
+  subscricao: "1536"
+  id: "1352"
+  created_at: 2008-03-28 22:01:29
+  empresa_id: "1"
+alunos_1219: 
+  updated_at: 
+  nome: 5% Joicimara Manso de Oliveira
+  subscricao: "999"
+  id: "1221"
+  created_at: 
+  empresa_id: "1"
+alunos_974: 
+  updated_at: 
+  nome: Romana  Maria Farias Bonfim
+  subscricao: "715"
+  id: "976"
+  created_at: 
+  empresa_id: "1"
+alunos_842: 
+  updated_at: 
+  nome: Jeovana Melo Cavalcante
+  subscricao: "570"
+  id: "844"
+  created_at: 
+  empresa_id: "1"
+alunos_710: 
+  updated_at: 
+  nome: Claudia Giselle Mello Vieira Harraquian da Silva
+  subscricao: "425"
+  id: "712"
+  created_at: 
+  empresa_id: "1"
+alunos_025: 
+  updated_at: 
+  nome: 5% Patricia Geovana Silva Anjos Jacinto
+  subscricao: "1259"
+  id: "26"
+  created_at: 
+  empresa_id: "1"
+alunos_157: 
+  updated_at: 
+  nome: 5% LIBIA CARDOSO BRAZ
+  subscricao: "1383"
+  id: "159"
+  created_at: 
+  empresa_id: "1"
+alunos_289: 
+  updated_at: 2008-03-24 18:13:26
+  nome: 5% ROSANGELA AZEDO DE OLIVEIRA
+  subscricao: "1477"
+  id: "291"
+  created_at: 
+  empresa_id: "1"
+alunos_1351: 
+  updated_at: 2008-03-28 22:04:10
+  nome: "# THALES CARVALHO DE ANDRADE"
+  subscricao: "1537"
+  id: "1353"
+  created_at: 2008-03-28 22:04:10
+  empresa_id: "1"
+alunos_026: 
+  updated_at: 
+  nome: Wanessa Trindade Silva
+  subscricao: "130"
+  id: "27"
+  created_at: 
+  empresa_id: "1"
+alunos_158: 
+  updated_at: 
+  nome: 5% GISELE CANDIDA FREITAS DA FONSECA
+  subscricao: "1342"
+  id: "160"
+  created_at: 
+  empresa_id: "1"
+alunos_1352: 
+  updated_at: 2008-03-28 22:07:00
+  nome: "# LEANDRO GUIMAR\xC3ES RIBEIRO"
+  subscricao: "1538"
+  id: "1354"
+  created_at: 2008-03-28 22:07:00
+  empresa_id: "1"
+alunos_1220: 
+  updated_at: 
+  nome: "5% Eug\xEAnio Pereira Maciel"
+  subscricao: "1000"
+  id: "1222"
+  created_at: 
+  empresa_id: "1"
+alunos_975: 
+  updated_at: 
+  nome: Silvia  Mouzinho Pereira
+  subscricao: "716"
+  id: "977"
+  created_at: 
+  empresa_id: "1"
+alunos_843: 
+  updated_at: 
+  nome: "Jos\xE9  Claudio de Castro Santos"
+  subscricao: "572"
+  id: "845"
+  created_at: 
+  empresa_id: "1"
+alunos_711: 
+  updated_at: 
+  nome: "K\xE1tia  Regina Vital da Silva"
+  subscricao: "426"
+  id: "713"
+  created_at: 
+  empresa_id: "1"
+alunos_027: 
+  updated_at: 
+  nome: Bruna Renata Xavier Oliveira
+  subscricao: "202"
+  id: "28"
+  created_at: 
+  empresa_id: "1"
+alunos_159: 
+  updated_at: 
+  nome: 5% JOSY KARLA MACIEL VERAS
+  subscricao: "1384"
+  id: "161"
+  created_at: 
+  empresa_id: "1"
+alunos_1353: 
+  updated_at: 2008-03-28 22:10:45
+  nome: "# ABRA\xC3O ARNISTRORG DA SILVA ARAUJO"
+  subscricao: "1539"
+  id: "1355"
+  created_at: 2008-03-28 22:10:45
+  empresa_id: "1"
+alunos_1221: 
+  updated_at: 
+  nome: "5% Jos\xE9 Cl\xE1udio Braga da Silva"
+  subscricao: "1001"
+  id: "1223"
+  created_at: 
+  empresa_id: "1"
+alunos_976: 
+  updated_at: 
+  nome: Cleidson da Silva Coelho
+  subscricao: "717"
+  id: "978"
+  created_at: 
+  empresa_id: "1"
+alunos_844: 
+  updated_at: 
+  nome: Mozart Vanderly Ribeiro
+  subscricao: "573"
+  id: "846"
+  created_at: 
+  empresa_id: "1"
+alunos_712: 
+  updated_at: 
+  nome: Rafael  da Silva Moraes
+  subscricao: "427"
+  id: "714"
+  created_at: 
+  empresa_id: "1"
+alunos_290: 
+  updated_at: 
+  nome: Saymo Monteiro Coelho
+  subscricao: "274"
+  id: "292"
+  created_at: 
+  empresa_id: "1"
+alunos_028: 
+  updated_at: 
+  nome: Nicole Gioia Pinheiro
+  subscricao: "556"
+  id: "29"
+  created_at: 
+  empresa_id: "1"
+alunos_1354: 
+  updated_at: 2008-03-28 22:13:47
+  nome: "# JONAS SILVA DE SOUZA NETO"
+  subscricao: "1540"
+  id: "1356"
+  created_at: 2008-03-28 22:13:47
+  empresa_id: "1"
+alunos_1222: 
+  updated_at: 
+  nome: 5% Edelcy Pereira Filho
+  subscricao: "1002"
+  id: "1224"
+  created_at: 
+  empresa_id: "1"
+alunos_977: 
+  updated_at: 
+  nome: Cleison  da Silva Coelho
+  subscricao: "718"
+  id: "979"
+  created_at: 
+  empresa_id: "1"
+alunos_845: 
+  updated_at: 
+  nome: "Jo\xE3o  Paulo Andrade de Queiroz"
+  subscricao: "574"
+  id: "847"
+  created_at: 
+  empresa_id: "1"
+alunos_713: 
+  updated_at: 
+  nome: Patricia  dos Santos Bertoldo
+  subscricao: "428"
+  id: "715"
+  created_at: 
+  empresa_id: "1"
+alunos_291: 
+  updated_at: 
+  nome: Luzia  Neves Bezerra
+  subscricao: "339"
+  id: "293"
+  created_at: 
+  empresa_id: "1"
+alunos_1355: 
+  updated_at: 2008-03-28 22:16:55
+  nome: "# VINICIUS BURICHE T. MOREIRA P SANTOS"
+  subscricao: "1541"
+  id: "1357"
+  created_at: 2008-03-28 22:16:55
+  empresa_id: "1"
+alunos_1223: 
+  updated_at: 
+  nome: 5% Isabel Cristina de Carvalho Costa
+  subscricao: "1003"
+  id: "1225"
+  created_at: 
+  empresa_id: "1"
+alunos_978: 
+  updated_at: 
+  nome: "Yhagor  dos Santos C\xE9sar"
+  subscricao: "719"
+  id: "980"
+  created_at: 
+  empresa_id: "1"
+alunos_846: 
+  updated_at: 
+  nome: "Andr\xE9 Tavares Monteiro"
+  subscricao: "575"
+  id: "848"
+  created_at: 
+  empresa_id: "1"
+alunos_714: 
+  updated_at: 
+  nome: Tamila  Batista da Silva
+  subscricao: "429"
+  id: "716"
+  created_at: 
+  empresa_id: "1"
+alunos_160: 
+  updated_at: 
+  nome: 5% FRANCISCO KLEBER OLIVEIRA DE SOUZA
+  subscricao: "1343"
+  id: "162"
+  created_at: 
+  empresa_id: "1"
+alunos_292: 
+  updated_at: 
+  nome: "5% Rita  de C\xE1ssia Saraiva Nunamura"
+  subscricao: "878"
+  id: "294"
+  created_at: 
+  empresa_id: "1"
+alunos_029: 
+  updated_at: 
+  nome: Sabrina  Kellen dos Santos Aguiar
+  subscricao: "350"
+  id: "30"
+  created_at: 
+  empresa_id: "1"
+alunos_1356: 
+  updated_at: 2008-03-28 22:19:09
+  nome: "# JUAN PABLO E. BUENO"
+  subscricao: "1542"
+  id: "1358"
+  created_at: 2008-03-28 22:19:09
+  empresa_id: "1"
+alunos_1224: 
+  updated_at: 
+  nome: "5% Jos\xE9 Geraldo Gon\xE7alves Almeida"
+  subscricao: "1006"
+  id: "1226"
+  created_at: 
+  empresa_id: "1"
+alunos_979: 
+  updated_at: 
+  nome: Michael  Solan de Souza
+  subscricao: "720"
+  id: "981"
+  created_at: 
+  empresa_id: "1"
+alunos_847: 
+  updated_at: 
+  nome: Adriano  Pereira da Silva
+  subscricao: "577"
+  id: "849"
+  created_at: 
+  empresa_id: "1"
+alunos_715: 
+  updated_at: 
+  nome: Kleyciane Oliveira do Nascimento
+  subscricao: "430"
+  id: "717"
+  created_at: 
+  empresa_id: "1"
+alunos_161: 
+  updated_at: 
+  nome: "5% LUENA GUIMAR\xC3ES DE ARA\xDAJO"
+  subscricao: "1344"
+  id: "163"
+  created_at: 
+  empresa_id: "1"
+alunos_293: 
+  updated_at: 
+  nome: Ivanete Gomes de Almeida
+  subscricao: "545"
+  id: "295"
+  created_at: 
+  empresa_id: "1"
+alunos_1357: 
+  updated_at: 2008-03-28 22:20:52
+  nome: "# FERNANDA SOUZA CASTELO BRANCO"
+  subscricao: "1543"
+  id: "1359"
+  created_at: 2008-03-28 22:20:52
+  empresa_id: "1"
+alunos_1225: 
+  updated_at: 
+  nome: "5% Joaquim Alves Feitosa Santana J\xFAnior"
+  subscricao: "1008"
+  id: "1227"
+  created_at: 
+  empresa_id: "1"
+alunos_848: 
+  updated_at: 
+  nome: Carla Mariana Rodrigues da Silva
+  subscricao: "578"
+  id: "850"
+  created_at: 
+  empresa_id: "1"
+alunos_716: 
+  updated_at: 
+  nome: Santinho Ribeiro Beleza
+  subscricao: "431"
+  id: "718"
+  created_at: 
+  empresa_id: "1"
+alunos_030: 
+  updated_at: 
+  nome: "Maria de F\xE1tima dos Santos Rodrigues"
+  subscricao: "215"
+  id: "31"
+  created_at: 
+  empresa_id: "1"
+alunos_162: 
+  updated_at: 
+  nome: 5% JANDER DOS SANTOS FARIAS
+  subscricao: "1385"
+  id: "164"
+  created_at: 
+  empresa_id: "1"
+alunos_294: 
+  updated_at: 
+  nome: Maruga Landauro Rojas
+  subscricao: "353"
+  id: "296"
+  created_at: 
+  empresa_id: "1"
+alunos_1358: 
+  updated_at: 2008-03-28 22:22:55
+  nome: "# NIVILY THUANI CARVALHO"
+  subscricao: "1544"
+  id: "1360"
+  created_at: 2008-03-28 22:22:55
+  empresa_id: "1"
+alunos_1226: 
+  updated_at: 
+  nome: 5% Igor Fernando de Moura Ferreira
+  subscricao: "1009"
+  id: "1228"
+  created_at: 
+  empresa_id: "1"
+alunos_980: 
+  updated_at: 
+  nome: Marcos Neves2
+  subscricao: "721"
+  id: "982"
+  created_at: 
+  empresa_id: "1"
+alunos_849: 
+  updated_at: 
+  nome: "Rafaela Gal\xFAcio Coulamy"
+  subscricao: "579"
+  id: "851"
+  created_at: 
+  empresa_id: "1"
+alunos_717: 
+  updated_at: 
+  nome: Yasmin Silva Pinto
+  subscricao: "432"
+  id: "719"
+  created_at: 
+  empresa_id: "1"
+alunos_031: 
+  updated_at: 
+  nome: "5% Fl\xE1vio Teixeira"
+  subscricao: "1260"
+  id: "32"
+  created_at: 
+  empresa_id: "1"
+alunos_163: 
+  updated_at: 
+  nome: 5% JUDSON DE OLIVEIRA CATIVO
+  subscricao: "1345"
+  id: "165"
+  created_at: 
+  empresa_id: "1"
+alunos_295: 
+  updated_at: 
+  nome: "Fabiano Galv\xE3o Carvalho"
+  subscricao: "565"
+  id: "297"
+  created_at: 
+  empresa_id: "1"
+alunos_1359: 
+  updated_at: 2008-03-28 22:25:00
+  nome: "# ANDREZA BALBINO DE OLIVEIRA"
+  subscricao: "1545"
+  id: "1361"
+  created_at: 2008-03-28 22:25:00
+  empresa_id: "1"
+alunos_1227: 
+  updated_at: 
+  nome: "5% Jos\xE9 Cl\xE1udio Gondim Pacheco"
+  subscricao: "1010"
+  id: "1229"
+  created_at: 
+  empresa_id: "1"
+alunos_981: 
+  updated_at: 
+  nome: Wildemar  Rodrigo Nunes Canto
+  subscricao: "722"
+  id: "983"
+  created_at: 
+  empresa_id: "1"
+alunos_718: 
+  updated_at: 
+  nome: Diego  Santos Paulo
+  subscricao: "433"
+  id: "720"
+  created_at: 
+  empresa_id: "1"
+alunos_032: 
+  updated_at: 
+  nome: "5% Felipe London de Ara\xFAjo Andrade"
+  subscricao: "1261"
+  id: "34"
+  created_at: 
+  empresa_id: "1"
+alunos_164: 
+  updated_at: 
+  nome: 5% FRANCISCO LOPES CAMPELO
+  subscricao: "1386"
+  id: "166"
+  created_at: 
+  empresa_id: "1"
+alunos_296: 
+  updated_at: 
+  nome: 5% Juliano Fabiano da Silva
+  subscricao: "882"
+  id: "298"
+  created_at: 
+  empresa_id: "1"
+alunos_1228: 
+  updated_at: 
+  nome: 5% Ynglet Vasconcelos de Souza
+  subscricao: "1011"
+  id: "1230"
+  created_at: 
+  empresa_id: "1"
+alunos_982: 
+  updated_at: 
+  nome: "Mois\xE9s  Farias Lisboa"
+  subscricao: "723"
+  id: "984"
+  created_at: 
+  empresa_id: "1"
+alunos_850: 
+  updated_at: 
+  nome: Joelma Kellen dos Prazeres Campos
+  subscricao: "580"
+  id: "852"
+  created_at: 
+  empresa_id: "1"
+alunos_719: 
+  updated_at: 
+  nome: Silmara Pereira da Silva
+  subscricao: "435"
+  id: "721"
+  created_at: 
+  empresa_id: "1"
+alunos_033: 
+  updated_at: 
+  nome: Charles Bentes Mar
+  subscricao: "355"
+  id: "35"
+  created_at: 
+  empresa_id: "1"
+alunos_165: 
+  updated_at: 
+  nome: 5% ALCINEIDE SANTOS DE SOUZA
+  subscricao: "1346"
+  id: "167"
+  created_at: 
+  empresa_id: "1"
+alunos_297: 
+  updated_at: 
+  nome: Amanda Nerisa Borges das Chagas
+  subscricao: "390"
+  id: "299"
+  created_at: 
+  empresa_id: "1"
+alunos_1229: 
+  updated_at: 
+  nome: 5% Rosanne Pereira Pires
+  subscricao: "1013"
+  id: "1231"
+  created_at: 
+  empresa_id: "1"
+alunos_983: 
+  updated_at: 
+  nome: Mayara  de Souza Carvalho
+  subscricao: "724"
+  id: "985"
+  created_at: 
+  empresa_id: "1"
+alunos_851: 
+  updated_at: 
+  nome: Ronize Pessoa Medeiros
+  subscricao: "581"
+  id: "853"
+  created_at: 
+  empresa_id: "1"
+alunos_034: 
+  updated_at: 
+  nome: 5% Elmizia da Silva Ianck
+  subscricao: "1262"
+  id: "36"
+  created_at: 
+  empresa_id: "1"
+alunos_166: 
+  updated_at: 
+  nome: "5% MARIA JOS\xC9 ALMEIDA DA SILVA"
+  subscricao: "1387"
+  id: "168"
+  created_at: 
+  empresa_id: "1"
+alunos_298: 
+  updated_at: 
+  nome: "Noelia Izidora Maia M\xE9gia"
+  subscricao: "391"
+  id: "300"
+  created_at: 
+  empresa_id: "1"
+alunos_984: 
+  updated_at: 
+  nome: Larry  Soares da Silva
+  subscricao: "726"
+  id: "986"
+  created_at: 
+  empresa_id: "1"
+alunos_852: 
+  updated_at: 
+  nome: Humberto Correia de Oliveira Sobrinho
+  subscricao: "582"
+  id: "854"
+  created_at: 
+  empresa_id: "1"
+alunos_035: 
+  updated_at: 
+  nome: Deivid  Augusto dos Santos Nunes
+  subscricao: "401"
+  id: "37"
+  created_at: 
+  empresa_id: "1"
+alunos_167: 
+  updated_at: 
+  nome: "5% NAPOLE\xC3O DA CRUZ HENRIQUE"
+  subscricao: "1347"
+  id: "169"
+  created_at: 
+  empresa_id: "1"
+alunos_299: 
+  updated_at: 
+  nome: "Jo\xE3o Mario Albuquerque da Silva"
+  subscricao: "188"
+  id: "301"
+  created_at: 
+  empresa_id: "1"
+alunos_720: 
+  updated_at: 
+  nome: "M\xF4nica  Peres Serejo de Melo"
+  subscricao: "436"
+  id: "722"
+  created_at: 
+  empresa_id: "1"
+alunos_985: 
+  updated_at: 
+  nome: Elenson Mendes Silveira
+  subscricao: "727"
+  id: "987"
+  created_at: 
+  empresa_id: "1"
+alunos_853: 
+  updated_at: 
+  nome: "Ana  Hillery Brand\xE3o Oliveira"
+  subscricao: "583"
+  id: "855"
+  created_at: 
+  empresa_id: "1"
+alunos_036: 
+  updated_at: 
+  nome: Gracelly Rodrigues Lima
+  subscricao: "571"
+  id: "38"
+  created_at: 
+  empresa_id: "1"
+alunos_168: 
+  updated_at: 
+  nome: 5% AJELYE ALVES DA SILVA
+  subscricao: "1348"
+  id: "170"
+  created_at: 
+  empresa_id: "1"
+alunos_721: 
+  updated_at: 
+  nome: Diego  Cordeiro Carvalho
+  subscricao: "437"
+  id: "723"
+  created_at: 
+  empresa_id: "1"
+alunos_1230: 
+  updated_at: 
+  nome: 5% Ana Cristina da Silveira Aguiar
+  subscricao: "1014"
+  id: "1232"
+  created_at: 
+  empresa_id: "1"
+alunos_037: 
+  updated_at: 
+  nome: Joyce  da Silva Brasil
+  subscricao: "412"
+  id: "39"
+  created_at: 
+  empresa_id: "1"
+alunos_169: 
+  updated_at: 
+  nome: 5% AIDA DE SOUZA NUNES
+  subscricao: "1388"
+  id: "171"
+  created_at: 
+  empresa_id: "1"
+alunos_1231: 
+  updated_at: 
+  nome: "5% Orlean Passos Ara\xFAjo"
+  subscricao: "1015"
+  id: "1233"
+  created_at: 
+  empresa_id: "1"
+alunos_986: 
+  updated_at: 
+  nome: Moacyr  Anselmo de Queiroz
+  subscricao: "728"
+  id: "988"
+  created_at: 
+  empresa_id: "1"
+alunos_854: 
+  updated_at: 
+  nome: "Anderson Samuel Fran\xE7a"
+  subscricao: "584"
+  id: "856"
+  created_at: 
+  empresa_id: "1"
+alunos_038: 
+  updated_at: 
+  nome: Izabelle Barbosa Nobre
+  subscricao: "794"
+  id: "40"
+  created_at: 
+  empresa_id: "1"
+alunos_722: 
+  updated_at: 
+  nome: "Jos\xE9 Nilson Araujo Bezerra"
+  subscricao: "438"
+  id: "724"
+  created_at: 
+  empresa_id: "1"
+alunos_1232: 
+  updated_at: 
+  nome: 5% Miriam de Melo Loures
+  subscricao: "1016"
+  id: "1234"
+  created_at: 
+  empresa_id: "1"
+alunos_1100: 
+  updated_at: 
+  nome: 5% Janderson Batista de Oliveira
+  subscricao: "860"
+  id: "1102"
+  created_at: 
+  empresa_id: "1"
+alunos_987: 
+  updated_at: 
+  nome: Ana  Carolina S. Lima
+  subscricao: "729"
+  id: "989"
+  created_at: 
+  empresa_id: "1"
+alunos_855: 
+  updated_at: 
+  nome: Isabel Valentim Vieira
+  subscricao: "585"
+  id: "857"
+  created_at: 
+  empresa_id: "1"
+alunos_039: 
+  updated_at: 
+  nome: Maria  Adelaide Mansini Maia
+  subscricao: "469"
+  id: "41"
+  created_at: 
+  empresa_id: "1"
+alunos_723: 
+  updated_at: 
+  nome: Luana Silva de Souza
+  subscricao: "440"
+  id: "725"
+  created_at: 
+  empresa_id: "1"
+alunos_1233: 
+  updated_at: 
+  nome: 5% Marcos Geraldo Martins
+  subscricao: "1017"
+  id: "1235"
+  created_at: 
+  empresa_id: "1"
+alunos_1101: 
+  updated_at: 
+  nome: 5% Marcilio Gomes da Costa
+  subscricao: "861"
+  id: "1103"
+  created_at: 
+  empresa_id: "1"
+alunos_988: 
+  updated_at: 
+  nome: Rosilane  Gomes Garcia
+  subscricao: "730"
+  id: "990"
+  created_at: 
+  empresa_id: "1"
+alunos_856: 
+  updated_at: 
+  nome: "Alex  Lib\xF3rio Caranha"
+  subscricao: "586"
+  id: "858"
+  created_at: 
+  empresa_id: "1"
+alunos_724: 
+  updated_at: 
+  nome: Derek Santos Sidi
+  subscricao: "441"
+  id: "726"
+  created_at: 
+  empresa_id: "1"
+alunos_170: 
+  updated_at: 
+  nome: 5% EDMILSON DOS SANTOS TEIXEIRA
+  subscricao: "69000000"
+  id: "172"
+  created_at: 
+  empresa_id: "1"
+alunos_1234: 
+  updated_at: 
+  nome: "5% Jo\xE3o Batista de Andrade Filho"
+  subscricao: "1018"
+  id: "1236"
+  created_at: 
+  empresa_id: "1"
+alunos_1102: 
+  updated_at: 
+  nome: Diego Souza Aguiar
+  subscricao: "862"
+  id: "1104"
+  created_at: 
+  empresa_id: "1"
+alunos_989: 
+  updated_at: 
+  nome: Thais  Kethlen dos Santos
+  subscricao: "731"
+  id: "991"
+  created_at: 
+  empresa_id: "1"
+alunos_857: 
+  updated_at: 
+  nome: "\xC9lida Maria Barroso da Silva"
+  subscricao: "587"
+  id: "859"
+  created_at: 
+  empresa_id: "1"
+alunos_725: 
+  updated_at: 
+  nome: Phelippe  Santos Sidi
+  subscricao: "442"
+  id: "727"
+  created_at: 
+  empresa_id: "1"
+alunos_171: 
+  updated_at: 
+  nome: 5% WILLIAM GONZALEZ PIMENTA
+  subscricao: "1349"
+  id: "173"
+  created_at: 
+  empresa_id: "1"
+alunos_1235: 
+  updated_at: 
+  nome: 5% Mario Tito Correa
+  subscricao: "1019"
+  id: "1237"
+  created_at: 
+  empresa_id: "1"
+alunos_1103: 
+  updated_at: 
+  nome: 5% Adonel Bezerra
+  subscricao: "863"
+  id: "1105"
+  created_at: 
+  empresa_id: "1"
+alunos_858: 
+  updated_at: 
+  nome: Hiohane  Tomaz de Vasconcelos
+  subscricao: "588"
+  id: "860"
+  created_at: 
+  empresa_id: "1"
+alunos_726: 
+  updated_at: 
+  nome: Renato  Caetano Cardoso
+  subscricao: "443"
+  id: "728"
+  created_at: 
+  empresa_id: "1"
+alunos_040: 
+  updated_at: 
+  nome: Nahianny Dwally Lima Alvares
+  subscricao: "439"
+  id: "42"
+  created_at: 
+  empresa_id: "1"
+alunos_172: 
+  updated_at: 
+  nome: WANESSA TRINDADE SILVA
+  subscricao: "1390"
+  id: "174"
+  created_at: 
+  empresa_id: "1"
+alunos_1236: 
+  updated_at: 
+  nome: "5% Jos\xE9 Antonio Rayol dos Santos"
+  subscricao: "1020"
+  id: "1238"
+  created_at: 
+  empresa_id: "1"
+alunos_1104: 
+  updated_at: 
+  nome: 5% Patriciane de Oliveira Alves
+  subscricao: "864"
+  id: "1106"
+  created_at: 
+  empresa_id: "1"
+alunos_990: 
+  updated_at: 
+  nome: "Keyla  Rom\xEAnia Fonseca da Silva"
+  subscricao: "732"
+  id: "992"
+  created_at: 
+  empresa_id: "1"
+alunos_859: 
+  updated_at: 
+  nome: Polyane Cavalcante Ferreira
+  subscricao: "589"
+  id: "861"
+  created_at: 
+  empresa_id: "1"
+alunos_727: 
+  updated_at: 
+  nome: Nilson Hilgenberg
+  subscricao: "444"
+  id: "729"
+  created_at: 
+  empresa_id: "1"
+alunos_041: 
+  updated_at: 
+  nome: Everaldo de Sousa Reis
+  subscricao: "91"
+  id: "43"
+  created_at: 
+  empresa_id: "1"
+alunos_173: 
+  updated_at: 
+  nome: "5% RAFAEL SCHOSSING NEGREIROS "
+  subscricao: "1391"
+  id: "175"
+  created_at: 
+  empresa_id: "1"
+alunos_1237: 
+  updated_at: 
+  nome: 5% Camila Josely Costa Lekakis
+  subscricao: "1022"
+  id: "1239"
+  created_at: 
+  empresa_id: "1"
+alunos_1105: 
+  updated_at: 
+  nome: "5% Jorge Franklin Aur\xE9lio dos Santos"
+  subscricao: "865"
+  id: "1107"
+  created_at: 
+  empresa_id: "1"
+alunos_991: 
+  updated_at: 
+  nome: Walderez  Alves de Araujo
+  subscricao: "733"
+  id: "993"
+  created_at: 
+  empresa_id: "1"
+alunos_728: 
+  updated_at: 
+  nome: Joubert Lima dos Santos
+  subscricao: "445"
+  id: "730"
+  created_at: 
+  empresa_id: "1"
+alunos_042: 
+  updated_at: 
+  nome: Leis da Silva Batista
+  subscricao: "912"
+  id: "44"
+  created_at: 
+  empresa_id: "1"
+alunos_174: 
+  updated_at: 
+  nome: "5% Reginaldo Souza de Oliveira "
+  subscricao: "1366"
+  id: "176"
+  created_at: 
+  empresa_id: "1"
+alunos_1238: 
+  updated_at: 
+  nome: 5% Jesus de Alencar Chaves
+  subscricao: "1023"
+  id: "1240"
+  created_at: 
+  empresa_id: "1"
+alunos_1106: 
+  updated_at: 
+  nome: 5% Lusia Gomes de Lima
+  subscricao: "866"
+  id: "1108"
+  created_at: 
+  empresa_id: "1"
+alunos_992: 
+  updated_at: 
+  nome: Welder  Alves Pedroso
+  subscricao: "735"
+  id: "994"
+  created_at: 
+  empresa_id: "1"
+alunos_860: 
+  updated_at: 
+  nome: Isaac Jardel Angulo Backsmann
+  subscricao: "590"
+  id: "862"
+  created_at: 
+  empresa_id: "1"
+alunos_729: 
+  updated_at: 
+  nome: "Raphael  Henrique Magalh\xE3es Basilio"
+  subscricao: "446"
+  id: "731"
+  created_at: 
+  empresa_id: "1"
+alunos_043: 
+  updated_at: 
+  nome: 5% Jorge Wilson Lopes Cavalcante
+  subscricao: "984"
+  id: "45"
+  created_at: 
+  empresa_id: "1"
+alunos_175: 
+  updated_at: 
+  nome: "5% KETY FULI "
+  subscricao: "1350"
+  id: "177"
+  created_at: 
+  empresa_id: "1"
+alunos_1239: 
+  updated_at: 
+  nome: 5% Ana Claudia Almeida Batista
+  subscricao: "1024"
+  id: "1241"
+  created_at: 
+  empresa_id: "1"
+alunos_1107: 
+  updated_at: 
+  nome: 5% Antonio Victor de Oliveira Torres
+  subscricao: "867"
+  id: "1109"
+  created_at: 
+  empresa_id: "1"
+alunos_993: 
+  updated_at: 
+  nome: "Paulo  C\xE9sar Ser\xE3o Jorge"
+  subscricao: "736"
+  id: "995"
+  created_at: 
+  empresa_id: "1"
+alunos_861: 
+  updated_at: 
+  nome: "Jos\xE9  Aurenildo Brito Silva"
+  subscricao: "591"
+  id: "863"
+  created_at: 
+  empresa_id: "1"
+alunos_044: 
+  updated_at: 
+  nome: Eugues Silva de Souza
+  subscricao: "725"
+  id: "46"
+  created_at: 
+  empresa_id: "1"
+alunos_176: 
+  updated_at: 
+  nome: 5% LARISSA RODRIGUES DA SILVA
+  subscricao: "1392"
+  id: "178"
+  created_at: 
+  empresa_id: "1"
+alunos_1108: 
+  updated_at: 
+  nome: 5% Fabiane Aguiar Silva
+  subscricao: "869"
+  id: "1110"
+  created_at: 
+  empresa_id: "1"
+alunos_994: 
+  updated_at: 
+  nome: Jaceline  Angelica de Souza Cascaes
+  subscricao: "737"
+  id: "996"
+  created_at: 
+  empresa_id: "1"
+alunos_862: 
+  updated_at: 
+  nome: Marcelo Souza de Andrade
+  subscricao: "592"
+  id: "864"
+  created_at: 
+  empresa_id: "1"
+alunos_730: 
+  updated_at: 
+  nome: Antonio de Sousa Lima
+  subscricao: "447"
+  id: "732"
+  created_at: 
+  empresa_id: "1"
+alunos_045: 
+  updated_at: 
+  nome: Jessica  Sampaio Bevilaqua
+  subscricao: "768"
+  id: "47"
+  created_at: 
+  empresa_id: "1"
+alunos_177: 
+  updated_at: 
+  nome: 5% JAMES CARLOS ROSA DE LIMA
+  subscricao: "1351"
+  id: "179"
+  created_at: 
+  empresa_id: "1"
+alunos_995: 
+  updated_at: 
+  nome: Juciane  Antonia Barbosa Oliveira
+  subscricao: "738"
+  id: "997"
+  created_at: 
+  empresa_id: "1"
+alunos_863: 
+  updated_at: 
+  nome: Sosthenes Ferreira Torres
+  subscricao: "593"
+  id: "865"
+  created_at: 
+  empresa_id: "1"
+alunos_731: 
+  updated_at: 
+  nome: Anne Caroline Ferreira Alves
+  subscricao: "448"
+  id: "733"
+  created_at: 
+  empresa_id: "1"
+alunos_046: 
+  updated_at: 
+  nome: Edilson Roberto da Silva
+  subscricao: "764"
+  id: "48"
+  created_at: 
+  empresa_id: "1"
+alunos_178: 
+  updated_at: 
+  nome: 5% Maximina Andrade de Carvalho
+  subscricao: "1367"
+  id: "180"
+  created_at: 
+  empresa_id: "1"
+alunos_1240: 
+  updated_at: 
+  nome: "5% Jetro da Silva Pach\xEAco"
+  subscricao: "1025"
+  id: "1242"
+  created_at: 
+  empresa_id: "1"
+alunos_1109: 
+  updated_at: 
+  nome: 5% Jefferson Pereira Guilherme
+  subscricao: "870"
+  id: "1111"
+  created_at: 
+  empresa_id: "1"
+alunos_996: 
+  updated_at: 
+  nome: "Jard\xE9  Angulo Fermin"
+  subscricao: "739"
+  id: "998"
+  created_at: 
+  empresa_id: "1"
+alunos_864: 
+  updated_at: 
+  nome: Lauder  Carneiro Barros
+  subscricao: "595"
+  id: "866"
+  created_at: 
+  empresa_id: "1"
+alunos_600: 
+  updated_at: 
+  nome: Kaio Rafael de Souza Barbosa
+  subscricao: "304"
+  id: "602"
+  created_at: 
+  empresa_id: "1"
+alunos_732: 
+  updated_at: 
+  nome: Henrique Oliveira Martins
+  subscricao: "449"
+  id: "734"
+  created_at: 
+  empresa_id: "1"
+alunos_047: 
+  updated_at: 
+  nome: Marcela  Seixas Ferreira
+  subscricao: "641"
+  id: "49"
+  created_at: 
+  empresa_id: "1"
+alunos_179: 
+  updated_at: 
+  nome: "5% KENNEDY FERREIRA DE MENDON\xC7A"
+  subscricao: "1393"
+  id: "181"
+  created_at: 
+  empresa_id: "1"
+alunos_1241: 
+  updated_at: 
+  nome: 5% Charles Pereira dos Santos
+  subscricao: "1026"
+  id: "1243"
+  created_at: 
+  empresa_id: "1"
+alunos_048: 
+  updated_at: 
+  nome: Murilo  Afonso Vieira
+  subscricao: "779"
+  id: "50"
+  created_at: 
+  empresa_id: "1"
+alunos_1242: 
+  updated_at: 
+  nome: 5% Cledson Junio Barroso de Oliveira
+  subscricao: "1030"
+  id: "1244"
+  created_at: 
+  empresa_id: "1"
+alunos_1110: 
+  updated_at: 
+  nome: 5% Janeide Martins Chaves Galli
+  subscricao: "871"
+  id: "1112"
+  created_at: 
+  empresa_id: "1"
+alunos_997: 
+  updated_at: 
+  nome: "Amaury  Matias Guimar\xE3es J\xFAnior"
+  subscricao: "740"
+  id: "999"
+  created_at: 
+  empresa_id: "1"
+alunos_865: 
+  updated_at: 
+  nome: Cassandra Queiroz Cavalcante Fernandes
+  subscricao: "596"
+  id: "867"
+  created_at: 
+  empresa_id: "1"
+alunos_601: 
+  updated_at: 
+  nome: Raphael  da Costa Rezende
+  subscricao: "305"
+  id: "603"
+  created_at: 
+  empresa_id: "1"
+alunos_733: 
+  updated_at: 
+  nome: Gabriel  Rodrigues do Nascimento
+  subscricao: "451"
+  id: "735"
+  created_at: 
+  empresa_id: "1"
+alunos_049: 
+  updated_at: 
+  nome: "Vin\xEDcius  Pontes de Mendon\xE7a"
+  subscricao: "780"
+  id: "51"
+  created_at: 
+  empresa_id: "1"
+alunos_1243: 
+  updated_at: 
+  nome: 5% Eliton da Silva Monteiro
+  subscricao: "1031"
+  id: "1245"
+  created_at: 
+  empresa_id: "1"
+alunos_1111: 
+  updated_at: 
+  nome: 5% Everaldo Tadeu Galli
+  subscricao: "872"
+  id: "1113"
+  created_at: 
+  empresa_id: "1"
+alunos_998: 
+  updated_at: 
+  nome: "Elinelson  Ferreira Colares "
+  subscricao: "741"
+  id: "1000"
+  created_at: 
+  empresa_id: "1"
+alunos_866: 
+  updated_at: 
+  nome: Daniel  Costa dos Santos
+  subscricao: "597"
+  id: "868"
+  created_at: 
+  empresa_id: "1"
+alunos_602: 
+  updated_at: 
+  nome: Tainah da Costa Rezende
+  subscricao: "306"
+  id: "604"
+  created_at: 
+  empresa_id: "1"
+alunos_734: 
+  updated_at: 
+  nome: Ana  Paula Nardelli
+  subscricao: "452"
+  id: "736"
+  created_at: 
+  empresa_id: "1"
+alunos_180: 
+  updated_at: 
+  nome: 5% GEOVANNI DE PAULA MATHIAS SALDANHA
+  subscricao: "1394"
+  id: "182"
+  created_at: 
+  empresa_id: "1"
+alunos_1244: 
+  updated_at: 
+  nome: "5% Andr\xE9 Ramos da Silva"
+  subscricao: "1032"
+  id: "1246"
+  created_at: 
+  empresa_id: "1"
+alunos_1112: 
+  updated_at: 
+  nome: "5% Paula Val\xE9ria Souza Silva"
+  subscricao: "873"
+  id: "1114"
+  created_at: 
+  empresa_id: "1"
+alunos_999: 
+  updated_at: 
+  nome: Mayame  de Lima Sombra
+  subscricao: "742"
+  id: "1001"
+  created_at: 
+  empresa_id: "1"
+alunos_867: 
+  updated_at: 
+  nome: Elson Souza da Silva
+  subscricao: "598"
+  id: "869"
+  created_at: 
+  empresa_id: "1"
+alunos_603: 
+  updated_at: 
+  nome: Diego  Ribeiro Marques
+  subscricao: "307"
+  id: "605"
+  created_at: 
+  empresa_id: "1"
+alunos_735: 
+  updated_at: 
+  nome: Israel Silva Santos
+  subscricao: "453"
+  id: "737"
+  created_at: 
+  empresa_id: "1"
+alunos_181: 
+  updated_at: 
+  nome: 5% Reison Queiroz Silva
+  subscricao: "1368"
+  id: "183"
+  created_at: 
+  empresa_id: "1"
+alunos_1245: 
+  updated_at: 
+  nome: 5% Ana Claudia Conde Vieiralves
+  subscricao: "1837"
+  id: "1247"
+  created_at: 
+  empresa_id: "1"
+alunos_1113: 
+  updated_at: 
+  nome: "(light) Jos\xE9 Francisco Soares da Costa"
+  subscricao: "874"
+  id: "1115"
+  created_at: 
+  empresa_id: "1"
+alunos_868: 
+  updated_at: 
+  nome: Suzana Caroline Araujo Batista
+  subscricao: "599"
+  id: "870"
+  created_at: 
+  empresa_id: "1"
+alunos_604: 
+  updated_at: 
+  nome: Andrielle da Luz Leandro
+  subscricao: "308"
+  id: "606"
+  created_at: 
+  empresa_id: "1"
+alunos_736: 
+  updated_at: 
+  nome: Frank  Ribeiro dos Santos
+  subscricao: "454"
+  id: "738"
+  created_at: 
+  empresa_id: "1"
+alunos_050: 
+  updated_at: 
+  nome: Leticia Dionisia Silva de Lima
+  subscricao: "111"
+  id: "52"
+  created_at: 
+  empresa_id: "1"
+alunos_182: 
+  updated_at: 
+  nome: 5% LENILSON DUARTE FARACHE
+  subscricao: "1352"
+  id: "184"
+  created_at: 
+  empresa_id: "1"
+alunos_1246: 
+  updated_at: 
+  nome: 5% Emanuela Costa Oliveira
+  subscricao: "1841"
+  id: "1248"
+  created_at: 
+  empresa_id: "1"
+alunos_1114: 
+  updated_at: 
+  nome: 5% Darlisson  Lopes Branches
+  subscricao: "875"
+  id: "1116"
+  created_at: 
+  empresa_id: "1"
+alunos_869: 
+  updated_at: 
+  nome: Ralf  Kellner
+  subscricao: "600"
+  id: "871"
+  created_at: 
+  empresa_id: "1"
+alunos_605: 
+  updated_at: 
+  nome: Fernanda Souza Castelo Branco
+  subscricao: "309"
+  id: "607"
+  created_at: 
+  empresa_id: "1"
+alunos_737: 
+  updated_at: 
+  nome: Israel  Albuquerque
+  subscricao: "455"
+  id: "739"
+  created_at: 
+  empresa_id: "1"
+alunos_051: 
+  updated_at: 
+  nome: Mayara dos Santos Bezerra
+  subscricao: "247"
+  id: "53"
+  created_at: 
+  empresa_id: "1"
+alunos_183: 
+  updated_at: 
+  nome: 5% ELENY CARANHAS DE SOUSA
+  subscricao: "1353"
+  id: "185"
+  created_at: 
+  empresa_id: "1"
+alunos_1247: 
+  updated_at: 
+  nome: 5% Joel Nunes de Souza
+  subscricao: "1842"
+  id: "1249"
+  created_at: 
+  empresa_id: "1"
+alunos_1115: 
+  updated_at: 
+  nome: 5% Elinete Pereira Almeida
+  subscricao: "876"
+  id: "1117"
+  created_at: 
+  empresa_id: "1"
+alunos_606: 
+  updated_at: 
+  nome: Jean Francisco Venturin Samonek
+  subscricao: "310"
+  id: "608"
+  created_at: 
+  empresa_id: "1"
+alunos_738: 
+  updated_at: 
+  nome: Lucas  Bueno Carvalho
+  subscricao: "456"
+  id: "740"
+  created_at: 
+  empresa_id: "1"
+alunos_052: 
+  updated_at: 
+  nome: "On\xE9zimo Rodrigues da Silva"
+  subscricao: "149"
+  id: "54"
+  created_at: 
+  empresa_id: "1"
+alunos_184: 
+  updated_at: 
+  nome: 5% rafael Dias Ramos Loureiro
+  subscricao: "1369"
+  id: "186"
+  created_at: 
+  empresa_id: "1"
+alunos_1248: 
+  updated_at: 
+  nome: "5% Raimundo Moura de Ara\xFAjo"
+  subscricao: "1843"
+  id: "1250"
+  created_at: 
+  empresa_id: "1"
+alunos_1116: 
+  updated_at: 
+  nome: 5% Edinelza Porto Dias Perin
+  subscricao: "877"
+  id: "1118"
+  created_at: 
+  empresa_id: "1"
+alunos_870: 
+  updated_at: 
+  nome: Robson de Souza Silva
+  subscricao: "601"
+  id: "872"
+  created_at: 
+  empresa_id: "1"
+alunos_607: 
+  updated_at: 
+  nome: "Andrea Lampert Gomes de S\xE1"
+  subscricao: "311"
+  id: "609"
+  created_at: 
+  empresa_id: "1"
+alunos_739: 
+  updated_at: 
+  nome: Eric de Souza Borges
+  subscricao: "457"
+  id: "741"
+  created_at: 
+  empresa_id: "1"
+alunos_053: 
+  updated_at: 
+  nome: Rafael  Alves de Freitas
+  subscricao: "407"
+  id: "55"
+  created_at: 
+  empresa_id: "1"
+alunos_185: 
+  updated_at: 
+  nome: 5% GIANCARLO FRANCISCO PONTES MONTEIRO
+  subscricao: "1354"
+  id: "187"
+  created_at: 
+  empresa_id: "1"
+alunos_1249: 
+  updated_at: 
+  nome: 5% Luiz Guilherme Melo de Souza
+  subscricao: "1844"
+  id: "1251"
+  created_at: 
+  empresa_id: "1"
+alunos_1117: 
+  updated_at: 
+  nome: "5% Ver\xF4nica Soares de Souza"
+  subscricao: "879"
+  id: "1119"
+  created_at: 
+  empresa_id: "1"
+alunos_871: 
+  updated_at: 
+  nome: Roseane Oliveira do Nascimento
+  subscricao: "602"
+  id: "873"
+  created_at: 
+  empresa_id: "1"
+alunos_608: 
+  updated_at: 
+  nome: Raimundo  de Souza Rocha
+  subscricao: "312"
+  id: "610"
+  created_at: 
+  empresa_id: "1"
+alunos_054: 
+  updated_at: 
+  nome: Andreia dos Santos Sousa
+  subscricao: "478"
+  id: "56"
+  created_at: 
+  empresa_id: "1"
+alunos_186: 
+  updated_at: 
+  nome: 5% HELIGIANE BARBOSA GIMA FERREIRA
+  subscricao: "1395"
+  id: "188"
+  created_at: 
+  empresa_id: "1"
+alunos_1118: 
+  updated_at: 
+  nome: 5% Dario  Monteiro Sampaio
+  subscricao: "880"
+  id: "1120"
+  created_at: 
+  empresa_id: "1"
+alunos_872: 
+  updated_at: 
+  nome: Everton do Vale Souza
+  subscricao: "603"
+  id: "874"
+  created_at: 
+  empresa_id: "1"
+alunos_609: 
+  updated_at: 
+  nome: Cleidmar Crus Batista
+  subscricao: "313"
+  id: "611"
+  created_at: 
+  empresa_id: "1"
+alunos_055: 
+  updated_at: 
+  nome: Ronimar  da Silva Pereira
+  subscricao: "450"
+  id: "57"
+  created_at: 
+  empresa_id: "1"
+alunos_187: 
+  updated_at: 
+  nome: 5% FABIOLA DE OLIVEIRA BEZERRA
+  subscricao: "1355"
+  id: "189"
+  created_at: 
+  empresa_id: "1"
+alunos_740: 
+  updated_at: 
+  nome: Allan  Jones Almeida Mattos
+  subscricao: "458"
+  id: "742"
+  created_at: 
+  empresa_id: "1"
+alunos_1119: 
+  updated_at: 
+  nome: 5% Raphael Oliveira da Silva
+  subscricao: "881"
+  id: "1121"
+  created_at: 
+  empresa_id: "1"
+alunos_873: 
+  updated_at: 
+  nome: "Alfredo  dos Santos Ara\xFAjo Filho"
+  subscricao: "604"
+  id: "875"
+  created_at: 
+  empresa_id: "1"
+alunos_056: 
+  updated_at: 
+  nome: 5% Luan Francisco Lima Fernandes
+  subscricao: "1007"
+  id: "58"
+  created_at: 
+  empresa_id: "1"
+alunos_188: 
+  updated_at: 
+  nome: 5% DIEGO MELO DIAS
+  subscricao: "1396"
+  id: "190"
+  created_at: 
+  empresa_id: "1"
+alunos_741: 
+  updated_at: 
+  nome: Amanda  da Silva Pereira
+  subscricao: "459"
+  id: "743"
+  created_at: 
+  empresa_id: "1"
+alunos_1250: 
+  updated_at: 
+  nome: 5% Hilso Pinheiro de Oliveira
+  subscricao: "1845"
+  id: "1252"
+  created_at: 
+  empresa_id: "1"
+alunos_874: 
+  updated_at: 
+  nome: Dayana Silva Grimm
+  subscricao: "605"
+  id: "876"
+  created_at: 
+  empresa_id: "1"
+alunos_057: 
+  updated_at: 
+  nome: 5% Marcio de Andrade Sarubi
+  subscricao: "1029"
+  id: "59"
+  created_at: 
+  empresa_id: "1"
+alunos_189: 
+  updated_at: 
+  nome: "5% ROOSEVELT DA SILVA PAR\xC1 JUNIOR"
+  subscricao: "1356"
+  id: "191"
+  created_at: 
+  empresa_id: "1"
+alunos_610: 
+  updated_at: 
+  nome: "Jos\xE9 Marques do Prado Filho"
+  subscricao: "314"
+  id: "612"
+  created_at: 
+  empresa_id: "1"
+alunos_742: 
+  updated_at: 
+  nome: "Alberto Luiz Gomes Pereira J\xFAnior"
+  subscricao: "460"
+  id: "744"
+  created_at: 
+  empresa_id: "1"
+alunos_1251: 
+  updated_at: 
+  nome: 5% Mauricio Fernandes Souza
+  subscricao: "1847"
+  id: "1253"
+  created_at: 
+  empresa_id: "1"
+alunos_875: 
+  updated_at: 
+  nome: "Gerson Mac\xEAdo do R\xEAgo Filho"
+  subscricao: "606"
+  id: "877"
+  created_at: 
+  empresa_id: "1"
+alunos_058: 
+  updated_at: 
+  nome: 5% Ricardo Alexandre Anselmo
+  subscricao: "960"
+  id: "60"
+  created_at: 
+  empresa_id: "1"
+alunos_611: 
+  updated_at: 
+  nome: Sandra Cristina de Souza Lopes
+  subscricao: "315"
+  id: "613"
+  created_at: 
+  empresa_id: "1"
+alunos_743: 
+  updated_at: 2008-03-19 13:39:08
+  nome: "Ana  Cla\xFAdia Ferreira Ol\xEDmpio"
+  subscricao: "461"
+  id: "745"
+  created_at: 
+  empresa_id: "1"
+alunos_1252: 
+  updated_at: 
+  nome: "5% Andr\xE9 Mauricio da Encarna\xE7\xE3o do Nascimento"
+  subscricao: "1848"
+  id: "1254"
+  created_at: 
+  empresa_id: "1"
+alunos_1120: 
+  updated_at: 
+  nome: 5% Dehzem Amorim de Oliveira
+  subscricao: "883"
+  id: "1122"
+  created_at: 
+  empresa_id: "1"
+alunos_059: 
+  updated_at: 
+  nome: Beth Simone Almeida Andrade
+  subscricao: "979"
+  id: "61"
+  created_at: 
+  empresa_id: "1"
+alunos_1253: 
+  updated_at: 
+  nome: "5% Fabio Assun\xE7\xE3o Soares"
+  subscricao: "1849"
+  id: "1255"
+  created_at: 
+  empresa_id: "1"
+alunos_1121: 
+  updated_at: 
+  nome: 5% Julimara de Melo Silva
+  subscricao: "884"
+  id: "1123"
+  created_at: 
+  empresa_id: "1"
+alunos_876: 
+  updated_at: 
+  nome: Maria do Socorro de Souza Macedo
+  subscricao: "607"
+  id: "878"
+  created_at: 
+  empresa_id: "1"
+alunos_190: 
+  updated_at: 
+  nome: "5% Jack Jovson Nazar\xE9 de Souza"
+  subscricao: "1370"
+  id: "192"
+  created_at: 
+  empresa_id: "1"
+alunos_612: 
+  updated_at: 
+  nome: Nilce Vinente da Silva
+  subscricao: "316"
+  id: "614"
+  created_at: 
+  empresa_id: "1"
+alunos_744: 
+  updated_at: 
+  nome: "Andressa Ferreira Bel\xE9m"
+  subscricao: "462"
+  id: "746"
+  created_at: 
+  empresa_id: "1"
+alunos_1254: 
+  updated_at: 
+  nome: 5% Natalia Diniz da Silva
+  subscricao: "1850"
+  id: "1256"
+  created_at: 
+  empresa_id: "1"
+alunos_1122: 
+  updated_at: 
+  nome: 5% Antonio Florisvaldo Peres Xavier
+  subscricao: "885"
+  id: "1124"
+  created_at: 
+  empresa_id: "1"
+alunos_877: 
+  updated_at: 
+  nome: "Ana  Karme de Arag\xE3o Martins"
+  subscricao: "608"
+  id: "879"
+  created_at: 
+  empresa_id: "1"
+alunos_191: 
+  updated_at: 
+  nome: 5% TATIANA COSTA DE SOUZA
+  subscricao: "1397"
+  id: "193"
+  created_at: 
+  empresa_id: "1"
+alunos_613: 
+  updated_at: 
+  nome: Isabela  Cruz de Oliveira
+  subscricao: "317"
+  id: "615"
+  created_at: 
+  empresa_id: "1"
+alunos_745: 
+  updated_at: 
+  nome: Thaiz  Larissa Ferreira Olimpio
+  subscricao: "463"
+  id: "747"
+  created_at: 
+  empresa_id: "1"
+alunos_1255: 
+  updated_at: 
+  nome: 5% Johny Cairo Teixeira Nogueira
+  subscricao: "1851"
+  id: "1257"
+  created_at: 
+  empresa_id: "1"
+alunos_1123: 
+  updated_at: 
+  nome: "5% Paulo Ara\xFAjo do Vale"
+  subscricao: "886"
+  id: "1125"
+  created_at: 
+  empresa_id: "1"
+alunos_878: 
+  updated_at: 
+  nome: Rodrigo  Santos de Assis do Bonfim
+  subscricao: "609"
+  id: "880"
+  created_at: 
+  empresa_id: "1"
+alunos_060: 
+  updated_at: 
+  nome: Rafaela  Pereira Diniz do Nascimento
+  subscricao: "848"
+  id: "62"
+  created_at: 
+  empresa_id: "1"
+alunos_192: 
+  updated_at: 
+  nome: 5% EVERALDO DE SOUZA REIS
+  subscricao: "1357"
+  id: "194"
+  created_at: 
+  empresa_id: "1"
+alunos_614: 
+  updated_at: 
+  nome: Andreza dos Santos Nogueira
+  subscricao: "318"
+  id: "616"
+  created_at: 
+  empresa_id: "1"
+alunos_746: 
+  updated_at: 
+  nome: Luciana  Santos da Silva
+  subscricao: "464"
+  id: "748"
+  created_at: 
+  empresa_id: "1"
+alunos_1256: 
+  updated_at: 
+  nome: 5% Thais  Cristina Carvalho Costa
+  subscricao: "1852"
+  id: "1258"
+  created_at: 
+  empresa_id: "1"
+alunos_1124: 
+  updated_at: 
+  nome: "5% Jerry Lucio Castro de Ar\xFAjo"
+  subscricao: "887"
+  id: "1126"
+  created_at: 
+  empresa_id: "1"
+alunos_879: 
+  updated_at: 
+  nome: "Valmir  Mendes da Cunha J\xFAnior"
+  subscricao: "610"
+  id: "881"
+  created_at: 
+  empresa_id: "1"
+alunos_061: 
+  updated_at: 
+  nome: "5% Jos\xE9 Romeu Coura"
+  subscricao: "1263"
+  id: "63"
+  created_at: 
+  empresa_id: "1"
+alunos_193: 
+  updated_at: 
+  nome: 5% Priscila Socorro Meirelez de Almeida Silva
+  subscricao: "1371"
+  id: "195"
+  created_at: 
+  empresa_id: "1"
+alunos_615: 
+  updated_at: 
+  nome: "Andr\xE9 Silva Veiga"
+  subscricao: "319"
+  id: "617"
+  created_at: 
+  empresa_id: "1"
+alunos_747: 
+  updated_at: 
+  nome: Sara  Regina Gomes de Almeida Marques Medeiros
+  subscricao: "465"
+  id: "749"
+  created_at: 
+  empresa_id: "1"
+alunos_1257: 
+  updated_at: 
+  nome: 5% Lia Raquel Viana Laureano
+  subscricao: "1853"
+  id: "1259"
+  created_at: 
+  empresa_id: "1"
+alunos_1125: 
+  updated_at: 
+  nome: 5% Pedro Jardel Alcantara Garcia
+  subscricao: "888"
+  id: "1127"
+  created_at: 
+  empresa_id: "1"
+alunos_062: 
+  updated_at: 
+  nome: "M\xE1rcia  dos Santos da Silva"
+  subscricao: "821"
+  id: "64"
+  created_at: 
+  empresa_id: "1"
+alunos_194: 
+  updated_at: 
+  nome: 5% JULIAN ARAUJO DOS SANTOS
+  subscricao: "1398"
+  id: "196"
+  created_at: 
+  empresa_id: "1"
+alunos_616: 
+  updated_at: 
+  nome: Divina Eterna Machado Parreira da Silva
+  subscricao: "320"
+  id: "618"
+  created_at: 
+  empresa_id: "1"
+alunos_748: 
+  updated_at: 
+  nome: Alfredo  Barker Costa
+  subscricao: "466"
+  id: "750"
+  created_at: 
+  empresa_id: "1"
+alunos_1258: 
+  updated_at: 
+  nome: 5% Lindinaldo Gomes dos Santos
+  subscricao: "1854"
+  id: "1260"
+  created_at: 
+  empresa_id: "1"
+alunos_1126: 
+  updated_at: 
+  nome: 5% Antonio Oscar de Goes Junior
+  subscricao: "889"
+  id: "1128"
+  created_at: 
+  empresa_id: "1"
+alunos_880: 
+  updated_at: 
+  nome: Angelina Menezes Rodrigues
+  subscricao: "611"
+  id: "882"
+  created_at: 
+  empresa_id: "1"
+alunos_063: 
+  updated_at: 
+  nome: "5%JULIANA KARINE KRICHAN\xC3 MATOS"
+  subscricao: "1264"
+  id: "65"
+  created_at: 
+  empresa_id: "1"
+alunos_195: 
+  updated_at: 
+  nome: 5% THIAGO RODRIGUES TAVARES
+  subscricao: "1399"
+  id: "197"
+  created_at: 
+  empresa_id: "1"
+alunos_617: 
+  updated_at: 
+  nome: Deivy da Silva Soares
+  subscricao: "321"
+  id: "619"
+  created_at: 
+  empresa_id: "1"
+alunos_749: 
+  updated_at: 
+  nome: Anadra Carolina Alves F. da Frota
+  subscricao: "467"
+  id: "751"
+  created_at: 
+  empresa_id: "1"
+alunos_1259: 
+  updated_at: 
+  nome: 5% Sinara Siqueira da Silva
+  subscricao: "1855"
+  id: "1261"
+  created_at: 
+  empresa_id: "1"
+alunos_1127: 
+  updated_at: 
+  nome: 5% Nelson de Oliveira Santiago Filho
+  subscricao: "890"
+  id: "1129"
+  created_at: 
+  empresa_id: "1"
+alunos_881: 
+  updated_at: 
+  nome: Daniele  Rathleen de Oliveira Vieira
+  subscricao: "612"
+  id: "883"
+  created_at: 
+  empresa_id: "1"
+alunos_064: 
+  updated_at: 
+  nome: 5% Aline de Souza Ribeiro
+  subscricao: "1265"
+  id: "66"
+  created_at: 
+  empresa_id: "1"
+alunos_196: 
+  updated_at: 
+  nome: 5% Marcelo Lissi paiva
+  subscricao: "1372"
+  id: "198"
+  created_at: 
+  empresa_id: "1"
+alunos_618: 
+  updated_at: 
+  nome: Cynara Luziet Lages do Nascimento
+  subscricao: "322"
+  id: "620"
+  created_at: 
+  empresa_id: "1"
+alunos_1128: 
+  updated_at: 
+  nome: 5% Paulo dos Anjos Marinho
+  subscricao: "891"
+  id: "1130"
+  created_at: 
+  empresa_id: "1"
+alunos_882: 
+  updated_at: 
+  nome: Susan  Brenda Hassan
+  subscricao: "613"
+  id: "884"
+  created_at: 
+  empresa_id: "1"
+alunos_065: 
+  updated_at: 
+  nome: Isabel Cristina de Carvalho Nery
+  subscricao: "258"
+  id: "67"
+  created_at: 
+  empresa_id: "1"
+alunos_197: 
+  updated_at: 
+  nome: 5% ELINALDO ALVES
+  subscricao: "1400"
+  id: "199"
+  created_at: 
+  empresa_id: "1"
+alunos_750: 
+  updated_at: 
+  nome: "Danilo  Guimar\xE3es dos Santos"
+  subscricao: "468"
+  id: "752"
+  created_at: 
+  empresa_id: "1"
+alunos_619: 
+  updated_at: 
+  nome: Ezra Chaves Oliveira Santos
+  subscricao: "323"
+  id: "621"
+  created_at: 
+  empresa_id: "1"
+alunos_1129: 
+  updated_at: 
+  nome: 5% Nastassia de Souza Evangelista
+  subscricao: "892"
+  id: "1131"
+  created_at: 
+  empresa_id: "1"
+alunos_883: 
+  updated_at: 
+  nome: Ana  Paula Hassan
+  subscricao: "614"
+  id: "885"
+  created_at: 
+  empresa_id: "1"
+alunos_066: 
+  updated_at: 
+  nome: "Jos\xE9  George Ramalho de Freitas"
+  subscricao: "481"
+  id: "68"
+  created_at: 
+  empresa_id: "1"
+alunos_198: 
+  updated_at: 
+  nome: 5% MARIZE LOPES MOREIRA
+  subscricao: "1358"
+  id: "200"
+  created_at: 
+  empresa_id: "1"
+alunos_751: 
+  updated_at: 
+  nome: Luccas  Nery de Paiva
+  subscricao: "470"
+  id: "753"
+  created_at: 
+  empresa_id: "1"
+alunos_1260: 
+  updated_at: 
+  nome: 5% Maria Luzia Siqueira da Silva
+  subscricao: "1856"
+  id: "1262"
+  created_at: 
+  empresa_id: "1"
+alunos_884: 
+  updated_at: 
+  nome: "Suelen Cristine Ara\xFAjo Batista"
+  subscricao: "615"
+  id: "886"
+  created_at: 
+  empresa_id: "1"
+alunos_067: 
+  updated_at: 
+  nome: 5% ADRIANA MEDEIROS FROTA
+  subscricao: "1266"
+  id: "69"
+  created_at: 
+  empresa_id: "1"
+alunos_199: 
+  updated_at: 
+  nome: 5% DIEGO TELES MAIA
+  subscricao: "1401"
+  id: "201"
+  created_at: 
+  empresa_id: "1"
+alunos_620: 
+  updated_at: 
+  nome: Marcos  Vinicius Lemos Ragnini
+  subscricao: "324"
+  id: "622"
+  created_at: 
+  empresa_id: "1"
+alunos_752: 
+  updated_at: 
+  nome: Ariane Castro Pedroso
+  subscricao: "471"
+  id: "754"
+  created_at: 
+  empresa_id: "1"
+alunos_1261: 
+  updated_at: 
+  nome: 5% Thiago Viana Silva  Silva
+  subscricao: "1857"
+  id: "1263"
+  created_at: 
+  empresa_id: "1"
+alunos_885: 
+  updated_at: 
+  nome: Denison  Lima Bentes
+  subscricao: "616"
+  id: "887"
+  created_at: 
+  empresa_id: "1"
+alunos_621: 
+  updated_at: 
+  nome: Fabiana Rivas de Araujo Soares
+  subscricao: "325"
+  id: "623"
+  created_at: 
+  empresa_id: "1"
+alunos_753: 
+  updated_at: 
+  nome: Saullo Sammir Berredo Pacheco
+  subscricao: "472"
+  id: "755"
+  created_at: 
+  empresa_id: "1"
+alunos_068: 
+  updated_at: 2008-03-22 13:17:05
+  nome: Marcos Aroripe Souza Oliveira
+  subscricao: "209"
+  id: "70"
+  created_at: 
+  empresa_id: "1"
+alunos_1262: 
+  updated_at: 
+  nome: 5% Claudionor Henrique Almeida Goes
+  subscricao: "1858"
+  id: "1264"
+  created_at: 
+  empresa_id: "1"
+alunos_1130: 
+  updated_at: 
+  nome: 5% Maria Domingas Araujo Silva
+  subscricao: "893"
+  id: "1132"
+  created_at: 
+  empresa_id: "1"
+alunos_886: 
+  updated_at: 
+  nome: Carlos  Fernandes de Andrade
+  subscricao: "617"
+  id: "888"
+  created_at: 
+  empresa_id: "1"
+alunos_622: 
+  updated_at: 
+  nome: Cristiane Batista
+  subscricao: "327"
+  id: "624"
+  created_at: 
+  empresa_id: "1"
+alunos_754: 
+  updated_at: 
+  nome: Gledson Alan Souza de Oliveira
+  subscricao: "473"
+  id: "756"
+  created_at: 
+  empresa_id: "1"
+alunos_069: 
+  updated_at: 
+  nome: 5% RICARDO DE AZEVEDO RANGEL
+  subscricao: "1267"
+  id: "71"
+  created_at: 
+  empresa_id: "1"
+alunos_1263: 
+  updated_at: 
+  nome: 5% George Newton Monteiro Buiati
+  subscricao: "1859"
+  id: "1265"
+  created_at: 
+  empresa_id: "1"
+alunos_1131: 
+  updated_at: 
+  nome: 5% Iris Alves de Oliveira
+  subscricao: "894"
+  id: "1133"
+  created_at: 
+  empresa_id: "1"
+alunos_1264: 
+  updated_at: 
+  nome: "5% Fl\xE1via Chaves de Souza"
+  subscricao: "1860"
+  id: "1266"
+  created_at: 
+  empresa_id: "1"
+alunos_1132: 
+  updated_at: 
+  nome: 5% Patricia Meirelles de Mello
+  subscricao: "895"
+  id: "1134"
+  created_at: 
+  empresa_id: "1"
+alunos_1000: 
+  updated_at: 
+  nome: Giordana Karoline Coelho Vieira
+  subscricao: "743"
+  id: "1002"
+  created_at: 
+  empresa_id: "1"
+alunos_887: 
+  updated_at: 
+  nome: "Os\xE9ias  Gon\xE7alves da Silva"
+  subscricao: "618"
+  id: "889"
+  created_at: 
+  empresa_id: "1"
+alunos_623: 
+  updated_at: 
+  nome: "Andr\xE9  Soares da Silva Lima"
+  subscricao: "328"
+  id: "625"
+  created_at: 
+  empresa_id: "1"
+alunos_755: 
+  updated_at: 
+  nome: Taysa Roriz Hiolito Vieira
+  subscricao: "474"
+  id: "757"
+  created_at: 
+  empresa_id: "1"
+alunos_1265: 
+  updated_at: 
+  nome: 5% Carla Chaves Pacheco
+  subscricao: "1861"
+  id: "1267"
+  created_at: 
+  empresa_id: "1"
+alunos_1133: 
+  updated_at: 
+  nome: (light) Kamila dos Santos Macedo
+  subscricao: "896"
+  id: "1135"
+  created_at: 
+  empresa_id: "1"
+alunos_1001: 
+  updated_at: 
+  nome: "S\xE9rgio  Leonidas Fernandes Pinheiro"
+  subscricao: "744"
+  id: "1003"
+  created_at: 
+  empresa_id: "1"
+alunos_888: 
+  updated_at: 
+  nome: "Alessandro Domingos M\xE1ximo"
+  subscricao: "621"
+  id: "890"
+  created_at: 
+  empresa_id: "1"
+alunos_624: 
+  updated_at: 
+  nome: Antonio Italo Dias de Souza
+  subscricao: "329"
+  id: "626"
+  created_at: 
+  empresa_id: "1"
+alunos_756: 
+  updated_at: 
+  nome: Adriana da Silva Praia
+  subscricao: "475"
+  id: "758"
+  created_at: 
+  empresa_id: "1"
+alunos_070: 
+  updated_at: 
+  nome: Emily Luise da Silva Ribeiro
+  subscricao: "226"
+  id: "72"
+  created_at: 
+  empresa_id: "1"
+alunos_1266: 
+  updated_at: 
+  nome: 5% Carlos Alberto Ferreira Soares
+  subscricao: "1862"
+  id: "1268"
+  created_at: 
+  empresa_id: "1"
+alunos_1134: 
+  updated_at: 
+  nome: 5% Julio Cesar Albuquerque Ferreira
+  subscricao: "897"
+  id: "1136"
+  created_at: 
+  empresa_id: "1"
+alunos_1002: 
+  updated_at: 
+  nome: Michael  Santos Sidi
+  subscricao: "745"
+  id: "1004"
+  created_at: 
+  empresa_id: "1"
+alunos_889: 
+  updated_at: 
+  nome: "Jo\xE3o  Ramalho Melo Mota"
+  subscricao: "622"
+  id: "891"
+  created_at: 
+  empresa_id: "1"
+alunos_625: 
+  updated_at: 
+  nome: Cheila Cristina Bortoleto
+  subscricao: "330"
+  id: "627"
+  created_at: 
+  empresa_id: "1"
+alunos_757: 
+  updated_at: 
+  nome: Ewerton  Bentes da Silva
+  subscricao: "476"
+  id: "759"
+  created_at: 
+  empresa_id: "1"
+alunos_071: 
+  updated_at: 
+  nome: "5% RAFAEL DA ROCHA PICAN\xC7O"
+  subscricao: "1268"
+  id: "73"
+  created_at: 
+  empresa_id: "1"
+alunos_1267: 
+  updated_at: 
+  nome: "5% Renata Ramos da Ara\xFAjo"
+  subscricao: "1863"
+  id: "1269"
+  created_at: 
+  empresa_id: "1"
+alunos_1135: 
+  updated_at: 
+  nome: "5% R\xF4nison Silva de Oliveira"
+  subscricao: "898"
+  id: "1137"
+  created_at: 
+  empresa_id: "1"
+alunos_1003: 
+  updated_at: 
+  nome: Danilo  Ferreira Lima
+  subscricao: "746"
+  id: "1005"
+  created_at: 
+  empresa_id: "1"
+alunos_626: 
+  updated_at: 
+  nome: Itamar  Giovani Teichmann
+  subscricao: "331"
+  id: "628"
+  created_at: 
+  empresa_id: "1"
+alunos_758: 
+  updated_at: 
+  nome: Kedma da Silva Alexandre
+  subscricao: "477"
+  id: "760"
+  created_at: 
+  empresa_id: "1"
+alunos_072: 
+  updated_at: 
+  nome: Terence  de Souza Araujo
+  subscricao: "665"
+  id: "74"
+  created_at: 
+  empresa_id: "1"
+alunos_1268: 
+  updated_at: 
+  nome: 5% Laelson Cassiano Franco
+  subscricao: "1864"
+  id: "1270"
+  created_at: 
+  empresa_id: "1"
+alunos_1136: 
+  updated_at: 
+  nome: 5% Suziane Oliveira da Silva
+  subscricao: "899"
+  id: "1138"
+  created_at: 
+  empresa_id: "1"
+alunos_1004: 
+  updated_at: 
+  nome: Henedjones  Rodrigues de Souza
+  subscricao: "747"
+  id: "1006"
+  created_at: 
+  empresa_id: "1"
+alunos_890: 
+  updated_at: 
+  nome: "Carolina  Maria Ol\xEDmpio Galaxe"
+  subscricao: "624"
+  id: "892"
+  created_at: 
+  empresa_id: "1"
+alunos_627: 
+  updated_at: 
+  nome: "Suzyane Le\xE3o de Souza"
+  subscricao: "332"
+  id: "629"
+  created_at: 
+  empresa_id: "1"
+alunos_759: 
+  updated_at: 
+  nome: "Andr\xE9 Guedes Pimentel"
+  subscricao: "479"
+  id: "761"
+  created_at: 
+  empresa_id: "1"
+alunos_073: 
+  updated_at: 
+  nome: "Taissy Palheta Leit\xE3o"
+  subscricao: "594"
+  id: "75"
+  created_at: 
+  empresa_id: "1"
+alunos_1269: 
+  updated_at: 
+  nome: 5% Diana Cavalcante Oliveira
+  subscricao: "1865"
+  id: "1271"
+  created_at: 
+  empresa_id: "1"
+alunos_1137: 
+  updated_at: 
+  nome: 5% Marinete da Silva Vasques
+  subscricao: "900"
+  id: "1139"
+  created_at: 
+  empresa_id: "1"
+alunos_1005: 
+  updated_at: 
+  nome: "Jo\xE3o Nunes Zacarias"
+  subscricao: "748"
+  id: "1007"
+  created_at: 
+  empresa_id: "1"
+alunos_891: 
+  updated_at: 
+  nome: Jano  de Souza Mello
+  subscricao: "625"
+  id: "893"
+  created_at: 
+  empresa_id: "1"
+alunos_628: 
+  updated_at: 
+  nome: Luan  Felipe Rodrigues Campos
+  subscricao: "333"
+  id: "630"
+  created_at: 
+  empresa_id: "1"
+alunos_074: 
+  updated_at: 
+  nome: Arleson Gomes Xavier
+  subscricao: "115"
+  id: "76"
+  created_at: 
+  empresa_id: "1"
+alunos_1138: 
+  updated_at: 
+  nome: "5% Elismael Louren\xE7o dos Santos"
+  subscricao: "901"
+  id: "1140"
+  created_at: 
+  empresa_id: "1"
+alunos_1006: 
+  updated_at: 
+  nome: "Bruno  Moreno de Miranda Le\xE3o"
+  subscricao: "749"
+  id: "1008"
+  created_at: 
+  empresa_id: "1"
+alunos_892: 
+  updated_at: 
+  nome: "Ketty Simone D. Louren\xE7o"
+  subscricao: "626"
+  id: "894"
+  created_at: 
+  empresa_id: "1"
+alunos_760: 
+  updated_at: 
+  nome: Girlony Cristina Farias Leite
+  subscricao: "480"
+  id: "762"
+  created_at: 
+  empresa_id: "1"
+alunos_629: 
+  updated_at: 
+  nome: Daiany  Liley Oliveira Chacin
+  subscricao: "334"
+  id: "631"
+  created_at: 
+  empresa_id: "1"
+alunos_075: 
+  updated_at: 
+  nome: 5% PRISCILA PRESLEY T. DA SILVA
+  subscricao: "1269"
+  id: "77"
+  created_at: 
+  empresa_id: "1"
+alunos_1139: 
+  updated_at: 
+  nome: Willel Moraes Pinheiro
+  subscricao: "902"
+  id: "1141"
+  created_at: 
+  empresa_id: "1"
+alunos_1007: 
+  updated_at: 
+  nome: Terezinha  Suely da Silva Ferreira Lima
+  subscricao: "750"
+  id: "1009"
+  created_at: 
+  empresa_id: "1"
+alunos_893: 
+  updated_at: 
+  nome: Kristiane Guilherme de Lima
+  subscricao: "627"
+  id: "895"
+  created_at: 
+  empresa_id: "1"
+alunos_761: 
+  updated_at: 
+  nome: Clistenes Coelho Ramos da Silva
+  subscricao: "482"
+  id: "763"
+  created_at: 
+  empresa_id: "1"
+alunos_076: 
+  updated_at: 
+  nome: "Jeft\xE1 Hebrom Freire Camara"
+  subscricao: "128"
+  id: "78"
+  created_at: 
+  empresa_id: "1"
+alunos_1270: 
+  updated_at: 
+  nome: 5% Liberato de Castro Ribeiro
+  subscricao: "1866"
+  id: "1272"
+  created_at: 
+  empresa_id: "1"
+alunos_1008: 
+  updated_at: 
+  nome: Fernando  Oliveira do Nascimento
+  subscricao: "751"
+  id: "1010"
+  created_at: 
+  empresa_id: "1"
+alunos_894: 
+  updated_at: 
+  nome: Radiane de Souza Lima
+  subscricao: "628"
+  id: "896"
+  created_at: 
+  empresa_id: "1"
+alunos_630: 
+  updated_at: 
+  nome: Marcelo de Franceshi
+  subscricao: "335"
+  id: "632"
+  created_at: 
+  empresa_id: "1"
+alunos_762: 
+  updated_at: 
+  nome: Maik Dione dos Santos Gomes
+  subscricao: "483"
+  id: "764"
+  created_at: 
+  empresa_id: "1"
+alunos_077: 
+  updated_at: 
+  nome: 5% Patrick Nery Nogueira
+  subscricao: "1027"
+  id: "79"
+  created_at: 
+  empresa_id: "1"
+alunos_1271: 
+  updated_at: 
+  nome: 5% Marcos Clei Ferreira Vieira
+  subscricao: "1867"
+  id: "1273"
+  created_at: 
+  empresa_id: "1"
+alunos_1009: 
+  updated_at: 
+  nome: Sophia  Campelo Neves
+  subscricao: "752"
+  id: "1011"
+  created_at: 
+  empresa_id: "1"
+alunos_895: 
+  updated_at: 
+  nome: Arrison Vagner Schiave
+  subscricao: "629"
+  id: "897"
+  created_at: 
+  empresa_id: "1"
+alunos_631: 
+  updated_at: 
+  nome: "Diego Jos\xE9 Oliveira Chacin"
+  subscricao: "336"
+  id: "633"
+  created_at: 
+  empresa_id: "1"
+alunos_763: 
+  updated_at: 
+  nome: Bruno  Roberto Ramos Raimundo
+  subscricao: "484"
+  id: "765"
+  created_at: 
+  empresa_id: "1"
+alunos_078: 
+  updated_at: 
+  nome: 5% Paula Xavier Pinter
+  subscricao: "1028"
+  id: "80"
+  created_at: 
+  empresa_id: "1"
+alunos_1272: 
+  updated_at: 
+  nome: 5% Sandra Bastos da Silva
+  subscricao: "1868"
+  id: "1274"
+  created_at: 
+  empresa_id: "1"
+alunos_1140: 
+  updated_at: 
+  nome: 5% Joana Toyoko Nohara
+  subscricao: "903"
+  id: "1142"
+  created_at: 
+  empresa_id: "1"
+alunos_896: 
+  updated_at: 
+  nome: "Quelly Christina Fran\xE7a Alves Schiave"
+  subscricao: "630"
+  id: "898"
+  created_at: 
+  empresa_id: "1"
+alunos_632: 
+  updated_at: 
+  nome: "Os\xF3rio Ferreira do Nascimento"
+  subscricao: "337"
+  id: "634"
+  created_at: 
+  empresa_id: "1"
+alunos_764: 
+  updated_at: 
+  nome: Rafael Luis Ramos Raimundo
+  subscricao: "485"
+  id: "766"
+  created_at: 
+  empresa_id: "1"
+alunos_079: 
+  updated_at: 
+  nome: 5% EDMILSON CAVALVANTE DA FONSECA
+  subscricao: "1270"
+  id: "81"
+  created_at: 
+  empresa_id: "1"
+alunos_500: 
+  updated_at: 
+  nome: "Thialla Corr\xEAa dos Reis"
+  subscricao: "195"
+  id: "502"
+  created_at: 
+  empresa_id: "1"
+alunos_1273: 
+  updated_at: 
+  nome: "5% Antonio Marcus Ara\xFAjo da Silva"
+  subscricao: "1869"
+  id: "1275"
+  created_at: 
+  empresa_id: "1"
+alunos_1141: 
+  updated_at: 
+  nome: 5% Elias Galdino Monteiro Neto
+  subscricao: "905"
+  id: "1143"
+  created_at: 
+  empresa_id: "1"
+alunos_897: 
+  updated_at: 
+  nome: "M\xE1rcio Salgado da Silva"
+  subscricao: "632"
+  id: "899"
+  created_at: 
+  empresa_id: "1"
+alunos_633: 
+  updated_at: 
+  nome: "Rafael Pereira Ara\xFAjo"
+  subscricao: "338"
+  id: "635"
+  created_at: 
+  empresa_id: "1"
+alunos_765: 
+  updated_at: 
+  nome: Luiz Rodrigo Silva de Souza
+  subscricao: "486"
+  id: "767"
+  created_at: 
+  empresa_id: "1"
+alunos_501: 
+  updated_at: 
+  nome: Carla Regina Castro de Souza
+  subscricao: "196"
+  id: "503"
+  created_at: 
+  empresa_id: "1"
+alunos_1274: 
+  updated_at: 
+  nome: 5% Denis Marcelo Bolhosa da Silva
+  subscricao: "1870"
+  id: "1276"
+  created_at: 
+  empresa_id: "1"
+alunos_1142: 
+  updated_at: 
+  nome: 5% Ildelane Oliveira Pinto
+  subscricao: "906"
+  id: "1144"
+  created_at: 
+  empresa_id: "1"
+alunos_1010: 
+  updated_at: 
+  nome: Vanilce  de Fontes Oliveira
+  subscricao: "753"
+  id: "1012"
+  created_at: 
+  empresa_id: "1"
+alunos_1275: 
+  updated_at: 
+  nome: 5% Raquel Campos Barbosa
+  subscricao: "1871"
+  id: "1277"
+  created_at: 
+  empresa_id: "1"
+alunos_1143: 
+  updated_at: 
+  nome: 5% Suzy de Lima Lins
+  subscricao: "907"
+  id: "1145"
+  created_at: 
+  empresa_id: "1"
+alunos_1011: 
+  updated_at: 
+  nome: Veralice Maia Teles
+  subscricao: "754"
+  id: "1013"
+  created_at: 
+  empresa_id: "1"
+alunos_898: 
+  updated_at: 
+  nome: Carolina  Cordeiro Pinheiro
+  subscricao: "633"
+  id: "900"
+  created_at: 
+  empresa_id: "1"
+alunos_634: 
+  updated_at: 
+  nome: Karol  Leonard Sampaio da Silva
+  subscricao: "340"
+  id: "636"
+  created_at: 
+  empresa_id: "1"
+alunos_766: 
+  updated_at: 
+  nome: Anelice Cavalcante Ferreira
+  subscricao: "487"
+  id: "768"
+  created_at: 
+  empresa_id: "1"
+alunos_080: 
+  updated_at: 
+  nome: 5% EDSON MAURO MELO DE LIMA
+  subscricao: "1271"
+  id: "82"
+  created_at: 
+  empresa_id: "1"
+alunos_502: 
+  updated_at: 
+  nome: "Silvio Concei\xE7\xE3o Amorim"
+  subscricao: "197"
+  id: "504"
+  created_at: 
+  empresa_id: "1"
+alunos_1276: 
+  updated_at: 
+  nome: 5% Lidiane Bento Ximendes
+  subscricao: "1872"
+  id: "1278"
+  created_at: 
+  empresa_id: "1"
+alunos_1144: 
+  updated_at: 
+  nome: Andreza dos Santos Oliveira
+  subscricao: "908"
+  id: "1146"
+  created_at: 
+  empresa_id: "1"
+alunos_1012: 
+  updated_at: 
+  nome: Bruno Olimpio Galaxe
+  subscricao: "755"
+  id: "1014"
+  created_at: 
+  empresa_id: "1"
+alunos_899: 
+  updated_at: 
+  nome: Otoniel Rocha Lima
+  subscricao: "634"
+  id: "901"
+  created_at: 
+  empresa_id: "1"
+alunos_635: 
+  updated_at: 
+  nome: "K\xE1ssia  Karla Pereira dos Santos"
+  subscricao: "341"
+  id: "637"
+  created_at: 
+  empresa_id: "1"
+alunos_767: 
+  updated_at: 
+  nome: Hadelandia  Milon de Oliveira
+  subscricao: "488"
+  id: "769"
+  created_at: 
+  empresa_id: "1"
+alunos_081: 
+  updated_at: 
+  nome: "5% ALZINEI LE\xC3O DE OLIVEIRA"
+  subscricao: "1272"
+  id: "83"
+  created_at: 
+  empresa_id: "1"
+alunos_503: 
+  updated_at: 
+  nome: Ericka Sousa Garcia
+  subscricao: "198"
+  id: "505"
+  created_at: 
+  empresa_id: "1"
+alunos_1277: 
+  updated_at: 
+  nome: 5% Marcio Moreira Ladeira
+  subscricao: "1873"
+  id: "1279"
+  created_at: 
+  empresa_id: "1"
+alunos_1145: 
+  updated_at: 
+  nome: Ewerton Larry Soares Ferreira
+  subscricao: "909"
+  id: "1147"
+  created_at: 
+  empresa_id: "1"
+alunos_1013: 
+  updated_at: 
+  nome: Marilu  Nogueira Ramos Vieira
+  subscricao: "756"
+  id: "1015"
+  created_at: 
+  empresa_id: "1"
+alunos_636: 
+  updated_at: 
+  nome: Eric  Alves Mesquita
+  subscricao: "342"
+  id: "638"
+  created_at: 
+  empresa_id: "1"
+alunos_768: 
+  updated_at: 
+  nome: "Jo\xE3o  Alberto Correa Leite"
+  subscricao: "489"
+  id: "770"
+  created_at: 
+  empresa_id: "1"
+alunos_082: 
+  updated_at: 
+  nome: 5% NILTON SILVA PEREIRA
+  subscricao: "1273"
+  id: "84"
+  created_at: 
+  empresa_id: "1"
+alunos_504: 
+  updated_at: 
+  nome: Luissandra Chicara de Menezes
+  subscricao: "199"
+  id: "506"
+  created_at: 
+  empresa_id: "1"
+alunos_1278: 
+  updated_at: 
+  nome: 5% Meire Cristina Soares Ribeiro
+  subscricao: "1874"
+  id: "1280"
+  created_at: 
+  empresa_id: "1"
+alunos_1146: 
+  updated_at: 
+  nome: "Ana Cla\xFAdia  Modesto N\xF3brega"
+  subscricao: "910"
+  id: "1148"
+  created_at: 
+  empresa_id: "1"
+alunos_1014: 
+  updated_at: 
+  nome: Sonyara  Talita da Rocha Diniz
+  subscricao: "757"
+  id: "1016"
+  created_at: 
+  empresa_id: "1"
+alunos_769: 
+  updated_at: 
+  nome: "Magda Olivia Vieira Magalh\xE3es"
+  subscricao: "490"
+  id: "771"
+  created_at: 
+  empresa_id: "1"
+alunos_083: 
+  updated_at: 
+  nome: "5% MARGARETH DA COSTA GON\xC7ALVES"
+  subscricao: "1274"
+  id: "85"
+  created_at: 
+  empresa_id: "1"
+alunos_505: 
+  updated_at: 
+  nome: Dennis de Souza e Carvalho
+  subscricao: "200"
+  id: "507"
+  created_at: 
+  empresa_id: "1"
+alunos_637: 
+  updated_at: 
+  nome: Lucila Bonina Teixeira Peixoto
+  subscricao: "343"
+  id: "639"
+  created_at: 
+  empresa_id: "1"
+alunos_1279: 
+  updated_at: 
+  nome: 5% Helem Passos da Silva
+  subscricao: "1875"
+  id: "1281"
+  created_at: 
+  empresa_id: "1"
+alunos_1147: 
+  updated_at: 
+  nome: "S\xE9rgio Ricardo da Silva Souza"
+  subscricao: "911"
+  id: "1149"
+  created_at: 
+  empresa_id: "1"
+alunos_1015: 
+  updated_at: 
+  nome: Elen Fabricio Oliveira Vale
+  subscricao: "758"
+  id: "1017"
+  created_at: 
+  empresa_id: "1"
+alunos_084: 
+  updated_at: 
+  nome: 5% DANIELLY SILVA DA CRUZ
+  subscricao: "1275"
+  id: "86"
+  created_at: 
+  empresa_id: "1"
+alunos_506: 
+  updated_at: 
+  nome: "Braham Bobby Rahal Serr\xE3o Freire"
+  subscricao: "201"
+  id: "508"
+  created_at: 
+  empresa_id: "1"
+alunos_638: 
+  updated_at: 
+  nome: "Andr\xE9 de Carvalho Lima"
+  subscricao: "344"
+  id: "640"
+  created_at: 
+  empresa_id: "1"
+alunos_1148: 
+  updated_at: 
+  nome: 5% Priscila dos Reis Ferreira
+  subscricao: "913"
+  id: "1150"
+  created_at: 
+  empresa_id: "1"
+alunos_1016: 
+  updated_at: 
+  nome: Ewerton  Paiva Marques
+  subscricao: "759"
+  id: "1018"
+  created_at: 
+  empresa_id: "1"
+alunos_085: 
+  updated_at: 
+  nome: 5% ANDREIA JANE BOMFIM DA SILVA
+  subscricao: "1276"
+  id: "87"
+  created_at: 
+  empresa_id: "1"
+alunos_770: 
+  updated_at: 
+  nome: "L\xEDgia  Vieira Magalh\xE3es"
+  subscricao: "491"
+  id: "772"
+  created_at: 
+  empresa_id: "1"
+alunos_507: 
+  updated_at: 
+  nome: Nayara Souza Castro
+  subscricao: "203"
+  id: "509"
+  created_at: 
+  empresa_id: "1"
+alunos_639: 
+  updated_at: 
+  nome: Simone Cesar Lira
+  subscricao: "345"
+  id: "641"
+  created_at: 
+  empresa_id: "1"
+alunos_1149: 
+  updated_at: 
+  nome: "5% Ant\xF4nio Carlos Fel\xEDcio"
+  subscricao: "914"
+  id: "1151"
+  created_at: 
+  empresa_id: "1"
+alunos_1017: 
+  updated_at: 
+  nome: "Marco  Antonio Ribeiro de O. J\xFAnior"
+  subscricao: "760"
+  id: "1019"
+  created_at: 
+  empresa_id: "1"
+alunos_086: 
+  updated_at: 
+  nome: 5% ALINE DE LIMA FERREIRA
+  subscricao: "1277"
+  id: "88"
+  created_at: 
+  empresa_id: "1"
+alunos_771: 
+  updated_at: 
+  nome: "Leticia  Vieira Magalh\xE3es"
+  subscricao: "492"
+  id: "773"
+  created_at: 
+  empresa_id: "1"
+alunos_508: 
+  updated_at: 
+  nome: Juliane Andrade Pinheiro
+  subscricao: "204"
+  id: "510"
+  created_at: 
+  empresa_id: "1"
+alunos_1280: 
+  updated_at: 
+  nome: 5% Adelson Franz de Freitas Nascimento
+  subscricao: "1876"
+  id: "1282"
+  created_at: 
+  empresa_id: "1"
+alunos_1018: 
+  updated_at: 
+  nome: "Ros\xE2ngela  Oliveira de Souza"
+  subscricao: "761"
+  id: "1020"
+  created_at: 
+  empresa_id: "1"
+alunos_087: 
+  updated_at: 2008-03-19 19:59:39
+  nome: JOSE LEITE PEREIRA NETO
+  subscricao: "1278"
+  id: "89"
+  created_at: 
+  empresa_id: "1"
+alunos_640: 
+  updated_at: 
+  nome: Sinezio  Pires de Souza
+  subscricao: "346"
+  id: "642"
+  created_at: 
+  empresa_id: "1"
+alunos_772: 
+  updated_at: 
+  nome: Aline  de Oliveira Lopes
+  subscricao: "493"
+  id: "774"
+  created_at: 
+  empresa_id: "1"
+alunos_509: 
+  updated_at: 
+  nome: Graceene Maria Cardoso
+  subscricao: "205"
+  id: "511"
+  created_at: 
+  empresa_id: "1"
+alunos_1281: 
+  updated_at: 2008-03-18 18:41:02
+  nome: 5% PATRICIA MARIALVA DA SILVA
+  subscricao: "1100"
+  id: "1283"
+  created_at: 2008-03-18 18:41:02
+  empresa_id: "1"
+alunos_1019: 
+  updated_at: 
+  nome: Caio  Benedito Figueiredo dos Santos
+  subscricao: "762"
+  id: "1021"
+  created_at: 
+  empresa_id: "1"
+alunos_088: 
+  updated_at: 
+  nome: 5% ANTONIO CARLOS COSTA
+  subscricao: "1279"
+  id: "90"
+  created_at: 
+  empresa_id: "1"
+alunos_641: 
+  updated_at: 
+  nome: Diego Oliveira de Sousa
+  subscricao: "347"
+  id: "643"
+  created_at: 
+  empresa_id: "1"
+alunos_773: 
+  updated_at: 
+  nome: Wanduy  Carlos B. de Lima
+  subscricao: "494"
+  id: "775"
+  created_at: 
+  empresa_id: "1"
+alunos_1282: 
+  updated_at: 2008-03-18 19:04:00
+  nome: 5% SANDRA CLARIANA DE ALMEIDA NUNES
+  subscricao: "1222"
+  id: "1284"
+  created_at: 2008-03-18 19:04:00
+  empresa_id: "1"
+alunos_1150: 
+  updated_at: 
+  nome: "5% Francisco Jos\xE9 Souza dos Santos"
+  subscricao: "916"
+  id: "1152"
+  created_at: 
+  empresa_id: "1"
+alunos_089: 
+  updated_at: 
+  nome: "5% S\xD4NIA NEIVA CASTRO DA LUZ"
+  subscricao: "1280"
+  id: "91"
+  created_at: 
+  empresa_id: "1"
+alunos_510: 
+  updated_at: 
+  nome: Franciele Maria Sarmento dos Santos
+  subscricao: "206"
+  id: "512"
+  created_at: 
+  empresa_id: "1"
+alunos_642: 
+  updated_at: 
+  nome: Uily Roberto Neto
+  subscricao: "348"
+  id: "644"
+  created_at: 
+  empresa_id: "1"
+alunos_774: 
+  updated_at: 
+  nome: Manuel Lagoas Guedes Filho
+  subscricao: "495"
+  id: "776"
+  created_at: 
+  empresa_id: "1"
+alunos_1283: 
+  updated_at: 2008-03-18 19:05:58
+  nome: 5% JACOB SOLON BENACON MARTINS LINS
+  subscricao: "1214"
+  id: "1285"
+  created_at: 2008-03-18 19:05:58
+  empresa_id: "1"
+alunos_1151: 
+  updated_at: 
+  nome: "5% Ivo Guimar\xE3es Menezes"
+  subscricao: "917"
+  id: "1153"
+  created_at: 
+  empresa_id: "1"
+alunos_511: 
+  updated_at: 
+  nome: Isaac Daian Goes Cavalcante
+  subscricao: "207"
+  id: "513"
+  created_at: 
+  empresa_id: "1"
+alunos_643: 
+  updated_at: 
+  nome: Matheus Henrique Grube
+  subscricao: "349"
+  id: "645"
+  created_at: 
+  empresa_id: "1"
+alunos_775: 
+  updated_at: 
+  nome: Maria  Nilcilene da Silva Nascimento
+  subscricao: "496"
+  id: "777"
+  created_at: 
+  empresa_id: "1"
+alunos_1284: 
+  updated_at: 2008-03-18 19:08:24
+  nome: 5% DUCIMARA CORDEIRO FURTUOSO
+  subscricao: "1242"
+  id: "1286"
+  created_at: 2008-03-18 19:08:24
+  empresa_id: "1"
+alunos_1152: 
+  updated_at: 
+  nome: 5% Erika Bianca Rocha dos Santos
+  subscricao: "918"
+  id: "1154"
+  created_at: 
+  empresa_id: "1"
+alunos_1020: 
+  updated_at: 
+  nome: Leonidas  Alves de Moura
+  subscricao: "763"
+  id: "1022"
+  created_at: 
+  empresa_id: "1"
+alunos_512: 
+  updated_at: 
+  nome: Silvio Luis Monteiro de Castro
+  subscricao: "208"
+  id: "514"
+  created_at: 
+  empresa_id: "1"
+alunos_644: 
+  updated_at: 
+  nome: Michelle Marques de Moraes
+  subscricao: "351"
+  id: "646"
+  created_at: 
+  empresa_id: "1"
+alunos_776: 
+  updated_at: 
+  nome: Henrique  Cezar Ramos Raimundo
+  subscricao: "497"
+  id: "778"
+  created_at: 
+  empresa_id: "1"
+alunos_1285: 
+  updated_at: 2008-03-19 10:36:41
+  nome: 5% PAULO HENRIQUE GOMES AFONSO
+  subscricao: "1478"
+  id: "1287"
+  created_at: 2008-03-19 10:36:41
+  empresa_id: "1"
+alunos_1153: 
+  updated_at: 
+  nome: 5% Taizo  Yano
+  subscricao: "919"
+  id: "1155"
+  created_at: 
+  empresa_id: "1"
+alunos_1021: 
+  updated_at: 
+  nome: Rafaela Bianca dos Santos
+  subscricao: "765"
+  id: "1023"
+  created_at: 
+  empresa_id: "1"
+alunos_090: 
+  updated_at: 
+  nome: 5% TIAGO PIRES DE ABREU
+  subscricao: "1281"
+  id: "92"
+  created_at: 
+  empresa_id: "1"
+alunos_1286: 
+  updated_at: 2008-03-19 13:22:16
+  nome: 5% THAIS SILVA DELCARO
+  subscricao: "1479"
+  id: "1288"
+  created_at: 2008-03-19 13:22:16
+  empresa_id: "1"
+alunos_1154: 
+  updated_at: 
+  nome: 5% Bianca Campos da Silva Azevedo
+  subscricao: "920"
+  id: "1156"
+  created_at: 
+  empresa_id: "1"
+alunos_1022: 
+  updated_at: 
+  nome: Jurandir  Rodrigues Filho
+  subscricao: "766"
+  id: "1024"
+  created_at: 
+  empresa_id: "1"
+alunos_513: 
+  updated_at: 
+  nome: "M\xE1rcia Andreza Diniz da Costa"
+  subscricao: "210"
+  id: "515"
+  created_at: 
+  empresa_id: "1"
+alunos_645: 
+  updated_at: 
+  nome: "Paulo R de A.s.j\xFAnior"
+  subscricao: "352"
+  id: "647"
+  created_at: 
+  empresa_id: "1"
+alunos_777: 
+  updated_at: 
+  nome: Maria  do Socorro Freitas de Souza
+  subscricao: "498"
+  id: "779"
+  created_at: 
+  empresa_id: "1"
+alunos_091: 
+  updated_at: 
+  nome: "5% JOS\xC9 EDUARDO ALCON RIBEIRO"
+  subscricao: "1282"
+  id: "93"
+  created_at: 
+  empresa_id: "1"
+alunos_1287: 
+  updated_at: 2008-03-19 13:26:47
+  nome: "5% CARLOS EDUARDO CARIJ\xD3 DE GOSZTONYI"
+  subscricao: "1480"
+  id: "1289"
+  created_at: 2008-03-19 13:26:47
+  empresa_id: "1"
+alunos_1155: 
+  updated_at: 
+  nome: "5% Paula  Sim\xF5es Pantoja"
+  subscricao: "921"
+  id: "1157"
+  created_at: 
+  empresa_id: "1"
+alunos_1023: 
+  updated_at: 
+  nome: "Nauric\xE9lio  Carvalho da Rocha"
+  subscricao: "767"
+  id: "1025"
+  created_at: 
+  empresa_id: "1"
+alunos_514: 
+  updated_at: 
+  nome: Rodrigo Costa de Freitas
+  subscricao: "211"
+  id: "516"
+  created_at: 
+  empresa_id: "1"
+alunos_646: 
+  updated_at: 
+  nome: "Silvana Maria L\xFAdice da Silva"
+  subscricao: "354"
+  id: "648"
+  created_at: 
+  empresa_id: "1"
+alunos_778: 
+  updated_at: 
+  nome: "Jos\xE9lia Antonia da Silva Lima"
+  subscricao: "499"
+  id: "780"
+  created_at: 
+  empresa_id: "1"
+alunos_092: 
+  updated_at: 
+  nome: 5% RODRIGO ALEXANDRE SOUSA
+  subscricao: "1283"
+  id: "94"
+  created_at: 
+  empresa_id: "1"
+alunos_1288: 
+  updated_at: 2008-03-19 14:12:28
+  nome: 5% FRANK CHOITE IKUNO
+  subscricao: "1481"
+  id: "1290"
+  created_at: 2008-03-19 14:12:28
+  empresa_id: "1"
+alunos_1156: 
+  updated_at: 
+  nome: "5% Rodrigo de Ara\xFAjo Carmen\xE9"
+  subscricao: "922"
+  id: "1158"
+  created_at: 
+  empresa_id: "1"
+alunos_1024: 
+  updated_at: 
+  nome: Neivaldo  Pinheiro Junior
+  subscricao: "769"
+  id: "1026"
+  created_at: 
+  empresa_id: "1"
+alunos_515: 
+  updated_at: 
+  nome: Julio Nery Barbosa Pires
+  subscricao: "212"
+  id: "517"
+  created_at: 
+  empresa_id: "1"
+alunos_647: 
+  updated_at: 
+  nome: Adeilson Pedrosa de Oliveira
+  subscricao: "356"
+  id: "649"
+  created_at: 
+  empresa_id: "1"
+alunos_779: 
+  updated_at: 
+  nome: Marcia Luciana de Almeida
+  subscricao: "500"
+  id: "781"
+  created_at: 
+  empresa_id: "1"
+alunos_093: 
+  updated_at: 
+  nome: "5% DAMI\xC3O LEVORATO LEMES FERREIRA"
+  subscricao: "1284"
+  id: "95"
+  created_at: 
+  empresa_id: "1"
+alunos_1289: 
+  updated_at: 2008-03-19 14:15:45
+  nome: 5% HEULLER DIEGO PINTO MELO
+  subscricao: "1482"
+  id: "1291"
+  created_at: 2008-03-19 14:15:45
+  empresa_id: "1"
+alunos_1157: 
+  updated_at: 
+  nome: 5% Francisco Freitas  Batista
+  subscricao: "923"
+  id: "1159"
+  created_at: 
+  empresa_id: "1"
+alunos_1025: 
+  updated_at: 
+  nome: Jonas  Silva de Souza
+  subscricao: "770"
+  id: "1027"
+  created_at: 
+  empresa_id: "1"
+alunos_516: 
+  updated_at: 
+  nome: Mayda de Oliveira Queiroz
+  subscricao: "213"
+  id: "518"
+  created_at: 
+  empresa_id: "1"
+alunos_648: 
+  updated_at: 
+  nome: "Francisco L\xFAcio R. de Ara\xFAjo"
+  subscricao: "357"
+  id: "650"
+  created_at: 
+  empresa_id: "1"
+alunos_094: 
+  updated_at: 
+  nome: 5% JUCILENE BALDUNO DE OLIVEIRA
+  subscricao: "1285"
+  id: "96"
+  created_at: 
+  empresa_id: "1"
+alunos_1158: 
+  updated_at: 
+  nome: "5% Gregorio Gra\xE7a Alves"
+  subscricao: "924"
+  id: "1160"
+  created_at: 
+  empresa_id: "1"
+alunos_1026: 
+  updated_at: 2008-03-28 22:30:04
+  nome: PAUVISLENA FORTUNATO DE SOUZA
+  subscricao: "771"
+  id: "1028"
+  created_at: 
+  empresa_id: "1"
+alunos_780: 
+  updated_at: 
+  nome: "Franco  Andr\xE9 Dias Serr\xE3o"
+  subscricao: "501"
+  id: "782"
+  created_at: 
+  empresa_id: "1"
+alunos_517: 
+  updated_at: 
+  nome: Douglas Gonzaga Palheta
+  subscricao: "214"
+  id: "519"
+  created_at: 
+  empresa_id: "1"
+alunos_649: 
+  updated_at: 
+  nome: Greice Cardoso Farias
+  subscricao: "358"
+  id: "651"
+  created_at: 
+  empresa_id: "1"
+alunos_095: 
+  updated_at: 
+  nome: 5% DAIANA DE OLIVEIRA ROSSETE
+  subscricao: "1286"
+  id: "97"
+  created_at: 
+  empresa_id: "1"
+alunos_1159: 
+  updated_at: 
+  nome: 5% Lucas  Alexandre da Costa Manso
+  subscricao: "925"
+  id: "1161"
+  created_at: 
+  empresa_id: "1"
+alunos_1027: 
+  updated_at: 
+  nome: Breno  Souza Leite
+  subscricao: "772"
+  id: "1029"
+  created_at: 
+  empresa_id: "1"
+alunos_781: 
+  updated_at: 
+  nome: Marcos Maciel Ribeiro Moraes
+  subscricao: "502"
+  id: "783"
+  created_at: 
+  empresa_id: "1"
+alunos_518: 
+  updated_at: 
+  nome: "Arysson dos Santos Fran\xE7a"
+  subscricao: "216"
+  id: "520"
+  created_at: 
+  empresa_id: "1"
+alunos_096: 
+  updated_at: 
+  nome: "5% JO\xC3O VICENTE DA COSTA SILVA"
+  subscricao: "1287"
+  id: "98"
+  created_at: 
+  empresa_id: "1"
+alunos_1290: 
+  updated_at: 2008-03-19 14:18:42
+  nome: 5% FELIPE DE MORAES CARDOSO
+  subscricao: "1483"
+  id: "1292"
+  created_at: 2008-03-19 14:18:42
+  empresa_id: "1"
+alunos_1028: 
+  updated_at: 
+  nome: Thyago  Fortunato de Souza
+  subscricao: "773"
+  id: "1030"
+  created_at: 
+  empresa_id: "1"
+alunos_650: 
+  updated_at: 
+  nome: Ricardo dos Santos Ferreira
+  subscricao: "359"
+  id: "652"
+  created_at: 
+  empresa_id: "1"
+alunos_782: 
+  updated_at: 
+  nome: "Maria  Vit\xF3ria Marcalva da Silva"
+  subscricao: "503"
+  id: "784"
+  created_at: 
+  empresa_id: "1"
+alunos_519: 
+  updated_at: 
+  nome: Karina Suellen P da Silva
+  subscricao: "217"
+  id: "521"
+  created_at: 
+  empresa_id: "1"
+alunos_097: 
+  updated_at: 
+  nome: "5% FRANCISCA ILCIL\xC9IA LIMA MELO"
+  subscricao: "1288"
+  id: "99"
+  created_at: 
+  empresa_id: "1"
+alunos_1291: 
+  updated_at: 2008-03-19 14:21:01
+  nome: 5% RODRIGO SILVA DE SOUZA
+  subscricao: "1484"
+  id: "1293"
+  created_at: 2008-03-19 14:21:01
+  empresa_id: "1"
+alunos_1029: 
+  updated_at: 
+  nome: Ederlane da Silva
+  subscricao: "774"
+  id: "1031"
+  created_at: 
+  empresa_id: "1"
+alunos_651: 
+  updated_at: 
+  nome: Halia  Carem Lima Moreira
+  subscricao: "360"
+  id: "653"
+  created_at: 
+  empresa_id: "1"
+alunos_783: 
+  updated_at: 
+  nome: "Let\xEDcia  Maciel Brasil Laurindo"
+  subscricao: "504"
+  id: "785"
+  created_at: 
+  empresa_id: "1"
+alunos_098: 
+  updated_at: 
+  nome: 5% MARCIO DA SILVA ALVES
+  subscricao: "1289"
+  id: "100"
+  created_at: 
+  empresa_id: "1"
+alunos_1292: 
+  updated_at: 2008-03-19 14:23:29
+  nome: 5% BRUNA SANCHES URBINATTI
+  subscricao: "1485"
+  id: "1294"
+  created_at: 2008-03-19 14:23:29
+  empresa_id: "1"
+alunos_1160: 
+  updated_at: 
+  nome: "5% Jana\xEDna Silva de Souza"
+  subscricao: "926"
+  id: "1162"
+  created_at: 
+  empresa_id: "1"
+alunos_520: 
+  updated_at: 
+  nome: Aldilene de Souza Lima
+  subscricao: "218"
+  id: "522"
+  created_at: 
+  empresa_id: "1"
+alunos_652: 
+  updated_at: 
+  nome: "R\xE1rina  G. Coelho"
+  subscricao: "361"
+  id: "654"
+  created_at: 
+  empresa_id: "1"
+alunos_784: 
+  updated_at: 
+  nome: Keulle dos Santos Maia
+  subscricao: "505"
+  id: "786"
+  created_at: 
+  empresa_id: "1"
+alunos_099: 
+  updated_at: 
+  nome: "# FELIPE FERREIRA GOMES"
+  subscricao: "1290"
+  id: "101"
+  created_at: 
+  empresa_id: "1"
+alunos_1293: 
+  updated_at: 2008-03-19 14:26:10
+  nome: 5% ROBERTA CARDOSO AMUD
+  subscricao: "1486"
+  id: "1295"
+  created_at: 2008-03-19 14:26:10
+  empresa_id: "1"
+alunos_1161: 
+  updated_at: 
+  nome: 5% Alessandra Kariza Costa Lima do Nascimento
+  subscricao: "927"
+  id: "1163"
+  created_at: 
+  empresa_id: "1"
+alunos_521: 
+  updated_at: 
+  nome: Gilnei Ferreira de Miranda
+  subscricao: "219"
+  id: "523"
+  created_at: 
+  empresa_id: "1"
+alunos_653: 
+  updated_at: 
+  nome: Raquel de Melo Silva
+  subscricao: "362"
+  id: "655"
+  created_at: 
+  empresa_id: "1"
+alunos_785: 
+  updated_at: 
+  nome: Andressa  Sartorelli Duarte
+  subscricao: "506"
+  id: "787"
+  created_at: 
+  empresa_id: "1"
+alunos_1294: 
+  updated_at: 2008-03-19 14:29:15
+  nome: 5% THIAGO TRIGUEIRO ESTEVES
+  subscricao: "1487"
+  id: "1296"
+  created_at: 2008-03-19 14:29:15
+  empresa_id: "1"
+alunos_1162: 
+  updated_at: 
+  nome: 5% Silvanei de Lima Correa
+  subscricao: "929"
+  id: "1164"
+  created_at: 
+  empresa_id: "1"
+alunos_1030: 
+  updated_at: 
+  nome: "Marcelo  Tapaj\xF3s Viana"
+  subscricao: "775"
+  id: "1032"
+  created_at: 
+  empresa_id: "1"
+alunos_522: 
+  updated_at: 
+  nome: "Paulo Jos\xE9 de Godoy"
+  subscricao: "220"
+  id: "524"
+  created_at: 
+  empresa_id: "1"
+alunos_654: 
+  updated_at: 
+  nome: Heminar Daniela Oliveira Ribeiro
+  subscricao: "363"
+  id: "656"
+  created_at: 
+  empresa_id: "1"
+alunos_786: 
+  updated_at: 
+  nome: "El\xF3i Dener Souza Saul"
+  subscricao: "507"
+  id: "788"
+  created_at: 
+  empresa_id: "1"
+alunos_1295: 
+  updated_at: 2008-03-19 14:31:58
+  nome: 5% LILIAN LIMA DO NASCIMENTO
+  subscricao: "1488"
+  id: "1297"
+  created_at: 2008-03-19 14:31:58
+  empresa_id: "1"
+alunos_1163: 
+  updated_at: 
+  nome: "5% Marileno Sab\xF3ia de Albuquerque"
+  subscricao: "930"
+  id: "1165"
+  created_at: 
+  empresa_id: "1"
+alunos_1031: 
+  updated_at: 
+  nome: Alessandra  da Silva Cajueira
+  subscricao: "777"
+  id: "1033"
+  created_at: 
+  empresa_id: "1"
+alunos_787: 
+  updated_at: 
+  nome: "Fl\xE1via Ridman de Assis"
+  subscricao: "508"
+  id: "789"
+  created_at: 
+  empresa_id: "1"
+alunos_523: 
+  updated_at: 
+  nome: Daiana Goes Cavalcante
+  subscricao: "221"
+  id: "525"
+  created_at: 
+  empresa_id: "1"
+alunos_655: 
+  updated_at: 
+  nome: Olenka Guedes Dias
+  subscricao: "364"
+  id: "657"
+  created_at: 
+  empresa_id: "1"
+alunos_1296: 
+  updated_at: 2008-03-19 14:56:35
+  nome: 5% EDER COTA WILLOTT
+  subscricao: "1489"
+  id: "1298"
+  created_at: 2008-03-19 14:56:35
+  empresa_id: "1"
+alunos_1164: 
+  updated_at: 
+  nome: "5% F\xE1bio de Souza Lima"
+  subscricao: "931"
+  id: "1166"
+  created_at: 
+  empresa_id: "1"
+alunos_1032: 
+  updated_at: 
+  nome: Aline  Ramos dos Santos
+  subscricao: "778"
+  id: "1034"
+  created_at: 
+  empresa_id: "1"
+alunos_1297: 
+  updated_at: 2008-03-19 14:59:03
+  nome: "5% MARIA DA GLORIA MARACHIN ROM\xC3O"
+  subscricao: "1490"
+  id: "1299"
+  created_at: 2008-03-19 14:59:03
+  empresa_id: "1"
+alunos_1165: 
+  updated_at: 
+  nome: 5% Jose Ramalho Vaz de Britto Neto
+  subscricao: "932"
+  id: "1167"
+  created_at: 
+  empresa_id: "1"
+alunos_1033: 
+  updated_at: 
+  nome: "Eneida  Alice Colares Corr\xEAa Soares"
+  subscricao: "781"
+  id: "1035"
+  created_at: 
+  empresa_id: "1"
+alunos_788: 
+  updated_at: 
+  nome: Oiama Meira Santana
+  subscricao: "509"
+  id: "790"
+  created_at: 
+  empresa_id: "1"
+alunos_524: 
+  updated_at: 
+  nome: Flaviana Monteiro de Figueiredo
+  subscricao: "222"
+  id: "526"
+  created_at: 
+  empresa_id: "1"
+alunos_656: 
+  updated_at: 
+  nome: William  Loureiro de Souza Filho
+  subscricao: "365"
+  id: "658"
+  created_at: 
+  empresa_id: "1"
+alunos_1298: 
+  updated_at: 2008-03-19 15:02:24
+  nome: 5% MARILENE FERREIRA FIGUEIRA
+  subscricao: "1491"
+  id: "1300"
+  created_at: 2008-03-19 15:02:24
+  empresa_id: "1"
+alunos_1166: 
+  updated_at: 
+  nome: "5% Emerson Pedra\xE7a  de Fran\xE7a J\xFAnior"
+  subscricao: "933"
+  id: "1168"
+  created_at: 
+  empresa_id: "1"
+alunos_1034: 
+  updated_at: 
+  nome: Daniel  Henrique Martins
+  subscricao: "782"
+  id: "1036"
+  created_at: 
+  empresa_id: "1"
+alunos_789: 
+  updated_at: 
+  nome: Vagner Marcondes Caldas de Paiva
+  subscricao: "510"
+  id: "791"
+  created_at: 
+  empresa_id: "1"
+alunos_525: 
+  updated_at: 
+  nome: Maria  Evany do Nascimento
+  subscricao: "223"
+  id: "527"
+  created_at: 
+  empresa_id: "1"
+alunos_657: 
+  updated_at: 
+  nome: Emanuel de Jesus Lustosa de Oliveira
+  subscricao: "366"
+  id: "659"
+  created_at: 
+  empresa_id: "1"
+alunos_1299: 
+  updated_at: 2008-03-19 15:05:52
+  nome: "5% SAMANTA IN\xCAS DA SILVA AFONSO"
+  subscricao: "1492"
+  id: "1301"
+  created_at: 2008-03-19 15:05:52
+  empresa_id: "1"
+alunos_1167: 
+  updated_at: 
+  nome: 5% Geyna Gomes dos Santos
+  subscricao: "934"
+  id: "1169"
+  created_at: 
+  empresa_id: "1"
+alunos_1035: 
+  updated_at: 
+  nome: Adriana  Moreira Barbosa Martins
+  subscricao: "783"
+  id: "1037"
+  created_at: 
+  empresa_id: "1"
+alunos_526: 
+  updated_at: 
+  nome: Patricia Varela da Silva
+  subscricao: "224"
+  id: "528"
+  created_at: 
+  empresa_id: "1"
+alunos_658: 
+  updated_at: 
+  nome: Elma  Nascimento de Souza
+  subscricao: "367"
+  id: "660"
+  created_at: 
+  empresa_id: "1"
+alunos_1168: 
+  updated_at: 
+  nome: 5% Elizomara Pereira do Nascimento
+  subscricao: "935"
+  id: "1170"
+  created_at: 
+  empresa_id: "1"
+alunos_1036: 
+  updated_at: 
+  nome: Alessandra  Teixeira Pereira
+  subscricao: "784"
+  id: "1038"
+  created_at: 
+  empresa_id: "1"
+alunos_790: 
+  updated_at: 
+  nome: "Jos\xE9  Antonio Filho"
+  subscricao: "511"
+  id: "792"
+  created_at: 
+  empresa_id: "1"
+alunos_527: 
+  updated_at: 
+  nome: Luiz  Fernando da Silva Ribeiro
+  subscricao: "225"
+  id: "529"
+  created_at: 
+  empresa_id: "1"
+alunos_659: 
+  updated_at: 
+  nome: Thayana Silva Grim
+  subscricao: "368"
+  id: "661"
+  created_at: 
+  empresa_id: "1"
+alunos_1169: 
+  updated_at: 
+  nome: 5% Luciano Pimentel do Nascimento
+  subscricao: "936"
+  id: "1171"
+  created_at: 
+  empresa_id: "1"
+alunos_1037: 
+  updated_at: 
+  nome: Wallace  da Silva Freitas
+  subscricao: "785"
+  id: "1039"
+  created_at: 
+  empresa_id: "1"
+alunos_791: 
+  updated_at: 
+  nome: Luan da Silva Vasconcelos
+  subscricao: "512"
+  id: "793"
+  created_at: 
+  empresa_id: "1"
+alunos_528: 
+  updated_at: 
+  nome: "Cl\xE9lson  Castro Viana"
+  subscricao: "227"
+  id: "530"
+  created_at: 
+  empresa_id: "1"
+alunos_1038: 
+  updated_at: 
+  nome: Gisele  Barbosa dos Santos
+  subscricao: "786"
+  id: "1040"
+  created_at: 
+  empresa_id: "1"
+alunos_792: 
+  updated_at: 
+  nome: "M\xF4nica  Maria da Costa"
+  subscricao: "513"
+  id: "794"
+  created_at: 
+  empresa_id: "1"
+alunos_529: 
+  updated_at: 
+  nome: "Marcus Val\xE9rio Cavalcanti Almeida"
+  subscricao: "228"
+  id: "531"
+  created_at: 
+  empresa_id: "1"
+alunos_660: 
+  updated_at: 
+  nome: Francisco Lucieldo Marinho de Lima
+  subscricao: "369"
+  id: "662"
+  created_at: 
+  empresa_id: "1"
+alunos_1039: 
+  updated_at: 
+  nome: Nubia  Briglia Figueira
+  subscricao: "788"
+  id: "1041"
+  created_at: 
+  empresa_id: "1"
+alunos_793: 
+  updated_at: 
+  nome: Elpidio Ferreira Lima Neto
+  subscricao: "514"
+  id: "795"
+  created_at: 
+  empresa_id: "1"
+alunos_661: 
+  updated_at: 
+  nome: "Isabelle  Guimar\xE3es Carli"
+  subscricao: "370"
+  id: "663"
+  created_at: 
+  empresa_id: "1"
+alunos_1170: 
+  updated_at: 
+  nome: 5% Jane Maria Alves Nobrega
+  subscricao: "937"
+  id: "1172"
+  created_at: 
+  empresa_id: "1"
+alunos_794: 
+  updated_at: 
+  nome: "Jos\xE9  Andr\xE9 de Oliveira Vieira"
+  subscricao: "515"
+  id: "796"
+  created_at: 
+  empresa_id: "1"
+alunos_530: 
+  updated_at: 
+  nome: Karoliny Barbara Bichara Dmenzes da Costa
+  subscricao: "229"
+  id: "532"
+  created_at: 
+  empresa_id: "1"
+alunos_662: 
+  updated_at: 
+  nome: Vinicius Buriche Tao Moreira Oinheiro dos Santos
+  subscricao: "371"
+  id: "664"
+  created_at: 
+  empresa_id: "1"
+alunos_1171: 
+  updated_at: 
+  nome: 5% Weilld Moraes Pinheiro
+  subscricao: "938"
+  id: "1173"
+  created_at: 
+  empresa_id: "1"
+alunos_795: 
+  updated_at: 
+  nome: Leonardo  Caetano Araripr
+  subscricao: "516"
+  id: "797"
+  created_at: 
+  empresa_id: "1"
+alunos_531: 
+  updated_at: 
+  nome: Ica  Bacuri de Souza
+  subscricao: "230"
+  id: "533"
+  created_at: 
+  empresa_id: "1"
+alunos_663: 
+  updated_at: 
+  nome: Angel  Fagundes Melo
+  subscricao: "372"
+  id: "665"
+  created_at: 
+  empresa_id: "1"
+alunos_1172: 
+  updated_at: 
+  nome: "5% Keyti da Silva Feij\xF3"
+  subscricao: "939"
+  id: "1174"
+  created_at: 
+  empresa_id: "1"
+alunos_1040: 
+  updated_at: 
+  nome: Lucifranny Neves do Nascimento
+  subscricao: "789"
+  id: "1042"
+  created_at: 
+  empresa_id: "1"
+alunos_796: 
+  updated_at: 
+  nome: Maria  Antonieta de Campos Tinoco
+  subscricao: "518"
+  id: "798"
+  created_at: 
+  empresa_id: "1"
+alunos_400: 
+  updated_at: 
+  nome: Marcia Gomes Coelho
+  subscricao: "82"
+  id: "402"
+  created_at: 
+  empresa_id: "1"
+alunos_532: 
+  updated_at: 
+  nome: Genival de Souza Caldeira
+  subscricao: "231"
+  id: "534"
+  created_at: 
+  empresa_id: "1"
+alunos_664: 
+  updated_at: 
+  nome: Brenna Kelen Mello de Freitas
+  subscricao: "373"
+  id: "666"
+  created_at: 
+  empresa_id: "1"
+alunos_1173: 
+  updated_at: 
+  nome: "5% Janderson Jos\xE9 Ara\xFAjo dos Santos"
+  subscricao: "940"
+  id: "1175"
+  created_at: 
+  empresa_id: "1"
+alunos_1041: 
+  updated_at: 
+  nome: Ana  Paola Lopes Carvalho
+  subscricao: "791"
+  id: "1043"
+  created_at: 
+  empresa_id: "1"
+alunos_797: 
+  updated_at: 
+  nome: Thiago  Streitenberger Ivo Moreira
+  subscricao: "519"
+  id: "799"
+  created_at: 
+  empresa_id: "1"
+alunos_401: 
+  updated_at: 
+  nome: "Paulo Eduardo Cabral Pican\xE7o"
+  subscricao: "83"
+  id: "403"
+  created_at: 
+  empresa_id: "1"
+alunos_533: 
+  updated_at: 
+  nome: "Hip\xF3lito dos Santos Rodrigues"
+  subscricao: "232"
+  id: "535"
+  created_at: 
+  empresa_id: "1"
+alunos_665: 
+  updated_at: 
+  nome: Braulio Silva Salazar Santos
+  subscricao: "374"
+  id: "667"
+  created_at: 
+  empresa_id: "1"
+alunos_1174: 
+  updated_at: 
+  nome: 5% Paula Emanuelle Vasco Hargreaves
+  subscricao: "941"
+  id: "1176"
+  created_at: 
+  empresa_id: "1"
+alunos_1042: 
+  updated_at: 
+  nome: "Mozart  Cordeiro Soares J\xFAnior"
+  subscricao: "792"
+  id: "1044"
+  created_at: 
+  empresa_id: "1"
+alunos_798: 
+  updated_at: 
+  nome: Isabel Cristina Bebentes Almeida
+  subscricao: "520"
+  id: "800"
+  created_at: 
+  empresa_id: "1"
+alunos_402: 
+  updated_at: 
+  nome: "F\xE1bio de Souza Lima"
+  subscricao: "84"
+  id: "404"
+  created_at: 
+  empresa_id: "1"
+alunos_534: 
+  updated_at: 
+  nome: "Salom\xE3o  Yuri Oliveira da Costa"
+  subscricao: "233"
+  id: "536"
+  created_at: 
+  empresa_id: "1"
+alunos_666: 
+  updated_at: 
+  nome: Ana  Paula Zambrana de Senne
+  subscricao: "375"
+  id: "668"
+  created_at: 
+  empresa_id: "1"
+alunos_1175: 
+  updated_at: 
+  nome: "5% Jeane Ten\xF3rio Barbosa"
+  subscricao: "942"
+  id: "1177"
+  created_at: 
+  empresa_id: "1"
+alunos_1043: 
+  updated_at: 
+  nome: "Jos\xE9  Lindon Jonhson de Melo"
+  subscricao: "793"
+  id: "1045"
+  created_at: 
+  empresa_id: "1"
+alunos_1176: 
+  updated_at: 
+  nome: 5% Raimundo Facundes de Souza Neto
+  subscricao: "943"
+  id: "1178"
+  created_at: 
+  empresa_id: "1"
+alunos_1044: 
+  updated_at: 
+  nome: Maria  de Fatima Lemos Queiroz
+  subscricao: "795"
+  id: "1046"
+  created_at: 
+  empresa_id: "1"
+alunos_799: 
+  updated_at: 
+  nome: Andrey Barbosa da Silva
+  subscricao: "521"
+  id: "801"
+  created_at: 
+  empresa_id: "1"
+alunos_403: 
+  updated_at: 
+  nome: Karen Cristina Alencar de Oliveira
+  subscricao: "85"
+  id: "405"
+  created_at: 
+  empresa_id: "1"
+alunos_535: 
+  updated_at: 
+  nome: "Antonio Magalh\xE3es de Freitas"
+  subscricao: "234"
+  id: "537"
+  created_at: 
+  empresa_id: "1"
+alunos_667: 
+  updated_at: 
+  nome: Alon  Hans Alves da Silva
+  subscricao: "376"
+  id: "669"
+  created_at: 
+  empresa_id: "1"
+alunos_1177: 
+  updated_at: 
+  nome: 5% Marcio Roberto Sales de Araujo
+  subscricao: "944"
+  id: "1179"
+  created_at: 
+  empresa_id: "1"
+alunos_1045: 
+  updated_at: 
+  nome: Aline  Ribeiro Liessi
+  subscricao: "796"
+  id: "1047"
+  created_at: 
+  empresa_id: "1"
+alunos_404: 
+  updated_at: 
+  nome: Sheila Regina da Silva Reis
+  subscricao: "86"
+  id: "406"
+  created_at: 
+  empresa_id: "1"
+alunos_536: 
+  updated_at: 
+  nome: Eberth Souza de Santana Filho
+  subscricao: "235"
+  id: "538"
+  created_at: 
+  empresa_id: "1"
+alunos_668: 
+  updated_at: 
+  nome: Karoline  Oliveira Alfaia
+  subscricao: "377"
+  id: "670"
+  created_at: 
+  empresa_id: "1"
+alunos_1178: 
+  updated_at: 
+  nome: 5% Magda Loiola de Freitas
+  subscricao: "945"
+  id: "1180"
+  created_at: 
+  empresa_id: "1"
+alunos_1046: 
+  updated_at: 
+  nome: Marcondes Tavares de Oliveira
+  subscricao: "797"
+  id: "1048"
+  created_at: 
+  empresa_id: "1"
+alunos_405: 
+  updated_at: 
+  nome: Nayana  da Silva Costa
+  subscricao: "87"
+  id: "407"
+  created_at: 
+  empresa_id: "1"
+alunos_537: 
+  updated_at: 
+  nome: "Ciro  Eduardo Veras de Ara\xFAjo"
+  subscricao: "236"
+  id: "539"
+  created_at: 
+  empresa_id: "1"
+alunos_669: 
+  updated_at: 
+  nome: Kalil  Regis Batista Andrade
+  subscricao: "378"
+  id: "671"
+  created_at: 
+  empresa_id: "1"
+alunos_1179: 
+  updated_at: 
+  nome: 5% Mauro Francisco Ribeiro
+  subscricao: "946"
+  id: "1181"
+  created_at: 
+  empresa_id: "1"
+alunos_1047: 
+  updated_at: 
+  nome: Mayara  Mesquita Reis
+  subscricao: "798"
+  id: "1049"
+  created_at: 
+  empresa_id: "1"
+alunos_406: 
+  updated_at: 
+  nome: "M\xE1rcia Jaqueline Mendon\xE7a Maciel"
+  subscricao: "88"
+  id: "408"
+  created_at: 
+  empresa_id: "1"
+alunos_538: 
+  updated_at: 2008-03-24 19:09:09
+  nome: "Mayara Corr\xEAa de Mello Corr\xEAa"
+  subscricao: "237"
+  id: "540"
+  created_at: 
+  empresa_id: "1"
+alunos_1048: 
+  updated_at: 
+  nome: "Levi da Silva Guimar\xE3es"
+  subscricao: "799"
+  id: "1050"
+  created_at: 
+  empresa_id: "1"
+alunos_670: 
+  updated_at: 
+  nome: Sylas  Lages do Nascimento
+  subscricao: "379"
+  id: "672"
+  created_at: 
+  empresa_id: "1"
+alunos_407: 
+  updated_at: 
+  nome: "Adriana Magalh\xE3es Athan da Silva"
+  subscricao: "89"
+  id: "409"
+  created_at: 
+  empresa_id: "1"
+alunos_539: 
+  updated_at: 
+  nome: Railda Pedroso Ferreira
+  subscricao: "238"
+  id: "541"
+  created_at: 
+  empresa_id: "1"
+alunos_1049: 
+  updated_at: 
+  nome: "Alci\xE9lio  de Oliveira Ribeiro"
+  subscricao: "800"
+  id: "1051"
+  created_at: 
+  empresa_id: "1"
+alunos_671: 
+  updated_at: 
+  nome: Anderson  de Oliveira Lopes
+  subscricao: "380"
+  id: "673"
+  created_at: 
+  empresa_id: "1"
+alunos_408: 
+  updated_at: 
+  nome: "Luciana Magalh\xE3es Athan da Silva"
+  subscricao: "90"
+  id: "410"
+  created_at: 
+  empresa_id: "1"
+alunos_1180: 
+  updated_at: 2008-03-19 20:10:29
+  nome: 5% Kildo Pereira de Melo Neto
+  subscricao: "948"
+  id: "1182"
+  created_at: 
+  empresa_id: "1"
+alunos_540: 
+  updated_at: 
+  nome: Fabrinni Wilson da Silva
+  subscricao: "239"
+  id: "542"
+  created_at: 
+  empresa_id: "1"
+alunos_672: 
+  updated_at: 
+  nome: Alice  Maria Silva dos Santos
+  subscricao: "381"
+  id: "674"
+  created_at: 
+  empresa_id: "1"
+alunos_409: 
+  updated_at: 
+  nome: Daniele da Costa Cunha
+  subscricao: "92"
+  id: "411"
+  created_at: 
+  empresa_id: "1"
+alunos_1181: 
+  updated_at: 
+  nome: 5% Lucas Amaral Silva Ferreira
+  subscricao: "950"
+  id: "1183"
+  created_at: 
+  empresa_id: "1"
+alunos_541: 
+  updated_at: 
+  nome: "Alexander Leonardo Silva J\xFAnior"
+  subscricao: "240"
+  id: "543"
+  created_at: 
+  empresa_id: "1"
+alunos_673: 
+  updated_at: 
+  nome: "John  O\xB4nell Sena Gimaque"
+  subscricao: "382"
+  id: "675"
+  created_at: 
+  empresa_id: "1"
+alunos_1182: 
+  updated_at: 
+  nome: 5% Eliza do Amaral Silva Ferreira
+  subscricao: "951"
+  id: "1184"
+  created_at: 
+  empresa_id: "1"
+alunos_1050: 
+  updated_at: 
+  nome: Francisco  de Assis Duarte de Souza
+  subscricao: "801"
+  id: "1052"
+  created_at: 
+  empresa_id: "1"
+alunos_410: 
+  updated_at: 
+  nome: Marcos Rodrigo V. de Oliveira
+  subscricao: "93"
+  id: "412"
+  created_at: 
+  empresa_id: "1"
+alunos_542: 
+  updated_at: 
+  nome: Paulo Amaral Ferreira Junior
+  subscricao: "241"
+  id: "544"
+  created_at: 
+  empresa_id: "1"
+alunos_674: 
+  updated_at: 
+  nome: Luiz  Guilherme Lins Borba
+  subscricao: "383"
+  id: "676"
+  created_at: 
+  empresa_id: "1"
+alunos_1183: 
+  updated_at: 
+  nome: 5% Esther Jung
+  subscricao: "952"
+  id: "1185"
+  created_at: 
+  empresa_id: "1"
+alunos_1051: 
+  updated_at: 
+  nome: Alfredo  de Albuquerque Silva
+  subscricao: "802"
+  id: "1053"
+  created_at: 
+  empresa_id: "1"
+alunos_411: 
+  updated_at: 
+  nome: Rebeca Beatriz de Melo Souza
+  subscricao: "94"
+  id: "413"
+  created_at: 
+  empresa_id: "1"
+alunos_543: 
+  updated_at: 
+  nome: "Jos\xE9 Bartolomeu Silva da Silva"
+  subscricao: "242"
+  id: "545"
+  created_at: 
+  empresa_id: "1"
+alunos_675: 
+  updated_at: 
+  nome: Ionara Lima Borba
+  subscricao: "384"
+  id: "677"
+  created_at: 
+  empresa_id: "1"
+alunos_1184: 
+  updated_at: 
+  nome: "5% Cle\xF3bulo Oliveira de Souza"
+  subscricao: "953"
+  id: "1186"
+  created_at: 
+  empresa_id: "1"
+alunos_1052: 
+  updated_at: 
+  nome: "Jos\xE9  Ludiano de Souza Gomes"
+  subscricao: "803"
+  id: "1054"
+  created_at: 
+  empresa_id: "1"
+alunos_412: 
+  updated_at: 
+  nome: "Italo Vinic\xEDus da Costa Rodrigues"
+  subscricao: "95"
+  id: "414"
+  created_at: 
+  empresa_id: "1"
+alunos_544: 
+  updated_at: 
+  nome: Roberto  de Souza
+  subscricao: "243"
+  id: "546"
+  created_at: 
+  empresa_id: "1"
+alunos_676: 
+  updated_at: 
+  nome: Fernanda de Lima Borba
+  subscricao: "385"
+  id: "678"
+  created_at: 
+  empresa_id: "1"
+alunos_1185: 
+  updated_at: 
+  nome: 5% Estevam Machado Hofstetter
+  subscricao: "954"
+  id: "1187"
+  created_at: 
+  empresa_id: "1"
+alunos_1053: 
+  updated_at: 
+  nome: Juliana  de Oliveira Mota
+  subscricao: "804"
+  id: "1055"
+  created_at: 
+  empresa_id: "1"
+alunos_413: 
+  updated_at: 
+  nome: Frank Eduardo da Mota Cascaes
+  subscricao: "96"
+  id: "415"
+  created_at: 
+  empresa_id: "1"
+alunos_545: 
+  updated_at: 
+  nome: Silvia  Firmino Abreu
+  subscricao: "244"
+  id: "547"
+  created_at: 
+  empresa_id: "1"
+alunos_677: 
+  updated_at: 
+  nome: "M\xE1rcio  F\xE1bio de Moraes Brito"
+  subscricao: "386"
+  id: "679"
+  created_at: 
+  empresa_id: "1"
+alunos_1186: 
+  updated_at: 
+  nome: "5% Francisco de Assis Mour\xE3o Junior"
+  subscricao: "955"
+  id: "1188"
+  created_at: 
+  empresa_id: "1"
+alunos_1054: 
+  updated_at: 
+  nome: Andrea  Coelho de Melo
+  subscricao: "805"
+  id: "1056"
+  created_at: 
+  empresa_id: "1"
+alunos_1187: 
+  updated_at: 
+  nome: 5% Camila de Menezes Alves
+  subscricao: "956"
+  id: "1189"
+  created_at: 
+  empresa_id: "1"
+alunos_1055: 
+  updated_at: 
+  nome: Carlos  Augusto da S. e Costa
+  subscricao: "806"
+  id: "1057"
+  created_at: 
+  empresa_id: "1"
+alunos_414: 
+  updated_at: 
+  nome: "Jos\xE9  Cleriston Matos Bertoldo"
+  subscricao: "97"
+  id: "416"
+  created_at: 
+  empresa_id: "1"
+alunos_546: 
+  updated_at: 
+  nome: "Tib\xE9rio Damasceno Carneiro"
+  subscricao: "245"
+  id: "548"
+  created_at: 
+  empresa_id: "1"
+alunos_678: 
+  updated_at: 
+  nome: Paulo  Roberto Correia da Silva
+  subscricao: "387"
+  id: "680"
+  created_at: 
+  empresa_id: "1"
+alunos_1188: 
+  updated_at: 
+  nome: 5% Carla Renata Lima de Oliveira
+  subscricao: "957"
+  id: "1190"
+  created_at: 
+  empresa_id: "1"
+alunos_1056: 
+  updated_at: 
+  nome: Renata  Miranda da Silva
+  subscricao: "807"
+  id: "1058"
+  created_at: 
+  empresa_id: "1"
+alunos_415: 
+  updated_at: 
+  nome: "Samanta In\xEAs da Silva Afonso"
+  subscricao: "98"
+  id: "417"
+  created_at: 
+  empresa_id: "1"
+alunos_547: 
+  updated_at: 
+  nome: Elbert Almeida da Silva
+  subscricao: "246"
+  id: "549"
+  created_at: 
+  empresa_id: "1"
+alunos_679: 
+  updated_at: 
+  nome: Ana  Karolina Pinheiro Mesquita
+  subscricao: "388"
+  id: "681"
+  created_at: 
+  empresa_id: "1"
+alunos_1189: 
+  updated_at: 
+  nome: 5% Wilker Oliveira Silva
+  subscricao: "958"
+  id: "1191"
+  created_at: 
+  empresa_id: "1"
+alunos_1057: 
+  updated_at: 
+  nome: Edileide  Nascimento Ferreira
+  subscricao: "808"
+  id: "1059"
+  created_at: 
+  empresa_id: "1"
+alunos_416: 
+  updated_at: 
+  nome: Helenise Marcia Oliveira Lopes
+  subscricao: "99"
+  id: "418"
+  created_at: 
+  empresa_id: "1"
+alunos_548: 
+  updated_at: 
+  nome: Suzane Ribeiro Prestes
+  subscricao: "248"
+  id: "550"
+  created_at: 
+  empresa_id: "1"
+alunos_1058: 
+  updated_at: 
+  nome: "Jos\xE9  Roberval da Silva Junior"
+  subscricao: "809"
+  id: "1060"
+  created_at: 
+  empresa_id: "1"
+alunos_680: 
+  updated_at: 
+  nome: Sandro  Ferreira Batista
+  subscricao: "389"
+  id: "682"
+  created_at: 
+  empresa_id: "1"
+alunos_417: 
+  updated_at: 
+  nome: Cleofes de Sousa Alves
+  subscricao: "100"
+  id: "419"
+  created_at: 
+  empresa_id: "1"
+alunos_549: 
+  updated_at: 
+  nome: Iria Cabral Rodrigues
+  subscricao: "249"
+  id: "551"
+  created_at: 
+  empresa_id: "1"
+alunos_1059: 
+  updated_at: 
+  nome: Roseany  de Oliveira Teixeira
+  subscricao: "810"
+  id: "1061"
+  created_at: 
+  empresa_id: "1"
+alunos_681: 
+  updated_at: 
+  nome: Matheus Canto da Costa
+  subscricao: "392"
+  id: "683"
+  created_at: 
+  empresa_id: "1"
+alunos_418: 
+  updated_at: 
+  nome: Rosemary Abrahim Gomes
+  subscricao: "101"
+  id: "420"
+  created_at: 
+  empresa_id: "1"
+alunos_1190: 
+  updated_at: 
+  nome: 5% Eduardo Takeshi Okaneku
+  subscricao: "961"
+  id: "1192"
+  created_at: 
+  empresa_id: "1"
+alunos_682: 
+  updated_at: 
+  nome: "Ana  Raquel Souza de Magalh\xE3es"
+  subscricao: "393"
+  id: "684"
+  created_at: 
+  empresa_id: "1"
+alunos_419: 
+  updated_at: 
+  nome: Maria Keila de Souza
+  subscricao: "102"
+  id: "421"
+  created_at: 
+  empresa_id: "1"
+alunos_550: 
+  updated_at: 
+  nome: "Laylah Kelre Costa Magalh\xE3es"
+  subscricao: "250"
+  id: "552"
+  created_at: 
+  empresa_id: "1"
+alunos_1191: 
+  updated_at: 
+  nome: 5% Gabriela Marinho de Oliveira
+  subscricao: "962"
+  id: "1193"
+  created_at: 
+  empresa_id: "1"
+alunos_683: 
+  updated_at: 
+  nome: Antonia Maria de Araujo Lima
+  subscricao: "394"
+  id: "685"
+  created_at: 
+  empresa_id: "1"
+alunos_551: 
+  updated_at: 
+  nome: "Rog\xE9rio  Fonseca"
+  subscricao: "251"
+  id: "553"
+  created_at: 
+  empresa_id: "1"
+alunos_1192: 
+  updated_at: 
+  nome: ( Light) Francimary Chaves e Silva
+  subscricao: "963"
+  id: "1194"
+  created_at: 
+  empresa_id: "1"
+alunos_1060: 
+  updated_at: 
+  nome: Kresley  Medeiros de Faria
+  subscricao: "811"
+  id: "1062"
+  created_at: 
+  empresa_id: "1"
+alunos_684: 
+  updated_at: 
+  nome: Alexandre  Granela Borja
+  subscricao: "395"
+  id: "686"
+  created_at: 
+  empresa_id: "1"
+alunos_420: 
+  updated_at: 
+  nome: Renata Cristina Schimpl
+  subscricao: "103"
+  id: "422"
+  created_at: 
+  empresa_id: "1"
+alunos_552: 
+  updated_at: 
+  nome: Rebeca  Cabral Brilhante
+  subscricao: "252"
+  id: "554"
+  created_at: 
+  empresa_id: "1"
+alunos_1193: 
+  updated_at: 
+  nome: "5% Silvio Ernani Fran\xE7a Valadares"
+  subscricao: "964"
+  id: "1195"
+  created_at: 
+  empresa_id: "1"
+alunos_1061: 
+  updated_at: 
+  nome: "Roseana Vasconcelos de Fran\xE7a"
+  subscricao: "812"
+  id: "1063"
+  created_at: 
+  empresa_id: "1"
+alunos_421: 
+  updated_at: 
+  nome: Antonio Douglas Monteiro da Frota
+  subscricao: "104"
+  id: "423"
+  created_at: 
+  empresa_id: "1"
+alunos_553: 
+  updated_at: 
+  nome: Vanessa Silveira da Silva
+  subscricao: "253"
+  id: "555"
+  created_at: 
+  empresa_id: "1"
+alunos_685: 
+  updated_at: 
+  nome: Anne Carisia Amaral
+  subscricao: "396"
+  id: "687"
+  created_at: 
+  empresa_id: "1"
+alunos_1194: 
+  updated_at: 
+  nome: "5% Vanda Maria dos Santos Guimar\xE3es"
+  subscricao: "965"
+  id: "1196"
+  created_at: 
+  empresa_id: "1"
+alunos_1062: 
+  updated_at: 
+  nome: Jemima  Nunes Pereira
+  subscricao: "813"
+  id: "1064"
+  created_at: 
+  empresa_id: "1"
+alunos_422: 
+  updated_at: 
+  nome: "Tulio S\xE9rgio de Souza Pinheiro"
+  subscricao: "105"
+  id: "424"
+  created_at: 
+  empresa_id: "1"
+alunos_554: 
+  updated_at: 
+  nome: Mislene dos Santos Enes
+  subscricao: "254"
+  id: "556"
+  created_at: 
+  empresa_id: "1"
+alunos_686: 
+  updated_at: 
+  nome: Arlisson Brito Dinely
+  subscricao: "397"
+  id: "688"
+  created_at: 
+  empresa_id: "1"
+alunos_1195: 
+  updated_at: 
+  nome: 5% Geison Costa Barroso
+  subscricao: "966"
+  id: "1197"
+  created_at: 
+  empresa_id: "1"
+alunos_1063: 
+  updated_at: 
+  nome: Aline  Silva
+  subscricao: "814"
+  id: "1065"
+  created_at: 
+  empresa_id: "1"
+alunos_423: 
+  updated_at: 
+  nome: Alessandra Souza Martins
+  subscricao: "106"
+  id: "425"
+  created_at: 
+  empresa_id: "1"
+alunos_555: 
+  updated_at: 
+  nome: Walney da Silva Jacinto
+  subscricao: "255"
+  id: "557"
+  created_at: 
+  empresa_id: "1"
+alunos_687: 
+  updated_at: 2008-03-22 13:02:59
+  nome: Ana  Maria Silva dos Santos
+  subscricao: "398"
+  id: "689"
+  created_at: 
+  empresa_id: "1"
+alunos_1196: 
+  updated_at: 
+  nome: 5% Fernanda Frota Almeida
+  subscricao: "968"
+  id: "1198"
+  created_at: 
+  empresa_id: "1"
+alunos_1064: 
+  updated_at: 
+  nome: Daniel  Mesquita Reis
+  subscricao: "815"
+  id: "1066"
+  created_at: 
+  empresa_id: "1"
+alunos_424: 
+  updated_at: 
+  nome: Paloma  Barroncas Lima
+  subscricao: "107"
+  id: "426"
+  created_at: 
+  empresa_id: "1"
+alunos_556: 
+  updated_at: 
+  nome: Jonatas  Gabriel Rossi Martins
+  subscricao: "256"
+  id: "558"
+  created_at: 
+  empresa_id: "1"
+alunos_688: 
+  updated_at: 
+  nome: Alex Silva B. Cardoso
+  subscricao: "399"
+  id: "690"
+  created_at: 
+  empresa_id: "1"
+alunos_1197: 
+  updated_at: 
+  nome: "5% Gilc\xE9lia Marinho de Oliveira"
+  subscricao: "969"
+  id: "1199"
+  created_at: 
+  empresa_id: "1"
+alunos_1065: 
+  updated_at: 
+  nome: "Jos\xE9  Adilson Vieira de Jesus"
+  subscricao: "816"
+  id: "1067"
+  created_at: 
+  empresa_id: "1"
+alunos_1198: 
+  updated_at: 
+  nome: 5% Lucas dos Santos Bento
+  subscricao: "970"
+  id: "1200"
+  created_at: 
+  empresa_id: "1"
+alunos_1066: 
+  updated_at: 
+  nome: Neivy  Crisse Silva de Souza
+  subscricao: "817"
+  id: "1068"
+  created_at: 
+  empresa_id: "1"
+alunos_425: 
+  updated_at: 
+  nome: Kaio Victor Sampaio de Souza
+  subscricao: "108"
+  id: "427"
+  created_at: 
+  empresa_id: "1"
+alunos_557: 
+  updated_at: 
+  nome: Silvania Bentes Rodrigues
+  subscricao: "257"
+  id: "559"
+  created_at: 
+  empresa_id: "1"
+alunos_689: 
+  updated_at: 
+  nome: Mabel Walz
+  subscricao: "400"
+  id: "691"
+  created_at: 
+  empresa_id: "1"
+alunos_1199: 
+  updated_at: 
+  nome: 5% Sandro Mangini de Souza
+  subscricao: "971"
+  id: "1201"
+  created_at: 
+  empresa_id: "1"
+alunos_1067: 
+  updated_at: 
+  nome: Fabio  Valente Borges
+  subscricao: "818"
+  id: "1069"
+  created_at: 
+  empresa_id: "1"
+alunos_426: 
+  updated_at: 
+  nome: Amanda Fernanda Coimbra de Melo
+  subscricao: "109"
+  id: "428"
+  created_at: 
+  empresa_id: "1"
+alunos_558: 
+  updated_at: 
+  nome: Cristiane  de Sales Lima
+  subscricao: "259"
+  id: "560"
+  created_at: 
+  empresa_id: "1"
+alunos_1068: 
+  updated_at: 
+  nome: Tierce  de Avila Lopes Calheiros
+  subscricao: "819"
+  id: "1070"
+  created_at: 
+  empresa_id: "1"
+alunos_690: 
+  updated_at: 
+  nome: Alexandra  Hristova Tcherkezona
+  subscricao: "402"
+  id: "692"
+  created_at: 
+  empresa_id: "1"
+alunos_427: 
+  updated_at: 
+  nome: Tassia  Raquel Coimbra de Melo
+  subscricao: "110"
+  id: "429"
+  created_at: 
+  empresa_id: "1"
+alunos_559: 
+  updated_at: 
+  nome: Maria  Guadalupe Costa da Silva
+  subscricao: "260"
+  id: "561"
+  created_at: 
+  empresa_id: "1"
+alunos_1069: 
+  updated_at: 
+  nome: Aline  Sarmento Monteiro Calheiros
+  subscricao: "820"
+  id: "1071"
+  created_at: 
+  empresa_id: "1"
+alunos_691: 
+  updated_at: 
+  nome: Ronaldo Andrade
+  subscricao: "403"
+  id: "693"
+  created_at: 
+  empresa_id: "1"
+alunos_428: 
+  updated_at: 
+  nome: Luis Smith Oliveira de Castro
+  subscricao: "112"
+  id: "430"
+  created_at: 
+  empresa_id: "1"
+alunos_560: 
+  updated_at: 
+  nome: "Aline Gali\xE3o dos Santos Silva"
+  subscricao: "261"
+  id: "562"
+  created_at: 
+  empresa_id: "1"
+alunos_692: 
+  updated_at: 
+  nome: Aldenice  Almeida de Oliveira
+  subscricao: "404"
+  id: "694"
+  created_at: 
+  empresa_id: "1"
+alunos_429: 
+  updated_at: 
+  nome: Andre  Luiz Im
+  subscricao: "113"
+  id: "431"
+  created_at: 
+  empresa_id: "1"
+alunos_561: 
+  updated_at: 
+  nome: Diego  Nobrega
+  subscricao: "262"
+  id: "563"
+  created_at: 
+  empresa_id: "1"
+alunos_693: 
+  updated_at: 
+  nome: Igor  Leonardo dos Santos Queiroz
+  subscricao: "405"
+  id: "695"
+  created_at: 
+  empresa_id: "1"
+alunos_1070: 
+  updated_at: 
+  nome: "Sara  de F\xE1tima Martins da Silva"
+  subscricao: "822"
+  id: "1072"
+  created_at: 
+  empresa_id: "1"
+alunos_430: 
+  updated_at: 
+  nome: Maria Jurgleides Silva da Costa
+  subscricao: "116"
+  id: "432"
+  created_at: 
+  empresa_id: "1"
+alunos_562: 
+  updated_at: 
+  nome: "Felipe Brand\xE3o de Lima"
+  subscricao: "264"
+  id: "564"
+  created_at: 
+  empresa_id: "1"
+alunos_694: 
+  updated_at: 
+  nome: Sionise Rocha Gomes
+  subscricao: "406"
+  id: "696"
+  created_at: 
+  empresa_id: "1"
+alunos_1071: 
+  updated_at: 
+  nome: Gutemberg Pinto Pureza
+  subscricao: "823"
+  id: "1073"
+  created_at: 
+  empresa_id: "1"
+alunos_431: 
+  updated_at: 
+  nome: Geovana Silveira
+  subscricao: "117"
+  id: "433"
+  created_at: 
+  empresa_id: "1"
+alunos_563: 
+  updated_at: 
+  nome: Gilcimar de Lima Queiroz
+  subscricao: "265"
+  id: "565"
+  created_at: 
+  empresa_id: "1"
+alunos_695: 
+  updated_at: 
+  nome: "Jadson Mendon\xE7a da Silva"
+  subscricao: "408"
+  id: "697"
+  created_at: 
+  empresa_id: "1"
+alunos_1072: 
+  updated_at: 
+  nome: Shirley  Borges Pinto
+  subscricao: "824"
+  id: "1074"
+  created_at: 
+  empresa_id: "1"
+alunos_300: 
+  updated_at: 
+  nome: Valma Cunha Pastana
+  subscricao: "263"
+  id: "302"
+  created_at: 
+  empresa_id: "1"
+alunos_432: 
+  updated_at: 
+  nome: Pedro Medeiros Neto
+  subscricao: "118"
+  id: "434"
+  created_at: 
+  empresa_id: "1"
+alunos_564: 
+  updated_at: 
+  nome: Natercia Brito Reis
+  subscricao: "266"
+  id: "566"
+  created_at: 
+  empresa_id: "1"
+alunos_696: 
+  updated_at: 
+  nome: Luizna  Rayma Vitoriano e Silva
+  subscricao: "409"
+  id: "698"
+  created_at: 
+  empresa_id: "1"
+alunos_1073: 
+  updated_at: 
+  nome: Pamella  Moura da Rocha Bessa
+  subscricao: "825"
+  id: "1075"
+  created_at: 
+  empresa_id: "1"
+alunos_301: 
+  updated_at: 
+  nome: Mikaela  Alexandre de Sousa
+  subscricao: "326"
+  id: "303"
+  created_at: 
+  empresa_id: "1"
+alunos_433: 
+  updated_at: 
+  nome: "Alexandre  Gon\xE7alves Patrocinio"
+  subscricao: "119"
+  id: "435"
+  created_at: 
+  empresa_id: "1"
+alunos_565: 
+  updated_at: 
+  nome: Humberto Kotti Yamashito
+  subscricao: "267"
+  id: "567"
+  created_at: 
+  empresa_id: "1"
+alunos_697: 
+  updated_at: 
+  nome: "Jos\xE9  Renato Maciel Pontes"
+  subscricao: "410"
+  id: "699"
+  created_at: 
+  empresa_id: "1"
+alunos_1074: 
+  updated_at: 
+  nome: Wilton  Mousinho Marinho
+  subscricao: "827"
+  id: "1076"
+  created_at: 
+  empresa_id: "1"
+alunos_302: 
+  updated_at: 
+  nome: Monique  Sales dos Santos
+  subscricao: "7"
+  id: "304"
+  created_at: 
+  empresa_id: "1"
+alunos_434: 
+  updated_at: 
+  nome: Jaqueline  Silva e Silva
+  subscricao: "120"
+  id: "436"
+  created_at: 
+  empresa_id: "1"
+alunos_566: 
+  updated_at: 
+  nome: Wilma Cordeiro da Silva
+  subscricao: "269"
+  id: "568"
+  created_at: 
+  empresa_id: "1"
+alunos_698: 
+  updated_at: 
+  nome: "Gleideson  Nascimento Carna\xFAba"
+  subscricao: "411"
+  id: "700"
+  created_at: 
+  empresa_id: "1"
+alunos_1075: 
+  updated_at: 
+  nome: Carlos  Alexandre Benfica Passos
+  subscricao: "828"
+  id: "1077"
+  created_at: 
+  empresa_id: "1"
+alunos_303: 
+  updated_at: 
+  nome: Marcley  Rebelo Veloso
+  subscricao: "652"
+  id: "305"
+  created_at: 
+  empresa_id: "1"
+alunos_435: 
+  updated_at: 
+  nome: Loren Doanne Luniere Santiago Cavalcante
+  subscricao: "121"
+  id: "437"
+  created_at: 
+  empresa_id: "1"
+alunos_567: 
+  updated_at: 
+  nome: Jackson Melo Rufino
+  subscricao: "270"
+  id: "569"
+  created_at: 
+  empresa_id: "1"
+alunos_699: 
+  updated_at: 
+  nome: Silvana Dutra Bahia
+  subscricao: "413"
+  id: "701"
+  created_at: 
+  empresa_id: "1"
+alunos_1076: 
+  updated_at: 
+  nome: Kennedy  Fonseca Canuto
+  subscricao: "829"
+  id: "1078"
+  created_at: 
+  empresa_id: "1"
+alunos_1077: 
+  updated_at: 
+  nome: Silvio  Santos Brazil
+  subscricao: "830"
+  id: "1079"
+  created_at: 
+  empresa_id: "1"
+alunos_304: 
+  updated_at: 
+  nome: Helder Carlos de Andrade Junior
+  subscricao: "157"
+  id: "306"
+  created_at: 
+  empresa_id: "1"
+alunos_436: 
+  updated_at: 
+  nome: Joseli de Alexandre Pimentel
+  subscricao: "122"
+  id: "438"
+  created_at: 
+  empresa_id: "1"
+alunos_568: 
+  updated_at: 
+  nome: Gizeli Cristina de Oliveira Santana
+  subscricao: "271"
+  id: "570"
+  created_at: 
+  empresa_id: "1"
+alunos_1078: 
+  updated_at: 
+  nome: Lourivaldo  Rodrigues de Souza
+  subscricao: "831"
+  id: "1080"
+  created_at: 
+  empresa_id: "1"
+alunos_305: 
+  updated_at: 
+  nome: "Cristiano Leit\xE3o Gadelha"
+  subscricao: "159"
+  id: "307"
+  created_at: 
+  empresa_id: "1"
+alunos_437: 
+  updated_at: 
+  nome: Paula D' Almeida Coelho
+  subscricao: "123"
+  id: "439"
+  created_at: 
+  empresa_id: "1"
+alunos_569: 
+  updated_at: 
+  nome: Carlo Javier Valdivia Sans
+  subscricao: "272"
+  id: "571"
+  created_at: 
+  empresa_id: "1"
+alunos_1079: 
+  updated_at: 
+  nome: Jovilson  Albuquerque Amorin
+  subscricao: "832"
+  id: "1081"
+  created_at: 
+  empresa_id: "1"
+alunos_306: 
+  updated_at: 
+  nome: 5% Catarina Guedes da Silva
+  subscricao: "868"
+  id: "308"
+  created_at: 
+  empresa_id: "1"
+alunos_438: 
+  updated_at: 
+  nome: Francisco Antonio Rodrigues Paula
+  subscricao: "124"
+  id: "440"
+  created_at: 
+  empresa_id: "1"
+alunos_570: 
+  updated_at: 
+  nome: "Maria Alci\xE9 Silva Souza"
+  subscricao: "273"
+  id: "572"
+  created_at: 
+  empresa_id: "1"
+alunos_307: 
+  updated_at: 
+  nome: Alexandre  Guedes Costa
+  subscricao: "790"
+  id: "309"
+  created_at: 
+  empresa_id: "1"
+alunos_439: 
+  updated_at: 
+  nome: Cristhyne Montenegro de Arruda
+  subscricao: "125"
+  id: "441"
+  created_at: 
+  empresa_id: "1"
+alunos_571: 
+  updated_at: 
+  nome: Alcyvone de Seixas Trezza
+  subscricao: "275"
+  id: "573"
+  created_at: 
+  empresa_id: "1"
+alunos_308: 
+  updated_at: 
+  nome: "Rodrigo C\xE3ndido da Rocha"
+  subscricao: "576"
+  id: "310"
+  created_at: 
+  empresa_id: "1"
+alunos_1080: 
+  updated_at: 
+  nome: Jeonyne  Oliveira Santana
+  subscricao: "833"
+  id: "1082"
+  created_at: 
+  empresa_id: "1"
+alunos_440: 
+  updated_at: 
+  nome: Andre  Luiz Salermo Gottetroy
+  subscricao: "126"
+  id: "442"
+  created_at: 
+  empresa_id: "1"
+alunos_572: 
+  updated_at: 
+  nome: Patricia Rie Kakisoe
+  subscricao: "276"
+  id: "574"
+  created_at: 
+  empresa_id: "1"
+alunos_309: 
+  updated_at: 
+  nome: 5% Silvia Filomena Schnorr
+  subscricao: "915"
+  id: "311"
+  created_at: 
+  empresa_id: "1"
+alunos_1081: 
+  updated_at: 
+  nome: "Tony  F\xE1bio Nascimento de Jesus"
+  subscricao: "834"
+  id: "1083"
+  created_at: 
+  empresa_id: "1"
+alunos_441: 
+  updated_at: 
+  nome: Natalia  Moreira Amazonas
+  subscricao: "127"
+  id: "443"
+  created_at: 
+  empresa_id: "1"
+alunos_573: 
+  updated_at: 
+  nome: "Cl\xE1udio Silva Lima"
+  subscricao: "277"
+  id: "575"
+  created_at: 
+  empresa_id: "1"
+alunos_1082: 
+  updated_at: 
+  nome: "F\xE1tima  Cristina Colares Corr\xEAa"
+  subscricao: "835"
+  id: "1084"
+  created_at: 
+  empresa_id: "1"
+alunos_442: 
+  updated_at: 
+  nome: "Viviane Pereira da Concei\xE7\xE3o"
+  subscricao: "129"
+  id: "444"
+  created_at: 
+  empresa_id: "1"
+alunos_574: 
+  updated_at: 
+  nome: Rafael da Silva Feitosa
+  subscricao: "278"
+  id: "576"
+  created_at: 
+  empresa_id: "1"
+alunos_310: 
+  updated_at: 
+  nome: Luziomar Cavalcante Mota
+  subscricao: "619"
+  id: "312"
+  created_at: 
+  empresa_id: "1"
+alunos_1083: 
+  updated_at: 
+  nome: Renata  Andrade Lacerda
+  subscricao: "836"
+  id: "1085"
+  created_at: 
+  empresa_id: "1"
+alunos_443: 
+  updated_at: 
+  nome: Larissa Rodrigues da Silva
+  subscricao: "131"
+  id: "445"
+  created_at: 
+  empresa_id: "1"
+alunos_575: 
+  updated_at: 
+  nome: Stephanne Lira Teixeira
+  subscricao: "279"
+  id: "577"
+  created_at: 
+  empresa_id: "1"
+alunos_311: 
+  updated_at: 
+  nome: Mauro  de Oliveira Loureiro
+  subscricao: "268"
+  id: "313"
+  created_at: 
+  empresa_id: "1"
+alunos_1084: 
+  updated_at: 
+  nome: "Maria  Cristina Cruz de Mendon\xE7a"
+  subscricao: "837"
+  id: "1086"
+  created_at: 
+  empresa_id: "1"
+alunos_444: 
+  updated_at: 
+  nome: Jessika da Silva e Silva
+  subscricao: "132"
+  id: "446"
+  created_at: 
+  empresa_id: "1"
+alunos_576: 
+  updated_at: 
+  nome: Evaldo Batalha Duarte
+  subscricao: "280"
+  id: "578"
+  created_at: 
+  empresa_id: "1"
+alunos_312: 
+  updated_at: 
+  nome: "Juarez da Silva Le\xE3o"
+  subscricao: "114"
+  id: "314"
+  created_at: 
+  empresa_id: "1"
+alunos_1085: 
+  updated_at: 
+  nome: Jorge  Antonio Vieira dos Santos
+  subscricao: "838"
+  id: "1087"
+  created_at: 
+  empresa_id: "1"
+alunos_445: 
+  updated_at: 
+  nome: Luis Fernando de Moraes Lobato
+  subscricao: "133"
+  id: "447"
+  created_at: 
+  empresa_id: "1"
+alunos_577: 
+  updated_at: 
+  nome: Alisson Maurilo Medrado Lima
+  subscricao: "281"
+  id: "579"
+  created_at: 
+  empresa_id: "1"
+alunos_313: 
+  updated_at: 
+  nome: Renato  Albert Lopes Menezes
+  subscricao: "420"
+  id: "315"
+  created_at: 
+  empresa_id: "1"
+alunos_1086: 
+  updated_at: 
+  nome: Carlos  Roberto Ferreira de Lima
+  subscricao: "839"
+  id: "1088"
+  created_at: 
+  empresa_id: "1"
+alunos_446: 
+  updated_at: 
+  nome: Alfranny Castro de Oliveira
+  subscricao: "134"
+  id: "448"
+  created_at: 
+  empresa_id: "1"
+alunos_578: 
+  updated_at: 
+  nome: Bianco Mariano Porto
+  subscricao: "282"
+  id: "580"
+  created_at: 
+  empresa_id: "1"
+alunos_314: 
+  updated_at: 
+  nome: "Ana  Paula Ara\xFAjo Maciel"
+  subscricao: "776"
+  id: "316"
+  created_at: 
+  empresa_id: "1"
+alunos_1087: 
+  updated_at: 
+  nome: Tanara  Lauschneb
+  subscricao: "840"
+  id: "1089"
+  created_at: 
+  empresa_id: "1"
+alunos_1088: 
+  updated_at: 
+  nome: Leandra  Andrade da Silva
+  subscricao: "841"
+  id: "1090"
+  created_at: 
+  empresa_id: "1"
+alunos_579: 
+  updated_at: 
+  nome: Igor  Mariano Porto
+  subscricao: "283"
+  id: "581"
+  created_at: 
+  empresa_id: "1"
+alunos_315: 
+  updated_at: 
+  nome: Claudomiro Bittencourt dos Reis
+  subscricao: "560"
+  id: "317"
+  created_at: 
+  empresa_id: "1"
+alunos_447: 
+  updated_at: 
+  nome: Matheus Silva do Nascimento
+  subscricao: "135"
+  id: "449"
+  created_at: 
+  empresa_id: "1"
+alunos_1089: 
+  updated_at: 
+  nome: Klissia  Karolina Almeida de Souza
+  subscricao: "843"
+  id: "1091"
+  created_at: 
+  empresa_id: "1"
+alunos_316: 
+  updated_at: 
+  nome: "5% Priscila Serr\xE3o dos Santos"
+  subscricao: "967"
+  id: "318"
+  created_at: 
+  empresa_id: "1"
+alunos_448: 
+  updated_at: 
+  nome: Kamila de Oliveira Dias
+  subscricao: "136"
+  id: "450"
+  created_at: 
+  empresa_id: "1"
+alunos_580: 
+  updated_at: 
+  nome: "Dimas Mesquita Guimar\xE3es"
+  subscricao: "284"
+  id: "582"
+  created_at: 
+  empresa_id: "1"
+alunos_317: 
+  updated_at: 
+  nome: Leandro  Rodrigues Cavalcante
+  subscricao: "434"
+  id: "319"
+  created_at: 
+  empresa_id: "1"
+alunos_449: 
+  updated_at: 
+  nome: Rayane Batalha Marinho
+  subscricao: "137"
+  id: "451"
+  created_at: 
+  empresa_id: "1"
+alunos_581: 
+  updated_at: 
+  nome: Wanessa da Silva Coelho
+  subscricao: "285"
+  id: "583"
+  created_at: 
+  empresa_id: "1"
+alunos_318: 
+  updated_at: 
+  nome: "Fab\xEDola Andrea Sousa Pessoa"
+  subscricao: "563"
+  id: "320"
+  created_at: 
+  empresa_id: "1"
+alunos_1090: 
+  updated_at: 
+  nome: Mateus Granela Borga
+  subscricao: "844"
+  id: "1092"
+  created_at: 
+  empresa_id: "1"
+alunos_450: 
+  updated_at: 
+  nome: Queila Souza do Monte
+  subscricao: "138"
+  id: "452"
+  created_at: 
+  empresa_id: "1"
+alunos_582: 
+  updated_at: 
+  nome: Thiago Pereira Santana
+  subscricao: "286"
+  id: "584"
+  created_at: 
+  empresa_id: "1"
+alunos_319: 
+  updated_at: 
+  nome: "Juc\xE9lio Wagner Alves Cavalcante"
+  subscricao: "187"
+  id: "321"
+  created_at: 
+  empresa_id: "1"
+alunos_1091: 
+  updated_at: 
+  nome: Bruno  Ramalheira de Siqueira
+  subscricao: "845"
+  id: "1093"
+  created_at: 
+  empresa_id: "1"
+alunos_451: 
+  updated_at: 
+  nome: "Nic\xE1cio Trindade da Silva"
+  subscricao: "139"
+  id: "453"
+  created_at: 
+  empresa_id: "1"
+alunos_583: 
+  updated_at: 
+  nome: Marlon  Barroso de Menezes
+  subscricao: "287"
+  id: "585"
+  created_at: 
+  empresa_id: "1"
