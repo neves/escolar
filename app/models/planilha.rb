@@ -11,8 +11,8 @@ class Planilha
   end
 
   def dias
-    hoje = Date.today.at_beginning_of_week
-    data_final = hoje + 5.days
+    hoje = Date.today
+    data_final = hoje + 14.days
     periodo = hoje..data_final
     dias = hoje..data_final
     hoje..data_final
