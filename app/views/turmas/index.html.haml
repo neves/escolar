@@ -9,5 +9,5 @@
             %h4= "#{turma.professor.nome} - #{turma.disciplina.nome}"
             %ul
               - turma.alunos.each do |aluno|
-                %li= aluno.nome
+                %li= "#{aluno.subscricao} - #{aluno.nome}"
       
