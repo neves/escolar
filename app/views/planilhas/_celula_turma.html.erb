@@ -1,4 +1,5 @@
-<a href="<%= planilha_turma_path(turma) unless turma.lotada? %>" class="turma">
+<% aluno_params = turma.alunos.include?(@aluno) ? "" : "?aluno_id=" + @aluno.to_param  %>
+<a href="<%= planilha_turma_path(turma) + aluno_params  unless turma.lotada? %>" class="turma">
     <%= turma.disciplina.apelido %>
     <br />
     <%= turma.professor.apelido %>

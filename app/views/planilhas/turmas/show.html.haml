@@ -23,7 +23,11 @@
   %h4 Alunos
 
   %table
-  - @turma.aulas.each do |aula|
-    %tr
-      %td= link_to "X", planilha_turma_aula_path(@turma, aula), :confirm => "Desmarcar Aluno?", :method => :delete
-      %td= aula.aluno.nome rescue "Aluno não encontrado!"
+    - @turma.aulas.each do |aula|
+      %tr
+        %td= aula.aluno.nome rescue "Aluno nao encontrado!"
+        %td= link_to "X", planilha_turma_aula_path(@turma, aula), :confirm => "Desmarcar Aluno?", :method => :delete
+    - if @aluno
+      %tr
+        %td= @aluno.nome
+        %td= link_to "agendar?", planilha_turma_aulas_path(@turma) + "?aluno_id=" + @aluno.to_param, :confirm => "Deseja agendar este aluno nesta turma?", :method => :post
