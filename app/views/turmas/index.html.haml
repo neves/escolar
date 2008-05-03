@@ -11,7 +11,7 @@
 %ul
   - @turmas.group_by(&:quando).each do |quando, turmas|
     %li
-      %h3= quando.to_s_br
+      %h3= quando.strftime "%A %d/%m/%y %H:%Mhs"
       %ul
         - turmas.each do |turma|
           %li
