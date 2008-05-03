@@ -4,11 +4,14 @@
     = javascript_include_tag :defaults
   %body
     %div{:align => :center}
-      %span= link_to 'Planilha', planilha_path
-      = "|"
-      %span= link_to 'Professores', professores_path
-      = "|"
-      %span= link_to 'Disciplinas', disciplinas_path
-      = "|"
-      %span= link_to 'Habilitações', matriz_habilitacoes_professores_path
+      = link_to 'Planilha', planilha_path
+      |
+      = link_to 'Professores', professores_path
+      |
+      = link_to 'Disciplinas', disciplinas_path
+      |
+      = link_to 'Habilitações', matriz_habilitacoes_professores_path
+      |
+      = link_to 'Turmas', turmas_path
+
     = yield

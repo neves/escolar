@@ -28,6 +28,7 @@ ActionController::Routing::Routes.draw do |map|
   end
 
   map.resources :alunos
+  map.resources :turmas
 
   #map.connect ':controller/:action/:id'
   #map.connect ':controller/:action/:id.:format'

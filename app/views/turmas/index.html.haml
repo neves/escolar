@@ -1,0 +1,13 @@
+%h2 Aulas do Dia
+%ul
+  - @turmas.group_by(&:quando).each do |quando, turmas|
+    %li
+      %h3= quando
+      %ul
+        - turmas.each do |turma|
+          %li
+            %h4= "#{turma.professor.nome} - #{turma.disciplina.nome}"
+            %ul
+              - turma.alunos.each do |aluno|
+                %li= aluno.nome
+      
