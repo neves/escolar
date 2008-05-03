@@ -2,7 +2,7 @@
 %ul
   - @turmas.group_by(&:quando).each do |quando, turmas|
     %li
-      %h3= quando
+      %h3= quando.to_s_br
       %ul
         - turmas.each do |turma|
           %li
