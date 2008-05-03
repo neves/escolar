@@ -23,6 +23,7 @@ ActionController::Routing::Routes.draw do |map|
     #namespace também funciona
     planilha.resources :turmas, :controller => 'Planilhas::Turmas' do |turma|
       turma.resources :alunos, :controller => 'Planilhas::Turmas::Alunos'
+      turma.resources :aulas, :controller => 'Planilhas::Turmas::Aulas'
     end
   end
 

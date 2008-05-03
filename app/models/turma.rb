@@ -6,6 +6,10 @@ class Turma < ActiveRecord::Base
 
   named_scope :no_periodo, lambda {|periodo| {:conditions => {:data => periodo}} }
 
+  def vazia?
+    aulas.empty?
+  end
+
   def lotada?
     return false unless disciplina
     aulas.size >= disciplina.lotacao
