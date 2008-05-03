@@ -1,4 +1,13 @@
 %h2 Aulas do Dia
+
+%form
+  %select{:name => :professor_id}
+    %option{:value => 0} todos professores
+    - @professores.each do |professor|
+      %option{:value => professor.id, :selected => professor.id == @current_professor}
+        = professor.nome
+  = submit_tag "Filtrar", :name => nil
+
 %ul
   - @turmas.group_by(&:quando).each do |quando, turmas|
     %li
