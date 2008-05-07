@@ -73,7 +73,7 @@ module ActiveRecord
 
       # REFERENTIAL INTEGRITY ====================================
 
-      # Override to turn off referential integrity while executing +&block+
+      # Override to turn off referential integrity while executing <tt>&block</tt>.
       def disable_referential_integrity(&block)
         yield
       end
@@ -101,7 +101,7 @@ module ActiveRecord
         false
       end
 
-      # Lazily verify this connection, calling +active?+ only if it hasn't
+      # Lazily verify this connection, calling <tt>active?</tt> only if it hasn't
       # been called for +timeout+ seconds.
       def verify!(timeout)
         now = Time.now.to_i
@@ -158,7 +158,7 @@ module ActiveRecord
               message_color, dump_color = "4;36;1", "0;1"
             else
               @@row_even = true
-              message_color, dump_color = "4;35;1", "1;33"
+              message_color, dump_color = "4;35;1", "0"
             end
 
             log_entry = "  \e[#{message_color}m#{message}\e[0m   "

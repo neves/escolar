@@ -33,18 +33,20 @@ class Disciplina < ActiveRecord::Base
 
   def professores_agrupados_por_horario
     if self.fixa?
-      horas = self.disponibilidades.find(:all, :include => :professor)
+      disp = self.disponibilidades.find(:all, :include => :professor)
     else
-      horas = Disponibilidade.livres.find :all,
+      disp = Disponibilidade.livres.find :all,
                                           :include => {:professor => :disciplinas},
                                           :conditions => {'habilitacoes.disciplina_id' => self.id}
     end
-    horas.index_and_group_by do |e|
-      [e.horario_id, e.professor]
+    disp.index_and_group_by do |d|
+      [d.horario_id, d.professor]
     end
   end
 
 	def reservas_agrupadas_por_horario
 		self.disponibilidades.find(:all, :include => :professor).index_by(&:horario_id)
 	end
+
 end
+

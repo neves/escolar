@@ -3,9 +3,7 @@
 %form
   %select{:name => :professor_id}
     %option{:value => 0} todos professores
-    - @professores.each do |professor|
-      %option{:value => professor.id, :selected => professor.id == @current_professor}
-        = professor.nome
+    = options_from_collection_for_select(@professores, 'id', 'nome', @current_professor)
   = submit_tag "Filtrar", :name => nil
 
 %ul

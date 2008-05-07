@@ -1,0 +1,14 @@
+- form_tag agendar_planilha_path, :method => :get do
+  = hidden_field_tag "aluno_id", @aluno.id
+  = hidden_field_tag "quando", quando
+  = hidden_field_tag "disciplina_id", @disciplina.id
+  - if disp.length == 1
+    = hidden_field_tag "professor_id", disp.first.id
+    = submit_tag disp.first.apelido
+  - else
+    %select{:onchange => "this.form.submit()", :name => "professor_id"}
+      %option{}= disp.length
+      - disp.each do |professor|
+        -# levar este if para o controller, atraves de um filtro do enumerable
+        -# verificar tambem se o horario atual eh o horario seguinte de uma turma dele
+        = content_tag 'option', professor.apelido, :value => professor.id

@@ -1,0 +1,5 @@
+- eh_turma_do_aluno = turma.alunos.include?(@aluno)
+- aluno_params = eh_turma_do_aluno ? "" : "?aluno_id=" + @aluno.to_param
+- label = eh_turma_do_aluno ? "#{turma.professor.apelido}/#{turma.disciplina.apelido}"  : "#{turma.professor.apelido}-#{turma.alunos.size}/#{turma.disciplina.lotacao}"
+= link_to( label,  planilha_turma_path(turma) + aluno_params,  :class => "turma") unless turma.lotada?
+

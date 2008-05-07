@@ -32,7 +32,7 @@ class Planilha
   end
 
   def professores
-    turmas = Turma.find(:all, :conditions => {:quando => dias}, :include => [:professor, :disciplina])
+    turmas = Turma.find(:all, :conditions => {:data => dias}, :include => [:professor, :disciplina])
     profs = {}
     turmas.each do |t|
       t.disciplina.duracao.times do |d|

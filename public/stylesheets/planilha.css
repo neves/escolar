@@ -10,23 +10,45 @@ body, html {
   margin: auto;
   font: 9px Verdana;
   width: 1000px;
-  table-layout: fixed;
+  /*table-layout: fixed;*/
 }
 
   #planilha td, #planilha th {
     border: 1px dotted #CCC;
-    padding: 5px;
+    padding: 2px;
   }
 
   #planilha td {
-    vertical-align: top;
     text-align: center;
   }
+
+    #planilha td form {
+      margin: 0;
+      padding: 0;
+    }
+
+      #planilha td form select {
+        width: 100%;
+        border: 1px dotted #DDD;
+        height: 12px;
+        font: 9px Verdana;
+        text-align: center;
+      }
+      #planilha td form input[type=submit] {
+        background: transparent;
+        border: none;
+        text-align: center;
+        font: 9px Verdana;
+        height: 14px;
+        padding: 0;
+        cursor: pointer;
+      }
 
     #planilha tbody th, 
     #planilha thead td,
     #planilha tfoot td {
-      width: 25px;
+      width: 50px;
+      font: 10px Arial;
     }
 
 hr {
@@ -56,3 +78,4 @@ form {
 form li {
   text-align: left;
 }
+

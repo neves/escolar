@@ -1,0 +1,23 @@
+- disp = @horarios[Horario.convert(dia, hora)] || []
+- quando = dia + hora.hours
+-# remove das disponibilidades do professor, os horarios que ele está em turma, inclusive turmas de 2h
+- disp = disp.reject{|professor| (@professores_ocupados[quando] && @professores_ocupados[quando].include?(professor)) || professor.ocupado_2h?(quando)}
+
+-# se a turma tem +1h ou:
+-# ja desenha as celulas adjacentes, e avanço o loop 2 vezes
+-# mas pra isso preciso saber se nao estou no fim
+-# ou faço outro if antes, para bloquear esta celula caso esteja dentro da hora extra da turma do aluno
+- turma_aluno = @aluno_turmas[quando]
+- turmas = @turmas[quando]
+- turmas.respond_to?(:delete) && turmas.delete(turma_aluno) #remove a turma do aluno
+
+- if turma_aluno
+  = render :partial => 'celula_turma', :locals => {:turma =>  turma_aluno}
+
+- elsif turmas && !turmas.empty? 
+  - turmas.each do |turma|
+    - next unless turma
+    = render :partial => 'celula_turma', :locals => {:turma =>  turma}
+
+- elsif !disp.empty?
+  = render :partial => 'celula_professores', :locals => {:disp => disp, :quando => quando}

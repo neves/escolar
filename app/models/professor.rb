@@ -28,6 +28,10 @@ class Professor < ActiveRecord::Base
 
   end
 
+  def ocupado_2h?(quando)
+    horario = Horario.to_id(quando - 1.hour)
+    disponibilidades.reservadas.count(:conditions => {'disciplinas.duracao' => 2, 'horario_id' => horario}, :include => :disciplina) > 0
+  end
 
   before_save :set_default
 
