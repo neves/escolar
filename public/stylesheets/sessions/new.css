@@ -1,0 +1,177 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font:12px "Trebuchet Ms", Arial;
+    background:#F8FCFC url(/images/sessions/new/bg-fundo.png) repeat-x left top;
+    color:#555;
+}
+
+
+
+.flashes {
+  position: absolute;
+  bottom: -50px;
+  text-align: center;
+  background: #F9EB9D;
+  width: 390px;
+  font: 18px Georgia;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+.form-login {
+    width:430px;
+    height:200px;
+    background:url(/images/sessions/new/bg-login.png) no-repeat left top;
+    text-align:left;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-215px;
+    margin-top:-90px;
+}
+.form-login .form-helper {
+    position:relative;
+}
+
+form input[type='text'],
+form input[type='password'], 
+form select {
+    background-color:#FFF;
+    font:bold 12px arial;
+    padding:1px;
+    border:1px solid #aaa;    
+}
+
+form input[type='text'],
+form input[type='password'] {
+    padding:3px 5px;
+}
+
+form label span {
+    display:block;
+    padding:5px 0 0;
+    font:12px Arial, Helvetica, sans-serif;
+}
+
+form input, form select {
+    width:180px;
+}
+
+form select {
+    width:195px;
+}
+
+form input:focus,
+form select:focus{
+    background:#F9F379;
+    border-color:#6FBAD3;
+}
+
+.lusuario, .lsenha {
+    top:108px; 
+}
+.lusuario {
+    position:absolute;
+    left:20px;
+    left:220px;
+    top:60px;
+}
+
+.lsenha {
+    position:absolute;
+    left:220px;
+}
+
+.lescola {
+    position:absolute;
+    top:10px;
+    right:15px;
+}
+
+.btn-entrar {
+    position:absolute;
+    right:18px;
+    top:160px;
+    width:80px;
+}
+
+.btn-esqueci-senha {
+    position:absolute;
+    left:20px;
+    top:165px;
+    text-decoration:none;
+    color:#222;
+    display:none;
+}
+
+.lembrar-senha {
+    position:absolute;
+    left:22px;
+    left:215px;
+    top:160px;
+    text-align:left;
+    display:none;
+}
+
+.lembrar-senha span { 
+    display: inline; 
+    position:relative;
+    top:3px; 
+} 
+
+.lembrar-senha input { width:20px; }
+
+h1 {
+    position:absolute;
+    right:15px;
+    top:-35px;
+    text-transform:uppercase;
+    font:bold 30px trebuchet ms, Arial, Helvetica, sans-serif;         
+    color:#F4463D;
+}
+
+h2{
+    position:absolute;
+    top:115px;    
+    left:20px;
+    font:21px trebuchet ms, Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    color:#C81318;
+    color:#666;
+    width:200px;
+}
+
+h2 span, label small {
+    color:#999;
+    font:11px tahoma,Arial, Helvetica, sans-serif;
+    display:block;
+    text-transform:none;
+    padding-right:30px;
+}
+
+
+.logo {
+    position:absolute;
+    background:url(/images/sessions/new/logo.png) no-repeat left top;
+    width:200px;
+    height:84px;
+    top:-20px;
+    left:-5px;
+}
+
+.login-error {
+    position:absolute;
+    top:170px;
+    left:20px;
+    background:red;
+    color:#FFF;
+    font:bold 12px "Trebuchet Ms";
+    display:block;
+    padding:1px 5px;
+}

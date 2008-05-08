@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Login</title>
+  <%= stylesheet_link_tag 'sessions/new' %>
+</head>
+<body>
+  <div id="app">
+                
+    <div class="form-login">
+
+                     <div class="logo"></div>
+      <div class="form-helper">
+        <h1>Systeminds</h1>
+                                 
+                                  <h2>
+          Acesso Restrito
+          <span>Selecione a escola de sua região para ter acesso ao sistema</span>
+
+  </h2>
+
+<% form_tag logar_path do -%>
+      <label class="lusuario">
+              <span>Usuário</span>
+              <%= text_field_tag 'login', "", :class => 'usuario' %>
+      </label>
+
+      <label class="lsenha">
+              <span>Senha</span>
+              <%= password_field_tag 'password', "", :class => 'senha'  %>
+      </label>    
+
+      <label class="lescola">
+              <span>Escola</span>
+              <select id="escola" name="escola">
+                <option> - Selecione - </option>
+              </select>
+      </label>
+      <label class="lembrar-senha">
+
+          <input id="remember_me" name="remember_me" type="checkbox" value="1" />
+          <span>Lembrar-me</span>
+      </label>
+      <input class="btn-entrar" name="commit" type="submit" value="Entrar" />
+<% end -%>
+
+      <a href="/login/lembrar" class="btn-esqueci-senha">(?) Esqueci minha senha</a>
+
+      </div>
+      <%= flashes %>
+    </div>
+  </div>
+</body>
+</html>

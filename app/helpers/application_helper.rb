@@ -1,13 +1,13 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 	def flashes
-		return "" if flash.empty?
-		htm = '<div class="flashes">'
-		flash.each do |type, msg|
-			htm << content_tag(:div, msg, :class => type)
-		end
-		htm << '</div>'
-		return htm
+		content_tag :div, :class => "flashes" do
+      ret = ""
+  		flash.each do |type, msg|
+  			ret << content_tag(:div, msg, :class => type)
+  		end
+      ret
+    end unless flash.empty?
 	end
 
   def check_box_for_collection(model, property, value, extras = {})

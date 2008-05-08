@@ -9,3 +9,8 @@
 #   inflect.uncountable %w( fish sheep )
 # end
 require 'inflector_portuguese'
+
+Inflector.inflections do |inflect|
+  inflect.plural 'user', 'users'
+  inflect.irregular 'session', 'sessions'
+end

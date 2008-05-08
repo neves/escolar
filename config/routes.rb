@@ -1,4 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :users, :member => {:suspend => :put, :unsuspend => :put, :purge => :delete}
+  map.resource :session
+  map.login '/login', :controller => 'sessions', :action => 'new'
+  map.logout '/logout', :controller => 'sessions', :action => 'destroy'
+  map.logar '/logar', :controller => 'sessions', :action => 'create'
+  map.root :controller => 'planilhas', :action => 'show'
+
 	map.resources :professores, 
 								:member => {
 									:habilitacoes => :get,
