@@ -5,6 +5,7 @@ class SessionsController < ApplicationController
 
   # render new.rhtml
   def new
+    @escolas = Empresa.all(:order => 'nome')
   end
 
   def create
@@ -14,11 +15,12 @@ class SessionsController < ApplicationController
         current_user.remember_me unless current_user.remember_token?
         cookies[:auth_token] = { :value => self.current_user.remember_token , :expires => self.current_user.remember_token_expires_at }
       end
+      session[:empresa] = params[:empresa_id]
       redirect_to '/'
       flash[:notice] = "Login OK"
     else
       flash[:notice] = "Usuário ou Senha inválidos!"
-      render :action => 'new'
+      redirect_to '/login'
     end
   end
 

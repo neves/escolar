@@ -15,4 +15,8 @@ module ApplicationHelper
     field_name = property.to_s.singularize + "_ids"
     check_box_tag "#{input_name}[#{field_name}][]", value, model.send(field_name).include?(value)
   end
+
+  def empresas_select
+    select_tag('empresa_id', options_from_collection_for_select(@escolas, 'id', 'nome', controller.current_empresa_id), {})
+  end
 end

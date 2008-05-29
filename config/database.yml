@@ -2,10 +2,6 @@ sqlite3:
   adapter: sqlite3
   database: db/development.sqlite3
 
-development:
-  adapter: sqlite3
-  database: db/development.sqlite3
-
 test:
   adapter: sqlite3
   database: ":memory:"
@@ -17,7 +13,7 @@ production:
   username: root
   host: 192.168.1.2
 
-mysql:
+development:
   adapter: mysql
   database: debian
   username: root
