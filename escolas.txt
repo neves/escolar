@@ -1,0 +1,15 @@
+Teste|-3|100
+Barcarena|-3|99.90
+Belém|-3|99.90
+Campo Grande|-4|99.90
+Jundiaí|-3|99.90
+Manaus (Cidade Nova)|-4|99.90
+Manaus (Vieiralves)|-4|99.90
+Recife (Boa Viagem)|-3|99.90
+Recife (Graças)|-3|99.90
+Santos|-3|99.90
+Porto Alegre (Moinhos)|-3|99.90
+Porto Alegre (Menino Deus)|-3|99.90
+Vitória|-3|99.90
+Vila Velha|-3|99.90
+Aracajú|-3|99.90

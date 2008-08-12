@@ -1,0 +1,1 @@
+cap -f morph_deploy.rb morph:deploy

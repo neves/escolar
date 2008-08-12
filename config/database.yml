@@ -9,12 +9,13 @@ test:
 
 production:
   adapter: mysql
-  database: debian
-  username: root
-  host: 192.168.1.2
+  database: systeminds
+  username: systeminds
+  password: 1234qwerasdfzxcv
+  host: mysql.qi64.com
 
 development:
   adapter: mysql
-  database: debian
+  database: minds
   username: root
-  host: 192.168.1.2
+  host: localhost

@@ -1,3 +1,4 @@
+%p= link_to 'Cadastrar Disciplina', new_disciplina_path
 %ul
   - @disciplinas.group_by(&:material).each do |material, disciplinas|
     %li
@@ -5,6 +6,6 @@
       %ul
         - disciplinas.each do |disc|
           %li
-            = %( #{disc.duracao}h )
+            = link_to %( #{disc.duracao}h ), edit_disciplina_path(disc)
             = disc.nome
             = link_to 'agenda', disponibilidades_disciplina_path(disc) if disc.fixa?

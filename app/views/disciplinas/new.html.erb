@@ -1,0 +1,44 @@
+<h1>Nova Disciplina</h1>
+
+<% form_for(@disciplina) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :apelido %><br />
+    <%= f.text_field :apelido %>
+  </p>
+  <p>
+    <%= f.label :duracao %><br />
+    <%= f.text_field :duracao %>
+  </p>
+  <p>
+    <%= f.label :lotacao %><br />
+    <%= f.text_field :lotacao %>
+  </p>
+  <p>
+    <%= f.label :fixa %><br />
+    <%= f.check_box :fixa %>
+  </p>
+  
+   <p>
+    <%= f.label :kit %><br />
+   	<%= collection_select(:disciplina, :material_id, @materiais, :id, :nome, {:include_blank => true}) %>
+  </p>
+<!--
+   <p>
+    <%= f.label :kit %><br />
+    <select name="disciplina[material_id]"><option></option>
+        <%= options_from_collection_for_select(@materiais, :id, :nome, @disciplina.material_id) %>
+    </select>
+  </p>
+-->
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'voltar', disciplinas_path %>

@@ -1,7 +1,9 @@
 class Planilha
   def initialize(disciplina, aluno)
-    @disciplina = Disciplina.find_by_apelido_or_id(disciplina)
-    @aluno = Aluno.find_by_nome_or_subscricao(aluno)
+  	raise Exception.new("Nenhuma disciplina cadastrada") if Disciplina.count == 0
+  	
+    @disciplina = disciplina.to_i == disciplina.to_i.to_s ? Disciplina.find(disciplina) : Disciplina.find_by_apelido(disciplina)
+    @aluno = aluno.to_i == aluno.to_i.to_s ? Aluno.find_by_subscricao(aluno) : Aluno.find_by_nome(aluno)
   end
   attr_reader :disciplina
   attr_reader :aluno

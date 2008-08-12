@@ -1,9 +1,33 @@
 class DisciplinasController < ApplicationController
-	before_filter :find_disciplina, :except => :index
+	before_filter :find_disciplina, :except => [:index, :new, :create]
 
   def index
     @disciplinas = Disciplina.find(:all, :order => "material_id, nome")
   end
+  
+  def new
+  	@disciplina = Disciplina.new
+  	@materiais = Material.all :order => :id
+  end
+  
+  def edit
+  	@materiais = Material.all :order => :id
+  end
+  
+  def update
+  	Disciplina.update(params[:id], params[:disciplina])
+  	redirect_to disciplinas_path
+  end
+
+	def create
+		Disciplina.create(params[:disciplina])
+		redirect_to disciplinas_path
+	end
+	
+	def destroy
+		Disciplina.delete(params[:id])
+		redirect_to disciplinas_path
+	end
 
 	def disponibilidades
 		somente_disciplina_fixa!

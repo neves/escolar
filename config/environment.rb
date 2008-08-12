@@ -2,10 +2,10 @@
 
 # Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
-#ENV['RAILS_ENV'] ||= 'mysql'
+#ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.0.2' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.1.0' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -18,8 +18,16 @@ Rails::Initializer.run do |config|
 
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
-  # config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
-    config.frameworks -= [:active_resource, :action_mailer]
+  config.frameworks -= [:active_resource]
+  # Specify gems that this application depends on. 
+  # They can then be installed with "rake gems:install" on new installations.
+  config.gem "fastercsv"
+  config.gem "ar-extensions"
+  config.gem "haml"
+  #config.gem "sqlite3-ruby" # no windows se chama sqlite3-ruby-1.2.2-x86-mswin32
+  # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
+  # config.gem "aws-s3", :lib => "aws/s3"
+   
   # Only load the plugins named here, in the order given. By default, all plugins 
   # in vendor/plugins are loaded in alphabetical order.
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -32,6 +40,10 @@ Rails::Initializer.run do |config|
   # (by default production uses :info, the others :debug)
   # config.log_level = :debug
 
+  # Make Time.zone default to the specified zone, and make Active Record store time values
+  # in the database in UTC, and return them converted to the specified local zone.
+  # Run "rake -D time" for a list of tasks for finding time zone names. Uncomment to use default local time.
+  #config.time_zone = 'UTC'
   # Your secret key for verifying cookie session data integrity.
   # If you change this key, all old sessions will become invalid!
   # Make sure the secret is at least 30 characters and all random, 

@@ -1,0 +1,22 @@
+<h1>Listing professores</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Apelido</th>
+  </tr>
+
+<% for professor in @professores %>
+  <tr>
+    <td><%=h professor.nome %></td>
+    <td><%=h professor.apelido %></td>
+    <td><%= link_to 'disponibilidade', disponibilidades_professor_path(professor) %></td>
+    <td><%= link_to 'editar', edit_professor_path(professor) %></td>
+    <td><%= link_to 'Destroy', professor, :confirm => 'Tem Certeza?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Cadastrar Professor', new_professor_path %>

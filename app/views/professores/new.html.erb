@@ -1,0 +1,19 @@
+<h1>Novo Professor</h1>
+
+<% form_for(@professor) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :apelido %><br />
+    <%= f.text_field :apelido %>
+  </p>
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'voltar', professores_path %>

@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :professores
+
+  map.resources :professores
+
   map.resources :users, :member => {:suspend => :put, :unsuspend => :put, :purge => :delete}
   map.resource :session
   map.login '/login', :controller => 'sessions', :action => 'new'

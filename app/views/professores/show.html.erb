@@ -1,0 +1,13 @@
+<p>
+  <b>Nome:</b>
+  <%=h @professor.nome %>
+</p>
+
+<p>
+  <b>Apelido:</b>
+  <%=h @professor.apelido %>
+</p>
+
+
+<%= link_to 'Edit', edit_professor_path(@professor) %> |
+<%= link_to 'Back', professores_path %>

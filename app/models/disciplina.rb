@@ -15,6 +15,10 @@ class Disciplina < ActiveRecord::Base
   def to_s
     apelido
   end
+  
+  def nome_duracao
+  	"#{nome} - #{duracao}h"
+  end
 
   def horas
     Hora.find(:all, :conditions => ["hora <= ?", Hora.maximum(:hora) - self.duracao + 1])

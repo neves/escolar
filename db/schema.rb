@@ -1,5 +1,5 @@
 # This file is auto-generated from the current state of the database. Instead of editing this file, 
-# please use the migrations feature of ActiveRecord to incrementally modify your database, and
+# please use the migrations feature of Active Record to incrementally modify your database, and
 # then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your database schema. If you need
@@ -12,9 +12,9 @@
 ActiveRecord::Schema.define(:version => 20080508042039) do
 
   create_table "alunos", :force => true do |t|
-    t.integer  "empresa_id", :null => false
-    t.string   "nome",       :null => false
-    t.integer  "subscricao", :null => false
+    t.integer  "empresa_id", :limit => 11, :null => false
+    t.string   "nome",                     :null => false
+    t.integer  "subscricao", :limit => 11, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -23,49 +23,51 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   add_index "alunos", ["subscricao"], :name => "index_alunos_on_subscricao"
 
   create_table "aulas", :force => true do |t|
-    t.integer  "turma_id",   :null => false
-    t.integer  "aluno_id",   :null => false
+    t.integer  "turma_id",   :limit => 11, :null => false
+    t.integer  "aluno_id",   :limit => 11, :null => false
     t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "aulas", ["status"], :name => "index_aulas_on_status"
   add_index "aulas", ["turma_id", "aluno_id"], :name => "index_aulas_on_turma_id_and_aluno_id", :unique => true
+  add_index "aulas", ["status"], :name => "index_aulas_on_status"
 
   create_table "disciplinas", :force => true do |t|
-    t.integer  "material_id"
+    t.integer  "material_id", :limit => 11
     t.string   "nome"
     t.string   "apelido"
-    t.integer  "duracao",     :default => 1,     :null => false
-    t.integer  "lotacao",     :default => 1,     :null => false
-    t.boolean  "fixa",        :default => false
+    t.integer  "duracao",     :limit => 11, :default => 1,     :null => false
+    t.integer  "lotacao",     :limit => 11, :default => 1,     :null => false
+    t.boolean  "fixa",                      :default => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "disciplinas", ["nome"], :name => "index_disciplinas_on_nome", :unique => true
   add_index "disciplinas", ["apelido"], :name => "index_disciplinas_on_apelido", :unique => true
-  add_index "disciplinas", ["fixa"], :name => "index_disciplinas_on_fixa"
-  add_index "disciplinas", ["lotacao"], :name => "index_disciplinas_on_lotacao"
+  add_index "disciplinas", ["nome"], :name => "index_disciplinas_on_nome", :unique => true
   add_index "disciplinas", ["duracao"], :name => "index_disciplinas_on_duracao"
+  add_index "disciplinas", ["lotacao"], :name => "index_disciplinas_on_lotacao"
+  add_index "disciplinas", ["fixa"], :name => "index_disciplinas_on_fixa"
 
   create_table "disponibilidades", :force => true do |t|
-    t.integer  "professor_id"
-    t.integer  "horario_id"
-    t.integer  "disciplina_id"
-    t.boolean  "ocupada",       :default => false, :null => false
+    t.integer  "professor_id",  :limit => 11
+    t.integer  "horario_id",    :limit => 11
+    t.integer  "disciplina_id", :limit => 11
+    t.boolean  "ocupada",                     :default => false, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "disponibilidades", ["professor_id", "horario_id"], :name => "index_disponibilidades_on_professor_id_and_horario_id", :unique => true
-  add_index "disponibilidades", ["ocupada"], :name => "index_disponibilidades_on_ocupada"
-  add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
   add_index "disponibilidades", ["disciplina_id"], :name => "index_disponibilidades_on_disciplina_id"
+  add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
+  add_index "disponibilidades", ["ocupada"], :name => "index_disponibilidades_on_ocupada"
 
   create_table "empresas", :force => true do |t|
-    t.string   "nome",       :null => false
+    t.string   "nome",                                      :null => false
+    t.string   "fuso"
+    t.decimal  "preco_kit",  :precision => 14, :scale => 2, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -77,8 +79,8 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   end
 
   create_table "habilitacoes", :id => false, :force => true do |t|
-    t.integer  "disciplina_id", :null => false
-    t.integer  "professor_id",  :null => false
+    t.integer  "disciplina_id", :limit => 11, :null => false
+    t.integer  "professor_id",  :limit => 11, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -87,8 +89,8 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   add_index "habilitacoes", ["disciplina_id"], :name => "index_habilitacoes_on_disciplina_id"
 
   create_table "horarios", :force => true do |t|
-    t.integer  "hora"
-    t.integer  "semana"
+    t.integer  "hora",       :limit => 11
+    t.integer  "semana",     :limit => 11
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -96,8 +98,7 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   add_index "horarios", ["semana", "hora"], :name => "index_horarios_on_semana_and_hora", :unique => true
   add_index "horarios", ["hora"], :name => "index_horarios_on_hora"
 
-  create_table "horas", :id => false, :force => true do |t|
-    t.integer  "hora",       :null => false
+  create_table "horas", :primary_key => "hora", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -112,7 +113,7 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   end
 
   create_table "professores", :force => true do |t|
-    t.integer  "empresa_id"
+    t.integer  "empresa_id", :limit => 11
     t.string   "nome"
     t.string   "apelido"
     t.datetime "created_at"
@@ -123,20 +124,20 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   add_index "professores", ["empresa_id"], :name => "index_professores_on_empresa_id"
 
   create_table "turmas", :force => true do |t|
-    t.integer  "professor_id",  :null => false
-    t.integer  "disciplina_id", :null => false
-    t.datetime "quando",        :null => false
-    t.date     "data",          :null => false
-    t.time     "time",          :null => false
-    t.integer  "hora",          :null => false
-    t.integer  "semana",        :null => false
-    t.integer  "horario_id",    :null => false
+    t.integer  "professor_id",  :limit => 11, :null => false
+    t.integer  "disciplina_id", :limit => 11, :null => false
+    t.datetime "quando",                      :null => false
+    t.date     "data",                        :null => false
+    t.time     "time",                        :null => false
+    t.integer  "hora",          :limit => 11, :null => false
+    t.integer  "semana",        :limit => 11, :null => false
+    t.integer  "horario_id",    :limit => 11, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "turmas", ["disciplina_id"], :name => "index_turmas_on_disciplina_id"
   add_index "turmas", ["professor_id", "quando"], :name => "index_turmas_on_professor_id_and_quando", :unique => true
+  add_index "turmas", ["disciplina_id"], :name => "index_turmas_on_disciplina_id"
 
   create_table "users", :force => true do |t|
     t.string   "email"

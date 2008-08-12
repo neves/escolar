@@ -2,7 +2,7 @@
 
 %form
   %select{:name => 'apelido'}
-    = options_from_collection_for_select(@disciplinas, "apelido", "nome", @disciplina.apelido)
+    = options_from_collection_for_select(@disciplinas, "apelido", "nome_duracao", @disciplina.apelido)
   %span 
     Aluno:
     = text_field_with_auto_complete :aluno, :nome_ou_subscricao, {}, {:url => formatted_alunos_path(:js), :method => :get}

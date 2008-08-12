@@ -30,7 +30,7 @@ body, html {
       #planilha td form select {
         width: 100%;
         border: 1px dotted #DDD;
-        height: 12px;
+        height: 14px;
         font: 9px Verdana;
         text-align: center;
       }
