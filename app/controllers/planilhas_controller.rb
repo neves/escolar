@@ -13,8 +13,6 @@ class PlanilhasController < ApplicationController
 		@aluno = planilha.aluno
 		@aluno_turmas = planilha.aluno_turmas
 		@professores_ocupados = planilha.professores
-	rescue Exception => e
-		render :text => e.message
 	end
 
   def agendar

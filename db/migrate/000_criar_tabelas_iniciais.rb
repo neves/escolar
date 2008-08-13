@@ -1,25 +1,63 @@
 class CriarTabelasIniciais < ActiveRecord::Migration
   def self.up
 
-
-    create_table2 :empresas, :force => true do |t|
+    create_table2 :escolas, :force => true do |t|
       t.string :nome, :null => false
-	  t.string :fuso
+	  t.string :fuso, :null => false, :default => "-3"
 	  t.decimal :preco_kit, :null => false, :precision => 14, :scale => 2
     end
 
 	registros = []
     open("escolas.txt").each_line { |line| registros << line.split('|').map(&:strip) }
-    Empresa.import [:nome, :fuso, :preco_kit], registros
+    Escola.import [:nome, :fuso, :preco_kit], registros
 
+    create_table :alunos, :force => true do |t|
+      t.references :escola, :null => false
+      t.references :profissao
 
-    tabela = create_table2 :alunos, :force => true do |t|
-      t.belongs_to :empresa, :null => false
       t.string :nome, :null => false
       t.integer :subscricao, :null => false
-    end
-    add_indexes tabela, :subscricao, [:empresa_id, :subscricao]
+      t.string :email, :null => false
 
+      t.string :cpf
+      t.string :rg
+      t.date :data_nasc
+      t.string :sexo, :null => false, :default => "M"
+
+      t.string :responsavel_nome
+      t.date :responsavel_data_nasc
+      t.string :responsavel_cpf
+      t.string :responsavel_rg
+
+      t.string :telefone_residencial
+      t.string :telefone_celular
+      t.string :telefone_comercial
+
+      t.timestamps
+    end
+
+    add_index :alunos, :subscricao
+	add_index :alunos, :email, :unique => true
+	add_index :alunos, :cpf, :unique => true
+	add_index :alunos, :rg, :unique => true
+    add_index :alunos, [:escola_id, :subscricao], :unique => true
+
+    Aluno.create!(:nome => "Teste", :subscricao => 0, :email => "marcos.neves@gmail.com", :escola_id => 1, :sexo => "M")
+
+    create_table :enderecos, :force => true do |t|
+      t.belongs_to :enderecavel, :polymorphic => true
+      t.integer :cep, :null => false
+      t.string :nome
+      t.string :uf, :null => false
+      t.string :cidade, :null => false
+      t.string :bairro
+      t.string :tipo_logradouro, :null => false
+      t.string :logradouro, :null => false
+      t.integer :numero
+      t.string :complemento
+
+      t.timestamp
+    end
 
     tabela = create_table2 :turmas, :force => true do |t|
       t.belongs_to :professor, :null => false
@@ -43,16 +81,20 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 
 
     tabela = create_table2 :professores, :force => true do |t|
-      t.belongs_to :empresa
+      t.belongs_to :escola
       t.string :nome
       t.string :apelido
     end
-    add_indexes tabela, :empresa_id, [:apelido, :empresa_id]
+    add_indexes tabela, :escola_id, [:apelido, :escola_id]
 
 
-    create_table2 :materiais, :force => true do |t|
+    tabela = create_table2 :materiais, :force => true do |t|
       t.string :nome
     end
+
+    add_index tabela, :nome, :unique => true
+
+    %w(Kit.I Kit.II Kit.III).each {|nome| Material.create(:nome => nome)}
 
     tabela = create_table2 :disciplinas, :force => true do |t|
       t.belongs_to :material
@@ -109,6 +151,6 @@ class CriarTabelasIniciais < ActiveRecord::Migration
 	end
 
   def self.down
-		drop_tables :horas, :feiras, :horarios, :professores, :disciplinas, :habilitacoes, :disponibilidades, :empresas, :turmas, :aulas, :alunos
+		drop_tables :horas, :feiras, :horarios, :professores, :disciplinas, :habilitacoes, :disponibilidades, :escolas, :turmas, :aulas, :alunos, :enderecos
   end
 end

@@ -1,0 +1,279 @@
+Agrobanco Banco Comercial S.A. | 209
+BBS-Banco Bonsucesso S.A. | 218
+BFC Banco S.A. | 601
+BPA Banco Pao de Acucar S.A. | 605
+BR Banco Mercantil S.A. | 749
+BRB-Banco de Brasilia S.A. | 070
+Bacen - Tesouro Nacional | 009
+Banco A.J.Renner S.A. | 654
+Banco ABC-Brasil S.A. | 246
+Banco ABN Amro S.A. | 356
+Banco AGF Braseg S.A. |222
+Banco Adolpho Oliveira e Assoc.S.A. |609
+Banco Agrimisa S.A. | 483
+Banco Alfa S.A. | 025
+Banco America do Sul S.A. | 215
+Banco Aplicap S.A. | 621
+Banco Araucaria S.A. | 625
+Banco Arbi S.A. | 213
+Banco Atlantis S.A. | 648
+Banco Auxiliar S.A. |226
+Banco Axial S.A. |201
+Banco BBA-Creditanstalt S.A. | 184
+Banco BBM S.A. | 107
+Banco BBM-Com.C.Imob.C.Fin.Inv.S.A. |267
+Banco BGN S.A. | 739
+Banco BMC S.A. | 394
+Banco BMD S.A. | 388
+Banco BMG S.A. | 318
+Banco BNL do Brasil S.A. | 116
+Banco BRJ S.A. | 503
+Banco BVA S.A. | 044
+Banco Bancred S.A. | 239
+Banco Bandeirantes S.A. | 230
+Banco Banerj S.A. | 029
+Banco Banif Primus S.A. | 719
+Banco Banorte S.A. | 420
+Banco Banque Nat. Paris BR S.A. | 752
+Banco Barclays e Galicia S.A. | 740
+Banco Bemge S.A. | 048
+Banco Bilbao Vizcaya Brasil S.A. | 641
+Banco Boavista Interatlantico S.A. | 231
+Banco Boreal S.A. | 262
+Banco Bozano, Simonsen S.A. | 351
+Banco Bradesco S.A. | 237
+Banco Brascan S.A. | 225
+Banco Brasileiro Comercial S.A. | 282
+Banco Brasileiro Iraquiano S.A. | 501
+Banco CCF Brasil S.A. | 168
+Banco Cacique S.A. | 263
+Banco Cambial S.A. | 236
+Banco Capital S.A. | 421
+Banco Cargill S.A. | 040
+Banco Cedula S.A. | 266
+Banco Central do Brasil | 002
+Banco Chase Manhattan S.A. | 376
+Banco Cidade S.A. | 244
+Banco Cindam S.A. | 713
+Banco Citibank S.A. | 745
+Banco Classico S.A. | 241
+Banco Columbia S.A. | 631
+Banco Comercial Bancesa S.A. | 308
+Banco Comercial Paraguayo S.A. | 730
+Banco Comercial Uruguai S.A. | 753
+Banco Comercial de Sao Paulo S.A. | 727
+Banco Coop. Sicredi S.A.-Bansicredi | 748
+Banco Cooperativo do Brasil S.A. | 756
+Banco Credibanco S.A. | 109
+Banco Credibel S.A. | 721
+Banco Crediplan S.A. | 295
+Banco Credit Commercial France S.A. | 164
+Banco Credit Suisse F. B. G. S.A. | 505
+Banco Credito Metropolitano S.A. | 640
+Banco Criterium S.A. | 628
+Banco Cruzeiro do Sul S.A. | 229
+Banco Daycoval S.A. | 707
+Banco Destak S.A. | 627
+Banco Dibens S.A. | 214
+Banco Digibanco S.A. | 369
+Banco Dimensao S.A. | 649
+Banco Dracma S.A. | 622
+Banco Economico S.A. | 334
+Banco Emblema S.A. | 743
+Banco Empresarial S.A. | 245
+Banco Equatorial S.A. | 742
+Banco Euroinvest S.A.-Eurobanco | 242
+Banco Europeu p/Am.Latina (Beal)S.A. | 370
+Banco Exterior de Espana S.A. | 469
+Banco F. Barreto S.A. | 338
+Banco Fator S.A. | 265
+Banco Fenicia S.A. | 375
+Banco Fibra S.A. | 224
+Banco Ficrisa Axelrud S.A. | 200
+Banco Ficsa S.A. | 626
+Banco Financial S.A. | 345
+Banco Finansinos S.A. | 725
+Banco Fininvest S.A. | 252
+Banco Fital S.A. | 728
+Banco Fleming Graphus S.A. | 221
+Banco Fonte Cindam S.A. | 729
+Banco Frances Intern.-Brasil S.A. | 489
+Banco GE Capital S.A. | 233
+Banco GNPP S.A. | 731
+Banco Garavelo S.A. | 207
+Banco General Motors S.A. | 624
+Banco Gerdau S.A. | 734
+Banco Grande Rio S.A. | 606
+Banco Guanabara S.A. | 612
+Banco Gulfinvest S.A. | 256
+Banco HNF S.A. | 303
+Banco Habitasul S.A. | 500
+Banco Hercules S.A. | 603
+Banco Hispano Americano S.A. | 497
+Banco Icatu S.A. | 228
+Banco Induscred S.A. | 258
+Banco Industrial de Pernambuco S.A. | 361
+Banco Industrial do Brasil S.A. | 604
+Banco Industrial e Comercial S.A. | 320
+Banco Indusval S.A. | 653
+Banco Inter American Express S.A. | 204
+Banco Intercap S.A. | 630
+Banco Interior de Sao Paulo S.A. | 722
+Banco Interpacifico S.A. | 616
+Banco Interpart S.A. | 232
+Banco Interunion S.A. | 223
+Banco Investcorp S.A. | 705
+Banco Investcred S.A. | 249
+Banco Investor S.A. | 617
+Banco Iochpe S.A. | 499
+Banco Itabanco S.A. | 106
+Banco Itamarati S.A. | 372
+Banco Itau S.A. | 341
+Banco J. Safra S.A. | 042
+Banco John Deere S.A. | 217
+Banco Keb do Brasil S.A. | 757
+Banco Lavra S.A. | 234
+Banco Liberal S.A. | 235
+Banco Luso Brasileiro S.A. | 600
+Banco Maisonnave S.A. | 491
+Banco Marka S.A. | 647
+Banco Martinelli S.A. | 206
+Banco Matone S.A. | 212
+Banco Matrix S.A. | 656
+Banco Maxinvest S.A. | 720
+Banco Mercantil S.A. | 344
+Banco Mercantil do Brasil S.A. |389
+Banco Mercantil-Finasa S.A.-S.Paulo | 392
+Banco Meridional S.A. | 008
+Banco Merrill Lynch S.A. | 755
+Banco Minas S.A. | 732
+Banco Mineiro S.A. | 405
+Banco Mitsubishi Brasileiro S.A. | 466
+Banco Modal S.A. | 746
+Banco Morada S.A. | 738
+Banco Multiplic S.A. | 504
+Banco Nac. de Credito Coop. S.A. | 006
+Banco Nac.Desenv.Econ. Social S.A. | 007
+Banco Nacional S.A. | 415
+Banco Norchem S.A. | 165
+Banco Open S.A. | 608
+Banco Operador S.A. | 718
+Banco Pactual S.A. | 208
+Banco Panamericano S.A. | 623
+Banco Patente S.A. | 602
+Banco Paulista S.A. | 611
+Banco Pebb S.A. | 650
+Banco Pecunia S.A. | 613
+Banco Performance S.A. | 264
+Banco Pine S.A. | 643
+Banco Pinto de Magalhaes S.A. | 432
+Banco Planibanc S.A. | 277
+Banco Pontual S.A. | 304
+Banco Porto Real S.A. | 658
+Banco Porto Seguro S.A. | 724
+Banco Pottencial S.A. | 735
+Banco Prosper S.A. | 638
+Banco Rabobank Internat Br. S.A. | 747
+Banco Real S.A. | 275
+Banco Real de Sao Paulo S.A. | 441
+Banco Regional Malcon S.A. | 216
+Banco Regional S.A. | 446
+Banco Rendimento S.A. | 633
+Banco Republic Nat. OF NY-BR S.A. | 750
+Banco Residencia S.A. | 490
+Banco Ribeirao Preto S.A. | 741
+Banco Rosa S.A. | 227
+Banco Rural S.A. | 453
+Banco Safra S.A. | 422
+Banco Santander Brasil S.A. | 353
+Banco Santander Noroeste S.A. | 424
+Banco Santander de Negocios S.A. | 502
+Banco Santos Neves S.A. | 607
+Banco Santos S.A. | 702
+Banco Sao Jorge S.A. | 251
+Banco Savena S.A. | 337
+Banco Schahin S.A. | 250
+Banco Sibisa S.A. | 203
+Banco Sistema S.A. | 211
+Banco Sofisa S.A. | 637
+Banco Sogeral S.A. | 366
+Banco Stock Maxima S.A. | 243
+Banco Sudameris Brasil S.A. | 347
+Banco Sul America S.A. | 205
+Banco Sul Brasileiro S.A. | 417
+Banco Sumitomo Brasileiro S.A. | 464
+Banco Tecnicorp S.A. | 657
+Banco Tendencia S.A. | 618
+Banco Theca S.A. | 737
+Banco Triangulo S.A. | 634
+Banco Union, S.A.C.A. | 493
+Banco United S.A. | 736
+Banco Universal S.A. | 726
+Banco VR S.A. | 610
+Banco Varig S.A. | 261
+Banco Vega S.A. | 715
+Banco Vetor S.A. | 711
+Banco Votorantim S.A. | 655
+Banco Wachovia S.A. | 480
+Banco Warburg Dillon Read S.A. | 247
+Banco Zogbi S.A. | 219
+Banco da Amazonia S.A. | 003
+Banco de Credito Comercial S.A. | 474
+Banco de Credito Nacional S.A. | 291
+Banco de Financ. Internacional S.A. | 171
+Banco de La Nacion Argentina | 300
+Banco de La Prov. de Buenos Aires | 495
+Banco de La Rep. Or. Del Uruguay | 494
+Banco de Roraima S.A. | 485
+Banco deTokyo-Mitsubishi Brasil S.A. | 456
+Banco do Brasil S.A. | 001
+Banco do Comercio S.A. | 317
+Banco do Comercio e Ind. de SP S.A. | 314
+Banco do Est. R. Grande do Sul S.A. | 041
+Banco do Est. Rio Grande Norte S.A. | 043
+Banco do Est. da Bahia S.A. | 028
+Banco do Est. de Alagoas S.A. | 020
+Banco do Est. de Goias S.A. | 031
+Banco do Est. de Mato Grosso S.A. | 032
+Banco do Est. de Pernambuco S.A. | 024
+Banco do Est. de Rondonia S.A. | 059
+Banco do Est. de Roraima S.A. | 645
+Banco do Est. de SP S.A.-Banespa | 033
+Banco do Est. de Santa Catarina S.A. | 027
+Banco do Est. de Sergipe S.A. | 047
+Banco do Est. do Acre S.A. |026
+Banco do Est. do Amapa S.A. | 635
+Banco do Est. do Amazonas S.A. | 034
+Banco do Est. do Ceara S.A. | 035
+Banco do Est. do Espirito Sto. S.A. | 021
+Banco do Est. do Maranhao S.A. | 036
+Banco do Est. do Parana S.A. | 038
+Banco do Est. do Piaui S.A. | 039
+Banco do Nordeste do Brasil S.A. | 004
+Banco do Progresso S.A. | 302
+Bancorp - Banco Com. e de Inv. S.A. | 629
+Banfort-Banco Fortaleza S.A. | 434
+BankBoston Bco Multiplo S.A. | 479
+BankBoston N.A. | 744
+Big S.A.- Banco Irmaos Guimaraes | 639
+Brasbanco S.A. - Banco Comercial | 642
+Caixa Ec do Est de St Catarina S.A. | 154
+Caixa Economica Est. Minas Gerais | 150
+Caixa Economica Est. Rio Gde. Sul | 153
+Caixa Economica Federal | 104
+Caixa Economica do Estado de Goias | 152
+Centro Hispano Banco | 498
+Continental Banco S.A. | 175
+Deutsche Bank S.A.-Banco Alemao | 487
+Dresdner Bank Brasil S.A. B.Mult. | 751
+Dresdner Bank L. Aktiengesellchaft | 210
+HSBC Bank Brasil S.A.-Bco Multiplo | 399
+Ing Bank N.V. | 492
+Lloyds Bank PLC | 472
+MilBanco S.A. | 255
+Morgan Guaranty Trust Company of NY | 488
+Multi Banco S.A. | 148
+Nossa Caixa - Nosso Banco S.A. | 151
+Paraiban-Bco do Est da Paraiba S.A. | 030
+Parana Banco S.A. | 254
+Unibanco-Uniao Bcos Brasileiros S.A. | 409

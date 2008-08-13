@@ -1,7 +1,6 @@
 class Planilha
   def initialize(disciplina, aluno)
-  	raise Exception.new("Nenhuma disciplina cadastrada") if Disciplina.count == 0
-  	
+  	return if Disciplina.count == 0
     @disciplina = disciplina.to_i == disciplina.to_i.to_s ? Disciplina.find(disciplina) : Disciplina.find_by_apelido(disciplina)
     @aluno = aluno.to_i == aluno.to_i.to_s ? Aluno.find_by_subscricao(aluno) : Aluno.find_by_nome(aluno)
   end
@@ -9,6 +8,7 @@ class Planilha
   attr_reader :aluno
 
   def horas
+  	return [] if @disciplina.nil?
     @horas ||= @disciplina.horas.collect(&:hora)
   end
 
@@ -21,10 +21,12 @@ class Planilha
   end
 
   def horarios
+  	return [] if @disciplina.nil?
     @horarios ||= @disciplina.professores_agrupados_por_horario
   end
 
   def turmas
+  	return [] if @disciplina.nil?
     @turmas ||= @disciplina.turmas.no_periodo(dias).group_by(&:quando)
   end
 

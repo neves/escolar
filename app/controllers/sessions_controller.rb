@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
 
   # render new.rhtml
   def new
-    @escolas = Empresa.all(:order => 'nome')
+    @escolas = Escola.all(:order => 'nome')
   end
 
   def create
@@ -17,7 +17,7 @@ class SessionsController < ApplicationController
       end
       session[:empresa] = params[:empresa_id]
       redirect_to '/'
-      flash[:notice] = "Login OK"
+      flash[:notice] = "Usuário Logado!"
     else
       flash[:notice] = "Usuário ou Senha inválidos!"
       redirect_to '/login'
@@ -28,7 +28,7 @@ class SessionsController < ApplicationController
     self.current_user.forget_me if logged_in?
     cookies.delete :auth_token
     reset_session
-    flash[:notice] = "You have been logged out."
+    flash[:notice] = "Você foi deslogado!"
     redirect_back_or_default('/')
   end
 end

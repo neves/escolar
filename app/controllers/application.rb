@@ -13,4 +13,12 @@ class ApplicationController < ActionController::Base
   def current_empresa_id
     session[:empresa_id]
   end
+
+  def current_escola_id
+  	1
+  end
+
+  def current_escola
+  	Escola.find current_escola_id
+  end
 end

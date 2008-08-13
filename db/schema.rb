@@ -9,17 +9,33 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080508042039) do
+ActiveRecord::Schema.define(:version => 20080801183349) do
 
   create_table "alunos", :force => true do |t|
-    t.integer  "empresa_id", :limit => 11, :null => false
-    t.string   "nome",                     :null => false
-    t.integer  "subscricao", :limit => 11, :null => false
+    t.integer  "escola_id",             :limit => 11,                  :null => false
+    t.integer  "profissao_id",          :limit => 11
+    t.string   "nome",                                                 :null => false
+    t.integer  "subscricao",            :limit => 11,                  :null => false
+    t.string   "email",                                                :null => false
+    t.string   "cpf"
+    t.string   "rg"
+    t.date     "data_nasc"
+    t.string   "sexo",                                :default => "M", :null => false
+    t.string   "responsavel_nome"
+    t.date     "responsavel_data_nasc"
+    t.string   "responsavel_cpf"
+    t.string   "responsavel_rg"
+    t.string   "telefone_residencial"
+    t.string   "telefone_celular"
+    t.string   "telefone_comercial"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "alunos", ["empresa_id", "subscricao"], :name => "index_alunos_on_empresa_id_and_subscricao", :unique => true
+  add_index "alunos", ["email"], :name => "index_alunos_on_email", :unique => true
+  add_index "alunos", ["escola_id", "subscricao"], :name => "index_alunos_on_escola_id_and_subscricao", :unique => true
+  add_index "alunos", ["cpf"], :name => "index_alunos_on_cpf", :unique => true
+  add_index "alunos", ["rg"], :name => "index_alunos_on_rg", :unique => true
   add_index "alunos", ["subscricao"], :name => "index_alunos_on_subscricao"
 
   create_table "aulas", :force => true do |t|
@@ -32,6 +48,12 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
 
   add_index "aulas", ["turma_id", "aluno_id"], :name => "index_aulas_on_turma_id_and_aluno_id", :unique => true
   add_index "aulas", ["status"], :name => "index_aulas_on_status"
+
+  create_table "bancos", :force => true do |t|
+    t.string "banco", :null => false
+  end
+
+  add_index "bancos", ["banco"], :name => "index_bancos_on_banco", :unique => true
 
   create_table "disciplinas", :force => true do |t|
     t.integer  "material_id", :limit => 11
@@ -64,12 +86,18 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
   add_index "disponibilidades", ["horario_id"], :name => "index_disponibilidades_on_horario_id"
   add_index "disponibilidades", ["ocupada"], :name => "index_disponibilidades_on_ocupada"
 
-  create_table "empresas", :force => true do |t|
-    t.string   "nome",                                      :null => false
-    t.string   "fuso"
-    t.decimal  "preco_kit",  :precision => 14, :scale => 2, :null => false
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "enderecos", :force => true do |t|
+    t.integer "enderecavel_id",   :limit => 11
+    t.string  "enderecavel_type"
+    t.integer "cep",              :limit => 11, :null => false
+    t.string  "nome"
+    t.string  "uf",                             :null => false
+    t.string  "cidade",                         :null => false
+    t.string  "bairro"
+    t.string  "tipo_logradouro",                :null => false
+    t.string  "logradouro",                     :null => false
+    t.integer "numero",           :limit => 11
+    t.string  "complemento"
   end
 
   create_table "feiras", :force => true do |t|
@@ -107,21 +135,28 @@ ActiveRecord::Schema.define(:version => 20080508042039) do
 
   create_table "materiais", :force => true do |t|
     t.string   "nome"
-    t.decimal  "preco",      :precision => 7, :scale => 2, :default => 0.0, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "materiais", ["nome"], :name => "index_materiais_on_nome", :unique => true
+
   create_table "professores", :force => true do |t|
-    t.integer  "empresa_id", :limit => 11
+    t.integer  "escola_id",  :limit => 11
     t.string   "nome"
     t.string   "apelido"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "professores", ["apelido", "empresa_id"], :name => "index_professores_on_apelido_and_empresa_id", :unique => true
-  add_index "professores", ["empresa_id"], :name => "index_professores_on_empresa_id"
+  add_index "professores", ["apelido", "escola_id"], :name => "index_professores_on_apelido_and_escola_id", :unique => true
+  add_index "professores", ["escola_id"], :name => "index_professores_on_escola_id"
+
+  create_table "profissoes", :force => true do |t|
+    t.string "profissao"
+  end
+
+  add_index "profissoes", ["profissao"], :name => "index_profissoes_on_profissao", :unique => true
 
   create_table "turmas", :force => true do |t|
     t.integer  "professor_id",  :limit => 11, :null => false

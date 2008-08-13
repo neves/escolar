@@ -1,0 +1,77 @@
+<h1>Aluno</h1>
+
+<% form_for(@aluno) do |f| %>
+  <%= f.error_messages %>
+  <h3>Dados Pessoais</h3>
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :subscricao %><br />
+    <%= f.text_field :subscricao %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :cpf %><br />
+    <%= f.text_field :cpf %>
+  </p>
+  <p>
+    <%= f.label :rg %><br />
+    <%= f.text_field :rg %>
+  </p>
+  <p>
+    <%= f.label :data_nasc, "Data de Nascimento" %><br />
+    <%= f.date_select :data_nasc, :order => [:day, :month, :year], :include_blank => true, :start_year => 1940, :end_year => Date.current.year - 13 %>
+  </p>
+  <p>
+    <%= f.label :sexo %><br />
+    M<%= f.radio_button :sexo, "M" %>
+    F<%= f.radio_button :sexo, "F" %>
+  </p>
+  <h3>Telefones</h3>  
+  <p>
+    <%= f.label :telefone_residencial %><br />
+    <%= f.text_field :telefone_residencial %>
+  </p>
+  <p>
+    <%= f.label :telefone_comercial %><br />
+    <%= f.text_field :telefone_comercial %>
+  </p>
+  <p>
+    <%= f.label :telefone_celular %><br />
+    <%= f.text_field :telefone_celular %>
+  </p>
+  
+  <h3>Responsável</h3>
+  <p>
+    <%= f.label :responsavel_nome %><br />
+    <%= f.text_field :responsavel_nome %>
+  </p>
+  <p>
+    <%= f.label :responsavel_data_nasc %><br />
+    <%= f.date_select :responsavel_data_nasc, :order => [:day, :month, :year], :include_blank => true, :start_year => 1940, :end_year => Date.current.year - 18 %>
+  </p>
+  <p>
+    <%= f.label :responsavel_cpf %><br />
+    <%= f.text_field :responsavel_cpf %>
+  </p>
+  <p>
+    <%= f.label :responsavel_rg %><br />
+    <%= f.text_field :responsavel_rg %>
+  </p>
+
+	<h3>Endereço Residencial</h3>
+	<%= render :partial => 'endereco', :locals => {:tipo => :endereco_residencial} %>
+	<h3>Endereço Comercial</h3>
+	<%= render :partial => 'endereco', :locals => {:tipo => :endereco_comercial} %>
+
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Voltar', alunos_path %>

@@ -1,7 +1,6 @@
 class CreateUsers < ActiveRecord::Migration
   def self.up
     create_table "users", :force => true do |t|
-      #t.column :login,                     :string
       t.column :email,                     :string
       t.column :crypted_password,          :string, :limit => 40
       t.column :salt,                      :string, :limit => 40
@@ -14,6 +13,8 @@ class CreateUsers < ActiveRecord::Migration
       t.column :state, :string, :null => :no, :default => 'passive'
       t.column :deleted_at, :datetime
     end
+
+    User.create!(:email => "marcos.neves@gmail.com", :password => "1234qwerasdfzxcv", :password_confirmation => "1234qwerasdfzxcv")
   end
 
   def self.down

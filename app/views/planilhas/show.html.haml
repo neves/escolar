@@ -1,34 +1,37 @@
 =stylesheet_link_tag 'planilha'
 
-%form
-  %select{:name => 'apelido'}
-    = options_from_collection_for_select(@disciplinas, "apelido", "nome_duracao", @disciplina.apelido)
-  %span 
-    Aluno:
-    = text_field_with_auto_complete :aluno, :nome_ou_subscricao, {}, {:url => formatted_alunos_path(:js), :method => :get}
-  = submit_tag "Buscar"
-
-- if @aluno
-  #planilha
-    %table
-      %thead
-        %tr
-          %td
-          -@horas.each do |hora|
-            %th= "%02d:00" % hora
-          -#%td
-
-      -#%tfoot
-        -#%tr
-          -#%td
-          -#@horas.each do |hora|
-            -#%th= "%02d:00" % hora
-          -#%td
-
-      %tbody
-        -@dias.each do |dia|
+- if @disciplinas.empty?
+  %p{:align => :center} Nenhuma Disciplina Cadastrada!
+- else
+  %form
+    %select{:name => 'apelido'}
+      = options_from_collection_for_select(@disciplinas, "apelido", "nome_duracao", @disciplina.apelido)
+    %span 
+      Aluno:
+      = text_field_with_auto_complete :aluno, :nome_ou_subscricao, {}, {:url => formatted_alunos_path(:js), :method => :get}
+    = submit_tag "Buscar"
+  
+  - if @aluno
+    #planilha
+      %table
+        %thead
           %tr
-            %th= dia.strftime "%a.%d.%m"
+            %td
             -@horas.each do |hora|
-              %td= render :partial => 'celula', :locals => {:dia => dia, :hora => hora}
-            -#%th= y
+              %th= "%02d:00" % hora
+            -#%td
+  
+        -#%tfoot
+          -#%tr
+            -#%td
+            -#@horas.each do |hora|
+              -#%th= "%02d:00" % hora
+            -#%td
+  
+        %tbody
+          -@dias.each do |dia|
+            %tr
+              %th= dia.strftime "%a.%d.%m"
+              -@horas.each do |hora|
+                %td= render :partial => 'celula', :locals => {:dia => dia, :hora => hora}
+              -#%th= y

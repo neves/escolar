@@ -1,0 +1,7 @@
+<table>
+	<% for user in @users %>
+	<tr>		
+		<td><%= link_to user.email, edit_user_path(user) %></td>
+	</tr>
+	<% end %>
+</table>
