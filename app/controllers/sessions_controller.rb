@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
         current_user.remember_me unless current_user.remember_token?
         cookies[:auth_token] = { :value => self.current_user.remember_token , :expires => self.current_user.remember_token_expires_at }
       end
-      session[:empresa] = params[:empresa_id]
+      session[:escola_id] = params[:escola_id]
       redirect_to '/'
       flash[:notice] = "Usuário Logado!"
     else

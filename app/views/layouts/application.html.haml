@@ -2,9 +2,13 @@
 %html
   %head
     = javascript_include_tag :defaults
+    = stylesheet_link_tag 'scaffold'
+    = stylesheet_link_tag 'http://libs.appspot.com/basico.css'
   %body
     %div{:align => :center}
       = link_to 'Planilha', planilha_path
+      |
+      = link_to 'Alunos', alunos_path
       |
       = link_to 'Professores', professores_path
       |
@@ -15,5 +19,7 @@
       = link_to 'Turmas', turmas_path
       |
       = link_to 'Sair', logout_path
+      
+      %span= "(#{@current_escola.nome})"
 
     = yield

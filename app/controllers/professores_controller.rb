@@ -2,26 +2,26 @@ class ProfessoresController < ApplicationController
 	before_filter :find_professor, :except => [:index, :matriz_habilitacoes, :new, :create]
 
 	def new
-		@professor = Professor.new
+		@professor = current_escola.professores.new
 	end
 
 	def update
-		Professor.update(params[:id], params[:professor])
+		current_escola.professores.update(params[:id], params[:professor])
 		redirect_to professores_path
 	end
 	
 	def create
-		Professor.create(params[:professor])
+		current_escola.professores.create(params[:professor])
 		redirect_to professores_path
 	end
 	
 	def destroy
-		Professor.delete(params[:id])
+		current_escola.professores.delete(params[:id])
 		redirect_to professores_path
 	end
 
 	def index
-		@professores = Professor.all
+		@professores = current_escola.professores.all
 	end
 
 	def habilitacoes
@@ -48,11 +48,11 @@ class ProfessoresController < ApplicationController
 	end
 
   	def matriz_habilitacoes
-    	@professores = Professor.find(:all, :include => :disciplinas)
+    	@professores = current_escola.professores.find(:all, :include => :disciplinas)
 
     	if request.get?
 	      @disciplinas = Disciplina.find(:all, :order => :nome)
-    end
+    	end
 
     if request.put?
       matriz = params[:professores] || {}
@@ -66,6 +66,6 @@ class ProfessoresController < ApplicationController
 
 	private
 	def find_professor
-		@professor = Professor.find params[:id]
+		@professor = current_escola.professores.find params[:id]
 	end
 end

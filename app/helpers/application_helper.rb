@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def empresas_select
-    select_tag('empresa_id', options_from_collection_for_select(@escolas, 'id', 'nome', controller.current_empresa_id), {})
+    select_tag('escola_id', options_from_collection_for_select(@escolas, 'id', 'nome', controller.current_escola_id), {})
   end
 end

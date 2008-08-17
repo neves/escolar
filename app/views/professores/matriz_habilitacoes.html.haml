@@ -2,10 +2,10 @@
 
 =flashes
 
-- if @professores.empty? || @disciplinas.empty?
+- if @professores.nil? || @professores.empty? || @disciplinas.nil? || @disciplinas.empty?
   %p{:align => :center} Cadastre professores e disciplinas primeiro!
 - else
-  - form_tag :url => matriz_habilitacoes_professores_path do |f|
+  - form_tag matriz_habilitacoes_professores_path, :method => :put do |f|
 
     - GridTable.new(self, @professores, @disciplinas).render do |prof, disc|
       = check_box_tag "professores[#{prof.id}][]", disc.id, prof.disciplina_ids.include?(disc.id)

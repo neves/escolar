@@ -33,11 +33,11 @@ ActionController::Routing::Routes.draw do |map|
     end
   end
 
-  map.resources :alunos
+  map.resources :alunos, :collection => {:suggest => :get}
   map.resources :turmas
 
-  map.root :planilha
+  map.root :alunos
 
-  #map.connect ':controller/:action/:id'
-  #map.connect ':controller/:action/:id.:format'
+  map.connect ':controller/:action/:id'
+  map.connect ':controller/:action/:id.:format'
 end

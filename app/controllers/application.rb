@@ -11,14 +11,14 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # :secret => 'af489420433c7cc73d4e3cc5c0fb2cd3'
 
   def current_empresa_id
-    session[:empresa_id]
+    current_escola_id
   end
 
   def current_escola_id
-  	1
+  	session[:escola_id]
   end
 
   def current_escola
-  	Escola.find current_escola_id
+  	@current_escola ||= Escola.find current_escola_id
   end
 end

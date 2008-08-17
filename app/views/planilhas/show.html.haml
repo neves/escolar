@@ -1,14 +1,14 @@
 =stylesheet_link_tag 'planilha'
-
+= javascript_include_tag :defaults
 - if @disciplinas.empty?
   %p{:align => :center} Nenhuma Disciplina Cadastrada!
 - else
   %form
     %select{:name => 'apelido'}
-      = options_from_collection_for_select(@disciplinas, "apelido", "nome_duracao", @disciplina.apelido)
+      = options_from_collection_for_select(@disciplinas, "apelido", "nome_duracao", (@disciplina.apelido rescue nil))
     %span 
       Aluno:
-      = text_field_with_auto_complete :aluno, :nome_ou_subscricao, {}, {:url => formatted_alunos_path(:js), :method => :get}
+      = text_field_with_auto_complete :aluno, :nome_ou_subscricao, {}, {:url => formatted_suggest_alunos_path(:js), :method => :get}
     = submit_tag "Buscar"
   
   - if @aluno

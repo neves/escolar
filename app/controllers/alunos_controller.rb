@@ -1,30 +1,30 @@
 class AlunosController < ApplicationController
+	before_filter :find_aluno, :only => [:edit, :update]
+
 	def suggest
 		@busca = params[:aluno][:nome_ou_subscricao]
-	    begin
+		begin
 			Integer(@busca)
-			@alunos = [Aluno.find_by_subscricao(@busca)]
+			@alunos = current_escola.alunos.all(:conditions => {:subscricao => @busca})
 		rescue
-			@alunos = Aluno.all(:conditions => ["nome LIKE ? ", "%#{@busca}%"], :limit => 10)
+			@alunos = current_escola.alunos.all(:conditions => ["nome LIKE ?", "%#{@busca}%"], :limit => 10)
 		end
 	end
-	
+
 	def index
 		@alunos = current_escola.alunos.all
 	end
 
-  def new
-    @aluno = current_escola.alunos.new
-  end
+	def new
+		@aluno = current_escola.alunos.new
+	end
   
   def edit
-  	@aluno = current_escola.alunos.find(params[:id])
   	@endereco_residencial = @aluno.endereco_residencial
   	@endereco_comercial = @aluno.endereco_comercial
   end
 
   def update
-    @aluno = current_escola.alunos.find params[:id]
 	@endereco_residencial = Endereco.new(params[:endereco_residencial])
 	@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
 
@@ -33,7 +33,7 @@ class AlunosController < ApplicationController
 
     @aluno.update_attributes(params[:aluno])
     redirect_to alunos_path
-  rescue
+  rescue RecordNotSaved
   	render :action => :edit
   end
 
@@ -47,7 +47,12 @@ class AlunosController < ApplicationController
 
     @aluno.save!
     redirect_to alunos_path
-  rescue
+  rescue RecordNotSaved
   	render :action => :new
   end
+
+	private
+	def find_aluno
+		@aluno = current_escola.alunos.find params[:id]
+	end
 end
