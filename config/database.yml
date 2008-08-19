@@ -7,13 +7,6 @@ test:
   database: ":memory:"
   verbosity: quiet
 
-production:
-  adapter: mysql
-  database: systeminds
-  username: systeminds
-  password: 1234qwerasdfzxcv
-  host: mysql.qi64.com
-
 development:
   adapter: mysql
   database: minds

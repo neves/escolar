@@ -6,7 +6,10 @@ class Matricula < ActiveRecord::Base
 	belongs_to :plano
 	validates_uniqueness_of :numero_contrato
 	validates_presence_of :data_inicio_curso, 
-						  :plano, 
+						  :plano,
+						  :curso,
+						  :escola,
+						  :user,
 						  :dia_vcto_parcelas, 
 						  :data_inicio_parcelas, 
 						  :valor_parcelas, 

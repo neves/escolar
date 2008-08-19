@@ -33,7 +33,7 @@ class AlunosController < ApplicationController
 
     @aluno.update_attributes(params[:aluno])
     redirect_to alunos_path
-  rescue RecordNotSaved
+  rescue ActiveRecord::RecordNotSaved
   	render :action => :edit
   end
 
@@ -45,10 +45,11 @@ class AlunosController < ApplicationController
 	@endereco_comercial = Endereco.new(params[:endereco_comercial])
 	@aluno.endereco_comercial = @endereco_comercial.vazio? ? nil : @endereco_comercial
 
-    @aluno.save!
-    redirect_to alunos_path
-  rescue RecordNotSaved
-  	render :action => :new
+    if @aluno.save
+    	redirect_to alunos_path
+    else
+    	render :action => 'new'
+    end
   end
 
 	private

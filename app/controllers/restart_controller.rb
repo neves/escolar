@@ -1,6 +1,7 @@
 require "digest"
 
 class RestartController < ApplicationController
+	skip_before_filter :login_required, :current_escola
 	before_filter :authenticate
 
 	def index
