@@ -2,6 +2,7 @@ class Aluno < ActiveRecord::Base
   belongs_to :escola
   belongs_to :profissao
   has_many :aulas
+  has_many :matriculas
   has_many :turmas, :through => :aulas
   has_one :endereco_residencial, :as => :enderecavel, :class_name => 'Endereco'
   has_one :endereco_comercial, :as => :enderecavel, :class_name => 'Endereco'

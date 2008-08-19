@@ -1,0 +1,28 @@
+<p>
+  <b>Tabela:</b>
+  <%=h @plano.tabela %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%=h @plano.nome %>
+</p>
+
+<p>
+  <b>Valor matricula:</b>
+  <%=h @plano.valor_matricula %>
+</p>
+
+<p>
+  <b>Qtde parcelas:</b>
+  <%=h @plano.qtde_parcelas %>
+</p>
+
+<p>
+  <b>Valor parcela:</b>
+  <%=h @plano.valor_parcela %>
+</p>
+
+
+<%= link_to 'Edit', edit_plano_path(@plano) %> |
+<%= link_to 'Back', planos_path %>

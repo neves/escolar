@@ -1,0 +1,10 @@
+<table>
+<% @routes.each do |r| %>
+	<tr>
+		<td><%= r[:name] %></td>
+		<td><%= r[:verb] %></td>
+		<td><%= r[:segs] %></td>
+		<td><%= r[:reqs] %></td>
+	</tr>
+<% end %>
+</table>

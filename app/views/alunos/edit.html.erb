@@ -1,1 +1,14 @@
+<table>
+	<tr>
+		<td>
+			<h2>Matrículas</h2>
+			<ul>
+				<% @aluno.matriculas.each do |matricula| %>
+				<li><%= link_to matricula.numero_contrato, aluno_matricula_path(@aluno, matricula) %></li>
+				<% end %>
+			</ul>
+			<%= link_to "Nova Matrícula", new_aluno_matricula_path(@aluno) %>
+		</td>
+	</tr>
+</table>
 <%= render :partial => 'form' %>

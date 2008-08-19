@@ -1,0 +1,71 @@
+<p>
+  <b>Criado por:</b>
+  <%=h @matricula.user.email %>
+</p>
+
+<p>
+  <b>Escola:</b>
+  <%=h @matricula.escola.nome %>
+</p>
+
+<p>
+  <b>Aluno:</b>
+  <%=h @matricula.aluno.nome %>
+</p>
+
+<p>
+  <b>Plano:</b>
+  <%=h @matricula.plano.nome %>
+</p>
+
+<p>
+  <b>Curso:</b>
+  <%=h @matricula.curso.nome %>
+</p>
+
+<p>
+  <b>Numero contrato:</b>
+  <%=h @matricula.numero_contrato %>
+</p>
+
+<p>
+  <b>Dia vcto parcelas:</b>
+  <%=h @matricula.dia_vcto_parcelas %>
+</p>
+
+<p>
+  <b>Data inicio parcelas:</b>
+  <%=h @matricula.data_inicio_parcelas %>
+</p>
+
+<p>
+  <b>Valor parcelas:</b>
+  <%=h @matricula.valor_parcelas %>
+</p>
+
+<p>
+  <b>Data inicio curso:</b>
+  <%=h @matricula.data_inicio_curso %>
+</p>
+
+<p>
+  <b>Valor pri parcela matricula:</b>
+  <%=h @matricula.valor_pri_parcela_matricula %>
+</p>
+
+<p>
+  <b>Valor seg parcela matricula:</b>
+  <%=h @matricula.valor_seg_parcela_matricula %>
+</p>
+
+<p>
+  <b>Data pri parcela matricula:</b>
+  <%=h @matricula.data_pri_parcela_matricula %>
+</p>
+
+<p>
+  <b>Data seg parcela matricula:</b>
+  <%=h @matricula.data_seg_parcela_matricula %>
+</p>
+
+<%= link_to 'Back', edit_aluno_path(@matricula.aluno) %>

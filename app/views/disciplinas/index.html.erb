@@ -1,0 +1,19 @@
+<p><%= link_to 'Cadastrar Disciplina', new_disciplina_path %></p>
+<table>
+	<tr>
+		<% @disciplinas.group_by(&:material).each do |material, disciplinas| %>
+		<td>
+			<h4><%= material ? material.nome : 'Sem Kit' %></h4>
+			<ul>
+				<% disciplinas.each do |disc| %>
+          		<li>
+            		<%= link_to disc.nome, edit_disciplina_path(disc) %>
+            		<%=h disc.duracao %>h
+            		<%= link_to 'agenda', disponibilidades_disciplina_path(disc) if disc.fixa? %>
+				</li>
+				<% end %>
+			</ul>
+		</td>
+		<% end %>
+	</tr>
+</table>

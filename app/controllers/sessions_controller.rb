@@ -1,7 +1,7 @@
 # This controller handles the login/logout function of the site.  
 class SessionsController < ApplicationController
   layout nil
-  skip_before_filter :login_required
+  skip_before_filter :login_required, :current_escola
 
   # render new.rhtml
   def new

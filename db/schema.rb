@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080801183349) do
+ActiveRecord::Schema.define(:version => 20080819114807) do
 
   create_table "alunos", :force => true do |t|
     t.integer  "escola_id",             :limit => 11,                  :null => false
@@ -54,6 +54,12 @@ ActiveRecord::Schema.define(:version => 20080801183349) do
   end
 
   add_index "bancos", ["banco"], :name => "index_bancos_on_banco", :unique => true
+
+  create_table "cursos", :force => true do |t|
+    t.string   "nome"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "disciplinas", :force => true do |t|
     t.integer  "material_id", :limit => 11
@@ -100,6 +106,19 @@ ActiveRecord::Schema.define(:version => 20080801183349) do
     t.string  "complemento"
   end
 
+  create_table "escolas", :force => true do |t|
+    t.string   "nome",                                                                    :null => false
+    t.integer  "fuso",       :limit => 11,                                :default => -3, :null => false
+    t.decimal  "preco_kit",                :precision => 14, :scale => 2,                 :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "escolas_users", :force => true do |t|
+    t.integer "escola_id", :limit => 11, :null => false
+    t.integer "user_id",   :limit => 11, :null => false
+  end
+
   create_table "feiras", :force => true do |t|
     t.string   "feira",      :null => false
     t.datetime "created_at"
@@ -141,6 +160,36 @@ ActiveRecord::Schema.define(:version => 20080801183349) do
 
   add_index "materiais", ["nome"], :name => "index_materiais_on_nome", :unique => true
 
+  create_table "matriculas", :force => true do |t|
+    t.integer  "user_id",                     :limit => 11,                                :null => false
+    t.integer  "escola_id",                   :limit => 11,                                :null => false
+    t.integer  "aluno_id",                    :limit => 11,                                :null => false
+    t.integer  "plano_id",                    :limit => 11,                                :null => false
+    t.integer  "curso_id",                    :limit => 11,                                :null => false
+    t.integer  "numero_contrato",             :limit => 11,                                :null => false
+    t.integer  "dia_vcto_parcelas",           :limit => 11,                                :null => false
+    t.date     "data_inicio_parcelas",                                                     :null => false
+    t.decimal  "valor_parcelas",                            :precision => 14, :scale => 2, :null => false
+    t.date     "data_inicio_curso",                                                        :null => false
+    t.decimal  "valor_pri_parcela_matricula",               :precision => 14, :scale => 2, :null => false
+    t.date     "data_pri_parcela_matricula",                                               :null => false
+    t.decimal  "valor_seg_parcela_matricula",               :precision => 14, :scale => 2
+    t.date     "data_seg_parcela_matricula"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "planos", :force => true do |t|
+    t.integer  "curso_id",        :limit => 11, :default => 1, :null => false
+    t.string   "tabela"
+    t.string   "nome",                                         :null => false
+    t.string   "valor_matricula",                              :null => false
+    t.string   "qtde_parcelas"
+    t.string   "valor_parcela",                                :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "professores", :force => true do |t|
     t.integer  "escola_id",  :limit => 11
     t.string   "nome"
@@ -169,6 +218,7 @@ ActiveRecord::Schema.define(:version => 20080801183349) do
     t.integer  "horario_id",    :limit => 11, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "escola_id",     :limit => 11
   end
 
   add_index "turmas", ["professor_id", "quando"], :name => "index_turmas_on_professor_id_and_quando", :unique => true

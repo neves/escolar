@@ -3,23 +3,32 @@
   %head
     = javascript_include_tag :defaults
     = stylesheet_link_tag 'scaffold'
+    = stylesheet_link_tag 'application'
     = stylesheet_link_tag 'http://libs.appspot.com/basico.css'
   %body
-    %div{:align => :center}
-      = link_to 'Planilha', planilha_path
-      |
-      = link_to 'Alunos', alunos_path
-      |
-      = link_to 'Professores', professores_path
-      |
-      = link_to 'Disciplinas', disciplinas_path
-      |
-      = link_to 'Habilitações', matriz_habilitacoes_professores_path
-      |
-      = link_to 'Turmas', turmas_path
-      |
-      = link_to 'Sair', logout_path
-      
-      %span= "(#{@current_escola.nome})"
-
-    = yield
+    #site
+      %table{:align => :center}
+        %tr
+          %th Central
+          %td
+            = link_to 'Disciplinas', disciplinas_path
+            |
+            = link_to 'Planos', planos_path
+            |
+            = link_to 'Cursos', cursos_path
+        %tr
+          %th= "#{@current_escola.nome}"
+          %td{:align => :center}
+            = link_to 'Planilha', planilha_path
+            |
+            = link_to 'Alunos', alunos_path
+            |
+            = link_to 'Professores', professores_path
+            |
+            = link_to 'Habilitações', matriz_habilitacoes_professores_path
+            |
+            = link_to 'Turmas', turmas_path
+            |
+            = link_to 'Sair', logout_path
+            
+      = yield

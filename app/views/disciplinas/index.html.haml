@@ -6,6 +6,6 @@
       %ul
         - disciplinas.each do |disc|
           %li
-            = link_to %( #{disc.duracao}h ), edit_disciplina_path(disc)
-            = disc.nome
+            = %( #{disc.duracao}h )
+            = link_to disc.nome, edit_disciplina_path(disc)
             = link_to 'agenda', disponibilidades_disciplina_path(disc) if disc.fixa?

@@ -1,0 +1,33 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user: 
+  escola: 
+  aluno: 
+  plano: 
+  curso: 
+  numero_contrato: 1
+  dia_vcto_parcelas: 1
+  data_inicio_parcelas: 2008-08-19
+  valor_parcelas: 9.99
+  data_inicio_curso: 2008-08-19
+  valor_pri_parcela_matricula: 9.99
+  valor_seg_parcela_matricula: 9.99
+  data_pri_parcela_matricula: 2008-08-19
+  data_seg_parcela_matricula: 2008-08-19
+
+two:
+  user: 
+  escola: 
+  aluno: 
+  plano: 
+  curso: 
+  numero_contrato: 1
+  dia_vcto_parcelas: 1
+  data_inicio_parcelas: 2008-08-19
+  valor_parcelas: 9.99
+  data_inicio_curso: 2008-08-19
+  valor_pri_parcela_matricula: 9.99
+  valor_seg_parcela_matricula: 9.99
+  data_pri_parcela_matricula: 2008-08-19
+  data_seg_parcela_matricula: 2008-08-19

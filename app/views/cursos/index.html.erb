@@ -1,0 +1,13 @@
+<h1>Listing cursos</h1>
+<%= link_to 'Cadastrar Curso', new_curso_path %>
+<table>
+  <tr>
+    <th>Nome</th>
+  </tr>
+
+<% for curso in @cursos %>
+  <tr>
+    <td><%= link_to curso.nome, edit_curso_path(curso) %></td>
+  </tr>
+<% end %>
+</table>

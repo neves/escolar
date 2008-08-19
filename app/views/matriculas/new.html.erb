@@ -1,0 +1,62 @@
+<h1>Matricular Aluno: <%= @aluno.nome %></h1>
+
+<% form_for([@aluno, @matricula]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :curso %><br />
+    <%= f.collection_select :curso_id, Curso.all, :id, :nome, :include_blank => true %>
+  </p>
+
+  <p>
+    <%= f.label :plano %><br />
+    <%= f.collection_select :plano_id, Plano.all, :id, :tabela_nome, :include_blank => true %>
+  </p>
+
+  <p>
+    <%= f.label :numero_contrato %><br />
+    <%= f.text_field :numero_contrato %>
+  </p>
+
+  <p>
+  	<%= f.label :dia_vcto_parcelas, "Dia Vencimento das Parcelas" %><br />
+    05<%= f.radio_button :dia_vcto_parcelas, 5 %>
+    10<%= f.radio_button :dia_vcto_parcelas, 10 %>
+    15<%= f.radio_button :dia_vcto_parcelas, 15 %>
+    20<%= f.radio_button :dia_vcto_parcelas, 20 %>
+    25<%= f.radio_button :dia_vcto_parcelas, 25 %>
+  </p>
+  <p>
+    <%= f.label :data_inicio_parcelas %><br />
+    <%= date_select_futuro f, :data_inicio_parcelas %>
+  </p>
+  <p>
+    <%= f.label :valor_parcelas %><br />
+    <%= f.text_field :valor_parcelas %>
+  </p>
+  <p>
+    <%= f.label :data_inicio_curso %><br />
+    <%= date_select_futuro f, :data_inicio_curso %>
+  </p>
+  <p>
+    <%= f.label :valor_pri_parcela_matricula, "Valor da primeira parcela (ou à vista)" %><br />
+    <%= f.text_field :valor_pri_parcela_matricula %>
+  </p>
+  <p>
+    <%= f.label :data_pri_parcela_matricula %><br />
+    <%= date_select_futuro f, :data_pri_parcela_matricula %>
+  </p>
+  <p>
+    <%= f.label :valor_seg_parcela_matricula, "Valor da segunda parcela (somente se parcelado a matrícula)" %><br />
+    <%= f.text_field :valor_seg_parcela_matricula %>
+  </p>
+  <p>
+    <%= f.label :data_seg_parcela_matricula %><br />
+    <%= date_select_futuro f, :data_seg_parcela_matricula %>
+  </p>
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Voltar', edit_aluno_path(@aluno) %>

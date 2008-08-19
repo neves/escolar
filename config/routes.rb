@@ -1,4 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :matriculas
+
+  map.resources :planos
+
+  map.resources :cursos
+
   map.resources :users, :member => {:suspend => :put, :unsuspend => :put, :purge => :delete}
   map.resource :session
   map.login '/login', :controller => 'sessions', :action => 'new'
@@ -33,9 +39,11 @@ ActionController::Routing::Routes.draw do |map|
     end
   end
 
-  map.resources :alunos, :collection => {:suggest => :get}
+  map.resources :alunos, :collection => {:suggest => :get} do |aluno|
+  	aluno.resources :matriculas
+  end
   map.resources :turmas
-
+  map.resource :route
   map.root :alunos
 
   map.connect ':controller/:action/:id'

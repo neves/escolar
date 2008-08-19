@@ -1,0 +1,46 @@
+<h1>Listing matriculas</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Escola</th>
+    <th>Aluno</th>
+    <th>Plano</th>
+    <th>Curso</th>
+    <th>Numero contrato</th>
+    <th>Dia vcto parcelas</th>
+    <th>Data inicio parcelas</th>
+    <th>Valor parcelas</th>
+    <th>Data inicio curso</th>
+    <th>Valor pri parcela matricula</th>
+    <th>Valor seg parcela matricula</th>
+    <th>Data pri parcela matricula</th>
+    <th>Data seg parcela matricula</th>
+  </tr>
+
+<% for matricula in @matriculas %>
+  <tr>
+    <td><%=h matricula.user %></td>
+    <td><%=h matricula.escola %></td>
+    <td><%=h matricula.aluno %></td>
+    <td><%=h matricula.plano %></td>
+    <td><%=h matricula.curso %></td>
+    <td><%=h matricula.numero_contrato %></td>
+    <td><%=h matricula.dia_vcto_parcelas %></td>
+    <td><%=h matricula.data_inicio_parcelas %></td>
+    <td><%=h matricula.valor_parcelas %></td>
+    <td><%=h matricula.data_inicio_curso %></td>
+    <td><%=h matricula.valor_pri_parcela_matricula %></td>
+    <td><%=h matricula.valor_seg_parcela_matricula %></td>
+    <td><%=h matricula.data_pri_parcela_matricula %></td>
+    <td><%=h matricula.data_seg_parcela_matricula %></td>
+    <td><%= link_to 'Show', matricula %></td>
+    <td><%= link_to 'Edit', edit_matricula_path(matricula) %></td>
+    <td><%= link_to 'Destroy', matricula, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New matricula', new_matricula_path %>

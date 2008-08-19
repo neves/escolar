@@ -1,7 +1,10 @@
 <h1>Aluno</h1>
-
+<%= link_to 'Voltar', alunos_path %>
 <% form_for(@aluno) do |f| %>
   <%= f.error_messages %>
+  <table>
+  	<tr>
+  		<td>
   <h3>Dados Pessoais</h3>
   <p>
     <%= f.label :nome %><br />
@@ -32,6 +35,8 @@
     M<%= f.radio_button :sexo, "M" %>
     F<%= f.radio_button :sexo, "F" %>
   </p>
+  			</td>
+  			<td>
   <h3>Telefones</h3>  
   <p>
     <%= f.label :telefone_residencial %><br />
@@ -63,12 +68,17 @@
     <%= f.label :responsavel_rg %><br />
     <%= f.text_field :responsavel_rg %>
   </p>
-
+			</td>
+			<td>
 	<h3>Endereço Residencial</h3>
 	<%= render :partial => 'endereco', :locals => {:tipo => :endereco_residencial} %>
+			</td>
+			<td>
 	<h3>Endereço Comercial</h3>
 	<%= render :partial => 'endereco', :locals => {:tipo => :endereco_comercial} %>
-
+			</td>
+		</tr>
+	</table>
   <p>
     <%= f.submit "Salvar" %>
   </p>

@@ -1,0 +1,24 @@
+<h1>Planos</h1>
+
+<%= link_to 'Cadastrar Plano', new_plano_path %>
+
+<table>
+  <tr>
+    <th>Tabela</th>
+    <th>Nome</th>
+    <th>Valor matricula</th>
+    <th>Qtde parcelas</th>
+    <th>Valor parcela</th>
+  </tr>
+
+<% for plano in @planos %>
+  <tr>
+    <td><%=h plano.tabela %></td>
+    <td><%= link_to plano.nome, edit_plano_path(plano) %></td>
+    <td><%=h plano.valor_matricula %></td>
+    <td><%=h plano.qtde_parcelas %></td>
+    <td><%=h plano.valor_parcela %></td>
+  </tr>
+<% end %>
+</table>
+

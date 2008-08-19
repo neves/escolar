@@ -19,4 +19,8 @@ module ApplicationHelper
   def empresas_select
     select_tag('escola_id', options_from_collection_for_select(@escolas, 'id', 'nome', controller.current_escola_id), {})
   end
+
+  def date_select_futuro(f, field)
+  	f.date_select field, :order => [:day, :month, :year], :include_blank => true, :start_year => Date.current.year, :end_year => Date.current.year + 1
+  end
 end

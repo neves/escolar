@@ -1,6 +1,7 @@
 class Turma < ActiveRecord::Base
   belongs_to :professor
   belongs_to :disciplina
+  belongs_to :escola
   has_many :aulas, :dependent => :delete_all
   has_many :alunos, :through => :aulas
 

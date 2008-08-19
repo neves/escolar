@@ -1,0 +1,15 @@
+<h1>Novo Curso</h1>
+
+<% form_for(@curso) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Voltar', cursos_path %>

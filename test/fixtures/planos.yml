@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  tabela: MyString
+  nome: MyString
+  valor_matricula: MyString
+  qtde_parcelas: MyString
+  valor_parcela: MyString
+
+two:
+  tabela: MyString
+  nome: MyString
+  valor_matricula: MyString
+  qtde_parcelas: MyString
+  valor_parcela: MyString
