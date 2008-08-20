@@ -10,7 +10,7 @@
 
   <p>
     <%= f.label :plano %><br />
-    <%= f.collection_select :plano_id, Plano.all, :id, :tabela_nome, :include_blank => true %>
+    <%= f.collection_select :plano_id, Plano.all, :id, :tabela_nome_parcela, :include_blank => true %>
   </p>
 
   <p>
@@ -31,27 +31,23 @@
     <%= date_select_futuro f, :data_inicio_parcelas %>
   </p>
   <p>
-    <%= f.label :valor_parcelas %><br />
-    <%= f.text_field :valor_parcelas %>
-  </p>
-  <p>
     <%= f.label :data_inicio_curso %><br />
     <%= date_select_futuro f, :data_inicio_curso %>
   </p>
   <p>
-    <%= f.label :valor_pri_parcela_matricula, "Valor da primeira parcela (ou à vista)" %><br />
+    <%= f.label :valor_pri_parcela_matricula, "Valor da matrícula à vista (ou da primeira parcela)" %><br />
     <%= f.text_field :valor_pri_parcela_matricula %>
   </p>
   <p>
-    <%= f.label :data_pri_parcela_matricula %><br />
+    <%= f.label :data_pri_parcela_matricula, "Data do pagamento da matrícula (ou da primeira parcela)" %><br />
     <%= date_select_futuro f, :data_pri_parcela_matricula %>
   </p>
   <p>
-    <%= f.label :valor_seg_parcela_matricula, "Valor da segunda parcela (somente se parcelado a matrícula)" %><br />
+    <%= f.label :valor_seg_parcela_matricula, "Valor da segunda parcela da matrícula (apenas se parcelado)" %><br />
     <%= f.text_field :valor_seg_parcela_matricula %>
   </p>
   <p>
-    <%= f.label :data_seg_parcela_matricula %><br />
+    <%= f.label :data_seg_parcela_matricula, "Data de vencimento da segunda parcela da matrícula (apenas se parcelado)" %><br />
     <%= date_select_futuro f, :data_seg_parcela_matricula %>
   </p>
   <p>

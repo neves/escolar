@@ -46,7 +46,7 @@ class AlunosController < ApplicationController
 	@aluno.endereco_comercial = @endereco_comercial.vazio? ? nil : @endereco_comercial
 
     if @aluno.save
-    	redirect_to alunos_path
+    	redirect_to new_aluno_matricula_path(@aluno)
     else
     	render :action => 'new'
     end

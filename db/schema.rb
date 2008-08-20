@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080819114807) do
+ActiveRecord::Schema.define(:version => 20080819204215) do
 
   create_table "alunos", :force => true do |t|
     t.integer  "escola_id",             :limit => 11,                  :null => false
@@ -169,7 +169,6 @@ ActiveRecord::Schema.define(:version => 20080819114807) do
     t.integer  "numero_contrato",             :limit => 11,                                :null => false
     t.integer  "dia_vcto_parcelas",           :limit => 11,                                :null => false
     t.date     "data_inicio_parcelas",                                                     :null => false
-    t.decimal  "valor_parcelas",                            :precision => 14, :scale => 2, :null => false
     t.date     "data_inicio_curso",                                                        :null => false
     t.decimal  "valor_pri_parcela_matricula",               :precision => 14, :scale => 2, :null => false
     t.date     "data_pri_parcela_matricula",                                               :null => false
