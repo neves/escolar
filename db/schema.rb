@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080819204215) do
+ActiveRecord::Schema.define(:version => 20080822220129) do
 
   create_table "alunos", :force => true do |t|
     t.integer  "escola_id",             :limit => 11,                  :null => false
@@ -178,13 +178,35 @@ ActiveRecord::Schema.define(:version => 20080819204215) do
     t.datetime "updated_at"
   end
 
+  create_table "plano_contas", :force => true do |t|
+    t.string   "nome",       :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "planos", :force => true do |t|
-    t.integer  "curso_id",        :limit => 11, :default => 1, :null => false
+    t.integer  "curso_id",        :limit => 11,                                :default => 1,   :null => false
     t.string   "tabela"
-    t.string   "nome",                                         :null => false
-    t.string   "valor_matricula",                              :null => false
-    t.string   "qtde_parcelas"
-    t.string   "valor_parcela",                                :null => false
+    t.string   "nome",                                                                          :null => false
+    t.decimal  "valor_matricula",               :precision => 14, :scale => 2, :default => 0.0, :null => false
+    t.integer  "qtde_parcelas",   :limit => 11,                                :default => 0,   :null => false
+    t.decimal  "valor_parcela",                 :precision => 14, :scale => 2, :default => 0.0, :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "previsoes", :force => true do |t|
+    t.integer  "escola_id",      :limit => 11
+    t.integer  "cliente_id",     :limit => 11
+    t.string   "cliente_type"
+    t.integer  "plano_conta_id", :limit => 11
+    t.string   "pagar_receber",                                                                :null => false
+    t.decimal  "valor",                        :precision => 14, :scale => 2, :default => 0.0, :null => false
+    t.decimal  "valor_pago",                   :precision => 14, :scale => 2, :default => 0.0, :null => false
+    t.integer  "parcela",        :limit => 11,                                :default => 1,   :null => false
+    t.integer  "qtde_parcelas",  :limit => 11,                                :default => 1,   :null => false
+    t.string   "historico"
+    t.date     "vencimento"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

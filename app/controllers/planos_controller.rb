@@ -82,4 +82,12 @@ class PlanosController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  def valor_matricula
+  	render :text => Plano.find(params[:id]).valor_matricula.para_dinheiro.real_formatado
+	end
+
+  def valor_mensalidade
+  	render :text => Plano.find(params[:id]).valor_parcela.para_dinheiro.real_formatado
+	end
 end

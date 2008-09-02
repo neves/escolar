@@ -1,7 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :plano_contas
+
+  map.resources :previsoes
+
   map.resources :matriculas
 
-  map.resources :planos
+  map.resources :planos, :member => {:valor_matricula => :get, :valor_mensalidade => :get}
 
   map.resources :cursos
 

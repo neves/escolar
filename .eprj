@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>fileTriggers</key>
+        <dict>
+            <key>applicat</key>
+            <string>public\stylesheets\application.css</string>
+            <key>matri</key>
+            <string>public\javascripts\matriculas.js</string>
+            <key>matriculas.js</key>
+            <string>public\javascripts\matriculas.js</string>
+            <key>new.h</key>
+            <string>app\views\matriculas\new.html.erb</string>
+            <key>route</key>
+            <string>config\routes.rb</string>
+        </dict>
+    </dict>
+</plist>

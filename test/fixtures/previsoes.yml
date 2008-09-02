@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  escola: 
+  cliente: 
+  plano_conta: 
+  pagar_receber: MyString
+  valor: 9.99
+  valor_pago: 9.99
+  parcela: 1
+  qtde_parcelas: 1
+  historico: MyString
+  vencimento: 2008-08-21
+
+two:
+  escola: 
+  cliente: 
+  plano_conta: 
+  pagar_receber: MyString
+  valor: 9.99
+  valor_pago: 9.99
+  parcela: 1
+  qtde_parcelas: 1
+  historico: MyString
+  vencimento: 2008-08-21

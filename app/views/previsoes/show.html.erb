@@ -1,0 +1,53 @@
+<p>
+  <b>Escola:</b>
+  <%=h @previsao.escola %>
+</p>
+
+<p>
+  <b>Cliente:</b>
+  <%=h @previsao.cliente %>
+</p>
+
+<p>
+  <b>Plano conta:</b>
+  <%=h @previsao.plano_conta %>
+</p>
+
+<p>
+  <b>Pagar receber:</b>
+  <%=h @previsao.pagar_receber %>
+</p>
+
+<p>
+  <b>Valor:</b>
+  <%=h @previsao.valor %>
+</p>
+
+<p>
+  <b>Valor pago:</b>
+  <%=h @previsao.valor_pago %>
+</p>
+
+<p>
+  <b>Parcela:</b>
+  <%=h @previsao.parcela %>
+</p>
+
+<p>
+  <b>Qtde parcelas:</b>
+  <%=h @previsao.qtde_parcelas %>
+</p>
+
+<p>
+  <b>Historico:</b>
+  <%=h @previsao.historico %>
+</p>
+
+<p>
+  <b>Vencimento:</b>
+  <%=h @previsao.vencimento %>
+</p>
+
+
+<%= link_to 'Edit', edit_previsao_path(@previsao) %> |
+<%= link_to 'Back', previsoes_path %>

@@ -4,3 +4,27 @@
 	background-position: right 10px;
 	padding: 5px;
 }
+
+/* matriculas/new */
+
+#parcelar {
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: underline;
+	color: blue;
+	width: 70px;
+}
+
+#parcelar:hover {
+	background-color: yellow;
+}
+
+#parcelamento {
+	
+}
+
+fieldset {
+	display: inline;
+	clear: both;
+	border: 1px solid silver;
+}

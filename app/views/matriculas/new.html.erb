@@ -1,5 +1,6 @@
+<%= javascript_include_tag "matriculas" %>
 <h1>Matricular Aluno: <%= @aluno.nome %></h1>
-
+<table><tr><td>
 <% form_for([@aluno, @matricula]) do |f| %>
   <%= f.error_messages %>
 
@@ -7,17 +8,45 @@
     <%= f.label :curso %><br />
     <%= f.collection_select :curso_id, Curso.all, :id, :nome, :include_blank => true %>
   </p>
-
-  <p>
-    <%= f.label :plano %><br />
-    <%= f.collection_select :plano_id, Plano.all, :id, :tabela_nome_parcela, :include_blank => true %>
-  </p>
-
   <p>
     <%= f.label :numero_contrato %><br />
     <%= f.text_field :numero_contrato %>
   </p>
+  <p>
+    <%= f.label :data_inicio_curso %><br />
+    <%= date_select_futuro f, :data_inicio_curso %>
+  </p>
+  <p>
+    <b><%= f.label :plano %></b><br />
+    <%= f.collection_select :plano_id, Plano.all, :id, :tabela_nome, :include_blank => true %>
+  </p>
+  <p>
+		<b>Matrícula:</b> <span id="valor_matricula"><%= @matricula.plano && @matricula.plano.valor_matricula.para_dinheiro.real_formatado %></span>
+	</p>
+  <p>
+    <%= f.label :data_pri_parcela_matricula, "Vencimento da matrícula (ou da primeira parcela)" %><br />
+    <%= date_select_futuro f, :data_pri_parcela_matricula %>
+  </p>
+	<p id="parcelar">Parcelar:</p>
+	<fieldset id="parcelamento">
+  <p>
+    <%= f.label :valor_pri_parcela_matricula, "Matrícula Parcela 1" %><br />
+    <%= f.text_field :valor_pri_parcela_matricula %>
+  </p>
 
+  <p>
+    <%= f.label :valor_seg_parcela_matricula, "Matrícula Parcela 2" %><br />
+    <%= f.text_field :valor_seg_parcela_matricula %>
+  </p>
+  <p>
+    <%= f.label :data_seg_parcela_matricula, "Vencimento da 2ª parcela" %><br />
+    <%= date_select_futuro f, :data_seg_parcela_matricula %>
+  </p>
+  </fieldset>
+	<p>
+		<b>Mensalidade:</b> <span id="valor_mensalidade"><%= @matricula.plano && @matricula.plano.valor_parcela.para_dinheiro.real_formatado %></span>
+	</p>
+<!--
   <p>
   	<%= f.label :dia_vcto_parcelas, "Dia Vencimento das Parcelas" %><br />
     05<%= f.radio_button :dia_vcto_parcelas, 5 %>
@@ -26,33 +55,20 @@
     20<%= f.radio_button :dia_vcto_parcelas, 20 %>
     25<%= f.radio_button :dia_vcto_parcelas, 25 %>
   </p>
+-->
   <p>
     <%= f.label :data_inicio_parcelas %><br />
-    <%= date_select_futuro f, :data_inicio_parcelas %>
+    <% select_options_tag "matricula[data_inicio_parcelas(3i)]", [5, 10, 15, 20, 25], :include_blank => true  %>
+		<%= f.select :dia_vcto_parcelas, [5, 10, 15, 20, 25], :include_blank => true  %>
+
+    <%= f.date_select :data_inicio_parcelas, :order => [:month, :year], :include_blank => true, :start_year => Date.current.year - 2, :end_year => Date.current.year + 1 %>
   </p>
+
   <p>
-    <%= f.label :data_inicio_curso %><br />
-    <%= date_select_futuro f, :data_inicio_curso %>
-  </p>
-  <p>
-    <%= f.label :valor_pri_parcela_matricula, "Valor da matrícula à vista (ou da primeira parcela)" %><br />
-    <%= f.text_field :valor_pri_parcela_matricula %>
-  </p>
-  <p>
-    <%= f.label :data_pri_parcela_matricula, "Data do pagamento da matrícula (ou da primeira parcela)" %><br />
-    <%= date_select_futuro f, :data_pri_parcela_matricula %>
-  </p>
-  <p>
-    <%= f.label :valor_seg_parcela_matricula, "Valor da segunda parcela da matrícula (apenas se parcelado)" %><br />
-    <%= f.text_field :valor_seg_parcela_matricula %>
-  </p>
-  <p>
-    <%= f.label :data_seg_parcela_matricula, "Data de vencimento da segunda parcela da matrícula (apenas se parcelado)" %><br />
-    <%= date_select_futuro f, :data_seg_parcela_matricula %>
-  </p>
-  <p>
-    <%= f.submit "Salvar" %>
+    preview<%= check_box_tag "preview", "1", true %><%= f.submit "Salvar" %>
   </p>
 <% end %>
-
+</td><td>
+<%= render :partial => 'preview' %>
+</td><tr><table>
 <%= link_to 'Voltar', edit_aluno_path(@aluno) %>

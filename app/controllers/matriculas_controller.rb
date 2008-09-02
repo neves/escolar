@@ -1,5 +1,5 @@
 class MatriculasController < ApplicationController
-  before_filter :find_aluno, :only => [:new, :create]
+  before_filter :find_aluno, :only => [:new, :create, :show]
 
   # GET /matriculas
   # GET /matriculas.xml
@@ -15,7 +15,7 @@ class MatriculasController < ApplicationController
   # GET /matriculas/1
   # GET /matriculas/1.xml
   def show
-    @matricula = Matricula.find(params[:id])
+    @matricula = current_escola.matriculas.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -27,16 +27,11 @@ class MatriculasController < ApplicationController
   # GET /matriculas/new.xml
   def new
     @matricula = current_escola.matriculas.new
-
+	@parcelas = []
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @matricula }
     end
-  end
-
-  # GET /matriculas/1/edit
-  def edit
-    @matricula = Matricula.find(params[:id])
   end
 
   # POST /matriculas
@@ -44,10 +39,22 @@ class MatriculasController < ApplicationController
   def create
   	params[:matricula][:escola_id] = current_escola_id
   	params[:matricula][:user_id] = current_user.id
+  	if params[:matricula][:valor_seg_parcela_matricula].blank?
+  		begin
+	  		plano = Plano.find params[:matricula][:plano_id]
+	  		params[:matricula][:valor_pri_parcela_matricula] = plano.valor_matricula
+  		rescue
+  		end
+  	end
+  	params[:matricula]["data_inicio_parcelas(3i)"] = params[:matricula][:dia_vcto_parcelas]
     @matricula = @aluno.matriculas.new(params[:matricula])
-
+	@parcelas = []
     respond_to do |format|
-      if @matricula.save
+      if params[:preview]
+      	@matricula.valid?
+      	@parcelas = @matricula.gerar_financeiro(false)
+      	format.html { render :action => "new" }
+      elsif @matricula.save
         flash[:notice] = 'Matricula Gerada!'
         format.html { redirect_to(alunos_path) }
         format.xml  { render :xml => @matricula, :status => :created, :location => @matricula }
@@ -55,35 +62,6 @@ class MatriculasController < ApplicationController
         format.html { render :action => "new" }
         format.xml  { render :xml => @matricula.errors, :status => :unprocessable_entity }
       end
-    end
-  end
-
-  # PUT /matriculas/1
-  # PUT /matriculas/1.xml
-  def update
-    @matricula = Matricula.find(params[:id])
-
-    respond_to do |format|
-      if @matricula.update_attributes(params[:matricula])
-        flash[:notice] = 'Matricula was successfully updated.'
-        format.html { redirect_to(@matricula) }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @matricula.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
-
-  # DELETE /matriculas/1
-  # DELETE /matriculas/1.xml
-  def destroy
-    @matricula = Matricula.find(params[:id])
-    @matricula.destroy
-
-    respond_to do |format|
-      format.html { redirect_to(matriculas_url) }
-      format.xml  { head :ok }
     end
   end
 

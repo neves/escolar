@@ -1,26 +1,26 @@
 <style>
-table {
+#disponibilidade table {
   border-collapse: collapse;
   table-layout: fixed;
   width: 990px;
 }
 
-td, th {
+#disponibilidade td, #disponibilidade th {
   border: 1px solid silver;
 }
 
-abbr {
+#disponibilidade abbr {
   display: block;
   text-align: center;
   border: none;
 }
 
-abbr[title] {
+#disponibilidade abbr[title] {
   background-color: yellow;
 }
 </style>
 
-
+<div id="disponibilidade">
 <h3>Professor: (<%=h @professor.id %>) <%=h @professor.nome %></h3>
 
 <%= flashes %>
@@ -37,3 +37,4 @@ abbr[title] {
 	<%= f.submit "Salvar" %>
 
 <% end %>
+</div>

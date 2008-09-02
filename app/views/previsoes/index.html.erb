@@ -1,0 +1,38 @@
+<h1>Listing previsoes</h1>
+
+<table>
+  <tr>
+    <th>Escola</th>
+    <th>Cliente</th>
+    <th>Plano conta</th>
+    <th>Pagar receber</th>
+    <th>Valor</th>
+    <th>Valor pago</th>
+    <th>Parcela</th>
+    <th>Qtde parcelas</th>
+    <th>Historico</th>
+    <th>Vencimento</th>
+  </tr>
+
+<% for previsao in @previsoes %>
+  <tr>
+    <td><%=h previsao.escola %></td>
+    <td><%=h previsao.cliente %></td>
+    <td><%=h previsao.plano_conta %></td>
+    <td><%=h previsao.pagar_receber %></td>
+    <td><%=h previsao.valor %></td>
+    <td><%=h previsao.valor_pago %></td>
+    <td><%=h previsao.parcela %></td>
+    <td><%=h previsao.qtde_parcelas %></td>
+    <td><%=h previsao.historico %></td>
+    <td><%=h previsao.vencimento %></td>
+    <td><%= link_to 'Show', previsao %></td>
+    <td><%= link_to 'Edit', edit_previsao_path(previsao) %></td>
+    <td><%= link_to 'Destroy', previsao, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New previsao', new_previsao_path %>

@@ -1,0 +1,20 @@
+<table>
+	<thead>
+		<tr>
+			<th align="right">Parcela</th>
+			<th>Histórico</th>
+			<th align="right">Valor</th>
+			<th>Data</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% for parcela in @parcelas %>
+		<tr>
+			<td align="right"><%= parcela.parcela %>/<%= parcela.qtde_parcelas %></td>
+			<td><%= parcela.historico %></td>
+			<td align="right"><%= parcela.valor.para_dinheiro.real_formatado %></td>
+			<td><%= parcela.vencimento && parcela.vencimento.to_s_br %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>

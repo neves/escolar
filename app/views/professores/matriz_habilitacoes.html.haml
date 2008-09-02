@@ -2,6 +2,8 @@
 
 =flashes
 
+%h1 Disciplinas/Professor
+
 - if @professores.nil? || @professores.empty? || @disciplinas.nil? || @disciplinas.empty?
   %p{:align => :center} Cadastre professores e disciplinas primeiro!
 - else
@@ -10,4 +12,3 @@
     - GridTable.new(self, @professores, @disciplinas).render do |prof, disc|
       = check_box_tag "professores[#{prof.id}][]", disc.id, prof.disciplina_ids.include?(disc.id)
     = submit_tag "Salvar"
-

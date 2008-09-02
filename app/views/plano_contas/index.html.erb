@@ -1,0 +1,20 @@
+<h1>Listing plano_contas</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+  </tr>
+
+<% for plano_conta in @plano_contas %>
+  <tr>
+    <td><%=h plano_conta.nome %></td>
+    <td><%= link_to 'Show', plano_conta %></td>
+    <td><%= link_to 'Edit', edit_plano_conta_path(plano_conta) %></td>
+    <td><%= link_to 'Destroy', plano_conta, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New plano_conta', new_plano_conta_path %>

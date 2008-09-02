@@ -1,0 +1,16 @@
+<h1>Editing plano_conta</h1>
+
+<% form_for(@plano_conta) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @plano_conta %> |
+<%= link_to 'Back', plano_contas_path %>

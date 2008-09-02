@@ -20,7 +20,19 @@ module ApplicationHelper
     select_tag('escola_id', options_from_collection_for_select(@escolas, 'id', 'nome', controller.current_escola_id), {})
   end
 
-  def date_select_futuro(f, field)
-  	f.date_select field, :order => [:day, :month, :year], :include_blank => true, :start_year => Date.current.year, :end_year => Date.current.year + 1
+  def date_select_futuro(f, field, options = {})
+  	default = {:order => [:day, :month, :year], :include_blank => true, :start_year => Date.current.year - 2, :end_year => Date.current.year + 1}
+  	f.date_select field, default
   end
+
+	def select_options_tag(name='',select_options={},options={})
+	  #set selected from value
+	  selected = ''
+	  unless options[:value].blank?
+	    selected = options[:value]
+	    options.delete(:value)
+	  end
+	  select_tag(name,options_for_select(select_options,selected),options)
+	end
+
 end

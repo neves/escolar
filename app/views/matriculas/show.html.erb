@@ -35,17 +35,12 @@
 
 <p>
   <b>Data inicio parcelas:</b>
-  <%=h @matricula.data_inicio_parcelas %>
-</p>
-
-<p>
-  <b>Valor parcelas:</b>
-  <%=h @matricula.valor_parcelas %>
+  <%=h @matricula.data_inicio_parcelas.to_s_br %>
 </p>
 
 <p>
   <b>Data inicio curso:</b>
-  <%=h @matricula.data_inicio_curso %>
+  <%=h @matricula.data_inicio_curso.to_s_br %>
 </p>
 
 <p>
@@ -60,12 +55,12 @@
 
 <p>
   <b>Data pri parcela matricula:</b>
-  <%=h @matricula.data_pri_parcela_matricula %>
+  <%=h @matricula.data_pri_parcela_matricula.to_s_br %>
 </p>
 
 <p>
   <b>Data seg parcela matricula:</b>
-  <%=h @matricula.data_seg_parcela_matricula %>
+  <%=h @matricula.data_seg_parcela_matricula && @matricula.data_seg_parcela_matricula.to_s_br %>
 </p>
 
 <%= link_to 'Back', edit_aluno_path(@matricula.aluno) %>
