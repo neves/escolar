@@ -7,7 +7,7 @@ class InsertDisciplinas < ActiveRecord::Migration
     # UNIT 36|36|1|6|0|3|
 		begin
 	    execute "TRUNCATE disciplinas"
-		rescue SQLite3::SQLException
+		rescue
 			execute "DELETE FROM disciplinas"
 		end	
     Disciplina.import [:nome, :apelido, :duracao, :lotacao, :fixa, :material_id], registros
