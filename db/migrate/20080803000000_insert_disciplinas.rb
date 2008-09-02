@@ -5,7 +5,11 @@ class InsertDisciplinas < ActiveRecord::Migration
     # se for vazio o último índice, substitui por nil
     registros.each{|d| d[-1] = nil if d.last.empty?}
     # UNIT 36|36|1|6|0|3|
-    execute "TRUNCATE disciplinas"
+		begin
+	    execute "TRUNCATE disciplinas"
+		rescue SQLite3::SQLException
+			execute "DELETE FROM disciplinas"
+		end	
     Disciplina.import [:nome, :apelido, :duracao, :lotacao, :fixa, :material_id], registros
   end
 
