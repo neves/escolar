@@ -13,7 +13,7 @@ class AlunosController < ApplicationController
 
 	def index
 		if params[:pesquisa]
-			@alunos = Aluno.pesquisar_com_paginacao(params[:pesquisa], 1)
+			@alunos = Aluno.pesquisar_com_paginacao(params[:pesquisa], params[:page])
 		else
 			@alunos = current_escola.alunos.paginar(params[:page])
 		end
