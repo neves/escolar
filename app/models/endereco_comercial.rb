@@ -1,0 +1,2 @@
+class EnderecoComercial < Endereco
+end

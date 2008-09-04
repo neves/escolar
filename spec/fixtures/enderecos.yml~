@@ -1,0 +1,29 @@
+one:
+  id: 1
+  enderecavel_id: 1
+  enderecavel_type: Aluno
+  cep: 12122-122
+  nome:
+  uf: SP
+  cidade: Bla
+  bairro: Foo
+  tipo_logradouro: rua
+  logradouro: Rua qualquer
+  numero: 10
+  complemento:
+
+
+two:
+  id: 2
+  enderecavel_id: 2
+  enderecavel_type: Aluno
+  cep: 12122-122
+  nome:
+  uf: SP
+  cidade: Bla
+  bairro: Foo
+  tipo_logradouro: avenida 
+  logradouro: Av blablabla
+  numero: 12
+  complemento:
+

@@ -17,7 +17,7 @@
 <%= will_paginate @alunos %>
 <p>
 <% if @alunos.empty? %>
- <strong>Nenhum aluno encontrado</strong>
+
 <% else %>
 <table>
  <tr>

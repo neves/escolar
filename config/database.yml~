@@ -1,3 +1,7 @@
+sqlite3:
+  adapter: sqlite3
+  database: db/development.sqlite3
+
 test:
   adapter: mysql
   database: minds_test

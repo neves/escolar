@@ -6,8 +6,6 @@ one:
   rg: 11.234.234-3
   cpf: 111.222.111-11
   email: 'pedro@mail.com'
-  escola_id: 1
-  sexo: M
   
 two:
   nome: 'Marcos Neves Mlmllklk'
@@ -17,8 +15,6 @@ two:
   rg: 11.232.333-3
   cpf: 222.222.222-22
   email: 'marcos@mail.com'
-  escola_id: 1
-  sexo: M
   
 three:
   nome: 'Aldemar  da Silva Pessoa'
@@ -28,5 +24,3 @@ three:
   cpf: 333.333.333-33
   rg: 44.444.444-4
   email: 'aldemar@mail.com'
-  escola_id: 1
-  sexo: M

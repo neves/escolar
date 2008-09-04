@@ -30,7 +30,7 @@ class Aluno < ActiveRecord::Base
     if chave =~ /^\d+$/
       find_all_by_subscricao(chave).paginate(:page => page, :per_page => per_page)
     else
-      find(:all, :conditions => ["nome like ?", "%#{chave}%"]).paginate(:page => page, :per_page => per_page)
+      find(:all, :conditions => ["nome like ?", "%#{chave}%"])
     end
   end
   
