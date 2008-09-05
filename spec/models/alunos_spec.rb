@@ -6,17 +6,18 @@ describe Aluno do
   
   describe "pesquisar" do
     before(:each) do
-      
+      @aluno_1 = alunos(:one)
+      @aluno_2 = alunos(:two)
     end
     
     it "deve pesquisar por subscricao quando a chave recebida for numerica" do
-      Aluno.should_receive(:find_all_by_subscricao)
-      Aluno.pesquisar_com_paginacao("1234")
-    end
-    
+      Aluno.should_receive(:find_all_by_subscricao).and_return([@aluno_1, @aluno_2])
+      Aluno.pesquisar_com_paginacao("1234", 1)
+    end    
+        
     it "deve pesquisar por nome do aluno quando a chave recebida contiver caracteres nao numericos" do
-      Aluno.should_receive(:find)
-      Aluno.pesquisar_com_paginacao("12ce12")
+      Aluno.should_receive(:find).and_return([@aluno_1, @aluno_2])
+      Aluno.pesquisar_com_paginacao("12ce12", 1)
     end
   end
   
