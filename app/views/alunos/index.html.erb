@@ -3,13 +3,14 @@
 <%= flashes %>
 
 <p>
-  <%= link_to 'Todos', alunos_url %>
+  <%= link_to 'Todos', alunos_path %>
+  |
   <%= link_to 'Cadastrar Aluno', new_aluno_path %>
 </p>
 <p>
-  <% form_tag alunos_url, :method => :get do %>
+  <% form_tag alunos_path, :method => :get do %>
     Informe um nome ou número de subscrição: 
-    <%= text_field_tag :pesquisa, '', {:size => 40} %>
+    <%= text_field_tag :pesquisa, params[:pesquisa], {:size => 40} %>
 
     <%= submit_tag 'Pesquisar' %>
   <% end %>
