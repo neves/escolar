@@ -6,5 +6,6 @@ class TurmasController < ApplicationController
     @current_professor = filtro[:professor_id]
     @turmas = current_escola.turmas.all :conditions => filtro, :include => [:professor, :disciplina, :alunos], :order => 'quando'
     @professores = current_escola.professores.all :order => 'nome'
+    @turmas = @turmas.group_by(&:quando)
   end
 end

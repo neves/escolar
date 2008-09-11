@@ -1,0 +1,34 @@
+<h3>Aulas do Aluno <i><%= @aluno.nome %></i></h3>
+<%= link_to "Todas Aulas", aluno_aulas_path(@aluno) %>
+|
+<%= link_to "Apenas Aulas sem Nota", sem_nota_aluno_aulas_path(@aluno) %>
+<table>
+	<thead>
+		<tr>
+			<th>Professor</th>
+			<th>Disciplina</th>
+			<th>Data</th>
+			
+			<th>preparation</th>
+			<th>grammar</th>
+			<th>conversation</th>
+			<th>oral_ou_lab</th>
+			<th>total</th>
+		</tr>
+	</thead>
+	<tbody>
+<% for aula in @aulas %>
+		<tr>
+			<td><%= aula.turma.professor.nome %></td>
+			<td><%= aula.turma.disciplina.nome %></td>
+			<td><%= aula.turma.quando.to_s_br %></td>
+			
+			<td><%= aula.preparation %></td>
+			<td><%= aula.grammar %></td>
+			<td><%= aula.conversation %></td>
+			<td><%= aula.oral_ou_lab %></td>
+			<td><%= aula.total %></td>
+		</tr>
+<% end %>
+	</tbody>
+</table>

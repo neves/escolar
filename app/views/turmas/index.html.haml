@@ -7,14 +7,15 @@
   = submit_tag "Filtrar", :name => nil
 
 %ul
-  - @turmas.group_by(&:quando).each do |quando, turmas|
+  - @turmas.each do |quando, turmas|
     %li
       %h3= quando.strftime "%A - %d/%m/%y - %H:%Mhs"
       %ul
         - turmas.each do |turma|
           %li
             %h4= "#{turma.professor.nome} - #{turma.disciplina.nome}"
-            %ul
+            %table
               - turma.alunos.each do |aluno|
-                %li= "#{aluno.subscricao} - #{aluno.nome}"
+                %tr
+                  %td= "#{aluno.subscricao} - #{aluno.nome}"
       

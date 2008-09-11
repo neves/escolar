@@ -4,13 +4,21 @@ body, html {
   border: none;
 }
 
+body {
+	margin: 0 auto;
+}
+
 #planilha table {
   empty-cells: show;
   border-collapse: collapse;
   margin: auto;
   font: 9px Verdana;
-  width: 1000px;
+  width: 980px;
   /*table-layout: fixed;*/
+}
+
+#aluno_nome_ou_subscricao {
+	width: 400px;
 }
 
   #planilha td, #planilha th {
@@ -30,7 +38,6 @@ body, html {
       #planilha td form select {
         width: 100%;
         border: 1px dotted #DDD;
-        height: 14px;
         font: 9px Verdana;
         text-align: center;
       }
@@ -47,7 +54,7 @@ body, html {
     #planilha tbody th, 
     #planilha thead td,
     #planilha tfoot td {
-      width: 50px;
+      width: 40px;
       font: 10px Arial;
     }
 

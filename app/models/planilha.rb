@@ -1,8 +1,9 @@
 class Planilha
-  def initialize(disciplina, aluno)
+  def initialize(escola, disciplina, aluno)
   	return if Disciplina.count == 0
+  	@escola = escola
     @disciplina = disciplina.to_i == disciplina.to_i.to_s ? Disciplina.find(disciplina) : Disciplina.find_by_apelido(disciplina)
-    @aluno = aluno.to_i == aluno.to_i.to_s ? Aluno.find_by_subscricao(aluno) : Aluno.find_by_nome(aluno)
+    @aluno = aluno.to_i == aluno.to_i.to_s ? @escola.alunos.find_by_subscricao(aluno) : @escola.alunos.find_by_nome(aluno)
   end
   attr_reader :disciplina
   attr_reader :aluno
@@ -36,7 +37,7 @@ class Planilha
   end
 
   def professores
-    turmas = Turma.find(:all, :conditions => {:data => dias}, :include => [:professor, :disciplina])
+    turmas = @escola.turmas.find(:all, :conditions => {:data => dias}, :include => [:professor, :disciplina])
     profs = {}
     turmas.each do |t|
       t.disciplina.duracao.times do |d|

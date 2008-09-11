@@ -1,0 +1,59 @@
+SELECT 
+	`aulas`.`id` AS t0_r0, 
+	`aulas`.`turma_id` AS t0_r1, 
+	`aulas`.`aluno_id` AS t0_r2,
+	`aulas`.`status` AS t0_r3,
+	`aulas`.`created_at` AS t0_r4,
+	`aulas`.`updated_at` AS t0_r5, 
+	`aulas`.`preparation` AS t0_r6,
+	`aulas`.`grammar` AS t0_r7, 
+	`aulas`.`conversation` AS t0_r8,
+	`aulas`.`oral_ou_lab` AS t0_r9,
+	`aulas`.`total` AS t0_r10, 
+
+	`turmas`.`id` AS t1_r0,
+	`turmas`.`professor_id` AS t1_r1, 
+	`turmas`.`disciplina_id` AS t1_r2,
+	`turmas`.`quando` AS t1_r3, 
+	`turmas`.`data` AS t1_r4, 
+	`turmas`.`time` AS t1_r5, 
+	`turmas`.`hora` AS t1_r6, 
+	`turmas`.`semana` AS t1_r7, 
+	`turmas`.`horario_id` AS t1_r8, 
+	`turmas`.`created_at` AS t1_r9, 
+	`turmas`.`updated_at` AS t1_r10, 
+	`turmas`.`escola_id` AS t1_r11
+
+	FROM `aulas`
+		LEFT OUTER JOIN `turmas`
+			ON `turmas`.id = `aulas`.turma_id
+	WHERE
+	(
+		(`aulas`.`total` IS NULL)
+		AND
+		(`aulas`.aluno_id = 7)
+	)
+	ORDER BY turmas.quando
+
+ou melhor:
+SELECT aulas.*, turmas.*
+	FROM `aulas`
+		LEFT OUTER JOIN `turmas`
+			ON `turmas`.id = `aulas`.turma_id
+	WHERE
+	(
+		(`aulas`.`total` IS NULL)
+		AND
+		(`aulas`.aluno_id = 7)
+	)
+	ORDER BY turmas.quando
+	
+ou apenas um resumo monstrando o que foi executado:
+
+SELECT aulas, turmas
+FROM aulas
+JOIN turmas
+WHERE 
+	aulas.total IS NULL	
+	AND	
+	aulas.aluno_id = 7

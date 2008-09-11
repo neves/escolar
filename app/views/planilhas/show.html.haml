@@ -31,7 +31,7 @@
         %tbody
           -@dias.each do |dia|
             %tr
-              %th= dia.strftime "%a.%d.%m"
+              %th= dia.strftime "%a %d.%m"
               -@horas.each do |hora|
                 %td= render :partial => 'celula', :locals => {:dia => dia, :hora => hora}
               -#%th= y

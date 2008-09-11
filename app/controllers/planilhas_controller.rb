@@ -3,7 +3,7 @@ class PlanilhasController < ApplicationController
 
 	def show
 		busca_aluno = params[:aluno] && params[:aluno][:nome_ou_subscricao]
-		planilha = Planilha.new(params[:apelido] || '1A', busca_aluno)
+		planilha = Planilha.new(current_escola, params[:apelido] || '1A', busca_aluno)
 		@disciplina = planilha.disciplina
 		@disciplinas = Disciplina.find(:all, :order => :nome)
 		@horas = planilha.horas

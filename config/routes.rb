@@ -45,6 +45,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :alunos, :collection => {:suggest => :get} do |aluno|
   	aluno.resources :matriculas
+  	aluno.resources :aulas, :collection => {:sem_nota => :get}
   end
   map.resources :turmas
   map.resource :route

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080822220129) do
+ActiveRecord::Schema.define(:version => 20080903225319) do
 
   create_table "alunos", :force => true do |t|
     t.integer  "escola_id",             :limit => 11,                  :null => false
@@ -39,11 +39,16 @@ ActiveRecord::Schema.define(:version => 20080822220129) do
   add_index "alunos", ["subscricao"], :name => "index_alunos_on_subscricao"
 
   create_table "aulas", :force => true do |t|
-    t.integer  "turma_id",   :limit => 11, :null => false
-    t.integer  "aluno_id",   :limit => 11, :null => false
+    t.integer  "turma_id",     :limit => 11, :null => false
+    t.integer  "aluno_id",     :limit => 11, :null => false
     t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "preparation",  :limit => 11
+    t.integer  "grammar",      :limit => 11
+    t.integer  "conversation", :limit => 11
+    t.integer  "oral_ou_lab",  :limit => 11
+    t.integer  "total",        :limit => 11
   end
 
   add_index "aulas", ["turma_id", "aluno_id"], :name => "index_aulas_on_turma_id_and_aluno_id", :unique => true

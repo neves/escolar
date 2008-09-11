@@ -4,6 +4,8 @@
     <dict>
         <key>fileTriggers</key>
         <dict>
+            <key>appl</key>
+            <string>..\saldosecia\public\stylesheets\application.css</string>
             <key>applicat</key>
             <string>public\stylesheets\application.css</string>
             <key>matri</key>
@@ -12,6 +14,8 @@
             <string>public\javascripts\matriculas.js</string>
             <key>new.h</key>
             <string>app\views\matriculas\new.html.erb</string>
+            <key>planilha</key>
+            <string>public\stylesheets\planilha.css</string>
             <key>route</key>
             <string>config\routes.rb</string>
         </dict>
