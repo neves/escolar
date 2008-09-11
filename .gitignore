@@ -15,8 +15,6 @@ REVISION
 /db/*.sqlite*
 /public/ac/*
 /coverage
-/doc/app
-/doc/plugins
 /public/.htaccess
 /public/dispatch.*
 /public/index.*
@@ -26,3 +24,4 @@ Thumbs.db
 db/schema.*
 /nbproject
 *~$
+/doc*
