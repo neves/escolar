@@ -8,18 +8,18 @@ load 'deploy'
 # The svn repository is used to export the code into the temporary directory before 
 # uploading code into the Morph control panel. Currently only svn is supported, 
 # but you could change it to fit your need by changing the get_code task
-set :repository, "." # Set here your repository! Example: 'https://www.myrepo.com/myapp/trunk'
+set :repository, 'git://github.com/neves/escolar.git' # Set here your repository! Example: 'https://www.myrepo.com/myapp/trunk'
 set :repo_line_number, __LINE__ - 1 # Needed to report missing repository later on
 
-# The version name to set in the control panel. Defautls to date and time, but can be altered by passing it
+# The version name to set in the control panel. Defaults to date and time, but can be altered by passing it
 # on the command line as -s version_name='The Version Name'
 set :version_name, Time.now.utc.strftime('%Y-%m-%d %H:%M:%S')
 
-# If you want to use a different scm or use a different export method, you can chane it here
+# If you want to use a different scm or use a different export method, you can change it here
 # Please note that the export to directory is removed before the checkout starts. If
 # You want it to work differently, change the code in the get_code task 
-set :deploy_via, :export
-set :scm, :subversion
+set :deploy_via, :checkout
+set :scm, :git
 
 # MORPH SETTINGS, please do not change
 set :morph_host, "panel.mor.ph"
@@ -80,7 +80,9 @@ namespace :morph do
   # Environment variable 'REL_VER' to the version to use.
   task :get_code do
     on_rollback do      
-		remove_files([morph_tmp_dir, 'code_update.tar.gz','code_update.tar'])
+      
+      remove_files([morph_tmp_dir, 'code_update.tar.gz'])
+      
     end
       
     # Make sure we have a repo to work from!
@@ -88,13 +90,37 @@ namespace :morph do
 
     transaction do
       # Clean up previous deploys   
-      remove_files([morph_tmp_dir, 'code_update.tar.gz'])
-	  comp_dir="#{morph_tmp_dir}\\..\\*" 
-	  system("7z a -ttar -r code_update.tar #{comp_dir} -x!*.log -x!*.sqlite3 -x!.git -x!*.tar  -x!*.gz") 
-	  system("7z a -tgzip code_update.tar.gz code_update.tar") 
-	  abort('*** ERROR: Failed to tar the file for upload.') if $?.to_i != 0
-	  flist = `7z l code_update.tar` 
-	  all_in = flist.include?('lib\\') && flist.include?('app\\') && flist.include?('config\\environment.rb')
+      
+        remove_files([morph_tmp_dir, 'code_update.tar.gz'])
+      
+
+     
+      
+      
+         #get latest code from from the repository 
+        
+        say("Downloading the code from the repository...")
+        system(strategy.send(:command))
+        
+        abort('*** ERROR: Export from repository failed! Please check the repository setting at the start of the file') if $?.to_i != 0
+
+        # Verify that we have the expected rails structure 
+	    ['/app', '/public', '/config/environment.rb', '/lib'].each do |e| 
+	       abort "*** ERROR: Rails directories are missing. Please make sure your set :repository is correct!" if !File.exist?("#{morph_tmp_dir}#{e}")
+	    end
+      
+
+      #create archive
+      
+        system("tar -C #{morph_tmp_dir} -czf code_update.tar.gz --exclude='./.*' .")
+      
+      abort('*** ERROR: Failed to tar the file for upload.') if $?.to_i != 0
+      
+      # Verify that we have the expected rails structure in the archive
+      
+      flist = `tar tzf code_update.tar.gz`
+      all_in = flist.include?('lib/') && flist.include?('app/') && flist.include?('config/environment.rb')
+      
       abort "***ERROR: code archive is missing the rails directories. Please check your checkout and tar" if !all_in
 
       remove_files([morph_tmp_dir])
