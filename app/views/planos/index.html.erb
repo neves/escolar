@@ -4,21 +4,22 @@
 
 <table>
   <tr>
+  	<th>Curso</th>
     <th>Tabela</th>
     <th>Nome</th>
-    <th>Valor matricula</th>
-    <th>Qtde parcelas</th>
-    <th>Valor parcela</th>
+    <th align="right">Valor matricula</th>
+    <th align="right">Qtde parcelas</th>
+    <th align="right">Valor parcela</th>
   </tr>
 
 <% for plano in @planos %>
   <tr>
+  	<td><%=h plano.curso %></td>
     <td><%=h plano.tabela %></td>
     <td><%= link_to plano.nome, edit_plano_path(plano) %></td>
-    <td><%=h plano.valor_matricula %></td>
-    <td><%=h plano.qtde_parcelas %></td>
-    <td><%=h plano.valor_parcela %></td>
+    <td align="right"><%=h plano.valor_matricula.para_dinheiro.real_formatado %></td>
+    <td align="right"><%=h plano.qtde_parcelas %></td>
+    <td align="right"><%=h plano.valor_parcela.para_dinheiro.real_formatado %></td>
   </tr>
 <% end %>
 </table>
-

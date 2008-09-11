@@ -1,5 +1,6 @@
 class Endereco < ActiveRecord::Base
-	validates_presence_of :cep
+	validates_presence_of :cep, :enderecavel_id, :enderecavel_type
+
   belongs_to :enderecavel, :polymorphic => true
 
   def vazio?

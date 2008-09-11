@@ -12,7 +12,11 @@ class AlunosController < ApplicationController
 	end
 
 	def index
-		@alunos = current_escola.alunos.all
+		if params[:pesquisa]
+			@alunos = current_escola.alunos.pesquisar_com_paginacao(params[:pesquisa], params[:page])
+		else
+			@alunos = current_escola.alunos.paginar(params[:page])
+		end
 	end
 
 	def new
@@ -25,11 +29,11 @@ class AlunosController < ApplicationController
   end
 
   def update
-	@endereco_residencial = Endereco.new(params[:endereco_residencial])
-	@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
+		@endereco_residencial = EnderecoResidencial.new(params[:endereco_residencial])
+		@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
 
-	@endereco_comercial = Endereco.new(params[:endereco_comercial])
-	@aluno.endereco_comercial = @endereco_comercial.vazio? ? nil : @endereco_comercial
+		@endereco_comercial = EnderecoComercial.new(params[:endereco_comercial])
+		@aluno.endereco_comercial = @endereco_comercial.vazio? ? nil : @endereco_comercial
 
     @aluno.update_attributes(params[:aluno])
     redirect_to alunos_path
@@ -38,12 +42,12 @@ class AlunosController < ApplicationController
   end
 
   def create
-	@aluno = current_escola.alunos.build(params[:aluno])
-	@endereco_residencial = Endereco.new(params[:endereco_residencial])
-	@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
+		@aluno = current_escola.alunos.build(params[:aluno])
+		@endereco_residencial = EnderecoResidencial.new(params[:endereco_residencial])
+		@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
 
-	@endereco_comercial = Endereco.new(params[:endereco_comercial])
-	@aluno.endereco_comercial = @endereco_comercial.vazio? ? nil : @endereco_comercial
+		@endereco_comercial = EnderecoComercial.new(params[:endereco_comercial])
+		@aluno.endereco_comercial = @endereco_comercial.vazio? ? nil : @endereco_comercial
 
     if @aluno.save
     	redirect_to new_aluno_matricula_path(@aluno)

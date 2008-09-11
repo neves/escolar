@@ -10,7 +10,6 @@ REVISION
 /log/*.log
 /tmp/**/*
 /config/database.yml
-actionmailer_config_DONOTVERSION.rb
 *DONOTVERSION*
 /vendor/src/**/*
 /db/*.sqlite*
@@ -26,3 +25,4 @@ Thumbs.db
 .*.swp
 db/schema.*
 /nbproject
+*~$

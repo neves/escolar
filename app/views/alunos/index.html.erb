@@ -2,8 +2,23 @@
 
 <%= flashes %>
 
-<p><%= link_to 'Cadastrar Aluno', new_aluno_path %></p>
+<p>
+  <%= link_to 'Todos', alunos_url %>
+  <%= link_to 'Cadastrar Aluno', new_aluno_path %>
+</p>
+<p>
+  <% form_tag alunos_url, :method => :get do %>
+    Informe um nome ou número de subscrição: 
+    <%= text_field_tag :pesquisa, '', {:size => 40} %>
 
+    <%= submit_tag 'Pesquisar' %>
+  <% end %>
+</p>
+<%= will_paginate @alunos %>
+<p>
+<% if @alunos.empty? %>
+ <strong>Nenhum aluno encontrado</strong>
+<% else %>
 <table>
   <tr>
     <th>Nome</th>
@@ -27,3 +42,6 @@
   </tr>
 <% end %>
 </table>
+<% end %>
+</p>
+

@@ -1,0 +1,34 @@
+<h1>Plano</h1>
+
+<% form_for(@plano) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :curso %><br />
+    <%= f.collection_select :curso_id, @plano.curso.class.all, :id, :nome %>
+  </p>
+  <p>
+    <%= f.label :tabela %><br />
+    <%= f.text_field :tabela %>
+  </p>
+  <p>
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label :valor_matricula %><br />
+    <%= f.text_field :valor_matricula %>
+  </p>
+  <p>
+    <%= f.label :qtde_parcelas %><br />
+    <%= f.text_field :qtde_parcelas %>
+  </p>
+  <p>
+    <%= f.label :valor_parcela %><br />
+    <%= f.text_field :valor_parcela %>
+  </p>
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Voltar', planos_path %>
