@@ -14,3 +14,26 @@
 1|Tabela 4|Plano 5|622|4|531
 1|Tabela 4|Plano 18|258|17|169
 1|Tabela 4|Aluno Regular|399|18|283
+1|Tabela 5|Cash|2419|0|0
+1|Tabela 5|Plano 5|680|4|586
+1|Tabela 5|Plano 18|280|17|187
+1|Tabela 5|Aluno Regular|432|18|312
+1|Tabela 6|Cash|2616|0|0
+1|Tabela 6|Plano 5|756|4|631
+1|Tabela 6|Plano 18|320|17|212
+1|Tabela 6|Aluno Regular|474|18|337
+2|Info|1x|54.9|23|54.9
+2|Info|2x|98|11|98
+2|Info|3x|148|7|148
+1|Antiga 1|Cash|1724|0|0
+1|Antiga 1|Plano 5|491|4|416
+1|Antiga 1|Plano 18|177|17|129
+1|Antiga 1|Aluno Regular|332|18|221
+1|Antiga 2|Cash|1920|0|0
+1|Antiga 2|Plano 5|564|4|459
+1|Antiga 2|Plano 18|198|17|147
+1|Antiga 2|Aluno Regular|354|18|247
+1|Antiga 3|Cash|2098|0|0
+1|Antiga 3|Plano 5|579|4|511
+1|Antiga 3|Plano 18|217|17|160
+1|Antiga 3|Aluno Regular|385|18|270
