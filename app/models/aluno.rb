@@ -16,7 +16,7 @@ class Aluno < ActiveRecord::Base
   #   page: o numero da pagina que deve ser retornada
   #   per_page: numero de itens a retornar na lista
   def self.paginar(page, per_page = 15)
-    self.paginate(:page => page, :per_page => per_page)
+    self.paginate(:page => page, :per_page => per_page, :order => "id DESC")
   end
   
   # Pesquisa por alunos a partir de uma chave. Se a chave representar um número,
