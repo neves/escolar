@@ -1,7 +1,0 @@
-production:
-  adapter: mysql
-  encoding: utf8
-  database: rails
-  username: rails
-  password: NmSm3d@.64
-  host: 200.234.202.110.locaweb.com.br
