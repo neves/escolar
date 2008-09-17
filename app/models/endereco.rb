@@ -1,5 +1,5 @@
 class Endereco < ActiveRecord::Base
-	validates_presence_of :cep, :enderecavel_id, :enderecavel_type
+	#validates_presence_of :cep, :enderecavel_id, :enderecavel_type
 
   belongs_to :enderecavel, :polymorphic => true
 

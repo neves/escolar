@@ -36,7 +36,7 @@ class Aluno < ActiveRecord::Base
   
   def initialize(*args)
   	super(*args)
-  	self.subscricao = Aluno::proxima_subscricao
+  	#self.subscricao = proxima_subscricao if id.nil?
   end
 
   def self.find_by_nome_or_subscricao(nome_or_subscricao)
@@ -47,7 +47,7 @@ class Aluno < ActiveRecord::Base
     nome
   end
 
-  def self.proxima_subscricao
-  	Integer(maximum(:subscricao)) + 1
+  def proxima_subscricao
+    Integer(escola.alunos.maximum(:subscricao)) + 1 unless escola.nil?
   end
 end

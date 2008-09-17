@@ -1,21 +1,17 @@
 <style>
-table {
-	border-collapse: collapse;
-	table-layout: fixed;
-	width: 990px;
+form table {
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
 select, option {
-	width: 100%;
-	display: block;
-}
-	
-td, th {
-	border: 1px solid silver;
+  width: 100%;
+  display: block;
 }
 
-tbody th, thead td, tfoot td {
-  width: 30px;
+form td, form th {
+  border: 1px solid silver;
+  padding: 0;
 }
 </style>
 <h3>Disciplina: (<%=h @disciplina.id %>) <%=h @disciplina.nome %>: <%=h pluralize(@disciplina.duracao, 'hora') %></h3>

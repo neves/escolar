@@ -29,6 +29,7 @@ class AlunosController < ApplicationController
   end
 
   def update
+    
 		@endereco_residencial = EnderecoResidencial.new(params[:endereco_residencial])
 		@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
 
@@ -43,6 +44,7 @@ class AlunosController < ApplicationController
 
   def create
 		@aluno = current_escola.alunos.build(params[:aluno])
+
 		@endereco_residencial = EnderecoResidencial.new(params[:endereco_residencial])
 		@aluno.endereco_residencial = @endereco_residencial.vazio? ? nil : @endereco_residencial
 
