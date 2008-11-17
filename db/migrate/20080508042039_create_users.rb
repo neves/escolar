@@ -14,7 +14,7 @@ class CreateUsers < ActiveRecord::Migration
       t.column :deleted_at, :datetime
     end
 
-    User.create!(:email => "marcos.neves@gmail.com", :password => "1234qwerasdfzxcv", :password_confirmation => "1234qwerasdfzxcv")
+    User.create!(:email => "marcos.neves@gmail.com", :password => "1234", :password_confirmation => "1234")
   end
 
   def self.down
