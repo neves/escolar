@@ -4,6 +4,10 @@ describe Aluno do
 
   fixtures :alunos, :enderecos
   
+  it "should have a valid factory" do
+    Factory(:aluno, :subscricao => Factory.next(:subscricao_id)).should be_valid
+  end
+  
   describe "pesquisar" do
     before(:each) do
       @aluno_1 = alunos(:one)

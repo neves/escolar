@@ -2,12 +2,12 @@ test:
   adapter: mysql
   database: minds_test
   username: root
-  password:
+  password: secret
   host: localhost
 
 development:
   adapter: mysql
-  database: minds
+  database: minds_development
   username: root
-  password: 
+  password: secret
   host: localhost

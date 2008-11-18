@@ -1,38 +1,39 @@
-<h1>Listing previsoes</h1>
-
-<table>
+<% if @aluno %>
+  <h1>Financeiro para o aluno <%= @aluno.nome %></h1>
+<% else %>
+  <h1>Contas a pagar</h1> 
+<% end %>
+<p>
+  <%= link_to "Voltar", edit_aluno_path(@aluno), {} %>
+</p>
+<% if @previsoes.empty? %>
+  Nenhuma previsão encontrada
+<% else %>
+  <table>
   <tr>
-    <th>Escola</th>
-    <th>Cliente</th>
-    <th>Plano conta</th>
-    <th>Pagar receber</th>
+    <th>Tipo</th>
+    <th>Pagar/Receber</th>
     <th>Valor</th>
     <th>Valor pago</th>
     <th>Parcela</th>
-    <th>Qtde parcelas</th>
     <th>Historico</th>
     <th>Vencimento</th>
   </tr>
 
 <% for previsao in @previsoes %>
   <tr>
-    <td><%=h previsao.escola %></td>
-    <td><%=h previsao.cliente %></td>
-    <td><%=h previsao.plano_conta %></td>
-    <td><%=h previsao.pagar_receber %></td>
+    <td><%=h previsao.plano_conta.nome %></td>
+    <td><%=h previsao.pagar_receber_humanize %></td>
     <td><%=h previsao.valor %></td>
     <td><%=h previsao.valor_pago %></td>
-    <td><%=h previsao.parcela %></td>
-    <td><%=h previsao.qtde_parcelas %></td>
+    <td><%=h "#{previsao.parcela}/#{previsao.qtde_parcelas}" %></td>
     <td><%=h previsao.historico %></td>
-    <td><%=h previsao.vencimento %></td>
-    <td><%= link_to 'Show', previsao %></td>
-    <td><%= link_to 'Edit', edit_previsao_path(previsao) %></td>
-    <td><%= link_to 'Destroy', previsao, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%=h previsao.vencimento.to_s_br %></td>
   </tr>
 <% end %>
-</table>
+</table>    
+<% end %>
+<p>
+  <%= link_to "Voltar", edit_aluno_path(@aluno), {} %>
+</p>
 
-<br />
-
-<%= link_to 'New previsao', new_previsao_path %>

@@ -12,5 +12,8 @@ require 'inflector_portuguese'
 
 Inflector.inflections do |inflect|
   inflect.plural 'user', 'users'
-  inflect.irregular 'session', 'sessions'
+  inflect.irregular 'session', 'sessions'  
+  inflect.plural 'previsao', 'previsoes'
+  inflect.singular 'previsoes', 'previsao'
 end
+

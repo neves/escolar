@@ -4,7 +4,8 @@
 	<li><%= link_to matricula.numero_contrato, aluno_matricula_path(@aluno, matricula) %></li>
 	<% end %>
 </ul>
-<%= link_to "Nova Matrícula", new_aluno_matricula_path(@aluno) %>
+<%= link_to "Nova Matrícula", new_aluno_matricula_path(@aluno) %> |
+<%= link_to "Financeiro", previsoes_url(:cliente_id => @aluno), {} %>
 
 <h3><%= link_to "Aulas", aluno_aulas_path(@aluno) %></h3>
 

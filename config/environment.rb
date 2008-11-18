@@ -24,6 +24,9 @@ Rails::Initializer.run do |config|
   config.gem "fastercsv"
   config.gem "ar-extensions"
   config.gem "haml"
+  config.gem "thoughtbot-factory_girl", 
+              :lib => "factory_girl", 
+              :source => "http://gems.github.com" 
   config.gem 'mislav-will_paginate',
   						:version => '~> 2.3.2',
   						:lib => 'will_paginate',
